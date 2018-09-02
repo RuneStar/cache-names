@@ -1,5 +1,10 @@
 7th realm
+[clientscript,closebutton_click]
 [clientscript,emote_update]
+[clientscript,model_dynamiczoom]
+[clientscript,prayer_level]
+[clientscript,prayer_op]
+[clientscript,prayer_updatebutton]
 [clientscript,questlist_qp]
 [proc,add]
 [proc,chatdefault_stopinput]
@@ -8,6 +13,10 @@
 [proc,max]
 [proc,min]
 [proc,minmax]
+[proc,model_dynamiczoom]
+[proc,options_mouse]
+[proc,prayer_level]
+[proc,prayer_updatebutton]
 [proc,questlist_qp]
 [proc,wilderness_level]
 adventure

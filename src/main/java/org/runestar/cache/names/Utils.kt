@@ -73,8 +73,10 @@ fun unknownHashes(): IntSet {
     // mirror_texture
     // 2x lava_animated_...
 
-    //[.. model_dynamiczoom]
-    //[proc,on_mobile]
-
     // 1787935731
+
+    [proc,on_mobile]
+    [proc,orbs_update]
+    [clientscript,closebutton]
+    [clientscript,menu]
  */

@@ -22,7 +22,7 @@ fun writeStrings(strings: Iterable<*>, file: File) {
     Files.write(file.toPath(), sb.toString().toByteArray(), StandardOpenOption.CREATE)
 }
 
-fun unknownHashes(index: Int): Set<Int> {
+fun unknownHashes(index: Int): IntSet {
     val set = HashSet<Int>()
     File("names.tsv").forEachLine { line ->
         val split = line.split('\t')
@@ -32,10 +32,10 @@ fun unknownHashes(index: Int): Set<Int> {
         if (!name.isEmpty()) return@forEachLine
         set.add(split[split.lastIndex - 1].toInt())
     }
-    return set
+    return IntSet.of(set)
 }
 
-fun unknownHashes(): Set<Int> {
+fun unknownHashes(): IntSet {
     val set = HashSet<Int>()
     File("names.tsv").forEachLine { line ->
         val split = line.split('\t')
@@ -43,7 +43,7 @@ fun unknownHashes(): Set<Int> {
         if (!name.isEmpty()) return@forEachLine
         set.add(split[split.lastIndex - 1].toInt())
     }
-    return set
+    return IntSet.of(set)
 }
 
 /*

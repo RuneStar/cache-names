@@ -1,6 +1,5 @@
 package org.runestar.cache.names
 
-import org.eclipse.collections.impl.factory.primitive.IntSets
 import java.nio.ByteBuffer
 import java.nio.channels.FileChannel
 import java.nio.file.Files
@@ -12,13 +11,12 @@ fun unhashDict(
         dict: Set<String>,
         prefix: String,
         suffix: Char,
-        targetHashes: Set<Int>,
+        targetHashes: IntSet,
         maxCombinations: Int
 ) {
     Files.deleteIfExists(RESULTS_FILE)
     val channel = FileChannel.open(RESULTS_FILE, StandardOpenOption.APPEND, StandardOpenOption.CREATE)
 
-    val targetHashesPrimitive = IntSets.immutable.of(*targetHashes.toIntArray())
     val prefixBytes = prefix.toByteArray(CHARSET)
     val suffixByte = suffix.toString().toByteArray(CHARSET).first()
     val dictArray = dict.map { it.toByteArray(CHARSET) }.toTypedArray()
@@ -39,7 +37,7 @@ fun unhashDict(
                 if (len != maxCombinations) {
                     curHashes[len] = hash
                 }
-                if (hash.update(suffixByte) in targetHashesPrimitive) {
+                if (hash.update(suffixByte) in targetHashes) {
                     writeBuf.clear().position(prefixBytes.size)
                     for (i in 0 until len) {
                         writeBuf.put(dictArray[indices[i]])

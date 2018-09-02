@@ -1,6 +1,5 @@
 package org.runestar.cache.names
 
-import org.eclipse.collections.impl.factory.primitive.IntSets
 import java.nio.ByteBuffer
 import java.nio.channels.FileChannel
 import java.nio.file.Files
@@ -10,13 +9,12 @@ import java.util.concurrent.TimeUnit
 
 fun unhashChars(
         alphabet: String,
-        targetHashes: Set<Int>,
+        targetHashes: IntSet,
         maxCombinations: Int
 ) {
     Files.deleteIfExists(RESULTS_FILE)
     val channel = FileChannel.open(RESULTS_FILE, StandardOpenOption.APPEND, StandardOpenOption.CREATE)
 
-    val targetHashesPrimitive = IntSets.immutable.of(*targetHashes.toIntArray())
     val alphabetArray = alphabet.toByteArray(CHARSET).toSet().toByteArray()
     val n = alphabetArray.size
 
@@ -32,7 +30,7 @@ fun unhashChars(
                 if (len != maxCombinations) {
                     curHashes[len] = hash
                 }
-                if (hash in targetHashesPrimitive) {
+                if (hash in targetHashes) {
                     writeBuf.clear()
                     for (i in 0 until len) {
                         writeBuf.put(alphabetArray[indices[i]])

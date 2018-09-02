@@ -1,9 +1,6 @@
 package org.runestar.cache.names
 
 import java.nio.ByteBuffer
-import java.nio.channels.FileChannel
-import java.nio.file.Files
-import java.nio.file.StandardOpenOption
 import java.util.concurrent.Executors
 import java.util.concurrent.TimeUnit
 
@@ -14,8 +11,7 @@ fun unhashDict(
         targetHashes: IntSet,
         maxCombinations: Int
 ) {
-    Files.deleteIfExists(RESULTS_FILE)
-    val channel = FileChannel.open(RESULTS_FILE, StandardOpenOption.APPEND, StandardOpenOption.CREATE)
+    val channel = openResultsChannel()
 
     val prefixBytes = prefix.toByteArray(CHARSET)
     val suffixByte = suffix.toString().toByteArray(CHARSET).first()

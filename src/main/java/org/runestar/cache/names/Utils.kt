@@ -1,6 +1,7 @@
 package org.runestar.cache.names
 
 import java.io.File
+import java.nio.channels.FileChannel
 import java.nio.file.*
 
 typealias Hash = Int
@@ -13,6 +14,11 @@ inline fun Hash.update(byte: Byte): Hash = this * 31 + byte
 @JvmField val CHARSET = charset("windows-1252")
 
 @JvmField val RESULTS_FILE: Path = Paths.get("results.tsv")
+
+fun openResultsChannel(): FileChannel {
+    Files.deleteIfExists(RESULTS_FILE)
+    return FileChannel.open(RESULTS_FILE, StandardOpenOption.APPEND, StandardOpenOption.CREATE)
+}
 
 fun writeStrings(strings: Iterable<*>, file: File) {
     val sb = StringBuilder()
@@ -60,8 +66,6 @@ fun unknownHashes(): IntSet {
     // fossilized
     // lagoon
 
-//    mapfunction
-
     // http://oldschoolrunescape.wikia.com/wiki/Unlisted_music_tracks
     // http://oldschoolrunescape.wikia.com/wiki/Massacre
 
@@ -72,6 +76,5 @@ fun unknownHashes(): IntSet {
     //[.. model_dynamiczoom]
     //[proc,on_mobile]
 
-    // -365283881 : quill_caps_large
     // 1787935731
  */

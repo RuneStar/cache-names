@@ -45,3 +45,33 @@ fun unknownHashes(): Set<Int> {
     }
     return set
 }
+
+/*
+   // seers_texture ?
+
+    // #
+    // the doors of dinh
+    // fire in the deep
+    // ice and fire
+    // night of the vampyre
+    // tempest
+    // preservation
+    // preserved
+    // fossilized
+    // lagoon
+
+//    mapfunction
+
+    // http://oldschoolrunescape.wikia.com/wiki/Unlisted_music_tracks
+    // http://oldschoolrunescape.wikia.com/wiki/Massacre
+
+    // woodenfloor_lig...
+    // mirror_texture
+    // 2x lava_animated_...
+
+    //[.. model_dynamiczoom]
+    //[proc,on_mobile]
+
+    // -365283881 : quill_caps_large
+    // 1787935731
+ */

@@ -74,10 +74,5 @@ fun unknownHashes(): IntSet {
 
     // 1787935731
 
-    [proc,on_mobile]
-    [proc,orbs_update]
-    [clientscript,closebutton]
-    [clientscript,menu]
-
     // lair of tarn razorlor
  */

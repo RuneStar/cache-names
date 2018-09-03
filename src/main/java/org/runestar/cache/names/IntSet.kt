@@ -32,22 +32,22 @@ interface IntSet {
 
         init {
             for (e in set) {
-                check(e != 0)
-                elements[probe(e)] = e
+                require(e != 0)
+                elements[probeInitial(e)] = e
             }
         }
 
         private fun index(value: Int): Int {
-            return (value * -0x5354d5b3 * 0x5CC7DF53) and mask
+            return (value * 0x5BD1E995) and mask
         }
 
-        private fun probe(value: Int): Int {
+        private fun probeInitial(value: Int): Int {
             var idx = index(value)
             while (true) {
-                val e = elements[idx]
-                when {
-                    e == 0 -> return idx
-                    ++idx == size -> idx = 0
+                when (elements[idx]) {
+                    0 -> return idx
+                    value -> throw IllegalStateException()
+                    else -> if (++idx == size) idx = 0
                 }
             }
         }
@@ -55,11 +55,10 @@ interface IntSet {
         override fun contains(value: Int): Boolean {
             var idx = index(value)
             while (true) {
-                val e = elements[idx]
-                when {
-                    e == 0 -> return false
-                    value == e -> return true
-                    ++idx == size -> idx = 0
+                when (elements[idx]) {
+                    0 -> return false
+                    value -> return true
+                    else -> if (++idx == size) idx = 0
                 }
             }
         }

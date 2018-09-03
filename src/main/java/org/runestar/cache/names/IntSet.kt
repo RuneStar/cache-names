@@ -6,7 +6,7 @@ interface IntSet {
 
         fun of(set: Set<Int>): IntSet {
             return if (set.size == 1) {
-                One(set.single())
+                One(set)
             } else {
                 Hash(set)
             }
@@ -15,7 +15,9 @@ interface IntSet {
 
     operator fun contains(value: Int): Boolean
 
-    private class One(private val n: Int) : IntSet {
+    private class One(set: Set<Int>) : IntSet {
+
+        private val n = set.single()
 
         override fun contains(value: Int) = n == value
     }
@@ -30,6 +32,7 @@ interface IntSet {
 
         init {
             for (e in set) {
+                check(e != 0)
                 elements[probe(e)] = e
             }
         }

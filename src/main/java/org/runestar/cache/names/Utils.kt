@@ -71,7 +71,6 @@ fun unknownHashes(): IntSet {
 
     // woodenfloor_lig...
     // mirror_texture
-    // 2x lava_animated_...
 
     // 1787935731
 

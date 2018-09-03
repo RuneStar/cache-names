@@ -1,6 +1,7 @@
 7th realm
 [clientscript,closebutton_click]
 [clientscript,emote_update]
+[clientscript,mes]
 [clientscript,model_dynamiczoom]
 [clientscript,prayer_level]
 [clientscript,prayer_op]

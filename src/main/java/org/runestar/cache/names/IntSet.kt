@@ -6,7 +6,7 @@ interface IntSet {
 
         fun of(set: Set<Int>): IntSet {
             return if (set.size == 1) {
-                One(set)
+                One(set.single())
             } else {
                 Hash(set)
             }
@@ -15,9 +15,7 @@ interface IntSet {
 
     operator fun contains(value: Int): Boolean
 
-    private class One(set: Set<Int>) : IntSet {
-
-        private val n = set.single()
+    private class One(private val n: Int) : IntSet {
 
         override fun contains(value: Int) = n == value
     }

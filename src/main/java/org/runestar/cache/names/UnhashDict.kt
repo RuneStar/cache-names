@@ -2,19 +2,18 @@ package org.runestar.cache.names
 
 import java.nio.ByteBuffer
 import java.nio.channels.FileChannel
+import java.nio.channels.WritableByteChannel
 import java.nio.file.Path
 import java.nio.file.StandardOpenOption
 import java.util.concurrent.Executors
 import java.util.concurrent.TimeUnit
 
 fun unhashDict(
-        resultsFile: Path,
+        results: WritableByteChannel,
         dict: Set<String>,
         targetHashes: IntSet,
         maxCombinations: Int
 ) {
-    val channel = FileChannel.open(resultsFile, StandardOpenOption.WRITE, StandardOpenOption.TRUNCATE_EXISTING)
-
     val dictArray = dict.map { it.toByteArray(CHARSET) }.toTypedArray()
     val maxWordLength = dictArray.maxBy { it.size }!!.size
     val n = dictArray.size
@@ -38,7 +37,7 @@ fun unhashDict(
                     }
                     writeBuf.put('\n'.toByte())
                     writeBuf.flip()
-                    channel.write(writeBuf)
+                    results.write(writeBuf)
                 }
             }
         }
@@ -46,5 +45,4 @@ fun unhashDict(
 
     pool.shutdown()
     pool.awaitTermination(Long.MAX_VALUE, TimeUnit.DAYS)
-    channel.close()
 }

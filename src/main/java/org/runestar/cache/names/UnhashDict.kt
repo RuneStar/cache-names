@@ -1,15 +1,19 @@
 package org.runestar.cache.names
 
 import java.nio.ByteBuffer
+import java.nio.channels.FileChannel
+import java.nio.file.Path
+import java.nio.file.StandardOpenOption
 import java.util.concurrent.Executors
 import java.util.concurrent.TimeUnit
 
 fun unhashDict(
+        resultsFile: Path,
         dict: Set<String>,
         targetHashes: IntSet,
         maxCombinations: Int
 ) {
-    val channel = openResultsChannel()
+    val channel = FileChannel.open(resultsFile, StandardOpenOption.WRITE, StandardOpenOption.TRUNCATE_EXISTING)
 
     val dictArray = dict.map { it.toByteArray(CHARSET) }.toTypedArray()
     val maxWordLength = dictArray.maxBy { it.size }!!.size

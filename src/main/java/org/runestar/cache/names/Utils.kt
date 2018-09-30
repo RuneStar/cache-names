@@ -1,8 +1,8 @@
 package org.runestar.cache.names
 
 import java.io.File
-import java.nio.channels.FileChannel
-import java.nio.file.*
+import java.nio.file.Files
+import java.nio.file.StandardOpenOption
 
 typealias Hash = Int
 
@@ -12,13 +12,6 @@ fun Hash.update(bytes: ByteArray): Hash = bytes.fold(this) { acc, byte -> acc.up
 inline fun Hash.update(byte: Byte): Hash = this * 31 + byte
 
 @JvmField val CHARSET = charset("windows-1252")
-
-@JvmField val RESULTS_FILE: Path = Paths.get("results.tsv")
-
-fun openResultsChannel(): FileChannel {
-    Files.deleteIfExists(RESULTS_FILE)
-    return FileChannel.open(RESULTS_FILE, StandardOpenOption.APPEND, StandardOpenOption.CREATE)
-}
 
 fun writeStrings(strings: Iterable<*>, file: File) {
     val sb = StringBuilder()

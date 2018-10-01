@@ -3,7 +3,6 @@ package org.runestar.cache.names
 import java.nio.ByteBuffer
 import java.nio.channels.WritableByteChannel
 import java.util.concurrent.Executors
-import java.util.concurrent.TimeUnit
 
 fun unhash(
         results: WritableByteChannel,
@@ -11,7 +10,7 @@ fun unhash(
         targetHashes: IntSet,
         maxCombinations: Int
 ) {
-    val alphabetArray = alphabet.toByteArray(CHARSET).toSet().toByteArray()
+    val alphabetArray = alphabet.toByteArray(CHARSET).distinctArray()
     val n = alphabetArray.size
 
     val pool = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors() - 1)
@@ -40,7 +39,7 @@ fun unhash(
     }
 
     pool.shutdown()
-    pool.awaitTermination(Long.MAX_VALUE, TimeUnit.DAYS)
+    pool.awaitTermination()
 }
 
 fun unhash(
@@ -50,7 +49,7 @@ fun unhash(
         targetHashes: IntSet,
         maxCombinations: Int
 ) {
-    val alphabetArray = alphabet.toByteArray(CHARSET).toSet().toByteArray()
+    val alphabetArray = alphabet.toByteArray(CHARSET).distinctArray()
     val prefixBytes = prefix.toByteArray(CHARSET)
     val n = alphabetArray.size
 
@@ -82,7 +81,7 @@ fun unhash(
     }
 
     pool.shutdown()
-    pool.awaitTermination(Long.MAX_VALUE, TimeUnit.DAYS)
+    pool.awaitTermination()
 }
 
 fun unhash(
@@ -93,7 +92,7 @@ fun unhash(
         targetHashes: IntSet,
         maxCombinations: Int
 ) {
-    val alphabetArray = alphabet.toByteArray(CHARSET).toSet().toByteArray()
+    val alphabetArray = alphabet.toByteArray(CHARSET).distinctArray()
     val prefixBytes = prefix.toByteArray(CHARSET)
     val suffixByte = suffix.toByte(CHARSET)
     val n = alphabetArray.size
@@ -126,7 +125,7 @@ fun unhash(
     }
 
     pool.shutdown()
-    pool.awaitTermination(Long.MAX_VALUE, TimeUnit.DAYS)
+    pool.awaitTermination()
 }
 
 fun unhash(
@@ -165,7 +164,7 @@ fun unhash(
     }
 
     pool.shutdown()
-    pool.awaitTermination(Long.MAX_VALUE, TimeUnit.DAYS)
+    pool.awaitTermination()
 }
 
 fun unhash(
@@ -210,7 +209,7 @@ fun unhash(
     }
 
     pool.shutdown()
-    pool.awaitTermination(Long.MAX_VALUE, TimeUnit.DAYS)
+    pool.awaitTermination()
 }
 
 fun unhash(
@@ -267,7 +266,7 @@ fun unhash(
     }
 
     pool.shutdown()
-    pool.awaitTermination(Long.MAX_VALUE, TimeUnit.DAYS)
+    pool.awaitTermination()
 }
 
 fun unhash(
@@ -318,7 +317,7 @@ fun unhash(
     }
 
     pool.shutdown()
-    pool.awaitTermination(Long.MAX_VALUE, TimeUnit.DAYS)
+    pool.awaitTermination()
 }
 
 fun unhash(
@@ -371,5 +370,5 @@ fun unhash(
     }
 
     pool.shutdown()
-    pool.awaitTermination(Long.MAX_VALUE, TimeUnit.DAYS)
+    pool.awaitTermination()
 }

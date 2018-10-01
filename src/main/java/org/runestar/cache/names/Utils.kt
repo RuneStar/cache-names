@@ -4,6 +4,8 @@ import java.io.File
 import java.nio.charset.Charset
 import java.nio.file.Files
 import java.nio.file.StandardOpenOption
+import java.util.concurrent.ExecutorService
+import java.util.concurrent.TimeUnit
 
 typealias Hash = Int
 
@@ -15,6 +17,10 @@ inline fun Hash.update(byte: Byte): Hash = this * 31 + byte
 @JvmField val CHARSET = charset("windows-1252")
 
 fun Char.toByte(charset: Charset): Byte = toString().toByteArray(charset)[0]
+
+fun ByteArray.distinctArray(): ByteArray = toSet().toByteArray()
+
+fun ExecutorService.awaitTermination() = awaitTermination(Long.MAX_VALUE, TimeUnit.DAYS)
 
 fun writeStrings(strings: Iterable<*>, file: File) {
     val sb = StringBuilder()

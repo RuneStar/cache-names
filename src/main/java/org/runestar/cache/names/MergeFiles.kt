@@ -67,6 +67,7 @@ fun main(args: Array<String>) {
         "scrollbar_dragger_v2,$x".add()
         "fast_forward,$x".add()
         "thumbs,$x".add()
+        "checkbox,$x".add()
     }
 
     val knownNamesMap = knownNames.associateBy { it.hashCode() }

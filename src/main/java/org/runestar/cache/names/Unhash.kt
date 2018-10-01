@@ -95,7 +95,7 @@ fun unhash(
 ) {
     val alphabetArray = alphabet.toByteArray(CHARSET).toSet().toByteArray()
     val prefixBytes = prefix.toByteArray(CHARSET)
-    val suffixByte = suffix.toString().toByteArray(CHARSET).first()
+    val suffixByte = suffix.toByte(CHARSET)
     val n = alphabetArray.size
 
     val pool = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors() - 1)
@@ -177,7 +177,7 @@ fun unhash(
         maxCombinations: Int
 ) {
     val prefixBytes = prefix.toByteArray(CHARSET)
-    val suffixByte = suffix.toString().toByteArray(CHARSET).first()
+    val suffixByte = suffix.toByte(CHARSET)
     val dictArray = dict.map { it.toByteArray(CHARSET) }.toTypedArray()
     val maxWordLength = dictArray.maxBy { it.size }!!.size
     val n = dictArray.size
@@ -223,8 +223,8 @@ fun unhash(
         maxCombinations: Int
 ) {
     val prefixBytes = prefix.toByteArray(CHARSET)
-    val suffixByte = suffix.toString().toByteArray(CHARSET).first()
-    val separatorByte = separator.toString().toByteArray(CHARSET).first()
+    val suffixByte = suffix.toByte(CHARSET)
+    val separatorByte = separator.toByte(CHARSET)
     val dictArray = dict.map { it.toByteArray(CHARSET) }.toTypedArray()
     val maxWordLength = dictArray.maxBy { it.size }!!.size
     val n = dictArray.size
@@ -277,7 +277,7 @@ fun unhash(
         targetHashes: IntSet,
         maxCombinations: Int
 ) {
-    val separatorByte = separator.toString().toByteArray(CHARSET).first()
+    val separatorByte = separator.toByte(CHARSET)
     val dictArray = dict.map { it.toByteArray(CHARSET) }.toTypedArray()
     val maxWordLength = dictArray.maxBy { it.size }!!.size
     val n = dictArray.size
@@ -330,7 +330,7 @@ fun unhash(
         maxCombinations: Int
 ) {
     val suffixBytes = suffix.toByteArray(CHARSET)
-    val separatorByte = separator.toString().toByteArray(CHARSET).first()
+    val separatorByte = separator.toByte(CHARSET)
     val dictArray = dict.map { it.toByteArray(CHARSET) }.toTypedArray()
     val maxWordLength = dictArray.maxBy { it.size }!!.size
     val n = dictArray.size

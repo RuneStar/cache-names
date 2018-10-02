@@ -5,8 +5,7 @@ import java.io.File
 fun main(args: Array<String>) {
     val uniqueNameHashes = File("name-hashes.tsv").readLines().mapTo(HashSet()) { it.split('\t').last().toInt() }
 
-    val individualNames = File("individual-names.tsv").readLines().toMutableList()
-    individualNames.sort()
+    val individualNames = File("individual-names.tsv").readLines().toSortedSet()
     writeStrings(individualNames, File("individual-names.tsv"))
 
     val knownNames = ArrayList<String>(individualNames)

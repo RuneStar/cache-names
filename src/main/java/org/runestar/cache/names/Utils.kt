@@ -27,7 +27,7 @@ fun writeStrings(strings: Iterable<*>, file: File) {
     for (s in strings) {
         sb.appendln(s)
     }
-    Files.write(file.toPath(), sb.toString().toByteArray(), StandardOpenOption.CREATE)
+    Files.write(file.toPath(), sb.toString().toByteArray())
 }
 
 fun unknownHashes(index: Int): IntSet {

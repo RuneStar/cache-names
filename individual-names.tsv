@@ -113,6 +113,7 @@
 [proc,steelborder]
 [proc,string_prependzero]
 [proc,target_world]
+[proc,text_device]
 [proc,thinbox]
 [proc,toplevel_getcomponents]
 [proc,wilderness_level]

@@ -3,6 +3,6 @@
  [**View all**](https://github.com/RuneStar/cache-names/blob/master/names.tsv)
 
 Some files in the Old School RuneScape cache contain a hash of their name. 
-They are hashed using [Java String hashCode()](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#hashCode--),
+It is hashed using [Java String hashCode()](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#hashCode--),
 a non-cryptographic hash function which produces a 32-bit value.
-The only way to find out the names of these files is to reverse their hashes.
+The only way to find out the names of these files is to reverse the hashes.

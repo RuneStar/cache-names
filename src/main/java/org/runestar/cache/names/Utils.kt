@@ -3,7 +3,6 @@ package org.runestar.cache.names
 import java.io.File
 import java.nio.charset.Charset
 import java.nio.file.Files
-import java.nio.file.StandardOpenOption
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.TimeUnit
 

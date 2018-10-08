@@ -68,6 +68,8 @@ fun main(args: Array<String>) {
         "thumbs,$x".add()
         "checkbox,$x".add()
         "open_buttons,$x".add()
+        "banktabs,$x".add()
+        "options_boxes,$x".add()
     }
 
     val knownNamesMap = knownNames.associateBy { it.hashCode() }

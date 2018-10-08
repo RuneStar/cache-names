@@ -25,7 +25,6 @@ fun main(args: Array<String>) {
     }
 
     dump(Paths.get("graphic-names.tsv"), 8)
-    dump(Paths.get("font-names.tsv"), 13)
     dump(Paths.get("script-names.tsv"), 12)
 }
 

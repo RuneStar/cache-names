@@ -5994,7 +5994,7 @@
 12	169	-1	-1290070879	
 12	170	-1	1107414237	
 12	171	-1	1693587891	
-12	172	-1	648639089	
+12	172	-1	648639089	[proc,bank_depositbox_drawslot]
 12	173	-1	-871084896	[clientscript,chat_button_select]
 12	174	-1	-621483713	
 12	175	-1	-2055723556	[clientscript,chat_button_onop]
@@ -6100,7 +6100,7 @@
 12	275	-1	1222185999	
 12	276	-1	1421425086	[clientscript,bankmain_build]
 12	277	-1	-17209410	[proc,bankmain_build]
-12	278	-1	-27601289	
+12	278	-1	-27601289	[proc,bankmain_drawitem]
 12	279	-1	-1229334397	[proc,bankmain_filteritem]
 12	280	-1	22659333	[proc,bankmain_filterstring]
 12	281	-1	-580696319	[clientscript,bankmain_search_toggle]
@@ -6119,7 +6119,7 @@
 12	294	-1	1932998268	[clientscript,bankside_init]
 12	295	-1	-400542624	[clientscript,bankside_build]
 12	296	-1	-1839177120	[proc,bankside_build]
-12	297	-1	1529036949	
+12	297	-1	1529036949	[proc,bankside_drawitem]
 12	298	-1	-1692040397	
 12	299	-1	1324675059	
 12	300	-1	-1524383508	
@@ -6449,8 +6449,8 @@
 12	624	-1	1339125064	[clientscript,poll_results_addquestion_full]
 12	625	-1	176385288	[clientscript,poll_results_addquestion_refresh]
 12	626	-1	1071896612	[proc,poll_results_addquestion]
-12	627	-1	-246495728	
-12	628	-1	-1051016563	
+12	627	-1	-246495728	[clientscript,poll_history_setup]
+12	628	-1	-1051016563	[clientscript,poll_historyop]
 12	629	-1	-446355619	
 12	630	-1	-1455063518	[clientscript,ignore_update]
 12	631	-1	-428081426	[clientscript,friend_update]
@@ -6528,8 +6528,8 @@
 12	703	-1	79082311	
 12	704	-1	-1764620199	
 12	705	-1	457926079	[clientscript,bank_depositbox_drag]
-12	706	-1	2073829408	
-12	707	-1	-1203195360	
+12	706	-1	2073829408	[clientscript,ge_collect_all_draw]
+12	707	-1	-1203195360	[proc,ge_collect_all_draw]
 12	708	-1	2021236459	
 12	709	-1	1057309283	
 12	710	-1	1533370556	
@@ -6612,9 +6612,9 @@
 12	787	-1	685992089	
 12	788	-1	-1351312270	[clientscript,ge_collect_init]
 12	789	-1	-1339919948	[proc,ge_collect_initslot]
-12	790	-1	-1953425408	
-12	791	-1	-935482880	
-12	792	-1	-944489589	
+12	790	-1	-1953425408	[clientscript,ge_collect_drawslot]
+12	791	-1	-935482880	[proc,ge_collect_drawslot]
+12	792	-1	-944489589	[proc,ge_collect_drawitem]
 12	793	-1	-1118391897	
 12	794	-1	-311423488	
 12	795	-1	1811525083	
@@ -6888,8 +6888,8 @@
 12	1063	-1	-504353546	
 12	1064	-1	-166945193	
 12	1065	-1	-348395573	[clientscript,barrows_reward_init]
-12	1066	-1	-352901609	
-12	1067	-1	665040919	
+12	1066	-1	-352901609	[clientscript,barrows_reward_draw]
+12	1067	-1	665040919	[proc,barrows_reward_draw]
 12	1068	-1	-602058285	
 12	1069	-1	1490470207	
 12	1070	-1	477419327	
@@ -7032,8 +7032,8 @@
 12	1207	-1	464320867	
 12	1208	-1	670078380	[proc,zeah_favour_init_list]
 12	1209	-1	1031919813	[proc,zeah_favour_add_list]
-12	1210	-1	727792715	
-12	1211	-1	-2075727285	
+12	1210	-1	727792715	[clientscript,zeah_favour_settitle]
+12	1211	-1	-2075727285	[proc,zeah_favour_settitle]
 12	1212	-1	-1232254181	
 12	1213	-1	268721435	
 12	1214	-1	1741350627	[proc,zeah_favour_sort]
@@ -7206,7 +7206,7 @@
 12	1381	-1	-1186096791	
 12	1382	-1	99504540	
 12	1383	-1	-1110226428	
-12	1384	-1	-462557055	
+12	1384	-1	-462557055	[clientscript,poh_viewer_preview_position]
 12	1385	-1	-1460254350	
 12	1386	-1	1988848752	
 12	1387	-1	843682712	
@@ -7363,8 +7363,8 @@
 12	1538	-1	-767717302	[clientscript,raids_sidepanel_init]
 12	1539	-1	-772712208	
 12	1540	-1	718735088	
-12	1541	-1	-1857274140	
-12	1542	-1	1723296996	
+12	1541	-1	-1857274140	[clientscript,raids_sidepanel_drawbutton]
+12	1542	-1	1723296996	[proc,raids_sidepanel_drawbutton]
 12	1543	-1	927534823	[clientscript,raids_sidepanel_opbutton]
 12	1544	-1	-1759141473	
 12	1545	-1	-1344849723	
@@ -7986,8 +7986,8 @@
 12	2161	-1	-946936104	
 12	2162	-1	738657807	
 12	2163	-1	-348622740	
-12	2164	-1	2038486720	
-12	2165	-1	-1238538048	
+12	2164	-1	2038486720	[clientscript,xpdrops_setposition]
+12	2165	-1	-1238538048	[proc,xpdrops_setposition]
 12	2166	-1	1324602023	
 12	2167	-1	1661997499	
 12	2168	-1	-550533234	

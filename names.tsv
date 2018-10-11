@@ -6525,7 +6525,7 @@
 12	700	-1	220782258	[clientscript,emote_update]
 12	701	-1	94145714	[proc,emote_update]
 12	702	-1	-1784680428	
-12	703	-1	79082311	
+12	703	-1	79082311	[clientscript,stoneborder]
 12	704	-1	-1764620199	
 12	705	-1	457926079	[clientscript,bank_depositbox_drag]
 12	706	-1	2073829408	[clientscript,ge_collect_all_draw]
@@ -6533,7 +6533,7 @@
 12	708	-1	2021236459	
 12	709	-1	1057309283	
 12	710	-1	1533370556	
-12	711	-1	2014659911	
+12	711	-1	2014659911	[proc,stoneborder]
 12	712	-1	-1945570788	[clientscript,stonebox]
 12	713	-1	1032036380	[proc,stonebox]
 12	714	-1	-551911130	

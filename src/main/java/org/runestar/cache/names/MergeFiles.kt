@@ -72,6 +72,12 @@ fun main(args: Array<String>) {
         "options_boxes,$x".add()
         "mobile_stones,$x".add()
         "tabs_large,$x".add()
+        "2x_standard_spells_on,$x".add()
+        "2x_standard_spells_off,$x".add()
+        "2x_lunar_spells_on,$x".add()
+        "2x_lunar_spells_off,$x".add()
+        "2x_ancient_spells_on,$x".add()
+        "2x_ancient_spells_off,$x".add()
     }
 
     val knownNamesMap = knownNames.associateBy { it.hashCode() }

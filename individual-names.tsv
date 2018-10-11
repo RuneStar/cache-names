@@ -220,6 +220,7 @@
 [clientscript,poh_jewellery_box_init]
 [clientscript,poh_jewellery_box_keypress]
 [clientscript,poh_jewellery_box_op]
+[clientscript,poh_options_tele]
 [clientscript,poh_options_viewer_init]
 [clientscript,poh_options_viewer_set]
 [clientscript,poh_viewer_opbutton]

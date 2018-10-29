@@ -6233,7 +6233,7 @@
 12	13	-1	-472228128	
 12	14	-1	558436122	
 12	15	-1	-113008358	
-12	16	-1	861710286	
+12	16	-1	861710286	[clientscript,wom_tab_highlight_onclick]
 12	17	-1	175003405	[clientscript,wom_item_update]
 12	18	-1	-432143372	[clientscript,wom_item_hide]
 12	19	-1	1268880597	[proc,magic_runecount]
@@ -7091,8 +7091,8 @@
 12	871	-1	1056564412	[clientscript,model_dynamiczoom]
 12	872	-1	-2120026436	[proc,model_dynamiczoom]
 12	873	-1	903707667	[clientscript,wom_telescope_init]
-12	874	-1	-978900240	
-12	875	-1	-1988674320	
+12	874	-1	-978900240	[clientscript,wom_telescope_borders]
+12	875	-1	-1988674320	[proc,wom_telescope_borders]
 12	876	-1	-2050704803	[clientscript,cc_outline_on]
 12	877	-1	1553156123	[clientscript,trawler_water]
 12	878	-1	1613781073	
@@ -8257,8 +8257,8 @@
 12	2037	-1	-377277215	
 12	2038	-1	785106657	
 12	2039	-1	-2068126353	[clientscript,aide_map_init]
-12	2040	-1	-1811490910	
-12	2041	-1	835479970	
+12	2040	-1	-1811490910	[clientscript,aide_map_tutors]
+12	2041	-1	835479970	[proc,aide_map_tutors]
 12	2042	-1	-8643835	
 12	2043	-1	-1656640251	
 12	2044	-1	-1838106053	
@@ -8327,7 +8327,7 @@
 12	2107	-1	-707411293	[clientscript,ds2_fossil_map_rotate]
 12	2108	-1	1667445163	[clientscript,ds2_fossil_map_swap]
 12	2109	-1	149005792	[clientscript,ds2_fossil_map_stuck]
-12	2110	-1	342077032	
+12	2110	-1	342077032	[proc,ds2_fossil_map_getslot]
 12	2111	-1	-219035428	[proc,ds2_fossil_map_setslot]
 12	2112	-1	2078358220	[proc,options_clickthroughchat]
 12	2113	-1	-2065492013	
@@ -8855,8 +8855,8 @@
 12	2636	-1	1966353712	[proc,options_fps]
 12	2637	-1	3376484	
 12	2638	-1	915157496	
-12	2639	-1	-1773888399	
-12	2640	-1	-1211161466	
+12	2639	-1	-1773888399	[clientscript,xpdrops_tooltip_mobile]
+12	2640	-1	-1211161466	[clientscript,xpdrops_tooltip_mobile_remove]
 12	2641	-1	720831475	
 12	2642	-1	693488239	
 12	2643	-1	782965895	

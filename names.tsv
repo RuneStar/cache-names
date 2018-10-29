@@ -8321,14 +8321,14 @@
 12	2101	-1	1367160109	[proc,hp_hud_pos]
 12	2102	-1	-319733872	[clientscript,hp_hud_update]
 12	2103	-1	49500560	[proc,hp_hud_update]
-12	2104	-1	1657949646	[clientscript,designsideinit_init]
-12	2105	-1	-1007990393	[clientscript,designsideinit_redraw]
-12	2106	-1	-2017764473	[proc,designsideinit_redraw]
-12	2107	-1	-707411293	[clientscript,designsideinit_rotate]
-12	2108	-1	1667445163	[clientscript,designsideinit_swap]
-12	2109	-1	149005792	[clientscript,designsideinit_stuck]
+12	2104	-1	1657949646	[clientscript,ds2_fossil_map_init]
+12	2105	-1	-1007990393	[clientscript,ds2_fossil_map_redraw]
+12	2106	-1	-2017764473	[proc,ds2_fossil_map_redraw]
+12	2107	-1	-707411293	[clientscript,ds2_fossil_map_rotate]
+12	2108	-1	1667445163	[clientscript,ds2_fossil_map_swap]
+12	2109	-1	149005792	[clientscript,ds2_fossil_map_stuck]
 12	2110	-1	342077032	
-12	2111	-1	-219035428	[proc,designsideinit_setslot]
+12	2111	-1	-219035428	[proc,ds2_fossil_map_setslot]
 12	2112	-1	2078358220	[proc,options_clickthroughchat]
 12	2113	-1	-2065492013	
 12	2114	-1	-16680433	

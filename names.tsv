@@ -6532,8 +6532,8 @@
 12	312	-1	607344658	
 12	313	-1	-1426113125	[clientscript,music_vartransmit]
 12	314	-1	-1326076444	[proc,music_setcolour]
-12	315	-1	306783328	
-12	316	-1	305870719	
+12	315	-1	306783328	[clientscript,music_optionbuttons_setmode]
+12	316	-1	305870719	[clientscript,music_optionbuttons_setloop]
 12	317	-1	-1453604565	[clientscript,music_optionbuttons_resynch]
 12	318	-1	-580521370	[proc,music_optionbuttons]
 12	319	-1	1584422678	
@@ -6820,7 +6820,7 @@
 12	600	-1	976169920	[clientscript,if_settextalign]
 12	601	-1	787286523	[proc,poll_storequestion]
 12	602	-1	1897604566	[proc,poll_retrievequestion]
-12	603	-1	-1635550175	
+12	603	-1	-1635550175	[clientscript,poll_initialise]
 12	604	-1	-1451695666	[clientscript,poll_setbutton]
 12	605	-1	-779690239	[clientscript,poll_resetbutton]
 12	606	-1	1404637134	[proc,poll_setbutton]
@@ -8442,13 +8442,13 @@
 12	2222	-1	688198168	
 12	2223	-1	-82225295	
 12	2224	-1	-1252686013	
-12	2225	-1	1800810423	
+12	2225	-1	1800810423	[clientscript,bankmain_quantity_op]
 12	2226	-1	-924880477	[clientscript,decant_mouseover]
 12	2227	-1	-473161821	[proc,decant_mouseover]
 12	2228	-1	2107879010	
-12	2229	-1	-1583140348	
-12	2230	-1	-1213905916	
-12	2231	-1	-298060074	
+12	2229	-1	-1583140348	[clientscript,shop_quantity]
+12	2230	-1	-1213905916	[proc,shop_quantity]
+12	2231	-1	-298060074	[clientscript,shop_quantity_op]
 12	2232	-1	378465398	
 12	2233	-1	1822455827	
 12	2234	-1	-361395563	[clientscript,camera_do_zoom]
@@ -8617,8 +8617,8 @@
 12	2397	-1	-1828940374	
 12	2398	-1	-337493078	
 12	2399	-1	1093665258	
-12	2400	-1	-1245654693	
-12	2401	-1	2023288362	
+12	2400	-1	-1245654693	[clientscript,options_fps_init]
+12	2401	-1	2023288362	[clientscript,options_fps_op]
 12	2402	-1	-1724968160	[clientscript,nzone_game_init]
 12	2403	-1	-2040209374	
 12	2404	-1	-2040209343	
@@ -8794,8 +8794,8 @@
 12	2574	-1	400638132	[clientscript,tutorial_displayname_buttons]
 12	2575	-1	1060695732	[proc,tutorial_displayname_buttons]
 12	2576	-1	1698714365	[proc,bankside_extraop]
-12	2577	-1	-1772345151	
-12	2578	-1	-271369535	
+12	2577	-1	-1772345151	[clientscript,bankmain_quantity_buttons]
+12	2578	-1	-271369535	[proc,bankmain_quantity_buttons]
 12	2579	-1	1401571932	
 12	2580	-1	2962812	[proc,int_device]
 12	2581	-1	-672211557	[proc,mobile_chatbox_resize]
@@ -8851,8 +8851,8 @@
 12	2632	-1	33948958	
 12	2633	-1	1391431697	
 12	2634	-1	-547750227	
-12	2635	-1	-1382182411	
-12	2636	-1	1966353712	
+12	2635	-1	-1382182411	[clientscript,options_fps_resynch]
+12	2636	-1	1966353712	[proc,options_fps]
 12	2637	-1	3376484	
 12	2638	-1	915157496	
 12	2639	-1	-1773888399	
@@ -8862,7 +8862,7 @@
 12	2643	-1	782965895	
 12	2644	-1	773795798	
 12	2645	-1	-727951128	
-12	2646	-1	310074058	
+12	2646	-1	310074058	[proc,toplevel_sidebutton_highlight]
 12	2647	-1	1706065785	
 13	494	-1	-342013218	p11_full
 13	495	-1	-313384067	p12_full

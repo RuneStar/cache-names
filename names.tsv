@@ -6394,7 +6394,7 @@
 12	174	-1	-621483713	
 12	175	-1	-2055723556	[clientscript,chat_button_onop]
 12	176	-1	1770489248	[clientscript,tournament_sidepanel_init]
-12	177	-1	1907021768	
+12	177	-1	1907021768	[clientscript,raids_storage_items_op]
 12	178	-1	1530084950	[proc,redraw_chat_buttons]
 12	179	-1	-1435214186	[proc,chat_alert_get]
 12	180	-1	-1601019381	[proc,chat_alert_enable]
@@ -6620,8 +6620,8 @@
 12	400	-1	-1329425335	
 12	401	-1	561613522	
 12	402	-1	1271926697	
-12	403	-1	-264579798	
-12	404	-1	-1186448324	
+12	403	-1	-264579798	[clientscript,poh_tablets_init]
+12	404	-1	-1186448324	[clientscript,raids_storage_private_init]
 12	405	-1	556022092	[clientscript,slayer_rewards_init]
 12	406	-1	565786782	[clientscript,slayer_rewards_tabs]
 12	407	-1	1583729310	[proc,slayer_rewards_tabs]
@@ -6692,8 +6692,8 @@
 12	472	-1	441908555	[clientscript,quickprayer_close]
 12	473	-1	584695657	[clientscript,quickprayer_close_timeout]
 12	474	-1	-966386581	
-12	475	-1	1254094161	
-12	476	-1	1564025681	
+12	475	-1	1254094161	[clientscript,poh_tablets_update]
+12	476	-1	1564025681	[proc,poh_tablets_update]
 12	477	-1	561090516	[clientscript,ntk_textbox]
 12	478	-1	1732855554	
 12	479	-1	-1580482062	[clientscript,ntk_timer_resynch]
@@ -6758,7 +6758,7 @@
 12	538	-1	756460072	[proc,options_xptolevel]
 12	539	-1	-1076487718	[proc,options_setfps]
 12	540	-1	-948431074	
-12	541	-1	938547597	
+12	541	-1	938547597	[proc,ge_offers_bigbutton]
 12	542	-1	1272760493	
 12	543	-1	913042749	
 12	544	-1	1404701994	[clientscript,wear_initslot]
@@ -6990,13 +6990,13 @@
 12	770	-1	37107843	[proc,stonepanel]
 12	771	-1	-535457898	
 12	772	-1	937436556	
-12	773	-1	-394545623	
-12	774	-1	-60535622	
-12	775	-1	1573731915	
-12	776	-1	-1890498955	
-12	777	-1	1832920926	
-12	778	-1	1944882568	
-12	779	-1	-399051659	
+12	773	-1	-394545623	[proc,ge_offers_setup_init]
+12	774	-1	-60535622	[proc,ge_offers_setup_buttontext]
+12	775	-1	1573731915	[proc,ge_offers_setup_buttongraphic]
+12	776	-1	-1890498955	[clientscript,ge_offers_setup_draw]
+12	777	-1	1832920926	[clientscript,ge_offers_setup_changequantity]
+12	778	-1	1944882568	[clientscript,ge_offers_setup_changeprice]
+12	779	-1	-399051659	[proc,ge_offers_setup_draw]
 12	780	-1	-14853330	
 12	781	-1	2117524846	
 12	782	-1	2113018810	
@@ -7010,23 +7010,23 @@
 12	790	-1	-1953425408	[clientscript,ge_collect_drawslot]
 12	791	-1	-935482880	[proc,ge_collect_drawslot]
 12	792	-1	-944489589	[proc,ge_collect_drawitem]
-12	793	-1	-1118391897	
-12	794	-1	-311423488	
-12	795	-1	1811525083	
-12	796	-1	2081243099	
-12	797	-1	321689676	
-12	798	-1	93013580	
+12	793	-1	-1118391897	[proc,ge_offers_index_inittop]
+12	794	-1	-311423488	[proc,ge_offers_index_initslot]
+12	795	-1	1811525083	[clientscript,ge_offers_index_drawtop]
+12	796	-1	2081243099	[proc,ge_offers_index_drawtop]
+12	797	-1	321689676	[clientscript,ge_offers_index_drawslot]
+12	798	-1	93013580	[proc,ge_offers_index_drawslot]
 12	799	-1	1492457372	[clientscript,ge_pricelist]
 12	800	-1	1257600699	[clientscript,ge_pricelist_draw]
 12	801	-1	555302408	[clientscript,ge_pricelist_switchmode]
 12	802	-1	-1918990149	[proc,ge_pricelist_draw]
-12	803	-1	-529847573	
-12	804	-1	1756945327	
+12	803	-1	-529847573	[clientscript,ge_offers_init]
+12	804	-1	1756945327	[clientscript,ge_offers_switchpanel]
 12	805	-1	-1522596758	
-12	806	-1	747171247	
+12	806	-1	747171247	[proc,ge_offers_switchpanel]
 12	807	-1	847971318	
-12	808	-1	1986587773	
-12	809	-1	-1290436995	
+12	808	-1	1986587773	[clientscript,ge_offers_priceicon]
+12	809	-1	-1290436995	[proc,ge_offers_priceicon]
 12	810	-1	-253916699	[proc,ge_textbox]
 12	811	-1	633292281	
 12	812	-1	598811029	
@@ -7039,9 +7039,9 @@
 12	819	-1	-616582705	
 12	820	-1	-2123139813	
 12	821	-1	1500383003	
-12	822	-1	1243879949	
-12	823	-1	502989318	
-12	824	-1	-1145007098	
+12	822	-1	1243879949	[clientscript,itemsets_init]
+12	823	-1	502989318	[clientscript,itemsets_redraw]
+12	824	-1	-1145007098	[proc,itemsets_redraw]
 12	825	-1	1855257509	
 12	826	-1	1850751473	
 12	827	-1	-2134284303	
@@ -7129,7 +7129,7 @@
 12	909	-1	-1948484780	[proc,toplevel_resize]
 12	910	-1	-354651983	
 12	911	-1	181705641	
-12	912	-1	1649730288	
+12	912	-1	1649730288	[proc,toplevel_sidebuttons_enable]
 12	913	-1	231752713	[proc,toplevel_flashicon]
 12	914	-1	2020160283	[clientscript,toplevel_sidebutton_op]
 12	915	-1	-864133976	[clientscript,toplevel_sidebutton_switch]
@@ -7179,18 +7179,18 @@
 12	959	-1	1551181640	
 12	960	-1	38977541	
 12	961	-1	2004982497	
-12	962	-1	-738754634	
-12	963	-1	1242704084	
-12	964	-1	329512873	
-12	965	-1	-22095186	
-12	966	-1	2077497470	
-12	967	-1	1218213028	
+12	962	-1	-738754634	[clientscript,tournament_supplies_init]
+12	963	-1	1242704084	[clientscript,tournament_supplies_search_update]
+12	964	-1	329512873	[clientscript,tournament_supplies_search_toggle]
+12	965	-1	-22095186	[proc,tournament_supplies_search_off]
+12	966	-1	2077497470	[proc,tournament_supplies_search_on]
+12	967	-1	1218213028	[proc,tournament_supplies_drawlist]
 12	968	-1	1147642326	[clientscript,duel_options_changed]
 12	969	-1	1182847674	[clientscript,stake_tooltip]
 12	970	-1	1943908034	[clientscript,logout_op]
 12	971	-1	-1178672072	[clientscript,ntk_init]
-12	972	-1	-2044654150	
-12	973	-1	393049346	
+12	972	-1	-2044654150	[clientscript,tournament_sidepanel_changeactive]
+12	973	-1	393049346	[proc,tournament_sidepanel_setactive]
 12	974	-1	-450764548	[clientscript,tournament_sidepanel_setcolour]
 12	975	-1	-1790570756	[proc,tournament_sidepanel_setcolour]
 12	976	-1	105943096	[clientscript,tournament_data]
@@ -7228,18 +7228,18 @@
 12	1008	-1	-59036900	[proc,stats_totalxp]
 12	1009	-1	-1392259815	[proc,stats_tostring_totalxp]
 12	1010	-1	366069437	[clientscript,xpdrops_setup_init]
-12	1011	-1	673432986	
-12	1012	-1	-446408370	
-12	1013	-1	1222796349	
-12	1014	-1	-888713628	
+12	1011	-1	673432986	[proc,xpdrops_setup_init_display]
+12	1012	-1	-446408370	[clientscript,xpdrops_setup_display_hover]
+12	1013	-1	1222796349	[proc,xpdrops_setup_display_hoveroff]
+12	1014	-1	-888713628	[proc,xpdrops_setup_display_hoverdisable]
 12	1015	-1	-912226076	
 12	1016	-1	538956970	
 12	1017	-1	-1160320309	
 12	1018	-1	2098986187	
 12	1019	-1	-583955730	
 12	1020	-1	-867362932	
-12	1021	-1	2005744551	
-12	1022	-1	-1629165145	
+12	1021	-1	2005744551	[clientscript,xpdrops_setup_display_update]
+12	1022	-1	-1629165145	[proc,xpdrops_setup_display_update]
 12	1023	-1	-1322511812	
 12	1024	-1	-814945887	
 12	1025	-1	2048291924	
@@ -7247,15 +7247,15 @@
 12	1027	-1	-1996083522	
 12	1028	-1	-514960445	[proc,xpdrops_tostring]
 12	1029	-1	-1065893075	
-12	1030	-1	-7921914	
+12	1030	-1	-7921914	[clientscript,xpdrops_setup_display_open]
 12	1031	-1	-914091118	
 12	1032	-1	-246726975	
 12	1033	-1	-1232942537	
 12	1034	-1	1357815941	
-12	1035	-1	-545437054	
-12	1036	-1	-1624951205	
-12	1037	-1	-691548858	
-12	1038	-1	982612806	
+12	1035	-1	-545437054	[clientscript,xpdrops_setup_display_dropdown_hover]
+12	1036	-1	-1624951205	[clientscript,xpdrops_setup_display_dropdown_op]
+12	1037	-1	-691548858	[clientscript,xpdrops_setup_display_dropdown_close]
+12	1038	-1	982612806	[proc,xpdrops_setup_display_dropdown_close]
 12	1039	-1	114492554	[clientscript,orbs_xpdrops_init]
 12	1040	-1	-1045683943	[clientscript,orbs_xpdrops_op]
 12	1041	-1	470404273	[clientscript,orbs_xpdrops_update]
@@ -7337,10 +7337,10 @@
 12	1117	-1	-416850910	[proc,farming_view_tabpanel]
 12	1118	-1	-1673862264	[clientscript,farming_view_panel_loading]
 12	1119	-1	-423118545	[clientscript,farming_view_setpanel]
-12	1120	-1	-1574118235	
+12	1120	-1	-1574118235	[clientscript,snapshot_rules_init]
 12	1121	-1	342924806	
-12	1122	-1	-1580357047	
-12	1123	-1	-1565146835	
+12	1122	-1	-1580357047	[clientscript,snapshot_rules_hover]
+12	1123	-1	-1565146835	[clientscript,snapshot_rules_send]
 12	1124	-1	-283624814	
 12	1125	-1	-1399326085	
 12	1126	-1	704518071	
@@ -7806,10 +7806,10 @@
 12	1586	-1	574667129	
 12	1587	-1	694021150	
 12	1588	-1	-934339927	
-12	1589	-1	1025312488	
-12	1590	-1	-493596474	
-12	1591	-1	1725332066	
-12	1592	-1	1010935906	
+12	1589	-1	1025312488	[clientscript,raids_storage_shared_init]
+12	1590	-1	-493596474	[clientscript,raids_storage_shared_warning]
+12	1591	-1	1725332066	[clientscript,raids_storage_shared_items]
+12	1592	-1	1010935906	[proc,raids_storage_shared_items]
 12	1593	-1	-987241812	[clientscript,displayname_statusflash]
 12	1594	-1	-1886690992	[proc,displayname_statusstatic]
 12	1595	-1	-919360644	[proc,agilityarena_rewards_draw]
@@ -7819,29 +7819,29 @@
 12	1599	-1	-344220300	[proc,skill_guide_data_hunter]
 12	1600	-1	263204157	[clientscript,deathkeep_invtransmit]
 12	1601	-1	-1081927472	[proc,deathkeep_build]
-12	1602	-1	166461126	
+12	1602	-1	166461126	[proc,raids_storage_shared_warning]
 12	1603	-1	-1166493115	[clientscript,deathkeep_infomessage]
 12	1604	-1	26923688	
 12	1605	-1	686981288	
-12	1606	-1	1880223630	
-12	1607	-1	1208779150	
-12	1608	-1	-281640363	
-12	1609	-1	980423467	
-12	1610	-1	1376888179	
-12	1611	-1	871079698	
-12	1612	-1	-1161005931	
-12	1613	-1	-285526735	
-12	1614	-1	-1091161190	
-12	1615	-1	812050643	
-12	1616	-1	583374547	
+12	1606	-1	1880223630	[clientscript,raids_storage_private_items]
+12	1607	-1	1208779150	[proc,raids_storage_private_items]
+12	1608	-1	-281640363	[proc,raids_storage_private_drawitem]
+12	1609	-1	980423467	[clientscript,raids_storage_private_dragscroll]
+12	1610	-1	1376888179	[clientscript,raids_storage_private_reorder]
+12	1611	-1	871079698	[proc,raids_storage_drawbutton]
+12	1612	-1	-1161005931	[clientscript,raids_storage_opbutton]
+12	1613	-1	-285526735	[clientscript,raids_storage_resetbutton]
+12	1614	-1	-1091161190	[clientscript,raids_storage_side_init]
+12	1615	-1	812050643	[clientscript,raids_storage_side_setup]
+12	1616	-1	583374547	[proc,raids_storage_side_setup]
 12	1617	-1	1453524626	
 12	1618	-1	1838082470	
 12	1619	-1	-1772054378	
-12	1620	-1	539157488	
-12	1621	-1	310481392	
-12	1622	-1	-61392393	
-12	1623	-1	1102514517	
-12	1624	-1	1339538644	
+12	1620	-1	539157488	[clientscript,raids_storage_side_items]
+12	1621	-1	310481392	[proc,raids_storage_side_items]
+12	1622	-1	-61392393	[proc,raids_storage_side_private_drawitem]
+12	1623	-1	1102514517	[clientscript,raids_storage_side_reorder]
+12	1624	-1	1339538644	[proc,raids_storage_side_warning]
 12	1625	-1	459989576	[proc,glidermap_showglider]
 12	1626	-1	-48580509	[proc,glidermap_hideglider]
 12	1627	-1	-1033065121	[clientscript,options_shiftclickdrop_init]
@@ -7919,7 +7919,7 @@
 12	1699	-1	1831956645	[clientscript,orbs_worldmap_setup]
 12	1700	-1	-1445068123	[proc,orbs_worldmap_setup]
 12	1701	-1	1189182914	
-12	1702	-1	1330093254	
+12	1702	-1	1330093254	[proc,worldmap_elements_update]
 12	1703	-1	1569989	
 12	1704	-1	1572093	
 12	1705	-1	-1564206793	
@@ -7969,7 +7969,7 @@
 12	1749	-1	477913641	[clientscript,worldmap_transmitdata]
 12	1750	-1	-125383321	[clientscript,worldmap_overlay]
 12	1751	-1	1898617945	[proc,worldmap_overlay_clear]
-12	1752	-1	-1210742225	
+12	1752	-1	-1210742225	[proc,worldmap_elements_chooseposition]
 12	1753	-1	1115256888	
 12	1754	-1	1114333367	
 12	1755	-1	1726617150	
@@ -8857,11 +8857,11 @@
 12	2638	-1	915157496	
 12	2639	-1	-1773888399	[clientscript,xpdrops_tooltip_mobile]
 12	2640	-1	-1211161466	[clientscript,xpdrops_tooltip_mobile_remove]
-12	2641	-1	720831475	
-12	2642	-1	693488239	
-12	2643	-1	782965895	
-12	2644	-1	773795798	
-12	2645	-1	-727951128	
+12	2641	-1	720831475	[clientscript,equipment_icon_init]
+12	2642	-1	693488239	[clientscript,equipment_icon_check]
+12	2643	-1	782965895	[clientscript,equipment_icon_flash]
+12	2644	-1	773795798	[clientscript,tutorial_default_settings]
+12	2645	-1	-727951128	[clientscript,tutorial_end]
 12	2646	-1	310074058	[proc,toplevel_sidebutton_highlight]
 12	2647	-1	1706065785	
 13	494	-1	-342013218	p11_full

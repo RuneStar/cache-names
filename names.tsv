@@ -6403,10 +6403,10 @@
 12	183	-1	-1434856694	[proc,chat_alert_set]
 12	184	-1	-1791204164	[proc,chat_set_filter]
 12	185	-1	-1702624336	[proc,chat_get_filter]
-12	186	-1	-193690214	
-12	187	-1	-908086374	
-12	188	-1	1539093023	
-12	189	-1	526042143	
+12	186	-1	-193690214	[clientscript,combat_interface_sp_redraw]
+12	187	-1	-908086374	[proc,combat_interface_sp_redraw]
+12	188	-1	1539093023	[clientscript,combat_interface_sp_updatebar]
+12	189	-1	526042143	[proc,combat_interface_sp_updatebar]
 12	190	-1	1531151305	
 12	191	-1	1531151336	
 12	192	-1	-1177496749	[proc,chatalerts]
@@ -6480,7 +6480,7 @@
 12	260	-1	1971009546	
 12	261	-1	845958363	
 12	262	-1	1902192574	
-12	263	-1	-1483150440	
+12	263	-1	-1483150440	[clientscript,nzone_game_subtitle]
 12	264	-1	-595803978	[clientscript,nzone_lobby_overlay]
 12	265	-1	-2003338926	[clientscript,nzone_lobby_hide]
 12	266	-1	836379438	[clientscript,nzone_lobby_partystatus]
@@ -6540,13 +6540,13 @@
 12	320	-1	-2002551752	
 12	321	-1	188909267	[clientscript,slayer_rewards_buy_init]
 12	322	-1	58302882	[clientscript,slayer_rewards_buy_op]
-12	323	-1	-1374585996	
-12	324	-1	139254760	
-12	325	-1	-1348863202	
+12	323	-1	-1374585996	[clientscript,combat_interface_opbutton]
+12	324	-1	139254760	[proc,combat_interface_setbuttons]
+12	325	-1	-1348863202	[clientscript,combat_interface_retaliate]
 12	326	-1	568908272	[clientscript,slayer_rewards_buy_release]
-12	327	-1	1212859946	
+12	327	-1	1212859946	[clientscript,combat_interface_sp]
 12	328	-1	57309723	[clientscript,slayer_rewards_tasks_init]
-12	329	-1	1186217401	
+12	329	-1	1186217401	[clientscript,combat_interface_autocast]
 12	330	-1	354410466	
 12	331	-1	-1772563573	
 12	332	-1	-654187125	
@@ -6637,7 +6637,7 @@
 12	417	-1	-1127361264	
 12	418	-1	365791753	
 12	419	-1	-643982327	
-12	420	-1	-1258567498	
+12	420	-1	-1258567498	[clientscript,combat_interface_setup]
 12	421	-1	-1911250671	[clientscript,slayer_rewards_tasks_currenttask]
 12	422	-1	-974827759	[proc,slayer_rewards_tasks_currenttask]
 12	423	-1	415773580	[clientscript,slayer_rewards_tasks_canceltask]
@@ -6695,7 +6695,7 @@
 12	475	-1	1254094161	[clientscript,poh_tablets_update]
 12	476	-1	1564025681	[proc,poh_tablets_update]
 12	477	-1	561090516	[clientscript,ntk_textbox]
-12	478	-1	1732855554	
+12	478	-1	1732855554	[clientscript,tournament_sidepanel_setactive]
 12	479	-1	-1580482062	[clientscript,ntk_timer_resynch]
 12	480	-1	-462105614	[proc,ntk_timer_resynch]
 12	481	-1	1512641374	
@@ -7213,7 +7213,7 @@
 12	993	-1	-1280415617	[clientscript,xpdrops_init]
 12	994	-1	762384628	[clientscript,xpdrops_vartransmit]
 12	995	-1	-127161864	[proc,xpdrops_redraw]
-12	996	-1	853986137	
+12	996	-1	853986137	[proc,xpdrops_setdropsize]
 12	997	-1	1101477412	[proc,xpdrops_showpanel]
 12	998	-1	-448946519	[clientscript,xpdrops_hidepanel]
 12	999	-1	774641342	[proc,xpdrops_setbar]

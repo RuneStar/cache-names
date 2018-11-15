@@ -21,7 +21,7 @@ fun main(args: Array<String>) {
             val id = split[1].toInt()
             lines.add("$id\t$s")
         }
-        writeStrings(lines, output.toFile())
+        Files.write(output, lines)
     }
 
     dump(Paths.get("graphic-names.tsv"), 8)

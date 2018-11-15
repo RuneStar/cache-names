@@ -21,14 +21,6 @@ fun ByteArray.distinctArray(): ByteArray = toSet().toByteArray()
 
 fun ExecutorService.awaitTermination() = awaitTermination(Long.MAX_VALUE, TimeUnit.DAYS)
 
-fun writeStrings(strings: Iterable<*>, file: File) {
-    val sb = StringBuilder()
-    for (s in strings) {
-        sb.appendln(s)
-    }
-    Files.write(file.toPath(), sb.toString().toByteArray())
-}
-
 fun unknownHashes(index: Int): IntSet {
     val set = HashSet<Int>()
     File("names.tsv").forEachLine { line ->
@@ -54,7 +46,7 @@ fun unknownHashes(): IntSet {
 }
 
 /*
-   // seers_texture ?
+    // seers_texture ?
 
     // #
     // the doors of dinh
@@ -72,8 +64,4 @@ fun unknownHashes(): IntSet {
 
     // woodenfloor_lig...
     // mirror_texture
-
-    // 1787935731
-
-    // lair of tarn razorlor
  */

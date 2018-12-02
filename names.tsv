@@ -7375,7 +7375,7 @@
 12	1136	-1	-1287817996	
 12	1137	-1	-669961621	
 12	1138	-1	797942223	[proc,deadman_world]
-12	1139	-1	-2124504339	
+12	1139	-1	-2124504339	[clientscript,deadmanprotect_onload]
 12	1140	-1	940299113	[clientscript,deadman_stats_init]
 12	1141	-1	-1495569718	[clientscript,deadman_stats_vartransmit]
 12	1142	-1	-1089136327	[clientscript,deadman_stats_click]
@@ -7383,8 +7383,8 @@
 12	1144	-1	1256670575	
 12	1145	-1	-1324553457	[proc,deadman_stats_set_protect]
 12	1146	-1	636087400	[proc,deadman_stats_set_unprotect]
-12	1147	-1	-317639171	
-12	1148	-1	1481215637	
+12	1147	-1	-317639171	[proc,deadmanprotect_xp_counts]
+12	1148	-1	1481215637	[clientscript,deadmanprotect_bank_transmit]
 12	1149	-1	-124669954	[clientscript,deadman_delay]
 12	1150	-1	-1669688904	[clientscript,deadman_delay_timer]
 12	1151	-1	2127176019	
@@ -7399,18 +7399,18 @@
 12	1160	-1	642790322	
 12	1161	-1	-335866365	
 12	1162	-1	-436516859	
-12	1163	-1	1154819740	
-12	1164	-1	1506493967	
-12	1165	-1	1115038347	
-12	1166	-1	2013029782	
+12	1163	-1	1154819740	[clientscript,deadmanloot_onload]
+12	1164	-1	1506493967	[clientscript,deadmanloot_itemnote_transmit]
+12	1165	-1	1115038347	[clientscript,deadmanloot_itemnote_switch]
+12	1166	-1	2013029782	[proc,deadmanloot_itemnote_update]
 12	1167	-1	1896678728	[clientscript,deadman_lootall]
 12	1168	-1	1833231148	[clientscript,deadman_lootall_end]
-12	1169	-1	-645634614	
-12	1170	-1	883747523	
-12	1171	-1	-1361099958	
-12	1172	-1	1852495207	
-12	1173	-1	-1692310465	
-12	1174	-1	1364431423	
+12	1169	-1	-645634614	[clientscript,deadmanloot_value_update]
+12	1170	-1	883747523	[clientscript,deadmanloot_inv_transmit]
+12	1171	-1	-1361099958	[proc,deadmanloot_inv_update]
+12	1172	-1	1852495207	[clientscript,deadmanloot_tab_transmit]
+12	1173	-1	-1692310465	[clientscript,deadmanloot_inv_switch]
+12	1174	-1	1364431423	[proc,deadmanloot_inv_switch]
 12	1175	-1	-1741448017	
 12	1176	-1	-540296142	
 12	1177	-1	-1424321847	
@@ -7510,11 +7510,11 @@
 12	1271	-1	-1891066376	
 12	1272	-1	1368240120	
 12	1273	-1	2116476091	
-12	1274	-1	414684943	
-12	1275	-1	1175385087	
-12	1276	-1	165611007	
+12	1274	-1	414684943	[proc,deadmanprotect_createtab]
+12	1275	-1	1175385087	[clientscript,deadmanprotect_settab]
+12	1276	-1	165611007	[proc,deadmanprotect_settab]
 12	1277	-1	-892561653	
-12	1278	-1	-1122350163	
+12	1278	-1	-1122350163	[proc,deadmanprotect_stats_refresh]
 12	1279	-1	2058128242	
 12	1280	-1	778129802	
 12	1281	-1	383701507	
@@ -8724,7 +8724,7 @@
 12	2485	-1	-1416389647	[clientscript,duel_switch_to_inv]
 12	2486	-1	-945450236	
 12	2487	-1	395170043	[proc,duel_switch_buttons]
-12	2488	-1	1227631686	
+12	2488	-1	1227631686	[clientscript,duel_mouseout_buttons]
 12	2489	-1	1561690984	[clientscript,duel_add_graphics]
 12	2490	-1	630270824	
 12	2491	-1	301721579	[proc,duel_stake_setup_buttontext]

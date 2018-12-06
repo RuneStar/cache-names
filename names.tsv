@@ -6340,7 +6340,7 @@
 12	97	-1	-1641435841	
 12	98	-1	-709872419	[proc,create_graphic]
 12	99	-1	-1738227320	[clientscript,duel_check_button]
-12	100	-1	1519703915	
+12	100	-1	1519703915	[clientscript,duel_stake_vartrans]
 12	101	-1	-1531657741	[clientscript,meslayer_close]
 12	102	-1	1613394365	[proc,meslayer_mode1]
 12	103	-1	-1242938404	[clientscript,meslayer_mode2]
@@ -8480,7 +8480,7 @@
 12	2237	-1	867723270	[proc,hud_clamp_init]
 12	2238	-1	-641685890	[clientscript,hud_clamp_review]
 12	2239	-1	1018676190	
-12	2240	-1	-1842806649	
+12	2240	-1	-1842806649	[clientscript,collection_init]
 12	2241	-1	-91915553	
 12	2242	-1	1843662047	
 12	2243	-1	1986589369	[proc,logout_layout_update]
@@ -8968,14 +8968,14 @@
 12	2725	-1	-1070388240	
 12	2726	-1	-548499495	
 12	2727	-1	1765410102	
-12	2728	-1	-1305374275	
-12	2729	-1	1007204753	
-12	2730	-1	984490442	
-12	2731	-1	-1819029558	
-12	2732	-1	-1305598994	
-12	2733	-1	523260475	
+12	2728	-1	-1305374275	[proc,collection_draw_tab]
+12	2729	-1	1007204753	[clientscript,collection_hover_tab]
+12	2730	-1	984490442	[clientscript,collection_draw_list]
+12	2731	-1	-1819029558	[proc,collection_draw_list]
+12	2732	-1	-1305598994	[proc,collection_draw_log]
+12	2733	-1	523260475	[clientscript,collection_item_click]
 12	2734	-1	-2095699884	
-12	2735	-1	-148067255	
+12	2735	-1	-148067255	[proc,collection_category_count]
 13	494	-1	-342013218	p11_full
 13	495	-1	-313384067	p12_full
 13	496	-1	1057075019	b12_full

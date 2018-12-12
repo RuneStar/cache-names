@@ -83,6 +83,8 @@ fun main(args: Array<String>) {
         "2x_necro_spells_on,$x".add()
         "2x_necro_spells_off,$x".add()
         "wint_icons,$x".add()
+        "magic_necro_on,$x".add()
+        "magic_necro_off,$x".add()
     }
 
     val knownNamesMap = knownNames.associateBy { it.hashCode() }

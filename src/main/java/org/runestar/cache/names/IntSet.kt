@@ -22,7 +22,7 @@ interface IntSet {
 
     private class Hash(set: Set<Int>) : IntSet {
 
-        private val elements = IntArray(Integer.highestOneBit(set.size * 7))
+        private val elements = IntArray(Integer.highestOneBit(set.size * 40))
 
         private val size = elements.size
 

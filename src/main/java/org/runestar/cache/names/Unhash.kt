@@ -1,5 +1,6 @@
 package org.runestar.cache.names
 
+import java.io.ByteArrayOutputStream
 import java.nio.ByteBuffer
 import java.nio.channels.WritableByteChannel
 import java.util.concurrent.Executors
@@ -16,37 +17,34 @@ fun unhash(
     val prefixBytes = prefix.toByteArray(CHARSET)
     val suffixBytes = suffix.toByteArray(CHARSET)
     val n = alphabetArray.size
-    val writeBufCapacity = prefixBytes.size + maxCombinations + suffixBytes.size + 1
 
     val pool = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors() - 1)
 
     for (startIndex in 0 until n) {
         pool.submit {
+            val out = ByteArrayOutputStream()
             val curHashes = IntArray(maxCombinations)
             curHashes[0] = 0.update(prefixBytes)
-            val writeBuf = ByteBuffer.allocate(writeBufCapacity)
-            writeBuf.put(prefixBytes)
             multisetPermutations(n, maxCombinations, intArrayOf(startIndex)) { indices, len ->
-                val lastHash = curHashes[len - 1]
-                val hash = lastHash.update(alphabetArray[indices[len - 1]])
+                val pos = len - 1
+                val hash = curHashes[pos].update(alphabetArray[indices[pos]])
                 if (len != maxCombinations) {
                     curHashes[len] = hash
                 }
                 if (hash.update(suffixBytes) in targetHashes) {
-                    writeBuf.clear().position(prefixBytes.size)
+                    out.write(prefixBytes)
                     for (i in 0 until len) {
-                        writeBuf.put(alphabetArray[indices[i]])
+                        out.write(alphabetArray[indices[i]])
                     }
-                    writeBuf.put(suffixBytes).put('\n'.toByte())
-                    writeBuf.flip()
-                    results.write(writeBuf)
+                    out.write(suffixBytes)
+                    out.write('\n'.toByte())
                 }
             }
+            results.write(out.toByteArray())
         }
     }
 
-    pool.shutdown()
-    pool.awaitTermination()
+    pool.shutdownAwait()
 }
 
 fun unhash(
@@ -62,21 +60,19 @@ fun unhash(
     val suffixBytes = suffix.toByteArray(CHARSET)
     val separatorByte = separator.toByte(CHARSET)
     val dictArray = dict.map { it.toByteArray(CHARSET) }.toTypedArray()
-    val maxWordLength = dictArray.maxBy { it.size }!!.size
     val n = dictArray.size
-    val writeBufCapacity = prefixBytes.size + ((maxWordLength + 1) * maxCombinations - 1) + suffixBytes.size + 1
 
     val pool = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors() - 1)
 
     for (startIndex in 0 until n) {
         pool.submit {
+            val out = ByteArrayOutputStream()
             val curHashes = IntArray(maxCombinations)
             curHashes[0] = 0.update(prefixBytes)
-            val writeBuf = ByteBuffer.allocate(writeBufCapacity)
-            writeBuf.put(prefixBytes)
             multisetPermutations(n * 2, maxCombinations, intArrayOf(startIndex)) { indices, len ->
-                val v = indices[len - 1]
-                val lastHash = curHashes[len - 1]
+                val pos = len - 1
+                val v = indices[pos]
+                val lastHash = curHashes[pos]
                 val hash = if (v >= n) {
                     lastHash.update(separatorByte).update(dictArray[v - n])
                 } else {
@@ -86,23 +82,23 @@ fun unhash(
                     curHashes[len] = hash
                 }
                 if (hash.update(suffixBytes) in targetHashes) {
-                    writeBuf.clear().position(prefixBytes.size)
+                    out.write(prefixBytes)
                     for (i in 0 until len) {
                         val vv = indices[i]
                         if (vv >= n) {
-                            writeBuf.put(separatorByte).put(dictArray[vv - n])
+                            out.write(separatorByte)
+                            out.write(dictArray[vv - n])
                         } else {
-                            writeBuf.put(dictArray[vv])
+                            out.write(dictArray[vv])
                         }
                     }
-                    writeBuf.put(suffixBytes).put('\n'.toByte())
-                    writeBuf.flip()
-                    results.write(writeBuf)
+                    out.write(suffixBytes)
+                    out.write('\n'.toByte())
                 }
             }
+            results.write(out.toByteArray())
         }
     }
 
-    pool.shutdown()
-    pool.awaitTermination()
+    pool.shutdownAwait()
 }

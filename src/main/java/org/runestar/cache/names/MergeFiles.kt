@@ -88,6 +88,7 @@ fun main(args: Array<String>) {
         "v2_stone_button,$x".add()
         "v2_stone_button_in,$x".add()
         "v2_stone_borders,$x".add()
+        "med_buttons,$x".add()
     }
 
     val knownNamesMap = knownNames.associateBy { it.hashCode() }

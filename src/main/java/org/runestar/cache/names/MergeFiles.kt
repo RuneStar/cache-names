@@ -85,6 +85,9 @@ fun main(args: Array<String>) {
         "wint_icons,$x".add()
         "magic_necro_on,$x".add()
         "magic_necro_off,$x".add()
+        "v2_stone_button,$x".add()
+        "v2_stone_button_in,$x".add()
+        "v2_stone_borders,$x".add()
     }
 
     val knownNamesMap = knownNames.associateBy { it.hashCode() }

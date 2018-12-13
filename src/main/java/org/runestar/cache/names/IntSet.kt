@@ -5,10 +5,17 @@ interface IntSet {
     companion object {
 
         fun of(set: Set<Int>): IntSet {
-            return if (set.size == 1) {
-                One(set.single())
-            } else {
-                Hash(set)
+            return when (set.size) {
+                1 -> One(set.single())
+                2 -> {
+                    val itr = set.iterator()
+                    Two(itr.next(), itr.next())
+                }
+                3 -> {
+                    val itr = set.iterator()
+                    Three(itr.next(), itr.next(), itr.next())
+                }
+                else -> Hash(set)
             }
         }
     }
@@ -18,6 +25,16 @@ interface IntSet {
     private class One(private val n: Int) : IntSet {
 
         override fun contains(value: Int) = n == value
+    }
+
+    private class Two(private val n0: Int, private val n1: Int) : IntSet {
+
+        override fun contains(value: Int) = value == n0 || value == n1
+    }
+
+    private class Three(private val n0: Int, private val n1: Int, private val n2: Int) : IntSet {
+
+        override fun contains(value: Int) = value == n0 || value == n1 || value == n2
     }
 
     private class Hash(set: Set<Int>) : IntSet {

@@ -91,6 +91,13 @@ fun main(args: Array<String>) {
         "med_buttons,$x".add()
         "lunar_magic_on,$x".add()
         "lunar_magic_off,$x".add()
+        "achievement_diary_icons,$x".add()
+        "ii_impling_icons,$x".add()
+        "orb_filler,$x".add()
+        "windowmode_icons,$x".add()
+        "ge_smallicons,$x".add()
+        "sideicons_new,$x".add()
+        "options_icons_small,$x".add()
     }
 
     val knownNamesMap = knownNames.associateBy { it.hashCode() }

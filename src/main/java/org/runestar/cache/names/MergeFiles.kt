@@ -98,6 +98,19 @@ fun main(args: Array<String>) {
         "ge_smallicons,$x".add()
         "sideicons_new,$x".add()
         "options_icons_small,$x".add()
+        "gnomeball_buttons,$x".add()
+        "orb_frame,$x".add()
+        "poh_doors,$x".add()
+        "banktabs_small,$x".add()
+        "ge_cancel,$x".add()
+        "banktab_icons,$x".add()
+        "orb_frame,$x".add()
+        "sortarrows,$x".add()
+        "clan_chat_buttons,$x".add()
+        "tabs_split,$x".add()
+        "scrollbar_sep,$x".add()
+        "oge_images,$x".add()
+        "oge_title,$x".add()
     }
 
     val knownNamesMap = knownNames.associateBy { it.hashCode() }

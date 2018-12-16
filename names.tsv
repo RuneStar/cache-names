@@ -6989,7 +6989,7 @@
 12	744	-1	2068623451	
 12	745	-1	-874567636	[proc,quicksort_questlist]
 12	746	-1	-725161978	
-12	747	-1	410195078	
+12	747	-1	410195078	[clientscript,worldswitcher_init]
 12	748	-1	1630319436	
 12	749	-1	1479054926	
 12	750	-1	123613001	[clientscript,meslayer_mode14]
@@ -7083,7 +7083,7 @@
 12	838	-1	-917622905	
 12	839	-1	-1205615196	[clientscript,bankmain_size_check]
 12	840	-1	-187672668	[proc,bankmain_size_check]
-12	841	-1	-1777731384	
+12	841	-1	-1777731384	[clientscript,worldswitcher_loading]
 12	842	-1	-1913650115	[clientscript,options_windowmode_init]
 12	843	-1	-1648438135	[proc,options_windowmode_draw]
 12	844	-1	1015431405	[clientscript,options_windowmode_mouserepeat]
@@ -7133,8 +7133,8 @@
 12	888	-1	-1271950438	[clientscript,castlewars_overlay_zamorak]
 12	889	-1	-752152945	
 12	890	-1	179221651	
-12	891	-1	405689042	
-12	892	-1	715620562	
+12	891	-1	405689042	[clientscript,worldswitcher_draw]
+12	892	-1	715620562	[proc,worldswitcher_draw]
 12	893	-1	960924101	
 12	894	-1	1341384431	[clientscript,barrows_nodnod]
 12	895	-1	808499452	[clientscript,barrows_nodnodoff]
@@ -7171,8 +7171,8 @@
 12	926	-1	918775718	[clientscript,pm_init]
 12	927	-1	-1351433970	[proc,chatdefault_setonkey]
 12	928	-1	1096986858	[clientscript,smokeoverlay_init]
-12	929	-1	1865428602	
-12	930	-1	1193984122	
+12	929	-1	1865428602	[clientscript,bankmain_toggleplaceholders]
+12	930	-1	1193984122	[proc,bankmain_toggleplaceholders]
 12	931	-1	-312858003	
 12	932	-1	2082144423	
 12	933	-1	434148007	
@@ -7202,7 +7202,7 @@
 12	957	-1	-992288982	
 12	958	-1	-639767610	
 12	959	-1	1551181640	
-12	960	-1	38977541	
+12	960	-1	38977541	[proc,worldswitcher_entry_draw]
 12	961	-1	2004982497	
 12	962	-1	-738754634	[clientscript,tournament_supplies_init]
 12	963	-1	1242704084	[clientscript,tournament_supplies_search_update]
@@ -7511,7 +7511,7 @@
 12	1266	-1	1220715119	[clientscript,deadman_tournament_sendnames]
 12	1267	-1	10899466	[clientscript,deadman_tournament_op]
 12	1268	-1	-2111439437	[clientscript,deadman_tournament_submit]
-12	1269	-1	401809056	
+12	1269	-1	401809056	[clientscript,bankmain_toggleplaceholders_op]
 12	1270	-1	-1886560340	
 12	1271	-1	-1891066376	
 12	1272	-1	1368240120	

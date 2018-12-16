@@ -6335,7 +6335,7 @@
 12	90	-1	-1436772712	[proc,filtertest]
 12	91	-1	-2036120788	[proc,pm_filtertest]
 12	92	-1	-2069389015	[clientscript,v2_stone_button]
-12	93	-1	512804784	
+12	93	-1	512804784	[clientscript,v2_stone_button_filled]
 12	94	-1	792584909	[clientscript,v2_stone_button_in]
 12	95	-1	-1900409775	
 12	96	-1	1206886976	[proc,chat_sendpublic]
@@ -6376,7 +6376,7 @@
 12	131	-1	-1015986706	[clientscript,closebutton_key]
 12	132	-1	-1860238640	[clientscript,barrows_overlay_init]
 12	133	-1	-127105123	[clientscript,snapshot_onkey]
-12	134	-1	-725420624	
+12	134	-1	-725420624	[proc,v2_stone_button_filled]
 12	135	-1	-240893146	[clientscript,if_settextfont]
 12	136	-1	1254539836	
 12	137	-1	-385172298	
@@ -7341,7 +7341,7 @@
 12	1096	-1	15430745	[clientscript,bugreport_switch_textinput]
 12	1097	-1	-698965415	[proc,bugreport_switch_textinput]
 12	1098	-1	-1478747449	[clientscript,bugreport_keypress]
-12	1099	-1	-1571802724	
+12	1099	-1	-1571802724	[proc,bugreport_parse]
 12	1100	-1	879813973	[clientscript,bugreport_drawbutton]
 12	1101	-1	-1923706027	[proc,bugreport_drawbutton]
 12	1102	-1	-721910844	[clientscript,bugreport_continue]
@@ -7566,7 +7566,7 @@
 12	1321	-1	1659090931	
 12	1322	-1	-107679292	
 12	1323	-1	1308001220	
-12	1324	-1	271364612	
+12	1324	-1	271364612	[clientscript,snapshot_mute]
 12	1325	-1	-872688277	[clientscript,snapshot_ignore]
 12	1326	-1	-1125754327	[proc,snapshot_toggle]
 12	1327	-1	-1472135462	
@@ -8284,8 +8284,8 @@
 12	2039	-1	-2068126353	[clientscript,aide_map_init]
 12	2040	-1	-1811490910	[clientscript,aide_map_tutors]
 12	2041	-1	835479970	[proc,aide_map_tutors]
-12	2042	-1	-8643835	
-12	2043	-1	-1656640251	
+12	2042	-1	-8643835	[clientscript,aide_map_marker]
+12	2043	-1	-1656640251	[proc,aide_map_marker]
 12	2044	-1	-1838106053	
 12	2045	-1	-1146526516	
 12	2046	-1	1552471900	[clientscript,skillmulti_setup]
@@ -8728,7 +8728,7 @@
 12	2483	-1	-1949961836	
 12	2484	-1	-958420822	[clientscript,duel_switch_to_info]
 12	2485	-1	-1416389647	[clientscript,duel_switch_to_inv]
-12	2486	-1	-945450236	
+12	2486	-1	-945450236	[clientscript,duel_switch_to_worn]
 12	2487	-1	395170043	[proc,duel_switch_buttons]
 12	2488	-1	1227631686	[clientscript,duel_mouseout_buttons]
 12	2489	-1	1561690984	[clientscript,duel_add_graphics]

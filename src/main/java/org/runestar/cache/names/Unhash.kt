@@ -1,7 +1,6 @@
 package org.runestar.cache.names
 
 import java.io.ByteArrayOutputStream
-import java.nio.ByteBuffer
 import java.nio.channels.WritableByteChannel
 import java.util.concurrent.Executors
 

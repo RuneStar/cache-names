@@ -6366,7 +6366,7 @@
 12	50	-1	975891828	[clientscript,options_mousecam_init]
 12	51	-1	-440839364	[clientscript,options_mousecam_resynch]
 12	52	-1	-52609917	[clientscript,options_mousecam_op]
-12	53	-1	694219220	
+12	53	-1	694219220	[clientscript,tol_pressure_leverinit]
 12	54	-1	-1383194091	[clientscript,poh_options_drawbutton]
 12	55	-1	-797440256	
 12	56	-1	558524929	
@@ -6772,12 +6772,12 @@
 12	456	-1	941218320	[proc,orbs_update_prayer]
 12	457	-1	692603338	[clientscript,orbs_toggle_runmode]
 12	458	-1	-111090544	[clientscript,prayer_init]
-12	459	-1	616592092	
-12	460	-1	2117567708	
+12	459	-1	616592092	[clientscript,tol_pressure_leverresynch]
+12	460	-1	2117567708	[proc,tol_pressure_leverresynch]
 12	461	-1	-2101905723	[clientscript,prayer_updatebutton]
 12	462	-1	-2011280737	[clientscript,prayer_op]
 12	463	-1	-1083963195	[proc,prayer_updatebutton]
-12	464	-1	1177638075	
+12	464	-1	1177638075	[proc,prayer_isavailable]
 12	465	-1	1333878095	[proc,prayer_quicksort]
 12	466	-1	-1781265241	[clientscript,quickprayer_init]
 12	467	-1	-507620780	[clientscript,quickprayer_icon_update]
@@ -7739,8 +7739,8 @@
 12	1423	-1	-1167483261	
 12	1424	-1	-1396159357	
 12	1425	-1	-795137968	[proc,minmax]
-12	1426	-1	680057059	
-12	1427	-1	-591858468	
+12	1426	-1	680057059	[clientscript,tol_pressure_leverop]
+12	1427	-1	-591858468	[clientscript,tol_pressure_init]
 12	1428	-1	-929105810	
 12	1429	-1	-1089868665	
 12	1430	-1	573919152	
@@ -7795,8 +7795,8 @@
 12	1479	-1	-1769236770	
 12	1480	-1	452566542	[clientscript,hidey_tabbuttons]
 12	1481	-1	904285198	[proc,hidey_tabbuttons]
-12	1482	-1	1529690505	
-12	1483	-1	1526345905	
+12	1482	-1	1529690505	[proc,hidey_tabbuttons_draw]
+12	1483	-1	1526345905	[clientscript,hidey_tabbuttons_hover]
 12	1484	-1	872080416	
 12	1485	-1	-1362777300	
 12	1486	-1	1129936407	
@@ -8279,7 +8279,7 @@
 12	1963	-1	2111255720	[clientscript,options_satooltips_resynch]
 12	1964	-1	-539285609	[clientscript,options_satooltips_op]
 12	1965	-1	-410792221	[proc,options_satooltips]
-12	1966	-1	-596364504	
+12	1966	-1	-596364504	[clientscript,tol_pressure_draw]
 12	1967	-1	-908208439	[clientscript,vm_info_init]
 12	1968	-1	-995353420	[proc,vm_kudos_get_status]
 12	1969	-1	594177943	
@@ -9056,7 +9056,7 @@
 12	2740	-1	1347053289	
 12	2741	-1	1504252642	
 12	2742	-1	943140182	
-12	2743	-1	-154860046	
+12	2743	-1	-154860046	[clientscript,longscroll_init]
 12	2744	-1	-1992100680	
 12	2745	-1	-185537327	
 12	2746	-1	4384294	
@@ -9066,38 +9066,38 @@
 12	2750	-1	-680700584	
 12	2751	-1	-1352145064	
 12	2752	-1	1679062764	
-12	2753	-1	-1711625657	
-12	2754	-1	-1788870263	
-12	2755	-1	-1478938743	
-12	2756	-1	-873394286	
-12	2757	-1	618053010	
-12	2758	-1	-1797499392	
-12	2759	-1	941007087	
-12	2760	-1	1346060301	
-12	2761	-1	1655991821	
+12	2753	-1	-1711625657	[clientscript,wint_timer_init]
+12	2754	-1	-1788870263	[clientscript,wint_timer_resynch]
+12	2755	-1	-1478938743	[proc,wint_timer_resynch]
+12	2756	-1	-873394286	[clientscript,wint_timer_countdown]
+12	2757	-1	618053010	[proc,wint_timer_countdown]
+12	2758	-1	-1797499392	[proc,prayer_infobutton]
+12	2759	-1	941007087	[clientscript,prayer_infomode]
+12	2760	-1	1346060301	[clientscript,prayer_levelupdate]
+12	2761	-1	1655991821	[proc,prayer_levelupdate]
 12	2762	-1	186260102	
-12	2763	-1	522011944	
-12	2764	-1	2007956878	
-12	2765	-1	-682075158	
-12	2766	-1	-1396471318	
-12	2767	-1	1402264861	
-12	2768	-1	1469045253	
-12	2769	-1	1423416854	
-12	2770	-1	-1853607914	
-12	2771	-1	-839681948	
-12	2772	-1	1515768852	
-12	2773	-1	1785486868	
+12	2763	-1	522011944	[proc,tol_pressure_draw]
+12	2764	-1	2007956878	[proc,tol_pressure_valveinit]
+12	2765	-1	-682075158	[clientscript,tol_pressure_valvelistener]
+12	2766	-1	-1396471318	[proc,tol_pressure_valvelistener]
+12	2767	-1	1402264861	[clientscript,tol_pressure_valveop]
+12	2768	-1	1469045253	[clientscript,tol_pipe_init]
+12	2769	-1	1423416854	[clientscript,tol_pipe_setbuttons]
+12	2770	-1	-1853607914	[proc,tol_pipe_setbuttons]
+12	2771	-1	-839681948	[clientscript,pest_rewards_init]
+12	2772	-1	1515768852	[clientscript,pest_rewards_showpoints]
+12	2773	-1	1785486868	[proc,pest_rewards_showpoints]
 12	2774	-1	2053794597	
-12	2775	-1	-844187984	
-12	2776	-1	274188464	
+12	2775	-1	-844187984	[clientscript,pest_rewards_draw]
+12	2776	-1	274188464	[proc,pest_rewards_draw]
 12	2777	-1	-1998439966	
 12	2778	-1	2067851234	
-12	2779	-1	-1860379139	
-12	2780	-1	-1809697956	
-12	2781	-1	1229757738	
-12	2782	-1	549272632	
-12	2783	-1	-343280608	
-12	2784	-1	-477003964	
+12	2779	-1	-1860379139	[proc,pest_rewards_itemdraw]
+12	2780	-1	-1809697956	[proc,pest_rewards_statdraw]
+12	2781	-1	1229757738	[proc,pest_rewards_statbuttondraw]
+12	2782	-1	549272632	[clientscript,pest_rewards_select]
+12	2783	-1	-343280608	[clientscript,pest_rewards_refuse]
+12	2784	-1	-477003964	[proc,pest_rewards_costpoints]
 12	2785	-1	-276384732	
 12	2786	-1	-1963661899	
 13	494	-1	-342013218	p11_full

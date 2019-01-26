@@ -8021,9 +8021,9 @@
 12	1705	-1	-1564206793	
 12	1706	-1	32866174	
 12	1707	-1	-935099341	[clientscript,worldmap_init]
-12	1708	-1	-1405490252	
-12	1709	-1	-967465692	
-12	1710	-1	2089276196	
+12	1708	-1	-1405490252	[clientscript,worldmap_maplist_open]
+12	1709	-1	-967465692	[clientscript,worldmap_maplist_close]
+12	1710	-1	2089276196	[proc,worldmap_maplist_close]
 12	1711	-1	1184898818	
 12	1712	-1	1642864065	[proc,worldmap_loadmap]
 12	1713	-1	1193373316	
@@ -9098,7 +9098,7 @@
 12	2782	-1	549272632	[clientscript,pest_rewards_select]
 12	2783	-1	-343280608	[clientscript,pest_rewards_refuse]
 12	2784	-1	-477003964	[proc,pest_rewards_costpoints]
-12	2785	-1	-276384732	
+12	2785	-1	-276384732	[proc,pest_rewards_costpts]
 12	2786	-1	-1963661899	
 13	494	-1	-342013218	p11_full
 13	495	-1	-313384067	p12_full

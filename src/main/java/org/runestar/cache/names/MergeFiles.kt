@@ -115,6 +115,16 @@ fun main(args: Array<String>) {
         "pvpw_icons,$x".add()
         "sideicons_interface,$x".add()
         "miscgraphics4,$x".add()
+        "cross_interface,$x".add()
+        "red_green_arrows,$x".add()
+        "worldmap_icon_large,$x".add()
+        "steelborder_close_button,$x".add()
+        "headicons_pk_interface,$x".add()
+        "mapdots_interface,$x".add()
+        "clan_chat_icons,$x".add()
+        "combatboxesmed,$x".add()
+        "combatboxes_large,$x".add()
+        "combatboxes_split,$x".add()
     }
 
     val knownNamesMap = knownNames.associateBy { it.hashCode() }

@@ -286,6 +286,7 @@
 [clientscript,barrows_overlay_init]
 [clientscript,barrows_overlay_reward]
 [clientscript,barrows_overlay_size]
+[clientscript,barrows_puzzle_buttonhover]
 [clientscript,barrows_puzzle_init]
 [clientscript,barrows_reward_draw]
 [clientscript,barrows_reward_init]
@@ -434,6 +435,7 @@
 [clientscript,duel_check_button]
 [clientscript,duel_hud_init]
 [clientscript,duel_info]
+[clientscript,duel_initworn]
 [clientscript,duel_mouseout_buttons]
 [clientscript,duel_options_changed]
 [clientscript,duel_options_click]
@@ -608,6 +610,7 @@
 [clientscript,music_optionbuttons_setloop]
 [clientscript,music_optionbuttons_setmode]
 [clientscript,music_vartransmit]
+[clientscript,myq3_blackout_borders]
 [clientscript,myq3_blackout_init]
 [clientscript,notifications_init]
 [clientscript,notifications_lootdrop_init]
@@ -836,6 +839,7 @@
 [clientscript,raids_rewards_build]
 [clientscript,raids_rewards_init]
 [clientscript,raids_rewards_op]
+[clientscript,raids_score_display]
 [clientscript,raids_sidepanel_addline]
 [clientscript,raids_sidepanel_clicksort]
 [clientscript,raids_sidepanel_data]
@@ -944,6 +948,7 @@
 [clientscript,telenexus_tick_mouseover]
 [clientscript,telenexus_tick_op]
 [clientscript,teletab_init]
+[clientscript,teletab_runecost]
 [clientscript,text_device]
 [clientscript,thinbox]
 [clientscript,thinstonebox]
@@ -1900,6 +1905,7 @@ garden of autumn
 garden of spring
 garden of summer
 garden of winter
+ge_backbutton
 glyphs
 gnome king
 gnome village
@@ -2040,6 +2046,7 @@ magic dance
 magic magic magic
 magical journey
 main
+main_stones_bottom
 main_top
 major miner
 making waves
@@ -2048,6 +2055,7 @@ mapback
 mapdots
 mapedge
 mapfunction
+mapfunction_infoicon
 mapletree
 mapmarker
 mapscene
@@ -2072,6 +2080,7 @@ mind over matter
 mini_bottom
 mini_left
 mini_right
+mini_topright
 miracle dance
 mirage
 mirror
@@ -2158,6 +2167,7 @@ poles apart
 prayerglow
 prime time
 principality
+pvp_warning_icon
 q8_full
 quest
 quill_caps_large
@@ -2333,6 +2343,7 @@ title.jpg
 title_mute
 titlebox
 titlebutton
+titlebutton_large
 titlescroll
 tolna
 tomb raider

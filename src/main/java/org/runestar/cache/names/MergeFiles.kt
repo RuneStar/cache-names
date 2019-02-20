@@ -113,6 +113,8 @@ fun main(args: Array<String>) {
         "oge_title,$x".add()
         "close_buttons_v2,$x".add()
         "pvpw_icons,$x".add()
+        "sideicons_interface,$x".add()
+        "miscgraphics4,$x".add()
     }
 
     val knownNamesMap = knownNames.associateBy { it.hashCode() }

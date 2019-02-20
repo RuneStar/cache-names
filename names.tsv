@@ -6401,7 +6401,7 @@
 12	84	-1	-321431830	[proc,rebuildchatbox]
 12	85	-1	1771398018	
 12	86	-1	-338497456	[clientscript,chat_op]
-12	87	-1	-959846140	
+12	87	-1	-959846140	[clientscript,macro_pinball_score]
 12	88	-1	373884133	[clientscript,private_op]
 12	89	-1	1578721039	[proc,rebuildpmbox]
 12	90	-1	-1436772712	[proc,filtertest]
@@ -7196,7 +7196,7 @@
 12	879	-1	1211907007	
 12	880	-1	-802863704	
 12	881	-1	-1556684149	
-12	882	-1	701667942	
+12	882	-1	701667942	[clientscript,gnomeball_score]
 12	883	-1	1672905023	[clientscript,options_clickthroughchat_init]
 12	884	-1	708786404	[clientscript,castlewars_hud_init]
 12	885	-1	-1887623279	[clientscript,options_clickthroughchat_resynch]
@@ -8561,7 +8561,7 @@
 12	2244	-1	-1281751011	[clientscript,logout_button_text]
 12	2245	-1	-1796986708	[proc,quest_members_count]
 12	2246	-1	-189967234	[proc,hud_clamp_review]
-12	2247	-1	58096388	
+12	2247	-1	58096388	[proc,macro_pinball_score]
 12	2248	-1	1401964502	[proc,deadman_mode]
 12	2249	-1	1760943206	
 12	2250	-1	210706142	
@@ -9101,7 +9101,7 @@
 12	2784	-1	-477003964	[proc,pest_rewards_costpoints]
 12	2785	-1	-276384732	[proc,pest_rewards_costpts]
 12	2786	-1	-1963661899	
-12	2787	-1	1196302746	
+12	2787	-1	1196302746	[clientscript,barrows_puzzle_init]
 12	2788	-1	1660587496	
 12	2789	-1	625668966	
 13	494	-1	-342013218	p11_full

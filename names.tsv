@@ -7248,7 +7248,7 @@
 12	931	-1	-312858003	
 12	932	-1	2082144423	
 12	933	-1	434148007	
-12	934	-1	-1442717229	
+12	934	-1	-1442717229	[clientscript,myq3_blackout_init]
 12	935	-1	1564732720	
 12	936	-1	554958640	
 12	937	-1	1355634503	
@@ -7370,13 +7370,13 @@
 12	1053	-1	-2144505363	[clientscript,mourning_toad_settoad]
 12	1054	-1	1140687853	[proc,mourning_toad_settoad]
 12	1055	-1	-1758765767	
-12	1056	-1	260671063	
+12	1056	-1	260671063	[clientscript,farming_tools_side_init]
 12	1057	-1	-1670552115	
 12	1058	-1	1977991019	
 12	1059	-1	-139545184	
 12	1060	-1	1361430432	
-12	1061	-1	-785969346	
-12	1062	-1	715006270	
+12	1061	-1	-785969346	[clientscript,farming_tools_side_update]
+12	1062	-1	715006270	[proc,farming_tools_side_update]
 12	1063	-1	-504353546	
 12	1064	-1	-166945193	
 12	1065	-1	-348395573	[clientscript,barrows_reward_init]
@@ -7678,7 +7678,7 @@
 12	1361	-1	1129139845	[proc,welcome_screen_lastlogin]
 12	1362	-1	1704876246	[clientscript,welcome_screen_messages]
 12	1363	-1	810009881	[clientscript,trawler_activity]
-12	1364	-1	2112676040	
+12	1364	-1	2112676040	[clientscript,barbassault_reward_shop_init]
 12	1365	-1	-927462173	
 12	1366	-1	-850805436	
 12	1367	-1	-377884294	
@@ -8721,7 +8721,7 @@
 12	2404	-1	-2040209343	
 12	2405	-1	-2002261180	[clientscript,nzone_lobby_init]
 12	2406	-1	-2023161054	
-12	2407	-1	1619475707	
+12	2407	-1	1619475707	[clientscript,tol_homonculus_overlay_init]
 12	2408	-1	1999092108	
 12	2409	-1	1974999509	
 12	2410	-1	-31270968	[clientscript,options_storeorb_init]
@@ -8829,7 +8829,7 @@
 12	2512	-1	-1496286556	
 12	2513	-1	-1724962652	
 12	2514	-1	-1677446167	
-12	2515	-1	-849194939	
+12	2515	-1	-849194939	[clientscript,pest_lander_overlay_init]
 12	2516	-1	-391963937	[clientscript,pest_status_overlay_init]
 12	2517	-1	-1551610195	[proc,nzone_lobby_hint]
 12	2518	-1	-1154152000	
@@ -8846,7 +8846,7 @@
 12	2529	-1	1231685770	[proc,deadman_restricted_item]
 12	2530	-1	-1350706345	
 12	2531	-1	-1093517453	[clientscript,corp_beast_init]
-12	2532	-1	1262372885	
+12	2532	-1	1262372885	[clientscript,boardgames_overlay_init]
 12	2533	-1	290815890	[clientscript,gnomeball_init]
 12	2534	-1	-667116897	
 12	2535	-1	105641362	[clientscript,barbassault_overlay_init]
@@ -8855,15 +8855,15 @@
 12	2538	-1	1949792092	[clientscript,agilityarena_overlay_init]
 12	2539	-1	-1949636196	
 12	2540	-1	-1070712237	
-12	2541	-1	1661624563	
+12	2541	-1	1661624563	[clientscript,brew_game_overlay_init]
 12	2542	-1	-725650456	
 12	2543	-1	868345433	
-12	2544	-1	-353935643	
+12	2544	-1	-353935643	[clientscript,100guide_overlay_init]
 12	2545	-1	1774963829	
-12	2546	-1	-1383930630	
-12	2547	-1	-626368314	
+12	2546	-1	-1383930630	[clientscript,ahoy_windspeed_init]
+12	2547	-1	-626368314	[clientscript,macro_evil_bob_init]
 12	2548	-1	1998965561	
-12	2549	-1	2004957709	
+12	2549	-1	2004957709	[clientscript,tzhaar_fightpit_init]
 12	2550	-1	-177757832	
 12	2551	-1	1706406900	[clientscript,cata_boss_init]
 12	2552	-1	1645332721	[clientscript,magictraining_alch_init]

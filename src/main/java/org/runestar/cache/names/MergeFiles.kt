@@ -125,6 +125,10 @@ fun main(args: Array<String>) {
         "combatboxesmed,$x".add()
         "combatboxes_large,$x".add()
         "combatboxes_split,$x".add()
+        "worldswitcher_flags,$x".add()
+        "worldswitcher_stars,$x".add()
+        "worldmap_marker,$x".add()
+        "deadman_deathtype,$x".add()
     }
 
     val knownNamesMap = knownNames.associateBy { it.hashCode() }

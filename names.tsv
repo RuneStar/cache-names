@@ -6512,7 +6512,7 @@
 12	195	-1	-339164925	
 12	196	-1	1371241533	
 12	197	-1	1879137072	[clientscript,agilityarena_rewards_init]
-12	198	-1	-1856555124	
+12	198	-1	-1856555124	[proc,v2_stone_button_in_filled]
 12	199	-1	1307199200	
 12	200	-1	-2093565920	[clientscript,displayname_init]
 12	201	-1	1788063603	[clientscript,pet_insurance_insured]
@@ -6703,8 +6703,8 @@
 12	386	-1	1966567230	[proc,pvp_icons_layout]
 12	387	-1	-1787683848	[proc,pvp_icons_comlevelrange]
 12	388	-1	669337916	[clientscript,pvp_icons_wildernesslevel]
-12	389	-1	-1939582654	
-12	390	-1	-932279572	
+12	389	-1	-1939582654	[clientscript,combat_level_transmit]
+12	390	-1	-932279572	[clientscript,combat_wilderness_transmit]
 12	391	-1	2081697098	[clientscript,poh_options_doors]
 12	392	-1	1813096578	[clientscript,steelbox]
 12	393	-1	-532829006	[clientscript,stats_init]
@@ -6854,10 +6854,10 @@
 12	537	-1	-1482674638	[clientscript,options_xptolevel_op]
 12	538	-1	756460072	[proc,options_xptolevel]
 12	539	-1	-1076487718	[proc,options_setfps]
-12	540	-1	-948431074	
+12	540	-1	-948431074	[clientscript,ge_offers_bigbutton_init]
 12	541	-1	938547597	[proc,ge_offers_bigbutton]
-12	542	-1	1272760493	
-12	543	-1	913042749	
+12	542	-1	1272760493	[clientscript,ge_offers_bigbutton_op]
+12	543	-1	913042749	[clientscript,ge_offers_bigbutton_reset]
 12	544	-1	1404701994	[clientscript,wear_initslot]
 12	545	-1	-1093432751	[clientscript,wear_updateslot]
 12	546	-1	1553538129	[proc,wear_updateslot]
@@ -6896,10 +6896,10 @@
 12	579	-1	-1280695794	
 12	580	-1	-326874330	
 12	581	-1	1088806182	
-12	582	-1	-814599104	
-12	583	-1	2023736911	
-12	584	-1	966518503	
-12	585	-1	-1912768281	
+12	582	-1	-814599104	[clientscript,clanwars_setup_togglebox_init]
+12	583	-1	2023736911	[clientscript,clanwars_setup_togglebox_op]
+12	584	-1	966518503	[clientscript,clanwars_setup_togglebox_update]
+12	585	-1	-1912768281	[proc,clanwars_setup_togglebox_update]
 12	586	-1	-966008282	[clientscript,clanwars_setup_mouseleave]
 12	587	-1	729999752	
 12	588	-1	309144983	
@@ -7086,7 +7086,7 @@
 12	769	-1	339828296	
 12	770	-1	37107843	[proc,stonepanel]
 12	771	-1	-535457898	
-12	772	-1	937436556	
+12	772	-1	937436556	[clientscript,v2_stone_button_in_filled]
 12	773	-1	-394545623	[proc,ge_offers_setup_init]
 12	774	-1	-60535622	[proc,ge_offers_setup_buttontext]
 12	775	-1	1573731915	[proc,ge_offers_setup_buttongraphic]
@@ -7250,7 +7250,7 @@
 12	933	-1	434148007	
 12	934	-1	-1442717229	[clientscript,myq3_blackout_init]
 12	935	-1	1564732720	[clientscript,myq3_blackout_borders]
-12	936	-1	554958640	
+12	936	-1	554958640	[proc,myq3_blackout_borders]
 12	937	-1	1355634503	
 12	938	-1	522753380	
 12	939	-1	-148691100	
@@ -7267,7 +7267,7 @@
 12	950	-1	1139339845	
 12	951	-1	-70455395	[clientscript,fade_overlay_legacy]
 12	952	-1	377090101	[clientscript,fade_overlay_legacy_update]
-12	953	-1	-1204287481	
+12	953	-1	-1204287481	[clientscript,macro_pinball_score_init]
 12	954	-1	1543263036	
 12	955	-1	1994981692	
 12	956	-1	-294814326	
@@ -7372,7 +7372,7 @@
 12	1055	-1	-1758765767	
 12	1056	-1	260671063	[clientscript,farming_tools_side_init]
 12	1057	-1	-1670552115	
-12	1058	-1	1977991019	
+12	1058	-1	1977991019	[proc,farming_tools_side_create]
 12	1059	-1	-139545184	
 12	1060	-1	1361430432	
 12	1061	-1	-785969346	[clientscript,farming_tools_side_update]
@@ -7489,7 +7489,7 @@
 12	1172	-1	1852495207	[clientscript,deadmanloot_tab_transmit]
 12	1173	-1	-1692310465	[clientscript,deadmanloot_inv_switch]
 12	1174	-1	1364431423	[proc,deadmanloot_inv_switch]
-12	1175	-1	-1741448017	
+12	1175	-1	-1741448017	[proc,deadmanloot_inv_tabs_redraw]
 12	1176	-1	-540296142	
 12	1177	-1	-1424321847	
 12	1178	-1	1171004900	
@@ -8283,7 +8283,7 @@
 12	1966	-1	-596364504	[clientscript,tol_pressure_draw]
 12	1967	-1	-908208439	[clientscript,vm_info_init]
 12	1968	-1	-995353420	[proc,vm_kudos_get_status]
-12	1969	-1	594177943	
+12	1969	-1	594177943	[proc,vm_kudos_get_quest_status]
 12	1970	-1	1861845932	
 12	1971	-1	-1069575344	[proc,text_device]
 12	1972	-1	-2042328074	[proc,on_mobile]

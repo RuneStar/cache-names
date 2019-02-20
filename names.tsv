@@ -6370,7 +6370,7 @@
 12	53	-1	694219220	[clientscript,tol_pressure_leverinit]
 12	54	-1	-1383194091	[clientscript,poh_options_drawbutton]
 12	55	-1	-797440256	
-12	56	-1	558524929	
+12	56	-1	558524929	[proc,area_task_complete]
 12	57	-1	-31028644	
 12	58	-1	1692819968	[clientscript,chatbox_multi_init]
 12	59	-1	-1342329868	[proc,chatbox_multi_addoption]
@@ -6657,8 +6657,8 @@
 12	340	-1	-286578965	[clientscript,godwars_killcount_zamorak]
 12	341	-1	-2038047841	[proc,godwars_killcount]
 12	342	-1	-1073573571	[clientscript,godwars_darkness]
-12	343	-1	825516049	
-12	344	-1	-2096811334	
+12	343	-1	825516049	[clientscript,godwars_fader_init]
+12	344	-1	-2096811334	[clientscript,godwars_fader]
 12	345	-1	-943715205	[clientscript,options_brightness_init]
 12	346	-1	1902932298	[clientscript,options_brightness_op]
 12	347	-1	35586773	[clientscript,options_brightness_resynch]
@@ -6758,7 +6758,7 @@
 12	441	-1	221791706	[clientscript,options_minimaporbs_op]
 12	442	-1	846820224	[proc,options_minimaporbs]
 12	443	-1	1979769876	[clientscript,castlewarstrade_init]
-12	444	-1	-342398352	
+12	444	-1	-342398352	[clientscript,barbassault_turret_data]
 12	445	-1	-1811696568	
 12	446	-1	1748639803	
 12	447	-1	-1659275024	[clientscript,orbs_update_runenergy]
@@ -6890,9 +6890,9 @@
 12	573	-1	-1145470028	
 12	574	-1	-1819256162	
 12	575	-1	1465937054	[proc,setup_continuous_border]
-12	576	-1	174186727	
-12	577	-1	-1720555142	
-12	578	-1	-765455849	
+12	576	-1	174186727	[clientscript,clanwars_setup_scrollbox_init]
+12	577	-1	-1720555142	[proc,clanwars_setup_scrollbox_drawframe]
+12	578	-1	-765455849	[clientscript,clanwars_setup_smallbox_init]
 12	579	-1	-1280695794	
 12	580	-1	-326874330	
 12	581	-1	1088806182	
@@ -6901,10 +6901,10 @@
 12	584	-1	966518503	[clientscript,clanwars_setup_togglebox_update]
 12	585	-1	-1912768281	[proc,clanwars_setup_togglebox_update]
 12	586	-1	-966008282	[clientscript,clanwars_setup_mouseleave]
-12	587	-1	729999752	
-12	588	-1	309144983	
-12	589	-1	-732665297	
-12	590	-1	-72607697	
+12	587	-1	729999752	[clientscript,clanwars_setup_corner_init]
+12	588	-1	309144983	[clientscript,clanwars_setup_corner_op]
+12	589	-1	-732665297	[clientscript,clanwars_setup_corner_update]
+12	590	-1	-72607697	[proc,clanwars_setup_corner_update]
 12	591	-1	1822148075	
 12	592	-1	-1000559148	[clientscript,clanwars_gameover]
 12	593	-1	-1886694270	[clientscript,clanwars_hud_init]
@@ -7063,7 +7063,7 @@
 12	746	-1	-725161978	
 12	747	-1	410195078	[clientscript,worldswitcher_init]
 12	748	-1	1630319436	
-12	749	-1	1479054926	
+12	749	-1	1479054926	[clientscript,tutorial_progressbar_init]
 12	750	-1	123613001	[clientscript,meslayer_mode14]
 12	751	-1	1260254985	[clientscript,meslayer_mode14_update]
 12	752	-1	22029577	[proc,meslayer_mode14_update]
@@ -7098,10 +7098,10 @@
 12	781	-1	2117524846	
 12	782	-1	2113018810	
 12	783	-1	-1872016966	
-12	784	-1	-1708827808	
-12	785	-1	525563558	
-12	786	-1	1924217497	
-12	787	-1	685992089	
+12	784	-1	-1708827808	[clientscript,ge_pricechecker_init]
+12	785	-1	525563558	[clientscript,ge_pricechecker_prices]
+12	786	-1	1924217497	[clientscript,ge_pricechecker_redraw]
+12	787	-1	685992089	[proc,ge_pricechecker_redraw]
 12	788	-1	-1351312270	[clientscript,ge_collect_init]
 12	789	-1	-1339919948	[proc,ge_collect_initslot]
 12	790	-1	-1953425408	[clientscript,ge_collect_drawslot]
@@ -7181,7 +7181,7 @@
 12	864	-1	-1369204950	
 12	865	-1	1316439053	[clientscript,pvp_icons_layout_init]
 12	866	-1	391063252	
-12	867	-1	879285018	
+12	867	-1	879285018	[clientscript,tutorial_progressbar_set]
 12	868	-1	952762228	
 12	869	-1	-184597083	[proc,hud_clamp]
 12	870	-1	-1882677425	[clientscript,model_dynamiczoom_init]
@@ -7260,7 +7260,7 @@
 12	943	-1	-1762823331	
 12	944	-1	111245158	
 12	945	-1	771302758	
-12	946	-1	-933646167	
+12	946	-1	-933646167	[clientscript,zep_balloon_map_hover]
 12	947	-1	1087738835	
 12	948	-1	278526517	[clientscript,fade_overlay]
 12	949	-1	-360691043	[clientscript,fade_overlay_update]
@@ -7369,12 +7369,12 @@
 12	1052	-1	352240253	[clientscript,mourning_toad_init]
 12	1053	-1	-2144505363	[clientscript,mourning_toad_settoad]
 12	1054	-1	1140687853	[proc,mourning_toad_settoad]
-12	1055	-1	-1758765767	
+12	1055	-1	-1758765767	[clientscript,farming_tools_main_init]
 12	1056	-1	260671063	[clientscript,farming_tools_side_init]
-12	1057	-1	-1670552115	
+12	1057	-1	-1670552115	[proc,farming_tools_main_create]
 12	1058	-1	1977991019	[proc,farming_tools_side_create]
-12	1059	-1	-139545184	
-12	1060	-1	1361430432	
+12	1059	-1	-139545184	[clientscript,farming_tools_main_update]
+12	1060	-1	1361430432	[proc,farming_tools_main_update]
 12	1061	-1	-785969346	[clientscript,farming_tools_side_update]
 12	1062	-1	715006270	[proc,farming_tools_side_update]
 12	1063	-1	-504353546	
@@ -7607,7 +7607,7 @@
 12	1290	-1	-1013079915	[proc,glidermap_fly]
 12	1291	-1	-205770471	
 12	1292	-1	809870718	[clientscript,teletab_init]
-12	1293	-1	-302696143	
+12	1293	-1	-302696143	[proc,teletab_req_met]
 12	1294	-1	-1629876505	[clientscript,teletab_runecost]
 12	1295	-1	-337528580	
 12	1296	-1	427771501	
@@ -7828,8 +7828,8 @@
 12	1511	-1	1698378460	[proc,raids_overlay_databox]
 12	1512	-1	-1842854020	[clientscript,raids_fadeout]
 12	1513	-1	-198000245	[clientscript,raids_fadein]
-12	1514	-1	-1392915110	
-12	1515	-1	-1082983590	
+12	1514	-1	-1392915110	[clientscript,raids_fader_update]
+12	1515	-1	-1082983590	[proc,raids_fader_update]
 12	1516	-1	1535946459	
 12	1517	-1	1601605274	
 12	1518	-1	-1337545650	
@@ -8577,7 +8577,7 @@
 12	2260	-1	392275061	[clientscript,options_chatscrollside_op]
 12	2261	-1	-115560763	[proc,options_chatscrollside]
 12	2262	-1	611792338	[clientscript,magic_spellbook_init]
-12	2263	-1	650608922	
+12	2263	-1	650608922	[proc,tutorial_progressbar_set]
 12	2264	-1	1173432752	[proc,worldmap_mobile_layout]
 12	2265	-1	545906461	[proc,miniquest_count]
 12	2266	-1	-234664758	[proc,questlist_progress_id]
@@ -9062,10 +9062,10 @@
 12	2745	-1	-185537327	
 12	2746	-1	4384294	
 12	2747	-1	-533488943	
-12	2748	-1	2057628474	
-12	2749	-1	1386183994	
-12	2750	-1	-680700584	
-12	2751	-1	-1352145064	
+12	2748	-1	2057628474	[clientscript,farming_tools_main_recreate]
+12	2749	-1	1386183994	[proc,farming_tools_main_recreate]
+12	2750	-1	-680700584	[clientscript,farming_tools_side_recreate]
+12	2751	-1	-1352145064	[proc,farming_tools_side_recreate]
 12	2752	-1	1679062764	
 12	2753	-1	-1711625657	[clientscript,wint_timer_init]
 12	2754	-1	-1788870263	[clientscript,wint_timer_resynch]
@@ -9102,7 +9102,7 @@
 12	2785	-1	-276384732	[proc,pest_rewards_costpts]
 12	2786	-1	-1963661899	
 12	2787	-1	1196302746	[clientscript,barrows_puzzle_init]
-12	2788	-1	1660587496	
+12	2788	-1	1660587496	[proc,barrows_puzzle_buttoninit]
 12	2789	-1	625668966	[clientscript,barrows_puzzle_buttonhover]
 13	494	-1	-342013218	p11_full
 13	495	-1	-313384067	p12_full

@@ -6479,7 +6479,7 @@
 12	162	-1	-1150985917	[clientscript,interface_inv_drag_slot]
 12	163	-1	-1506122546	[clientscript,cws_toggle]
 12	164	-1	1531598488	[clientscript,cws_graphic_swap]
-12	165	-1	-1307631995	
+12	165	-1	-1307631995	[clientscript,cws_graphic_swap_2]
 12	166	-1	-987103192	[proc,cws_cc_getvar]
 12	167	-1	-1793472225	[clientscript,cws_mouseover]
 12	168	-1	-359689217	[proc,barrows_overlay_size]
@@ -7591,7 +7591,7 @@
 12	1274	-1	414684943	[proc,deadmanprotect_createtab]
 12	1275	-1	1175385087	[clientscript,deadmanprotect_settab]
 12	1276	-1	165611007	[proc,deadmanprotect_settab]
-12	1277	-1	-892561653	
+12	1277	-1	-892561653	[proc,deadmanprotect_stats_refresh_all]
 12	1278	-1	-1122350163	[proc,deadmanprotect_stats_refresh]
 12	1279	-1	2058128242	
 12	1280	-1	778129802	
@@ -8702,8 +8702,8 @@
 12	2385	-1	-353364053	[proc,wint_layout_update]
 12	2386	-1	-392712902	
 12	2387	-1	-2043638639	
-12	2388	-1	-298229816	
-12	2389	-1	-526905912	
+12	2388	-1	-298229816	[clientscript,collection_draw_tabs_all]
+12	2389	-1	-526905912	[proc,collection_draw_tabs_all]
 12	2390	-1	826756761	[proc,welcome_screen_position]
 12	2391	-1	519952973	
 12	2392	-1	-603074295	[clientscript,trawler_overlay_init]
@@ -8983,7 +8983,7 @@
 12	2666	-1	-607598883	[proc,telenexus_set_slot]
 12	2667	-1	-1035942467	[proc,telenexus_remove_tele]
 12	2668	-1	1143604543	[proc,telenexus_slots_full]
-12	2669	-1	-1530493537	
+12	2669	-1	-1530493537	[proc,telenexus_get_slot_value]
 12	2670	-1	1920745448	
 12	2671	-1	1806374916	
 12	2672	-1	-864770242	[clientscript,telenexus_teleport_init]

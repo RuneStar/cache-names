@@ -130,6 +130,9 @@ fun main(args: Array<String>) {
         "worldmap_marker,$x".add()
         "deadman_deathtype,$x".add()
         "combat_autoretaliate,$x".add()
+        "stoneborder_close_button,$x".add()
+        "v2_stone_close_button,$x".add()
+        "v2_stone_button_out,$x".add()
     }
 
     val knownNamesMap = knownNames.associateBy { it.hashCode() }

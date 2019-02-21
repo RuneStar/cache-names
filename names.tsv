@@ -6411,7 +6411,7 @@
 12	94	-1	792584909	[clientscript,v2_stone_button_in]
 12	95	-1	-1900409775	
 12	96	-1	1206886976	[proc,chat_sendpublic]
-12	97	-1	-1641435841	
+12	97	-1	-1641435841	[clientscript,v2_stone_button_out_filled]
 12	98	-1	-709872419	[proc,create_graphic]
 12	99	-1	-1738227320	[clientscript,duel_check_button]
 12	100	-1	1519703915	[clientscript,duel_stake_vartrans]
@@ -6522,7 +6522,7 @@
 12	205	-1	437823757	[clientscript,duel_initworn]
 12	206	-1	-1800955675	
 12	207	-1	-1157978820	[proc,duel_addtostring]
-12	208	-1	1939135295	
+12	208	-1	1939135295	[proc,v2_stone_button_out_filled]
 12	209	-1	1255557544	
 12	210	-1	267198594	
 12	211	-1	-1675591874	[clientscript,poh_options_buildmode]

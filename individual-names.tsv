@@ -608,6 +608,7 @@
 [clientscript,magic_spellbook_targetmode]
 [clientscript,magictraining_alch_init]
 [clientscript,magictraining_other_init]
+[clientscript,mazetimer_init]
 [clientscript,menu]
 [clientscript,mes]
 [clientscript,meslayer_close]

@@ -1481,6 +1481,7 @@
 [proc,prayer_updatebutton]
 [proc,pvp_icons_comlevelrange]
 [proc,pvp_icons_layout]
+[proc,pvpw_check]
 [proc,quest_f2p_count]
 [proc,quest_members_count]
 [proc,questdisplay_setup]
@@ -1820,6 +1821,8 @@ chompy hunt
 city of the dead
 clanwars
 claustrophobia
+clickcircle_filled
+clickcircle_outline
 close quarters
 coil
 coins
@@ -1941,6 +1944,8 @@ forlorn_homestead
 forsaken tower
 fossil_underground
 fountain
+free_trial
+free_trial_button
 frenkenstrain's refrain
 friends_changed_name
 friends_icons

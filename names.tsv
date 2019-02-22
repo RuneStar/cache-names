@@ -7507,9 +7507,9 @@
 12	1190	-1	1191480204	
 12	1191	-1	163534115	[clientscript,thinstonebox]
 12	1192	-1	36897571	[proc,thinstonebox]
-12	1193	-1	-101754515	
-12	1194	-1	276028517	
-12	1195	-1	1777004133	
+12	1193	-1	-101754515	[clientscript,hosidius_tithe_hud]
+12	1194	-1	276028517	[clientscript,hosidius_tithe_hud_update]
+12	1195	-1	1777004133	[proc,hosidius_tithe_hud_update]
 12	1196	-1	-907665049	
 12	1197	-1	1724458574	
 12	1198	-1	711407694	

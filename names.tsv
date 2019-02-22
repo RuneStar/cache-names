@@ -6812,7 +6812,7 @@
 12	495	-1	-1724713029	[clientscript,wilderness_lootingbag_setup]
 12	496	-1	1177806334	[clientscript,wilderness_lootingbag_draw]
 12	497	-1	463410174	[proc,wilderness_lootingbag_draw]
-12	498	-1	-1900448994	
+12	498	-1	-1900448994	[clientscript,killdeathratio_init]
 12	499	-1	-1258679027	
 12	500	-1	-1321543984	
 12	501	-1	-1011612464	
@@ -7023,7 +7023,7 @@
 12	706	-1	2073829408	[clientscript,ge_collect_all_draw]
 12	707	-1	-1203195360	[proc,ge_collect_all_draw]
 12	708	-1	2021236459	
-12	709	-1	1057309283	
+12	709	-1	1057309283	[clientscript,build_achievement_list]
 12	710	-1	1533370556	
 12	711	-1	2014659911	[proc,stoneborder]
 12	712	-1	-1945570788	[clientscript,stonebox]

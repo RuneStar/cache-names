@@ -6544,7 +6544,7 @@
 12	227	-1	446208801	[clientscript,steelborder]
 12	228	-1	-1913180895	[proc,steelborder]
 12	229	-1	89788014	
-12	230	-1	1277695737	
+12	230	-1	1277695737	[clientscript,makeover_clothes_setup]
 12	231	-1	-1299963017	[proc,scrollbar_vertical_rebuild]
 12	232	-1	-1298567043	[clientscript,bankmain_menubutton]
 12	233	-1	-1437766665	
@@ -6816,7 +6816,7 @@
 12	499	-1	-1258679027	
 12	500	-1	-1321543984	
 12	501	-1	-1011612464	
-12	502	-1	1343132187	
+12	502	-1	1343132187	[clientscript,makeover_hair_setup]
 12	503	-1	-280624515	[proc,bankmain_menubutton]
 12	504	-1	-2052996309	[clientscript,bankmain_switchtab]
 12	505	-1	-339382841	[proc,bankmain_finishbuilding]

@@ -614,6 +614,8 @@
 [clientscript,magic_spellbook_targetmode]
 [clientscript,magictraining_alch_init]
 [clientscript,magictraining_other_init]
+[clientscript,makeover_clothes_setup]
+[clientscript,makeover_hair_setup]
 [clientscript,mazetimer_init]
 [clientscript,menu]
 [clientscript,mes]

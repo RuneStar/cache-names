@@ -7192,10 +7192,10 @@
 12	875	-1	-1988674320	[proc,wom_telescope_borders]
 12	876	-1	-2050704803	[clientscript,cc_outline_on]
 12	877	-1	1553156123	[clientscript,trawler_water]
-12	878	-1	1613781073	
-12	879	-1	1211907007	
-12	880	-1	-802863704	
-12	881	-1	-1556684149	
+12	878	-1	1613781073	[clientscript,boardgames_rank_draughts]
+12	879	-1	1211907007	[clientscript,boardgames_rank_runelink]
+12	880	-1	-802863704	[clientscript,boardgames_rank_runeversi]
+12	881	-1	-1556684149	[clientscript,boardgames_rank_runesquares]
 12	882	-1	701667942	[clientscript,gnomeball_score]
 12	883	-1	1672905023	[clientscript,options_clickthroughchat_init]
 12	884	-1	708786404	[clientscript,castlewars_hud_init]

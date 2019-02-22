@@ -6669,9 +6669,9 @@
 12	352	-1	681059630	[clientscript,options_sounds_init]
 12	353	-1	-578729662	[clientscript,options_sounds_resynch]
 12	354	-1	-1228334403	[clientscript,options_sounds_op]
-12	355	-1	34069563	
-12	356	-1	753408789	
-12	357	-1	652554506	
+12	355	-1	34069563	[clientscript,options_areasounds_init]
+12	356	-1	753408789	[clientscript,options_areasounds_resynch]
+12	357	-1	652554506	[clientscript,options_areasounds_op]
 12	358	-1	-2080921996	[proc,options_allsounds]
 12	359	-1	-1078617321	[clientscript,options_mouse_init]
 12	360	-1	1256038073	[clientscript,options_mouse_resynch]
@@ -8693,7 +8693,7 @@
 12	2376	-1	-1923680410	
 12	2377	-1	1699842406	
 12	2378	-1	-26693588	
-12	2379	-1	145839041	
+12	2379	-1	145839041	[clientscript,toplevel_chatbox_resetbackground]
 12	2380	-1	-1912425452	
 12	2381	-1	823161123	
 12	2382	-1	1092879139	

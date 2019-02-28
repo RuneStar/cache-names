@@ -7419,7 +7419,7 @@
 12	1102	-1	-721910844	[clientscript,bugreport_continue]
 12	1103	-1	1287180787	[clientscript,bugreport_submit]
 12	1104	-1	267451885	[clientscript,snapshot_init]
-12	1105	-1	-185210544	[clientscript,has_displayname]
+12	1105	-1	1772427931	
 12	1106	-1	-1056616778	
 12	1107	-1	-2005260695	[clientscript,options_hidepm_init]
 12	1108	-1	-621905369	[clientscript,options_hidepm_resynch]
@@ -8808,12 +8808,12 @@
 12	2491	-1	301721579	[proc,duel_stake_setup_buttontext]
 12	2492	-1	-1483549712	[proc,duel_stake_textbox]
 12	2493	-1	-602797183	
-12	2494	-1	-1833206960	[proc,has_displayname]
+12	2494	-1	-1211281688	
 12	2495	-1	399770940	
 12	2496	-1	1537895501	
 12	2497	-1	1323360896	[clientscript,account_init]
 12	2498	-1	-286652016	[clientscript,account_info_update]
-12	2499	-1	731290512	[proc,account_info_update]
+12	2499	-1	-1931869715	
 12	2500	-1	641125380	[clientscript,account_update_display]
 12	2501	-1	-597100028	[proc,account_update_display]
 12	2502	-1	1731004202	[proc,account_update_layout]

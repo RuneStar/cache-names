@@ -6453,7 +6453,7 @@
 12	136	-1	1254539836	
 12	137	-1	-385172298	
 12	138	-1	812897378	[clientscript,meslayer_ondialogabort]
-12	139	-1	1080875587	
+12	139	-1	1080875587	[clientscript,raids_partydetails_autorefresh]
 12	140	-1	-1851136513	[clientscript,barrows_overlay_size]
 12	141	-1	-1198689324	[proc,ge_collect_all_init]
 12	142	-1	125608312	
@@ -7224,18 +7224,18 @@
 12	907	-1	-1962092943	[proc,toplevel_redraw]
 12	908	-1	-989558942	[proc,toplevel_subchange]
 12	909	-1	-1948484780	[proc,toplevel_resize]
-12	910	-1	-354651983	
-12	911	-1	181705641	
+12	910	-1	-354651983	[proc,toplevel_mainmodal_bg_calculate]
+12	911	-1	181705641	[proc,toplevel_mainmodal_bg_build]
 12	912	-1	1649730288	[proc,toplevel_sidebuttons_enable]
 12	913	-1	231752713	[proc,toplevel_flashicon]
 12	914	-1	2020160283	[clientscript,toplevel_sidebutton_op]
 12	915	-1	-864133976	[clientscript,toplevel_sidebutton_switch]
 12	916	-1	-1578530136	[proc,toplevel_sidebutton_switch]
-12	917	-1	1303943599	
+12	917	-1	1303943599	[clientscript,toplevel_mainmodal_background]
 12	918	-1	1996132796	[proc,toplevel_check_sidepanel]
 12	919	-1	-263023546	
 12	920	-1	-246044151	
-12	921	-1	231392186	
+12	921	-1	231392186	[proc,toplevel_chatbox_maketransparent]
 12	922	-1	-430765529	
 12	923	-1	-363905330	[proc,toplevel_chatbox_background]
 12	924	-1	1829793467	
@@ -7830,20 +7830,20 @@
 12	1513	-1	-198000245	[clientscript,raids_fadein]
 12	1514	-1	-1392915110	[clientscript,raids_fader_update]
 12	1515	-1	-1082983590	[proc,raids_fader_update]
-12	1516	-1	1535946459	
-12	1517	-1	1601605274	
-12	1518	-1	-1337545650	
-12	1519	-1	-1191094113	
-12	1520	-1	1764066975	
-12	1521	-1	1219778525	
-12	1522	-1	1569776292	
-12	1523	-1	556725412	
+12	1516	-1	1535946459	[clientscript,raids_partydetails_init]
+12	1517	-1	1601605274	[clientscript,raids_partydetails_addline]
+12	1518	-1	-1337545650	[proc,raids_partydetails_entry_init]
+12	1519	-1	-1191094113	[clientscript,raids_partydetails_entry_setup]
+12	1520	-1	1764066975	[proc,raids_partydetails_entry_setup]
+12	1521	-1	1219778525	[clientscript,raids_partydetails_entry_op]
+12	1522	-1	1569776292	[clientscript,raids_partydetails_closestats]
+12	1523	-1	556725412	[proc,raids_partydetails_closestats]
 12	1524	-1	2054719558	
-12	1525	-1	-749725425	
-12	1526	-1	1814938125	
+12	1525	-1	-749725425	[proc,raids_partydetails_setsort]
+12	1526	-1	1814938125	[proc,raids_partydetails_sort]
 12	1527	-1	-1447778148	
 12	1528	-1	-105133245	
-12	1529	-1	365331753	
+12	1529	-1	365331753	[clientscript,raids_partydetails_clicksort]
 12	1530	-1	1665197211	
 12	1531	-1	-1391784729	
 12	1532	-1	1824353696	
@@ -8630,12 +8630,12 @@
 12	2313	-1	1340699754	[proc,tob_hud_setportal]
 12	2314	-1	1604992898	[clientscript,tob_hud_playportal]
 12	2315	-1	-1408401858	[clientscript,tob_hud_cleartext]
-12	2316	-1	1922751933	
-12	2317	-1	-1403605294	
+12	2316	-1	1922751933	[clientscript,tob_partydetails_init]
+12	2317	-1	-1403605294	[clientscript,tob_partydetails_addmember]
 12	2318	-1	899087108	
-12	2319	-1	-1426382739	
+12	2319	-1	-1426382739	[clientscript,tob_partydetails_kickmember]
 12	2320	-1	-1957342577	
-12	2321	-1	1971770732	
+12	2321	-1	1971770732	[clientscript,tob_partydetails_addapplicant]
 12	2322	-1	-1517006610	
 12	2323	-1	-282036696	
 12	2324	-1	1601270905	
@@ -8643,14 +8643,14 @@
 12	2326	-1	1320138697	
 12	2327	-1	1301254856	
 12	2328	-1	-1909397360	
-12	2329	-1	-362403920	
+12	2329	-1	-362403920	[clientscript,tob_partydetails_forcebutton]
 12	2330	-1	359084452	
 12	2331	-1	-1032276670	
-12	2332	-1	-394753759	
-12	2333	-1	-339384595	
-12	2334	-1	922251503	
+12	2332	-1	-394753759	[clientscript,tob_partydetails_autorefresh]
+12	2333	-1	-339384595	[proc,tob_partydetails_setsort]
+12	2334	-1	922251503	[proc,tob_partydetails_sort]
 12	2335	-1	-1511704454	
-12	2336	-1	940331911	
+12	2336	-1	940331911	[clientscript,tob_partydetails_clicksort]
 12	2337	-1	1553949919	[clientscript,tob_partylist_init]
 12	2338	-1	-1868216263	[clientscript,tob_partylist_setpartybutton]
 12	2339	-1	-1208158663	[proc,tob_partylist_setpartybutton]
@@ -8838,8 +8838,8 @@
 12	2521	-1	-367589780	
 12	2522	-1	742523929	[clientscript,decant_itembutton_key]
 12	2523	-1	1233405976	
-12	2524	-1	1395424275	
-12	2525	-1	290892719	
+12	2524	-1	1395424275	[clientscript,toplevel_mainmodal_open]
+12	2525	-1	290892719	[proc,toplevel_mainmodal_background]
 12	2526	-1	1029498783	
 12	2527	-1	-876331994	
 12	2528	-1	1263088462	
@@ -8856,7 +8856,7 @@
 12	2539	-1	-1949636196	
 12	2540	-1	-1070712237	
 12	2541	-1	1661624563	[clientscript,brew_game_overlay_init]
-12	2542	-1	-725650456	
+12	2542	-1	-725650456	[proc,toplevel_mainmodal_bg_calculate_mobile]
 12	2543	-1	868345433	
 12	2544	-1	-353935643	[clientscript,100guide_overlay_init]
 12	2545	-1	1774963829	

@@ -6979,14 +6979,14 @@
 12	662	-1	-333962640	[proc,skill_guide_salamanders]
 12	663	-1	1846492042	[clientscript,chat_onchattransmit]
 12	664	-1	-1519196337	
-12	665	-1	-952876684	
-12	666	-1	538570612	
-12	667	-1	-1381588887	
-12	668	-1	-1721401969	
-12	669	-1	1118495859	
-12	670	-1	889819763	
-12	671	-1	2052064458	
-12	672	-1	1548143536	
+12	665	-1	-952876684	[clientscript,rune_pouch_drawpouch]
+12	666	-1	538570612	[proc,rune_pouch_drawpouch]
+12	667	-1	-1381588887	[proc,rune_pouch_drawpouch_slot]
+12	668	-1	-1721401969	[clientscript,rune_pouch_pouchreorder]
+12	669	-1	1118495859	[clientscript,rune_pouch_drawinventory]
+12	670	-1	889819763	[proc,rune_pouch_drawinventory]
+12	671	-1	2052064458	[proc,rune_pouch_drawinventory_slot]
+12	672	-1	1548143536	[clientscript,rune_pouch_inventoryreorder]
 12	673	-1	-1850810761	[proc,add]
 12	674	-1	445135864	
 12	675	-1	416730695	

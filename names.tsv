@@ -7810,8 +7810,8 @@
 12	1493	-1	1494086226	[clientscript,pest_activity_update]
 12	1494	-1	-1309433774	[proc,pest_activity_update]
 12	1495	-1	967669089	
-12	1496	-1	459961185	
-12	1497	-1	-1283415711	
+12	1496	-1	459961185	[clientscript,agilityarena_rewards_setgracefulbutton]
+12	1497	-1	-1283415711	[proc,agilityarena_rewards_setgracefulbutton]
 12	1498	-1	-1988047586	
 12	1499	-1	-118016809	
 12	1500	-1	-1457823017	
@@ -8347,12 +8347,12 @@
 12	2030	-1	-736619627	
 12	2031	-1	1582551657	
 12	2032	-1	674058475	[clientscript,agilityarena_rewards_hidelayer]
-12	2033	-1	1711266562	
-12	2034	-1	2054712142	
-12	2035	-1	1706760526	
+12	2033	-1	1711266562	[proc,agilityarena_rewards_gracefulbutton_init]
+12	2034	-1	2054712142	[clientscript,agilityarena_rewards_gracefulbutton_draw]
+12	2035	-1	1706760526	[proc,agilityarena_rewards_gracefulbutton_draw]
 12	2036	-1	423968696	
-12	2037	-1	-377277215	
-12	2038	-1	785106657	
+12	2037	-1	-377277215	[clientscript,agilityarena_rewards_gracefulcancel]
+12	2038	-1	785106657	[proc,agilityarena_rewards_gracefulcancel]
 12	2039	-1	-2068126353	[clientscript,aide_map_init]
 12	2040	-1	-1811490910	[clientscript,aide_map_tutors]
 12	2041	-1	835479970	[proc,aide_map_tutors]

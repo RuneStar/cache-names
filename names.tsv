@@ -7121,7 +7121,7 @@
 12	804	-1	1756945327	[clientscript,ge_offers_switchpanel]
 12	805	-1	-1522596758	
 12	806	-1	747171247	[proc,ge_offers_switchpanel]
-12	807	-1	847971318	
+12	807	-1	847971318	[proc,ge_offers_initboxes]
 12	808	-1	1986587773	[clientscript,ge_offers_priceicon]
 12	809	-1	-1290436995	[proc,ge_offers_priceicon]
 12	810	-1	-253916699	[proc,ge_textbox]

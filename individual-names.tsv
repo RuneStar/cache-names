@@ -1348,6 +1348,7 @@
 [proc,ge_offers_index_drawtop]
 [proc,ge_offers_index_initslot]
 [proc,ge_offers_index_inittop]
+[proc,ge_offers_initboxes]
 [proc,ge_offers_priceicon]
 [proc,ge_offers_setup_buttongraphic]
 [proc,ge_offers_setup_buttontext]

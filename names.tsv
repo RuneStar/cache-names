@@ -8634,7 +8634,7 @@
 12	2317	-1	-1403605294	[clientscript,tob_partydetails_addmember]
 12	2318	-1	899087108	
 12	2319	-1	-1426382739	[clientscript,tob_partydetails_kickmember]
-12	2320	-1	-1957342577	
+12	2320	-1	-1957342577	[clientscript,tob_partydetails_timeout_kickmember]
 12	2321	-1	1971770732	[clientscript,tob_partydetails_addapplicant]
 12	2322	-1	-1517006610	
 12	2323	-1	-282036696	
@@ -8687,7 +8687,7 @@
 12	2370	-1	-240769514	
 12	2371	-1	-1478994922	
 12	2372	-1	-799067938	
-12	2373	-1	1718499393	
+12	2373	-1	1718499393	[proc,toplevel_chatbox_controls_maketransparent]
 12	2374	-1	799423013	[clientscript,fade_init]
 12	2375	-1	-352180164	[proc,castlewars_waitingroom_update]
 12	2376	-1	-1923680410	

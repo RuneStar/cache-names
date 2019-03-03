@@ -4,7 +4,7 @@ import java.nio.file.Files
 import java.nio.file.Path
 import java.nio.file.Paths
 
-fun main(args: Array<String>) {
+fun main() {
     val namesFile = Paths.get("names.tsv")
 
     fun dump(

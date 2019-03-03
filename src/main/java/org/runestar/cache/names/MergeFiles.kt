@@ -4,7 +4,7 @@ import java.io.File
 import java.nio.file.Files
 import java.nio.file.Paths
 
-fun main(args: Array<String>) {
+fun main() {
     val uniqueNameHashes = File("name-hashes.tsv").readLines().mapTo(HashSet()) { it.split('\t').last().toInt() }
 
     val individualNames = File("individual-names.tsv").readLines().toSortedSet()

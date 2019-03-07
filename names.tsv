@@ -9106,9 +9106,9 @@
 12	2789	-1	625668966	[clientscript,barrows_puzzle_buttonhover]
 12	2790	-1	-1387423618	[proc,skill_guide_subsection_magic]
 12	2791	-1	806088921	[proc,skill_guide_data_magic]
-12	2792	-1	-1723908796	
-12	2793	-1	2025499251	
-12	2794	-1	-1288651461	
+12	2792	-1	-1723908796	[proc,orbs_spec_draw_button]
+12	2793	-1	2025499251	[clientscript,orbs_toggle_spec_op]
+12	2794	-1	-1288651461	[clientscript,orbs_blocked_spec_op]
 13	494	-1	-342013218	p11_full
 13	495	-1	-313384067	p12_full
 13	496	-1	1057075019	b12_full

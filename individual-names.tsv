@@ -580,6 +580,7 @@
 [clientscript,interface_invother_init]
 [clientscript,interface_invother_update_big]
 [clientscript,ironman_init]
+[clientscript,itemsets_info_init]
 [clientscript,itemsets_init]
 [clientscript,itemsets_redraw]
 [clientscript,itemsets_side_draw]

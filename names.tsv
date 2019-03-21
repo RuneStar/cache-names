@@ -7127,7 +7127,7 @@
 12	810	-1	-253916699	[proc,ge_textbox]
 12	811	-1	633292281	
 12	812	-1	598811029	
-12	813	-1	-242239526	
+12	813	-1	-242239526	[proc,ge_offers_checkavailable]
 12	814	-1	1711540387	
 12	815	-1	2031699000	
 12	816	-1	-1856670045	
@@ -7403,7 +7403,7 @@
 12	1086	-1	48780582	[proc,stonebutton_url_draw]
 12	1087	-1	-1806945816	[clientscript,stonebutton_url_click]
 12	1088	-1	-1640897205	[clientscript,stonebutton_url_clickrelease]
-12	1089	-1	-1048872183	
+12	1089	-1	-1048872183	[clientscript,slayer_rewards_extend_init]
 12	1090	-1	1691140095	[proc,slayer_rewards_unlock_draw]
 12	1091	-1	1448240620	
 12	1092	-1	2108298220	
@@ -8350,7 +8350,7 @@
 12	2033	-1	1711266562	[proc,agilityarena_rewards_gracefulbutton_init]
 12	2034	-1	2054712142	[clientscript,agilityarena_rewards_gracefulbutton_draw]
 12	2035	-1	1706760526	[proc,agilityarena_rewards_gracefulbutton_draw]
-12	2036	-1	423968696	
+12	2036	-1	423968696	[proc,agilityarena_rewards_gracefulbutton_drawcomponents]
 12	2037	-1	-377277215	[clientscript,agilityarena_rewards_gracefulcancel]
 12	2038	-1	785106657	[proc,agilityarena_rewards_gracefulcancel]
 12	2039	-1	-2068126353	[clientscript,aide_map_init]

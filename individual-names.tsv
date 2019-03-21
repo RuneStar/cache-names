@@ -853,6 +853,7 @@
 [clientscript,prayer_op]
 [clientscript,prayer_updatebutton]
 [clientscript,private_op]
+[clientscript,pvp_icons_killdeathratio]
 [clientscript,pvp_icons_layout]
 [clientscript,pvp_icons_layout_init]
 [clientscript,pvp_icons_wildernesslevel]
@@ -1177,6 +1178,8 @@
 [clientscript,zoom_init]
 [clientscript,zoom_mouse_toggle]
 [clientscript,zoom_outline]
+[clientscript,zoom_slider_dragcomplete]
+[clientscript,zoom_slider_ondrag]
 [proc,account_inbox_update]
 [proc,account_info_update]
 [proc,account_name_update]
@@ -1792,6 +1795,7 @@
 [proc,zeah_favour_settitle]
 [proc,zeah_favour_sort]
 [proc,zoom_init]
+[proc,zoom_position_slider]
 adventure
 al kharid
 alchemical hydra

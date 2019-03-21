@@ -6808,7 +6808,7 @@
 12	491	-1	-1212584045	[proc,bankside_switchview]
 12	492	-1	1614358809	[clientscript,bankside_lootingbag_draw]
 12	493	-1	1385682713	[proc,bankside_lootingbag_draw]
-12	494	-1	-417491245	
+12	494	-1	-417491245	[clientscript,pvp_icons_killdeathratio]
 12	495	-1	-1724713029	[clientscript,wilderness_lootingbag_setup]
 12	496	-1	1177806334	[clientscript,wilderness_lootingbag_draw]
 12	497	-1	463410174	[proc,wilderness_lootingbag_draw]
@@ -7147,7 +7147,7 @@
 12	830	-1	-383888464	
 12	831	-1	2130700860	[clientscript,zoom_init]
 12	832	-1	185170188	[clientscript,zoom_outline]
-12	833	-1	-529900099	
+12	833	-1	-529900099	[clientscript,zoom_slider_ondrag]
 12	834	-1	-927273436	[clientscript,if_setnoclickthrough]
 12	835	-1	599457183	[proc,options_button_off]
 12	836	-1	573526893	[proc,options_button_on]
@@ -7357,13 +7357,13 @@
 12	1040	-1	-1045683943	[clientscript,orbs_xpdrops_op]
 12	1041	-1	470404273	[clientscript,orbs_xpdrops_update]
 12	1042	-1	1488346801	[proc,orbs_xpdrops_update]
-12	1043	-1	921700323	
+12	1043	-1	921700323	[clientscript,zoom_slider_dragcomplete]
 12	1044	-1	1130171393	
 12	1045	-1	-1850455532	[proc,max]
 12	1046	-1	-1850448154	[proc,min]
 12	1047	-1	-1998645466	
 12	1048	-1	2117839305	
-12	1049	-1	-1921740745	
+12	1049	-1	-1921740745	[proc,zoom_position_slider]
 12	1050	-1	-387275878	[clientscript,toplevel_compass_op]
 12	1051	-1	1125464433	[clientscript,spinmodel]
 12	1052	-1	352240253	[clientscript,mourning_toad_init]

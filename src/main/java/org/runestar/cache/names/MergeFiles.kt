@@ -140,6 +140,7 @@ fun main() {
         "scrollbar_trans_dragger,$x".add()
         "v2_borders_slim,$x".add()
         "v2_stone_borders_alt,$x".add()
+        "favourite_icons,$x".add()
     }
 
     val knownNamesMap = knownNames.associateBy { it.hashCode() }

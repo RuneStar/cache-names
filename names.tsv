@@ -4688,7 +4688,7 @@
 8	526	-1	2031924705	headicons_pk_interface,3
 8	527	-1	2031924706	headicons_pk_interface,4
 8	528	-1	2031924707	headicons_pk_interface,5
-8	529	-1	-1445437730	
+8	529	-1	-1445437730	hloading2
 8	530	-1	3061973	crag
 8	531	-1	925589451	water_animated
 8	532	-1	1906536007	marble_poh
@@ -4846,16 +4846,16 @@
 8	684	-1	290391723	options_slider,5
 8	685	-1	290391724	options_slider,6
 8	686	-1	290391725	options_slider,7
-8	687	-1	-1402242829	
-8	688	-1	-1402242828	
-8	689	-1	-1402242827	
-8	690	-1	-1402242826	
-8	691	-1	-1402242825	
-8	692	-1	-1402242824	
-8	693	-1	-1402242823	
-8	694	-1	-1402242822	
-8	695	-1	-1402242821	
-8	696	-1	-1402242820	
+8	687	-1	-1402242829	options_slider_five,0
+8	688	-1	-1402242828	options_slider_five,1
+8	689	-1	-1402242827	options_slider_five,2
+8	690	-1	-1402242826	options_slider_five,3
+8	691	-1	-1402242825	options_slider_five,4
+8	692	-1	-1402242824	options_slider_five,5
+8	693	-1	-1402242823	options_slider_five,6
+8	694	-1	-1402242822	options_slider_five,7
+8	695	-1	-1402242821	options_slider_five,8
+8	696	-1	-1402242820	options_slider_five,9
 8	697	-1	1956141536	options_radio_buttons,0
 8	698	-1	1956141537	options_radio_buttons,1
 8	699	-1	1956141538	options_radio_buttons,2
@@ -4952,12 +4952,12 @@
 8	790	-1	197053881	scrollbar_dragger_v2,1
 8	791	-1	197053882	scrollbar_dragger_v2,2
 8	792	-1	197053883	scrollbar_dragger_v2,3
-8	793	-1	1859825780	
-8	794	-1	1859825781	
-8	795	-1	-1087614029	
-8	796	-1	-1087614028	
-8	797	-1	-1087614027	
-8	798	-1	-1087614026	
+8	793	-1	1859825780	scrollbar_parchment_v2,0
+8	794	-1	1859825781	scrollbar_parchment_v2,1
+8	795	-1	-1087614029	scrollbar_parchment_dragger_v2,0
+8	796	-1	-1087614028	scrollbar_parchment_dragger_v2,1
+8	797	-1	-1087614027	scrollbar_parchment_dragger_v2,2
+8	798	-1	-1087614026	scrollbar_parchment_dragger_v2,3
 8	799	-1	1158866405	close_buttons_v2,0
 8	800	-1	1158866406	close_buttons_v2,1
 8	801	-1	2010633993	scrollbar_sep,0
@@ -5096,7 +5096,7 @@
 8	934	-1	-1890631097	v2_stone_button_out,5
 8	935	-1	-1890631096	v2_stone_button_out,6
 8	936	-1	-1890631095	v2_stone_button_out,7
-8	937	-1	1883892063	
+8	937	-1	1883892063	exclamation_mark
 8	938	-1	-149881983	
 8	939	-1	-149881982	
 8	940	-1	2111304827	warning_icons,0
@@ -5344,12 +5344,12 @@
 8	1182	-1	1994806034	
 8	1183	-1	-1470463910	
 8	1184	-1	-1468326684	
-8	1185	-1	1157901182	
-8	1186	-1	1157901183	
-8	1187	-1	-2039017932	
-8	1188	-1	-2039017931	
-8	1189	-1	-2039017930	
-8	1190	-1	-2039017929	
+8	1185	-1	1157901182	scrollbar_trans_arrows,0
+8	1186	-1	1157901183	scrollbar_trans_arrows,1
+8	1187	-1	-2039017932	scrollbar_trans_dragger,0
+8	1188	-1	-2039017931	scrollbar_trans_dragger,1
+8	1189	-1	-2039017930	scrollbar_trans_dragger,2
+8	1190	-1	-2039017929	scrollbar_trans_dragger,3
 8	1191	-1	-342458074	sideicons_logout
 8	1192	-1	1956141539	options_radio_buttons,3
 8	1193	-1	3540994	stop
@@ -5498,7 +5498,7 @@
 8	1336	-1	-1253693085	magic_necro_off,42
 8	1337	-1	-1253693084	magic_necro_off,43
 8	1338	-1	443607517	worldswitcher_stars,4
-8	1339	-1	-680017090	
+8	1339	-1	-680017090	gameblast_logo_2016
 8	1340	-1	-1785689976	
 8	1341	-1	-1785689975	
 8	1342	-1	1310729744	bankbuttons,7
@@ -5570,7 +5570,7 @@
 8	1408	-1	-1201527603	premier_bronze
 8	1409	-1	-723226048	premier_silver
 8	1410	-1	1875988563	premier_gold
-8	1411	-1	151754031	
+8	1411	-1	151754031	premier_comingsoon
 8	1412	-1	1085444827	refresh
 8	1413	-1	-1333874720	side_icons,17
 8	1414	-1	-1054847467	sideicons_interface,17

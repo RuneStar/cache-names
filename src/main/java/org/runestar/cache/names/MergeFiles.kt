@@ -133,6 +133,11 @@ fun main() {
         "stoneborder_close_button,$x".add()
         "v2_stone_close_button,$x".add()
         "v2_stone_button_out,$x".add()
+        "options_slider_five,$x".add()
+        "scrollbar_parchment_v2,$x".add()
+        "scrollbar_parchment_dragger_v2,$x".add()
+        "scrollbar_trans_arrows,$x".add()
+        "scrollbar_trans_dragger,$x".add()
     }
 
     val knownNamesMap = knownNames.associateBy { it.hashCode() }

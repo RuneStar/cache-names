@@ -141,6 +141,7 @@ fun main() {
         "v2_borders_slim,$x".add()
         "v2_stone_borders_alt,$x".add()
         "favourite_icons,$x".add()
+        "mod_icons_interface,$x".add()
     }
 
     val knownNamesMap = knownNames.associateBy { it.hashCode() }

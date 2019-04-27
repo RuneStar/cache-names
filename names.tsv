@@ -6343,7 +6343,7 @@
 10	2	-1	-314778466	titlewide.jpg
 12	0	-1	-1248498418	[clientscript,tt_rewards_init]
 12	1	-1	1040653880	
-12	2	-1	-2080802731	
+12	2	-1	-2080802731	[proc,hex_to_rgb]
 12	3	-1	2992446	[proc,target_world]
 12	4	-1	705356908	
 12	5	-1	-2039380490	
@@ -6974,7 +6974,7 @@
 12	630	-1	-1455063518	[clientscript,ignore_update]
 12	631	-1	-428081426	[clientscript,friend_update]
 12	632	-1	-1075127529	
-12	633	-1	1827543514	
+12	633	-1	1827543514	[proc,int_to_bool]
 12	634	-1	-1646353300	[proc,displayname_draw]
 12	635	-1	824285238	[clientscript,displayname_lookup]
 12	636	-1	-1562591351	

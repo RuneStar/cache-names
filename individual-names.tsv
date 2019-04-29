@@ -1718,6 +1718,7 @@
 [proc,toplevel_sidebutton_switch]
 [proc,toplevel_sidebuttons_enable]
 [proc,toplevel_subchange]
+[proc,tostring_spacer]
 [proc,tournament_beta_world]
 [proc,tournament_sidepanel_setactive]
 [proc,tournament_sidepanel_setcolour]

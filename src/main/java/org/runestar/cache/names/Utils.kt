@@ -2,8 +2,6 @@ package org.runestar.cache.names
 
 import java.io.File
 import java.io.OutputStream
-import java.nio.ByteBuffer
-import java.nio.channels.WritableByteChannel
 import java.nio.charset.Charset
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.TimeUnit
@@ -26,8 +24,6 @@ fun ExecutorService.shutdownAwait() {
 }
 
 fun OutputStream.write(b: Byte) = write(b.toInt())
-
-fun WritableByteChannel.write(src: ByteArray) = write(ByteBuffer.wrap(src))
 
 fun unknownHashes(index: Int): IntSet {
     val set = HashSet<Int>()
@@ -52,24 +48,3 @@ fun unknownHashes(): IntSet {
     }
     return IntSet.of(set)
 }
-
-/*
-    // seers_texture ?
-
-    // #
-    // the doors of dinh
-    // fire in the deep
-    // ice and fire
-    // night of the vampyre
-    // tempest
-    // preservation
-    // preserved
-    // fossilized
-    // lagoon
-
-    // http://oldschoolrunescape.wikia.com/wiki/Unlisted_music_tracks
-    // http://oldschoolrunescape.wikia.com/wiki/Massacre
-
-    // woodenfloor_lig...
-    // mirror_texture
- */

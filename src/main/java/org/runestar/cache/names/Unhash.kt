@@ -1,30 +1,29 @@
 package org.runestar.cache.names
 
 import java.io.ByteArrayOutputStream
-import java.nio.channels.WritableByteChannel
-import java.util.concurrent.Executors
+import java.io.OutputStream
+import java.util.concurrent.Executor
 
 fun unhash(
-        results: WritableByteChannel,
+        results: OutputStream,
         alphabet: String,
         prefix: String,
         suffix: String,
         targetHashes: IntSet,
-        maxCombinations: Int
+        maxCombinations: Int,
+        executor: Executor
 ) {
     val alphabetArray = alphabet.toByteArray(CHARSET).distinctArray()
     val prefixBytes = prefix.toByteArray(CHARSET)
     val suffixBytes = suffix.toByteArray(CHARSET)
-    val n = alphabetArray.size
+    val base = alphabetArray.size
 
-    val pool = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors() - 1)
-
-    for (startIndex in 0 until n) {
-        pool.submit {
+    for (startIndex in 0 until base) {
+        executor.execute {
             val out = ByteArrayOutputStream()
             val curHashes = IntArray(maxCombinations)
             curHashes[0] = 0.update(prefixBytes)
-            multisetPermutations(n, maxCombinations, intArrayOf(startIndex)) { indices, len ->
+            multisetPermutations(base, maxCombinations, intArrayOf(startIndex)) { indices, len ->
                 val pos = len - 1
                 val hash = curHashes[pos].update(alphabetArray[indices[pos]])
                 if (len != maxCombinations) {
@@ -42,38 +41,35 @@ fun unhash(
             results.write(out.toByteArray())
         }
     }
-
-    pool.shutdownAwait()
 }
 
 fun unhash(
-        results: WritableByteChannel,
+        results: OutputStream,
         dict: Set<String>,
         prefix: String,
         suffix: String,
         separator: Char,
         targetHashes: IntSet,
-        maxCombinations: Int
+        maxCombinations: Int,
+        executor: Executor
 ) {
     val prefixBytes = prefix.toByteArray(CHARSET)
     val suffixBytes = suffix.toByteArray(CHARSET)
     val separatorByte = separator.toByte(CHARSET)
     val dictArray = dict.map { it.toByteArray(CHARSET) }.toTypedArray()
-    val n = dictArray.size
+    val base = dictArray.size
 
-    val pool = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors() - 1)
-
-    for (startIndex in 0 until n) {
-        pool.submit {
+    for (startIndex in 0 until base) {
+        executor.execute {
             val out = ByteArrayOutputStream()
             val curHashes = IntArray(maxCombinations)
             curHashes[0] = 0.update(prefixBytes)
-            multisetPermutations(n * 2, maxCombinations, intArrayOf(startIndex)) { indices, len ->
+            multisetPermutations(base * 2, maxCombinations, intArrayOf(startIndex)) { indices, len ->
                 val pos = len - 1
                 val v = indices[pos]
                 val lastHash = curHashes[pos]
-                val hash = if (v >= n) {
-                    lastHash.update(separatorByte).update(dictArray[v - n])
+                val hash = if (v >= base) {
+                    lastHash.update(separatorByte).update(dictArray[v - base])
                 } else {
                     lastHash.update(dictArray[v])
                 }
@@ -84,9 +80,9 @@ fun unhash(
                     out.write(prefixBytes)
                     for (i in 0 until len) {
                         val vv = indices[i]
-                        if (vv >= n) {
+                        if (vv >= base) {
                             out.write(separatorByte)
-                            out.write(dictArray[vv - n])
+                            out.write(dictArray[vv - base])
                         } else {
                             out.write(dictArray[vv])
                         }
@@ -98,6 +94,4 @@ fun unhash(
             results.write(out.toByteArray())
         }
     }
-
-    pool.shutdownAwait()
 }

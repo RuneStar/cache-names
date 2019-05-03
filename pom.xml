@@ -10,8 +10,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-
-        <kotlin.version>1.3.21</kotlin.version>
+        <kotlin.version>1.3.31</kotlin.version>
     </properties>
 
     <dependencies>
@@ -39,6 +38,11 @@
                 </executions>
                 <configuration>
                     <jvmTarget>1.8</jvmTarget>
+                    <args>
+                        <arg>-Xno-call-assertions</arg>
+                        <arg>-Xno-receiver-assertions</arg>
+                        <arg>-Xno-param-assertions</arg>
+                    </args>
                 </configuration>
             </plugin>
         </plugins>

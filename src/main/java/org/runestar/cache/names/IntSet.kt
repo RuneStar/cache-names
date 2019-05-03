@@ -1,21 +1,20 @@
 package org.runestar.cache.names
 
+import java.lang.IllegalArgumentException
+
 interface IntSet {
 
     companion object {
 
         fun of(set: Set<Int>): IntSet {
-            return when (set.size) {
-                1 -> One(set.single())
-                2 -> {
-                    val itr = set.iterator()
-                    Two(itr.next(), itr.next())
-                }
-                3 -> {
-                    val itr = set.iterator()
-                    Three(itr.next(), itr.next(), itr.next())
-                }
-                else -> Hash(set)
+            val array = set.toIntArray()
+            return when (array.size) {
+                0 -> throw IllegalArgumentException()
+                1 -> One(array[0])
+                2 -> Two(array[0], array[1])
+                3 -> Three(array[0], array[1], array[2])
+                4 -> Four(array[0], array[1], array[2], array[3])
+                else -> Hash(array)
             }
         }
     }
@@ -23,30 +22,31 @@ interface IntSet {
     operator fun contains(value: Int): Boolean
 
     private class One(private val n: Int) : IntSet {
-
         override fun contains(value: Int) = n == value
     }
 
     private class Two(private val n0: Int, private val n1: Int) : IntSet {
-
         override fun contains(value: Int) = value == n0 || value == n1
     }
 
     private class Three(private val n0: Int, private val n1: Int, private val n2: Int) : IntSet {
-
         override fun contains(value: Int) = value == n0 || value == n1 || value == n2
     }
 
-    private class Hash(set: Set<Int>) : IntSet {
+    private class Four(private val n0: Int, private val n1: Int, private val n2: Int, private val n3: Int) : IntSet {
+        override fun contains(value: Int) = value == n0 || value == n1 || value == n2 || value == n3
+    }
 
-        private val elements = IntArray(Integer.highestOneBit(set.size * 40))
+    private class Hash(ns: IntArray) : IntSet {
+
+        private val elements = IntArray(Integer.highestOneBit(ns.size * 40))
 
         private val size = elements.size
 
         private val mask = size - 1
 
         init {
-            for (e in set) {
+            for (e in ns) {
                 require(e != 0)
                 elements[probeInitial(e)] = e
             }

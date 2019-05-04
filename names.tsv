@@ -7272,8 +7272,8 @@
 12	929	-1	1865428602	[clientscript,bankmain_toggleplaceholders]
 12	930	-1	1193984122	[proc,bankmain_toggleplaceholders]
 12	931	-1	-312858003	
-12	932	-1	2082144423	
-12	933	-1	434148007	
+12	932	-1	2082144423	[clientscript,snowflakes_zoom]
+12	933	-1	434148007	[proc,snowflakes_zoom]
 12	934	-1	-1442717229	[clientscript,myq3_blackout_init]
 12	935	-1	1564732720	[clientscript,myq3_blackout_borders]
 12	936	-1	554958640	[proc,myq3_blackout_borders]
@@ -8037,7 +8037,7 @@
 12	1694	-1	-2133840511	
 12	1695	-1	-1396391712	[clientscript,oculus_close]
 12	1696	-1	-1734540802	[proc,agilityarena_rewards_initbutton]
-12	1697	-1	-774184597	
+12	1697	-1	-774184597	[proc,magic_spacer_tostring]
 12	1698	-1	-402485736	
 12	1699	-1	1831956645	[clientscript,orbs_worldmap_setup]
 12	1700	-1	-1445068123	[proc,orbs_worldmap_setup]

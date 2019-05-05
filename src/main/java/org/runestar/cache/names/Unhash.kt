@@ -38,7 +38,7 @@ fun unhash(
                     out.write('\n'.toByte())
                 }
             }
-            results.write(out.toByteArray())
+            out.writeTo(results)
         }
     }
 }
@@ -91,7 +91,7 @@ fun unhash(
                     out.write('\n'.toByte())
                 }
             }
-            results.write(out.toByteArray())
+            out.writeTo(results)
         }
     }
 }

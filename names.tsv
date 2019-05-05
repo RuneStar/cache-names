@@ -6587,7 +6587,7 @@
 12	243	-1	-792309893	[proc,autocast_spellpos]
 12	244	-1	132301331	[clientscript,cc_settrans]
 12	245	-1	-1577663387	[clientscript,deadman_tournament_fogcolour]
-12	246	-1	2140486521	
+12	246	-1	2140486521	[proc,rgb_to_hex]
 12	247	-1	104114097	[proc,inzone]
 12	248	-1	2078215186	[clientscript,nzone_rewards_init]
 12	249	-1	495736450	[proc,steelbox]
@@ -9195,7 +9195,7 @@
 12	2853	-1	2137152733	[clientscript,cocktail_show_ingredients]
 12	2854	-1	-656838947	[proc,cocktail_show_ingredients]
 12	2855	-1	1256833257	[proc,cocktail_create_ingredient]
-12	2856	-1	1177724836	
+12	2856	-1	1177724836	[proc,cocktail_return_dummy]
 12	2857	-1	164278883	[proc,cocktail_check_inv]
 12	2858	-1	1041760923	[clientscript,clock_build]
 12	2859	-1	713970614	[clientscript,clock_fake_update]

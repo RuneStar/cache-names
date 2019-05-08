@@ -6483,7 +6483,7 @@
 12	139	-1	1080875587	[clientscript,raids_partydetails_autorefresh]
 12	140	-1	-1851136513	[clientscript,barrows_overlay_size]
 12	141	-1	-1198689324	[proc,ge_collect_all_init]
-12	142	-1	125608312	
+12	142	-1	125608312	[clientscript,trade_confirm_init]
 12	143	-1	-1467408214	[clientscript,cam_forceangle]
 12	144	-1	462432611	[clientscript,bank_depositbox_init]
 12	145	-1	-166650038	[clientscript,bank_depositbox_update]
@@ -7107,9 +7107,9 @@
 12	764	-1	-2083158450	
 12	765	-1	-472857676	[clientscript,trade_slot_changed]
 12	766	-1	-279698709	
-12	767	-1	-414229839	
-12	768	-1	1077217457	
-12	769	-1	339828296	
+12	767	-1	-414229839	[clientscript,trade_confirm_redraw]
+12	768	-1	1077217457	[proc,trade_confirm_redraw]
+12	769	-1	339828296	[proc,trade_confirm_itemtext]
 12	770	-1	37107843	[proc,stonepanel]
 12	771	-1	-535457898	
 12	772	-1	937436556	[clientscript,v2_stone_button_in_filled]
@@ -7991,7 +7991,7 @@
 12	1648	-1	1277815146	[clientscript,options_followerops_resynch]
 12	1649	-1	-1753808491	[clientscript,options_followerops_op]
 12	1650	-1	-1759262299	[proc,options_followerops]
-12	1651	-1	776314909	
+12	1651	-1	776314909	[clientscript,confirmdestroy_triggerbutton]
 12	1652	-1	49333030	[clientscript,confirmdestroy_resetbutton]
 12	1653	-1	-2052940484	
 12	1654	-1	-193656780	

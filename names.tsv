@@ -7059,8 +7059,8 @@
 12	715	-1	-594406618	[proc,thinbox]
 12	716	-1	-1006814320	
 12	717	-1	-817204096	[clientscript,anma_reward_init]
-12	718	-1	1600174200	
-12	719	-1	1847783279	
+12	718	-1	1600174200	[clientscript,object_swapper]
+12	719	-1	1847783279	[clientscript,cc_object_swapper]
 12	720	-1	-551187491	[clientscript,cc_fade]
 12	721	-1	302762583	[clientscript,cc_fade_timer]
 12	722	-1	1389888381	

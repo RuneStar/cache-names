@@ -6385,8 +6385,8 @@
 12	41	-1	971155611	[proc,deltooltip_action]
 12	42	-1	-1800030059	[proc,camera_do_zoom]
 12	43	-1	267938782	[clientscript,zoom_mouse_toggle]
-12	44	-1	1003841157	
-12	45	-1	-1057589361	
+12	44	-1	1003841157	[clientscript,graphic_swapper]
+12	45	-1	-1057589361	[clientscript,text_colour_swapper]
 12	46	-1	1910507737	[proc,tostring_spacer]
 12	47	-1	-324762185	
 12	48	-1	1082717086	
@@ -6408,9 +6408,9 @@
 12	64	-1	-1361138043	
 12	65	-1	-382485956	[clientscript,set_spinner]
 12	66	-1	510688383	[clientscript,spinner]
-12	67	-1	-1038278108	
-12	68	-1	-97271926	
-12	69	-1	-1589686994	
+12	67	-1	-1038278108	[clientscript,model_swapper]
+12	68	-1	-97271926	[clientscript,text_swapper]
+12	69	-1	-1589686994	[clientscript,comp_sethide]
 12	70	-1	-1832378658	
 12	71	-1	781934875	[proc,toplevel_sidebutton_op]
 12	72	-1	1140994645	[proc,scrollbar_resize]
@@ -6426,7 +6426,7 @@
 12	82	-1	631286800	[clientscript,orbs_update_prayer]
 12	83	-1	-1414925076	[clientscript,splitpm_changed]
 12	84	-1	-321431830	[proc,rebuildchatbox]
-12	85	-1	1771398018	
+12	85	-1	1771398018	[clientscript,cc_colour_swapper]
 12	86	-1	-338497456	[clientscript,chat_op]
 12	87	-1	-959846140	[clientscript,macro_pinball_score]
 12	88	-1	373884133	[clientscript,private_op]
@@ -6570,7 +6570,7 @@
 12	226	-1	-1506039069	
 12	227	-1	446208801	[clientscript,steelborder]
 12	228	-1	-1913180895	[proc,steelborder]
-12	229	-1	89788014	
+12	229	-1	89788014	[clientscript,cc_graphic_swapper]
 12	230	-1	1277695737	[clientscript,makeover_clothes_setup]
 12	231	-1	-1299963017	[proc,scrollbar_vertical_rebuild]
 12	232	-1	-1298567043	[clientscript,bankmain_menubutton]
@@ -6940,7 +6940,7 @@
 12	596	-1	544677467	[proc,clanwars_hud_countdown_update]
 12	597	-1	259705799	[clientscript,clanwars_hud_countdown_tick]
 12	598	-1	1862701805	[proc,clanwars_hud_countdown_redraw]
-12	599	-1	1127565377	
+12	599	-1	1127565377	[clientscript,cc_text_swapper]
 12	600	-1	976169920	[clientscript,if_settextalign]
 12	601	-1	787286523	[proc,poll_storequestion]
 12	602	-1	1897604566	[proc,poll_retrievequestion]

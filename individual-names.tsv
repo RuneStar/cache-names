@@ -1338,6 +1338,7 @@
 [proc,deadman_mode]
 [proc,deadman_overlay_hide]
 [proc,deadman_restricted_item]
+[proc,deadman_skullduration]
 [proc,deadman_stats_set_protect]
 [proc,deadman_stats_set_unprotect]
 [proc,deadman_toplevel_close]

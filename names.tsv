@@ -6895,12 +6895,12 @@
 12	551	-1	319618819	
 12	552	-1	-1349680864	
 12	553	-1	-1887971170	
-12	554	-1	-938646142	
-12	555	-1	1674574058	
-12	556	-1	1735294	
-12	557	-1	-1379770328	
-12	558	-1	1879536168	
-12	559	-1	1361997193	
+12	554	-1	-938646142	[clientscript,clanwars_confirm_setup]
+12	555	-1	1674574058	[clientscript,clanwars_confirm_challenge_wait]
+12	556	-1	1735294	[clientscript,clanwars_confirm_challenge_op]
+12	557	-1	-1379770328	[clientscript,clanwars_confirm_challenge_redraw]
+12	558	-1	1879536168	[proc,clanwars_confirm_challenge_redraw]
+12	559	-1	1361997193	[clientscript,clanwars_confirm_join_op]
 12	560	-1	1258479101	
 12	561	-1	1616442252	
 12	562	-1	-741651049	[clientscript,clanwars_view_setup]
@@ -8868,7 +8868,7 @@
 12	2524	-1	1395424275	[clientscript,toplevel_mainmodal_open]
 12	2525	-1	290892719	[proc,toplevel_mainmodal_background]
 12	2526	-1	1029498783	
-12	2527	-1	-876331994	
+12	2527	-1	-876331994	[proc,mobile_mainmodal_open]
 12	2528	-1	1263088462	
 12	2529	-1	1231685770	[proc,deadman_restricted_item]
 12	2530	-1	-1350706345	
@@ -9115,7 +9115,7 @@
 12	2771	-1	-839681948	[clientscript,pest_rewards_init]
 12	2772	-1	1515768852	[clientscript,pest_rewards_showpoints]
 12	2773	-1	1785486868	[proc,pest_rewards_showpoints]
-12	2774	-1	2053794597	
+12	2774	-1	2053794597	[clientscript,pest_rewards_confirmop]
 12	2775	-1	-844187984	[clientscript,pest_rewards_draw]
 12	2776	-1	274188464	[proc,pest_rewards_draw]
 12	2777	-1	-1998439966	[clientscript,pest_rewards_confirmdraw]

@@ -6660,7 +6660,7 @@
 12	316	-1	305870719	[clientscript,music_optionbuttons_setloop]
 12	317	-1	-1453604565	[clientscript,music_optionbuttons_resynch]
 12	318	-1	-580521370	[proc,music_optionbuttons]
-12	319	-1	1584422678	
+12	319	-1	1584422678	[clientscript,slayer_rewards_confirm_back]
 12	320	-1	-2002551752	
 12	321	-1	188909267	[clientscript,slayer_rewards_buy_init]
 12	322	-1	58302882	[clientscript,slayer_rewards_buy_op]
@@ -6755,7 +6755,7 @@
 12	411	-1	-1884925005	[clientscript,slayer_rewards_unlock_init]
 12	412	-1	350168072	
 12	413	-1	709572104	
-12	414	-1	2047834487	
+12	414	-1	2047834487	[clientscript,slayer_rewards_unlock_confirm]
 12	415	-1	-1340583704	[clientscript,smithing_init]
 12	416	-1	1669887301	[clientscript,smithing_setup]
 12	417	-1	-1127361264	

@@ -6547,7 +6547,7 @@
 12	203	-1	-2002587945	
 12	204	-1	-2098071956	[clientscript,displayname_draw]
 12	205	-1	437823757	[clientscript,duel_initworn]
-12	206	-1	-1800955675	
+12	206	-1	-1800955675	[clientscript,duel_confirm_text]
 12	207	-1	-1157978820	[proc,duel_addtostring]
 12	208	-1	1939135295	[proc,v2_stone_button_out_filled]
 12	209	-1	1255557544	
@@ -7105,7 +7105,7 @@
 12	761	-1	-1319740140	
 12	762	-1	1024599313	[clientscript,trade_main_drawitems]
 12	763	-1	-1778920687	[proc,trade_main_drawitems]
-12	764	-1	-2083158450	
+12	764	-1	-2083158450	[clientscript,duel_confirm_initworn]
 12	765	-1	-472857676	[clientscript,trade_slot_changed]
 12	766	-1	-279698709	
 12	767	-1	-414229839	[clientscript,trade_confirm_redraw]
@@ -7170,7 +7170,7 @@
 12	826	-1	1850751473	[clientscript,itemsets_side_draw]
 12	827	-1	-2134284303	[proc,itemsets_side_draw]
 12	828	-1	-498848569	[clientscript,playermember]
-12	829	-1	-1797893154	
+12	829	-1	-1797893154	[clientscript,duel_confirm_worn]
 12	830	-1	-383888464	
 12	831	-1	2130700860	[clientscript,zoom_init]
 12	832	-1	185170188	[clientscript,zoom_outline]

@@ -9118,8 +9118,8 @@
 12	2774	-1	2053794597	
 12	2775	-1	-844187984	[clientscript,pest_rewards_draw]
 12	2776	-1	274188464	[proc,pest_rewards_draw]
-12	2777	-1	-1998439966	
-12	2778	-1	2067851234	
+12	2777	-1	-1998439966	[clientscript,pest_rewards_confirmdraw]
+12	2778	-1	2067851234	[proc,pest_rewards_confirmdraw]
 12	2779	-1	-1860379139	[proc,pest_rewards_itemdraw]
 12	2780	-1	-1809697956	[proc,pest_rewards_statdraw]
 12	2781	-1	1229757738	[proc,pest_rewards_statbuttondraw]

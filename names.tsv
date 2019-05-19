@@ -6738,12 +6738,12 @@
 12	394	-1	-1485622809	[clientscript,stats_setlevels]
 12	395	-1	1161348071	[proc,stats_setlevels]
 12	396	-1	288171727	[clientscript,stats_skilltotal]
-12	397	-1	-935166650	
-12	398	-1	1527134220	
-12	399	-1	-443302605	
+12	397	-1	-935166650	[clientscript,fairyrings_op]
+12	398	-1	1527134220	[clientscript,fairyrings_rotate]
+12	399	-1	-443302605	[clientscript,fairyrings_confirm]
 12	400	-1	-1329425335	
-12	401	-1	561613522	
-12	402	-1	1271926697	
+12	401	-1	561613522	[clientscript,fairyrings_sort_mouseeffect]
+12	402	-1	1271926697	[clientscript,fairyrings_sort_update]
 12	403	-1	-264579798	[clientscript,poh_tablets_init]
 12	404	-1	-1186448324	[clientscript,raids_storage_private_init]
 12	405	-1	556022092	[clientscript,slayer_rewards_init]
@@ -6901,8 +6901,8 @@
 12	557	-1	-1379770328	[clientscript,clanwars_confirm_challenge_redraw]
 12	558	-1	1879536168	[proc,clanwars_confirm_challenge_redraw]
 12	559	-1	1361997193	[clientscript,clanwars_confirm_join_op]
-12	560	-1	1258479101	
-12	561	-1	1616442252	
+12	560	-1	1258479101	[proc,clanwars_confirm_pressed]
+12	561	-1	1616442252	[proc,clanwars_confirm_notpressed]
 12	562	-1	-741651049	[clientscript,clanwars_view_setup]
 12	563	-1	299845093	[clientscript,clanwars_view_op]
 12	564	-1	276291479	[proc,clanwars_view_setup]
@@ -8732,7 +8732,7 @@
 12	2388	-1	-298229816	[clientscript,collection_draw_tabs_all]
 12	2389	-1	-526905912	[proc,collection_draw_tabs_all]
 12	2390	-1	826756761	[proc,welcome_screen_position]
-12	2391	-1	519952973	
+12	2391	-1	519952973	[clientscript,mobile_billing_open]
 12	2392	-1	-603074295	[clientscript,trawler_overlay_init]
 12	2393	-1	-1810177495	
 12	2394	-1	-2040209405	
@@ -8837,7 +8837,7 @@
 12	2493	-1	-602797183	
 12	2494	-1	-1211281688	[proc,skill_guide_subsection_prayer]
 12	2495	-1	399770940	
-12	2496	-1	1537895501	
+12	2496	-1	1537895501	[proc,mobile_billing_open]
 12	2497	-1	1323360896	[clientscript,account_init]
 12	2498	-1	-286652016	[clientscript,account_info_update]
 12	2499	-1	-1931869715	[proc,skill_guide_data_prayer]

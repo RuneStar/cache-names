@@ -6956,9 +6956,9 @@
 12	612	-1	936475211	[proc,poll_setuplink]
 12	613	-1	527691808	[clientscript,poll_clicklink]
 12	614	-1	-371827527	[clientscript,poll_resetlink]
-12	615	-1	-807300388	
-12	616	-1	950449205	
-12	617	-1	-287776203	
+12	615	-1	-807300388	[clientscript,poll_placeholder_init]
+12	616	-1	950449205	[clientscript,poll_placeholder_pulse]
+12	617	-1	-287776203	[proc,poll_placeholder_pulse]
 12	618	-1	678581677	
 12	619	-1	-184974301	
 12	620	-1	2126455885	
@@ -7734,8 +7734,8 @@
 12	1390	-1	740963613	
 12	1391	-1	-317819755	
 12	1392	-1	1661238394	
-12	1393	-1	1134176983	
-12	1394	-1	905500887	
+12	1393	-1	1134176983	[clientscript,poh_viewer_preview_pulse]
+12	1394	-1	905500887	[proc,poh_viewer_preview_pulse]
 12	1395	-1	-2095783366	[clientscript,poh_viewer_sideinit]
 12	1396	-1	-1890910623	[clientscript,poh_viewer_sideupdate]
 12	1397	-1	1394282593	[proc,poh_viewer_sideupdate]

@@ -9209,9 +9209,9 @@
 12	2865	-1	1150296306	[clientscript,seed_vault_search_toggle]
 12	2866	-1	664399040	[proc,seed_vault_search_setbutton]
 12	2867	-1	1805026457	[clientscript,seed_vault_search_refresh]
-12	2868	-1	-1020142994	
-12	2869	-1	1934673209	
-12	2870	-1	1533277150	
+12	2868	-1	-1020142994	[clientscript,objbox_setbuttons]
+12	2869	-1	1934673209	[clientscript,objbox_listener]
+12	2870	-1	1533277150	[clientscript,objbox_reset]
 13	494	-1	-342013218	p11_full
 13	495	-1	-313384067	p12_full
 13	496	-1	1057075019	b12_full

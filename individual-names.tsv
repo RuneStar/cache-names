@@ -535,6 +535,7 @@
 [clientscript,fossil_pool_update]
 [clientscript,fossil_storage_build]
 [clientscript,fossil_storage_init]
+[clientscript,fossil_warning_flasher]
 [clientscript,fossilquest_progress]
 [clientscript,fossilquest_voyage]
 [clientscript,fossilquest_voyage_end]

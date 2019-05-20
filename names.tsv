@@ -8340,7 +8340,7 @@
 12	1996	-1	2096750686	[clientscript,fossilquest_voyage_end]
 12	1997	-1	1171068992	[clientscript,fossil_oxygen_level]
 12	1998	-1	57737397	[clientscript,fossil_init]
-12	1999	-1	-1299763141	
+12	1999	-1	-1299763141	[clientscript,fossil_warning_flasher]
 12	2000	-1	-1231222824	[clientscript,fossil_fade_overlay]
 12	2001	-1	-1631309926	[clientscript,fossil_fade_overlay_update]
 12	2002	-1	-95849432	

@@ -7023,7 +7023,7 @@
 12	679	-1	-802485748	[proc,bankpin_button_setup]
 12	680	-1	-1387541047	
 12	681	-1	1383916307	[proc,meslayer_enter]
-12	682	-1	1449426661	
+12	682	-1	1449426661	[clientscript,meslayer_lastname_click]
 12	683	-1	-934877677	
 12	684	-1	1532518672	[clientscript,bankpin_button_mouseover]
 12	685	-1	-1488202864	[clientscript,bankpin_button_op]
@@ -8055,7 +8055,7 @@
 12	1711	-1	1184898818	[clientscript,worldmap_maplist_select]
 12	1712	-1	1642864065	[proc,worldmap_loadmap]
 12	1713	-1	1193373316	
-12	1714	-1	1552216257	
+12	1714	-1	1552216257	[clientscript,worldmap_overview_click]
 12	1715	-1	1164101224	[proc,worldmap_findcoordinmap]
 12	1716	-1	1108891445	[proc,worldmap_toggles_createbutton]
 12	1717	-1	-18154290	[proc,worldmap_toggles_enablebutton]
@@ -8083,8 +8083,8 @@
 12	1739	-1	-1499401025	
 12	1740	-1	-1907206729	
 12	1741	-1	1377986487	
-12	1742	-1	-1134082019	
-12	1743	-1	-1362758115	
+12	1742	-1	-1134082019	[clientscript,worldmap_overview_toggle]
+12	1743	-1	-1362758115	[proc,worldmap_overview_toggle]
 12	1744	-1	1230542119	[clientscript,worldmap_hovertoggle]
 12	1745	-1	371341200	[proc,worldmap_window_set]
 12	1746	-1	-1821935472	
@@ -8283,10 +8283,10 @@
 12	1939	-1	-68081153	
 12	1940	-1	1870473919	
 12	1941	-1	2140191935	
-12	1942	-1	-1941443654	
-12	1943	-1	1681755916	
-12	1944	-1	1991687436	
-12	1945	-1	665175798	
+12	1942	-1	-1941443654	[proc,wildwars_world]
+12	1943	-1	1681755916	[clientscript,wildwars_hudupdate]
+12	1944	-1	1991687436	[proc,wildwars_hudupdate]
+12	1945	-1	665175798	[clientscript,wildwars_hud_init]
 12	1946	-1	1030385628	
 12	1947	-1	1241736541	
 12	1948	-1	1453087454	
@@ -8297,8 +8297,8 @@
 12	1953	-1	1656199421	
 12	1954	-1	811727550	
 12	1955	-1	-32744321	
-12	1956	-1	-2142915390	
-12	1957	-1	-1832983870	
+12	1956	-1	-2142915390	[clientscript,wildwars_fogcolour]
+12	1957	-1	-1832983870	[proc,wildwars_fogcolour]
 12	1958	-1	-1534685343	[clientscript,options_prayertooltips_init]
 12	1959	-1	-484848081	[clientscript,options_prayertooltips_resynch]
 12	1960	-1	60978608	[clientscript,options_prayertooltips_op]
@@ -8433,7 +8433,7 @@
 12	2089	-1	-504230231	
 12	2090	-1	-234512215	
 12	2091	-1	-1283572006	[clientscript,xpdrops_fake]
-12	2092	-1	483313228	
+12	2092	-1	483313228	[clientscript,oculus_flashers]
 12	2093	-1	1145742596	
 12	2094	-1	-1869415605	
 12	2095	-1	717191620	
@@ -8560,7 +8560,7 @@
 12	2216	-1	1908163593	[proc,welcome_screen_credit]
 12	2217	-1	1999175126	
 12	2218	-1	1284778966	
-12	2219	-1	-1164683188	
+12	2219	-1	-1164683188	[proc,oculus_flashers]
 12	2220	-1	1234975500	[clientscript,oculus_controls]
 12	2221	-1	-146968861	[clientscript,set_renderself]
 12	2222	-1	688198168	
@@ -8956,8 +8956,8 @@
 12	2612	-1	1787193484	
 12	2613	-1	-1154377282	
 12	2614	-1	-1162539065	
-12	2615	-1	1827362880	
-12	2616	-1	1670149600	
+12	2615	-1	1827362880	[proc,magic_spellbook_modifyops]
+12	2616	-1	1670149600	[proc,magic_spellbook_initialisespells]
 12	2617	-1	532782318	[clientscript,magic_spellbook_targetmode]
 12	2618	-1	-1903073099	[proc,magic_spellbook_hidespells]
 12	2619	-1	914467193	
@@ -9000,7 +9000,7 @@
 12	2656	-1	-1698142419	[clientscript,telenexus_examine_cost]
 12	2657	-1	-817875080	[clientscript,telenexus_hide_cost]
 12	2658	-1	200067448	[proc,telenexus_hide_cost]
-12	2659	-1	1486496193	
+12	2659	-1	1486496193	[clientscript,telenexus_okbutton_click]
 12	2660	-1	-2022972328	[clientscript,telenexus_done_text]
 12	2661	-1	1263374526	[clientscript,telenexus_cancel]
 12	2662	-1	873528549	[clientscript,poh_nexus_model]
@@ -9025,7 +9025,7 @@
 12	2681	-1	-392981807	[proc,telenexus_get_slot]
 12	2682	-1	-1270518585	
 12	2683	-1	1017489921	
-12	2684	-1	1354745331	
+12	2684	-1	1354745331	[clientscript,bond_prompt_init]
 12	2685	-1	-1563543238	
 12	2686	-1	-1121338232	
 12	2687	-1	898131837	

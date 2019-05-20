@@ -7107,7 +7107,7 @@
 12	763	-1	-1778920687	[proc,trade_main_drawitems]
 12	764	-1	-2083158450	[clientscript,duel_confirm_initworn]
 12	765	-1	-472857676	[clientscript,trade_slot_changed]
-12	766	-1	-279698709	
+12	766	-1	-279698709	[clientscript,trade_slot_flasher]
 12	767	-1	-414229839	[clientscript,trade_confirm_redraw]
 12	768	-1	1077217457	[proc,trade_confirm_redraw]
 12	769	-1	339828296	[proc,trade_confirm_itemtext]

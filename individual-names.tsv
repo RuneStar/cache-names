@@ -1135,6 +1135,7 @@
 [clientscript,trade_main_drawitems]
 [clientscript,trade_main_init]
 [clientscript,trade_slot_changed]
+[clientscript,trade_slot_flasher]
 [clientscript,trawler_activity]
 [clientscript,trawler_overlay_init]
 [clientscript,trawler_water]

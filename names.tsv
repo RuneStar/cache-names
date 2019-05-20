@@ -7945,8 +7945,8 @@
 12	1601	-1	-1081927472	[proc,deathkeep_build]
 12	1602	-1	166461126	[proc,raids_storage_shared_warning]
 12	1603	-1	-1166493115	[clientscript,deathkeep_infomessage]
-12	1604	-1	26923688	
-12	1605	-1	686981288	
+12	1604	-1	26923688	[clientscript,raids_storage_private_prompt]
+12	1605	-1	686981288	[proc,raids_storage_private_prompt]
 12	1606	-1	1880223630	[clientscript,raids_storage_private_items]
 12	1607	-1	1208779150	[proc,raids_storage_private_items]
 12	1608	-1	-281640363	[proc,raids_storage_private_drawitem]
@@ -7974,9 +7974,9 @@
 12	1630	-1	1822128812	[proc,options_shiftclickdrop]
 12	1631	-1	1599210019	
 12	1632	-1	-160761206	
-12	1633	-1	-1643143448	
-12	1634	-1	-695646321	
-12	1635	-1	-1705420401	
+12	1633	-1	-1643143448	[clientscript,motherlode_hud_init]
+12	1634	-1	-695646321	[clientscript,motherlode_hud_update]
+12	1635	-1	-1705420401	[proc,motherlode_hud_update]
 12	1636	-1	-574714362	
 12	1637	-1	-476340657	[clientscript,deadman_tournament_timer_resynch]
 12	1638	-1	460082255	[proc,deadman_tournament_timer_resynch]

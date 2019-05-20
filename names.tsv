@@ -7097,8 +7097,8 @@
 12	753	-1	-1002142408	
 12	754	-1	-822181578	[clientscript,meslayer_mode14_select]
 12	755	-1	1590408477	[clientscript,trade_main_init]
-12	756	-1	333504356	
-12	757	-1	1847157575	
+12	756	-1	333504356	[clientscript,cc_flasher]
+12	757	-1	1847157575	[clientscript,if_flasher]
 12	758	-1	760422594	[clientscript,duel_options_click]
 12	759	-1	-195051859	[proc,duel_options_radio_buttons]
 12	760	-1	2016902673	

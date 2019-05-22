@@ -7230,7 +7230,7 @@
 12	886	-1	792807182	[clientscript,options_clickthroughchat_op]
 12	887	-1	-1001901085	[clientscript,castlewars_overlay_saradomin]
 12	888	-1	-1271950438	[clientscript,castlewars_overlay_zamorak]
-12	889	-1	-752152945	
+12	889	-1	-752152945	[clientscript,ii_impling_count]
 12	890	-1	179221651	
 12	891	-1	405689042	[clientscript,worldswitcher_draw]
 12	892	-1	715620562	[proc,worldswitcher_draw]
@@ -8875,7 +8875,7 @@
 12	2531	-1	-1093517453	[clientscript,corp_beast_init]
 12	2532	-1	1262372885	[clientscript,boardgames_overlay_init]
 12	2533	-1	290815890	[clientscript,gnomeball_init]
-12	2534	-1	-667116897	
+12	2534	-1	-667116897	[clientscript,ii_scroll_init]
 12	2535	-1	105641362	[clientscript,barbassault_overlay_init]
 12	2536	-1	620569007	[clientscript,barbassault_healer_init]
 12	2537	-1	803317849	[clientscript,duel_hud_init]

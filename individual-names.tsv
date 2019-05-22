@@ -607,6 +607,8 @@
 [clientscript,ignore_init]
 [clientscript,ignore_op]
 [clientscript,ignore_update]
+[clientscript,ii_impling_count]
+[clientscript,ii_scroll_init]
 [clientscript,inferno_hud_init]
 [clientscript,inferno_hud_pos]
 [clientscript,inferno_hud_update]

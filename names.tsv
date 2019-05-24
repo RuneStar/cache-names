@@ -8044,7 +8044,7 @@
 12	1698	-1	-402485736	
 12	1699	-1	1831956645	[clientscript,orbs_worldmap_setup]
 12	1700	-1	-1445068123	[proc,orbs_worldmap_setup]
-12	1701	-1	1189182914	
+12	1701	-1	1189182914	[proc,keypress_permit]
 12	1702	-1	1330093254	[proc,worldmap_elements_update]
 12	1703	-1	1569989	3338
 12	1704	-1	1572093	3594
@@ -8600,7 +8600,7 @@
 12	2254	-1	-1118864764	[clientscript,bugreport_back]
 12	2255	-1	1023330538	[proc,music_sort]
 12	2256	-1	-52757444	[proc,zoom_init]
-12	2257	-1	-951244389	
+12	2257	-1	-951244389	[clientscript,music_init_counter]
 12	2258	-1	-986373914	[clientscript,options_chatscrollside_init]
 12	2259	-1	500306570	[clientscript,options_chatscrollside_resynch]
 12	2260	-1	392275061	[clientscript,options_chatscrollside_op]

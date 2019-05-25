@@ -8425,7 +8425,7 @@
 12	2079	-1	-110094426	[proc,vm_kudos_update]
 12	2080	-1	1560167122	
 12	2081	-1	1120726805	
-12	2082	-1	1370567916	
+12	2082	-1	1370567916	[proc,kots_world]
 12	2083	-1	410416870	
 12	2084	-1	-2141118122	[proc,deadman_finallocation]
 12	2085	-1	1735091118	
@@ -8873,7 +8873,7 @@
 12	2527	-1	-876331994	[proc,mobile_mainmodal_open]
 12	2528	-1	1263088462	
 12	2529	-1	1231685770	[proc,deadman_restricted_item]
-12	2530	-1	-1350706345	
+12	2530	-1	-1350706345	[clientscript,poh_ranging_init]
 12	2531	-1	-1093517453	[clientscript,corp_beast_init]
 12	2532	-1	1262372885	[clientscript,boardgames_overlay_init]
 12	2533	-1	290815890	[clientscript,gnomeball_init]

@@ -7053,7 +7053,7 @@
 12	707	-1	-1203195360	[proc,ge_collect_all_draw]
 12	708	-1	2021236459	
 12	709	-1	1057309283	[clientscript,build_achievement_list]
-12	710	-1	1533370556	
+12	710	-1	1533370556	[clientscript,deadman_spectator_map_close]
 12	711	-1	2014659911	[proc,stoneborder]
 12	712	-1	-1945570788	[clientscript,stonebox]
 12	713	-1	1032036380	[proc,stonebox]
@@ -8413,9 +8413,9 @@
 12	2067	-1	1102516429	[proc,v2_stone_button_in]
 12	2068	-1	1102242308	[proc,toplevel_keypress]
 12	2069	-1	32634996	[clientscript,orbs_update_specenergy]
-12	2070	-1	-1948623706	
-12	2071	-1	-573459936	
-12	2072	-1	1086210673	
+12	2070	-1	-1948623706	[clientscript,deadman_spectator_enable]
+12	2071	-1	-573459936	[clientscript,deadman_spectator_update]
+12	2072	-1	1086210673	[proc,deadman_spectator_chat]
 12	2073	-1	-778839434	
 12	2074	-1	351705806	
 12	2075	-1	1369648334	
@@ -8522,15 +8522,15 @@
 12	2176	-1	495142073	[clientscript,logout_layout_update]
 12	2177	-1	-80307615	
 12	2178	-1	-1494077087	
-12	2179	-1	-378407639	
-12	2180	-1	1755502209	
-12	2181	-1	1505939480	
-12	2182	-1	-218058062	
-12	2183	-1	-1449768043	
-12	2184	-1	-108556532	
-12	2185	-1	-2141483883	
+12	2179	-1	-378407639	[proc,deadman_spectator_names]
+12	2180	-1	1755502209	[clientscript,deadman_spectator_single]
+12	2181	-1	1505939480	[clientscript,deadman_spectator_double]
+12	2182	-1	-218058062	[proc,deadman_spectator_stats]
+12	2183	-1	-1449768043	[proc,deadman_spectator_inventory]
+12	2184	-1	-108556532	[proc,deadman_spectator_inventory_dummy]
+12	2185	-1	-2141483883	[clientscript,deadman_spectator_map]
 12	2186	-1	578409550	
-12	2187	-1	2120217242	
+12	2187	-1	2120217242	[proc,deadman_freecam_enable]
 12	2188	-1	1950140264	[proc,deadman_overlay_hide]
 12	2189	-1	181046035	[proc,deadman_map_enable]
 12	2190	-1	1038938555	[proc,deadman_area_switch]
@@ -8545,7 +8545,7 @@
 12	2199	-1	-1313029662	[proc,update_diary_entry]
 12	2200	-1	-1841253853	[proc,diary_completion_info]
 12	2201	-1	-815600997	[clientscript,diary_mouseover]
-12	2202	-1	-1620969957	
+12	2202	-1	-1620969957	[clientscript,deadman_spectator_temp_name]
 12	2203	-1	1657957682	[proc,deadman_map_keypress]
 12	2204	-1	-2074908388	[proc,deadman_1v1_tele]
 12	2205	-1	542086350	[clientscript,decant_init]

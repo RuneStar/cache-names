@@ -8359,16 +8359,16 @@
 12	2013	-1	-1009987326	[clientscript,fossil_pool_init]
 12	2014	-1	-2117969111	[clientscript,fossil_pool_update]
 12	2015	-1	858736077	[clientscript,fossil_pool_progress_update]
-12	2016	-1	1247679462	
+12	2016	-1	1247679462	[clientscript,volcanic_mine_hud_init]
 12	2017	-1	1636918141	
 12	2018	-1	-1916285174	[proc,mesoverlay_draw]
-12	2019	-1	-2392370	
-12	2020	-1	-695923969	
-12	2021	-1	1127408558	
-12	2022	-1	1881286427	
-12	2023	-1	302970717	
-12	2024	-1	946836850	
-12	2025	-1	312148537	
+12	2019	-1	-2392370	[clientscript,volcanic_mine_updatehud]
+12	2020	-1	-695923969	[proc,volcanic_mine_set_venttext]
+12	2021	-1	1127408558	[proc,volcanic_mine_set_chambertext]
+12	2022	-1	1881286427	[proc,volcanic_mine_set_otherinfo]
+12	2023	-1	302970717	[proc,volcanic_mine_ventcolour]
+12	2024	-1	946836850	[proc,volcanic_mine_chambercolour]
+12	2025	-1	312148537	[clientscript,volcanic_mine_setup_timer]
 12	2026	-1	-1937164463	
 12	2027	-1	-436188847	
 12	2028	-1	2069096550	
@@ -8529,7 +8529,7 @@
 12	2183	-1	-1449768043	[proc,deadman_spectator_inventory]
 12	2184	-1	-108556532	[proc,deadman_spectator_inventory_dummy]
 12	2185	-1	-2141483883	[clientscript,deadman_spectator_map]
-12	2186	-1	578409550	
+12	2186	-1	578409550	[proc,spectator_keypress]
 12	2187	-1	2120217242	[proc,deadman_freecam_enable]
 12	2188	-1	1950140264	[proc,deadman_overlay_hide]
 12	2189	-1	181046035	[proc,deadman_map_enable]

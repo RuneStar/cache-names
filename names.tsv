@@ -6517,7 +6517,7 @@
 12	171	-1	1693587891	
 12	172	-1	648639089	[proc,bank_depositbox_drawslot]
 12	173	-1	-871084896	[clientscript,chat_button_select]
-12	174	-1	-621483713	
+12	174	-1	-621483713	[clientscript,chat_button_deselect]
 12	175	-1	-2055723556	[clientscript,chat_button_onop]
 12	176	-1	1770489248	[clientscript,tournament_sidepanel_init]
 12	177	-1	1907021768	[clientscript,raids_storage_items_op]
@@ -7638,7 +7638,7 @@
 12	1292	-1	809870718	[clientscript,teletab_init]
 12	1293	-1	-302696143	[proc,teletab_req_met]
 12	1294	-1	-1629876505	[clientscript,teletab_runecost]
-12	1295	-1	-337528580	
+12	1295	-1	-337528580	[clientscript,teletab_blank_runecost]
 12	1296	-1	427771501	
 12	1297	-1	-1889431041	[clientscript,slayer_rewards_unlock_draw]
 12	1298	-1	1690769490	[proc,slayer_rewards_unlock_desc]

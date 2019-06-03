@@ -6438,7 +6438,7 @@
 12	92	-1	-2069389015	[clientscript,v2_stone_button]
 12	93	-1	512804784	[clientscript,v2_stone_button_filled]
 12	94	-1	792584909	[clientscript,v2_stone_button_in]
-12	95	-1	-1900409775	
+12	95	-1	-1900409775	[proc,chat_autotyper_updateop]
 12	96	-1	1206886976	[proc,chat_sendpublic]
 12	97	-1	-1641435841	[clientscript,v2_stone_button_out_filled]
 12	98	-1	-709872419	[proc,create_graphic]
@@ -6895,7 +6895,7 @@
 12	549	-1	190536100	
 12	550	-1	-1524383446	[proc,meslayer_mode13]
 12	551	-1	319618819	
-12	552	-1	-1349680864	
+12	552	-1	-1349680864	[clientscript,chat_autotyper]
 12	553	-1	-1887971170	
 12	554	-1	-938646142	[clientscript,clanwars_confirm_setup]
 12	555	-1	1674574058	[clientscript,clanwars_confirm_challenge_wait]

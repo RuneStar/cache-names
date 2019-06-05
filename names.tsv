@@ -6514,7 +6514,7 @@
 12	168	-1	-359689217	[proc,barrows_overlay_size]
 12	169	-1	-1290070879	
 12	170	-1	1107414237	
-12	171	-1	1693587891	
+12	171	-1	1693587891	[clientscript,kr_display_riddle]
 12	172	-1	648639089	[proc,bank_depositbox_drawslot]
 12	173	-1	-871084896	[clientscript,chat_button_select]
 12	174	-1	-621483713	[clientscript,chat_button_deselect]
@@ -7786,7 +7786,7 @@
 12	1440	-1	-902757914	[clientscript,cws_response_toggle]
 12	1441	-1	1351391693	[clientscript,duel_wait_button]
 12	1442	-1	1803110349	[proc,duel_wait_button]
-12	1443	-1	-296198304	
+12	1443	-1	-296198304	[clientscript,duel_accept_button]
 12	1444	-1	1572775761	[proc,duel_colour_variation]
 12	1445	-1	2058375146	
 12	1446	-1	-625485113	[proc,playermember]

@@ -8328,14 +8328,14 @@
 12	1982	-1	-1039351019	[proc,vm_info_draw]
 12	1983	-1	1398050691	[proc,keyboard_show]
 12	1984	-1	1387910622	[proc,keyboard_hide]
-12	1985	-1	1330360862	
-12	1986	-1	1686531768	
-12	1987	-1	650870968	
-12	1988	-1	-804878750	
-12	1989	-1	-1876392325	
-12	1990	-1	-527911761	
-12	1991	-1	-1703070228	
-12	1992	-1	1877500908	
+12	1985	-1	1330360862	[clientscript,gravestone_retrieval_init]
+12	1986	-1	1686531768	[clientscript,gravestone_retrieval_unlockstatus]
+12	1987	-1	650870968	[proc,gravestone_retrieval_unlockstatus]
+12	1988	-1	-804878750	[clientscript,gravestone_retrieval_buttonhover]
+12	1989	-1	-1876392325	[clientscript,gravestone_retrieval_buttonop]
+12	1990	-1	-527911761	[clientscript,gravestone_retrieval_buttonreset]
+12	1991	-1	-1703070228	[clientscript,gravestone_retrieval_items]
+12	1992	-1	1877500908	[proc,gravestone_retrieval_items]
 12	1993	-1	1143237498	[clientscript,fossilquest_voyage]
 12	1994	-1	-2070247380	[clientscript,fossilquest_progress]
 12	1995	-1	-1997206571	
@@ -8977,7 +8977,7 @@
 12	2631	-1	-902473954	
 12	2632	-1	33948958	
 12	2633	-1	1391431697	
-12	2634	-1	-547750227	
+12	2634	-1	-547750227	[clientscript,mobile_rating_init]
 12	2635	-1	-1382182411	[clientscript,options_fps_resynch]
 12	2636	-1	1966353712	[proc,options_fps]
 12	2637	-1	3376484	

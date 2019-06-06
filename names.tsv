@@ -7797,11 +7797,11 @@
 12	1451	-1	-619850872	[proc,duel_check_button]
 12	1452	-1	664174568	
 12	1453	-1	1115893224	
-12	1454	-1	-1789493195	
-12	1455	-1	-1742522184	
-12	1456	-1	-624145736	
+12	1454	-1	-1789493195	[clientscript,zmi_bank_payment_init]
+12	1455	-1	-1742522184	[clientscript,bank_payment_draw]
+12	1456	-1	-624145736	[proc,bank_payment_draw]
 12	1457	-1	1858379084	
-12	1458	-1	-1000480999	
+12	1458	-1	-1000480999	[clientscript,zmi_bank_payment_selection_reset]
 12	1459	-1	1874631036	[clientscript,agilityarena_rewards_draw]
 12	1460	-1	2052358114	[clientscript,lumbridge_alchemy_init]
 12	1461	-1	602203815	[clientscript,lumbridge_alchemy_invtransmit]

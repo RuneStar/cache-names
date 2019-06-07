@@ -7031,11 +7031,11 @@
 12	685	-1	-1488202864	[clientscript,bankpin_button_op]
 12	686	-1	-1845622372	[clientscript,bankpin_otherbutton]
 12	687	-1	383292453	[clientscript,ironman_init]
-12	688	-1	-2025797687	
-12	689	-1	1921364436	
-12	690	-1	-2103884844	
-12	691	-1	1088399384	
-12	692	-1	829400784	
+12	688	-1	-2025797687	[clientscript,trail_slidepuzzle_init]
+12	689	-1	1921364436	[clientscript,trail_slidepuzzle_synch]
+12	690	-1	-2103884844	[proc,trail_slidepuzzle_synch]
+12	691	-1	1088399384	[clientscript,trail_slidepuzzle_op]
+12	692	-1	829400784	[proc,trail_slidepuzzle_position]
 12	693	-1	885126004	[clientscript,corp_beast_damage]
 12	694	-1	-331701428	
 12	695	-1	-6188662	
@@ -7827,8 +7827,8 @@
 12	1481	-1	904285198	[proc,hidey_tabbuttons]
 12	1482	-1	1529690505	[proc,hidey_tabbuttons_draw]
 12	1483	-1	1526345905	[clientscript,hidey_tabbuttons_hover]
-12	1484	-1	872080416	
-12	1485	-1	-1362777300	
+12	1484	-1	872080416	[proc,trail_slidepuzzle_getint]
+12	1485	-1	-1362777300	[proc,trail_slidepuzzle_setint]
 12	1486	-1	1129936407	
 12	1487	-1	-710059417	
 12	1488	-1	-714456453	

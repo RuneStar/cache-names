@@ -1582,6 +1582,7 @@
 [proc,meslayer_close]
 [proc,meslayer_dynamicbutton]
 [proc,meslayer_enter]
+[proc,meslayer_initlastnames]
 [proc,meslayer_mode10]
 [proc,meslayer_mode11]
 [proc,meslayer_mode12]

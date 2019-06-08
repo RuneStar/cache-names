@@ -6479,8 +6479,8 @@
 12	133	-1	-127105123	[clientscript,snapshot_onkey]
 12	134	-1	-725420624	[proc,v2_stone_button_filled]
 12	135	-1	-240893146	[clientscript,if_settextfont]
-12	136	-1	1254539836	
-12	137	-1	-385172298	
+12	136	-1	1254539836	[clientscript,abyssalsire_overseer]
+12	137	-1	-385172298	[clientscript,abyssalsire_overseer_update]
 12	138	-1	812897378	[clientscript,meslayer_ondialogabort]
 12	139	-1	1080875587	[clientscript,raids_partydetails_autorefresh]
 12	140	-1	-1851136513	[clientscript,barrows_overlay_size]
@@ -7449,7 +7449,7 @@
 12	1103	-1	1287180787	[clientscript,bugreport_submit]
 12	1104	-1	267451885	[clientscript,snapshot_init]
 12	1105	-1	1772427931	[clientscript,skill_guide_sidepanelop]
-12	1106	-1	-1056616778	
+12	1106	-1	-1056616778	[proc,abyssalsire_overseer_update]
 12	1107	-1	-2005260695	[clientscript,options_hidepm_init]
 12	1108	-1	-621905369	[clientscript,options_hidepm_resynch]
 12	1109	-1	270544568	[clientscript,options_hidepm_op]

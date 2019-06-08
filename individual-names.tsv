@@ -226,6 +226,8 @@
 9744
 9745
 [clientscript,100guide_overlay_init]
+[clientscript,abyssalsire_overseer]
+[clientscript,abyssalsire_overseer_update]
 [clientscript,account_info_update]
 [clientscript,account_init]
 [clientscript,account_update_display]
@@ -1307,6 +1309,7 @@
 [clientscript,zoom_outline]
 [clientscript,zoom_slider_dragcomplete]
 [clientscript,zoom_slider_ondrag]
+[proc,abyssalsire_overseer_update]
 [proc,account_billing_update]
 [proc,account_inbox_update]
 [proc,account_info_update]

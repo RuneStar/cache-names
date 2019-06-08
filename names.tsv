@@ -7643,9 +7643,9 @@
 12	1297	-1	-1889431041	[clientscript,slayer_rewards_unlock_draw]
 12	1298	-1	1690769490	[proc,slayer_rewards_unlock_desc]
 12	1299	-1	1836919124	
-12	1300	-1	1471914400	
-12	1301	-1	-610106158	
-12	1302	-1	-838782254	
+12	1300	-1	1471914400	[clientscript,soulbearer_repair]
+12	1301	-1	-610106158	[clientscript,soulbearer_repair_update]
+12	1302	-1	-838782254	[proc,soulbearer_repair_update]
 12	1303	-1	1652552365	[clientscript,tog_sidepanel_init]
 12	1304	-1	-4114740	[clientscript,tog_sidepanel_tears]
 12	1305	-1	1013827788	[proc,tog_sidepanel_tears]
@@ -9105,7 +9105,7 @@
 12	2759	-1	941007087	[clientscript,prayer_infomode]
 12	2760	-1	1346060301	[clientscript,prayer_levelupdate]
 12	2761	-1	1655991821	[proc,prayer_levelupdate]
-12	2762	-1	186260102	
+12	2762	-1	186260102	[proc,prayer_gettooltiptext]
 12	2763	-1	522011944	[proc,tol_pressure_draw]
 12	2764	-1	2007956878	[proc,tol_pressure_valveinit]
 12	2765	-1	-682075158	[clientscript,tol_pressure_valvelistener]

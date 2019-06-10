@@ -8816,8 +8816,8 @@
 12	2470	-1	-1500368686	[clientscript,meslayer_mode7_button]
 12	2471	-1	944845365	[clientscript,meslayer_mode7_resetbutton]
 12	2472	-1	-459075535	
-12	2473	-1	-1742790641	
-12	2474	-1	1775142690	
+12	2473	-1	-1742790641	[clientscript,model_transparent_init]
+12	2474	-1	1775142690	[clientscript,model_transparent_dynamiczoom_init]
 12	2475	-1	852653231	[clientscript,cc_outline_off]
 12	2476	-1	-1231502397	[clientscript,duel_info]
 12	2477	-1	-931507061	[clientscript,duel_stake_inv_cash]
@@ -8882,7 +8882,7 @@
 12	2536	-1	620569007	[clientscript,barbassault_healer_init]
 12	2537	-1	803317849	[clientscript,duel_hud_init]
 12	2538	-1	1949792092	[clientscript,agilityarena_overlay_init]
-12	2539	-1	-1949636196	
+12	2539	-1	-1949636196	[clientscript,br_lobbyoverlay_init]
 12	2540	-1	-1070712237	[clientscript,brew_lobby_overlay_init]
 12	2541	-1	1661624563	[clientscript,brew_game_overlay_init]
 12	2542	-1	-725650456	[proc,toplevel_mainmodal_bg_calculate_mobile]

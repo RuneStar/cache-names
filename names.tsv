@@ -6398,9 +6398,9 @@
 12	52	-1	-52609917	[clientscript,options_mousecam_op]
 12	53	-1	694219220	[clientscript,tol_pressure_leverinit]
 12	54	-1	-1383194091	[clientscript,poh_options_drawbutton]
-12	55	-1	-797440256	
+12	55	-1	-797440256	[clientscript,chatbox_keyinput_init]
 12	56	-1	558524929	[proc,area_task_complete]
-12	57	-1	-31028644	
+12	57	-1	-31028644	[clientscript,chatbox_keyinput_listener]
 12	58	-1	1692819968	[clientscript,chatbox_multi_init]
 12	59	-1	-1342329868	[proc,chatbox_multi_addoption]
 12	60	-1	682911585	[clientscript,dream_bank_init]
@@ -6676,7 +6676,7 @@
 12	330	-1	354410466	
 12	331	-1	-1772563573	
 12	332	-1	-654187125	
-12	333	-1	-1353560477	
+12	333	-1	-1353560477	[clientscript,bankpin_keypad_init]
 12	334	-1	-1707510176	[clientscript,godwars_hideshow_init]
 12	335	-1	1636902667	[clientscript,godwars_hideshow]
 12	336	-1	2088621323	[proc,godwars_hideshow]
@@ -6996,7 +6996,7 @@
 12	650	-1	957416466	[clientscript,poh_add_room_costupdate]
 12	651	-1	1227134482	[proc,poh_add_room_costupdate]
 12	652	-1	1364618599	[clientscript,poh_add_room_op]
-12	653	-1	-1673104795	
+12	653	-1	-1673104795	[proc,bankpin_keypad_set]
 12	654	-1	403196065	[clientscript,skill_guide_init]
 12	655	-1	-579770661	[clientscript,skill_guide_build]
 12	656	-1	538605787	[proc,skill_guide_build]
@@ -7077,7 +7077,7 @@
 12	731	-1	458211824	
 12	732	-1	77387626	[clientscript,cocktail_update_if]
 12	733	-1	-1202378470	
-12	734	-1	-1848298066	
+12	734	-1	-1848298066	[clientscript,bondif_redeem_init]
 12	735	-1	731019674	[clientscript,inferno_hud_init]
 12	736	-1	-1915871588	[clientscript,inferno_hud_pos]
 12	737	-1	731099292	[proc,inferno_hud_pos]
@@ -7999,18 +7999,18 @@
 12	1653	-1	-2052940484	
 12	1654	-1	-193656780	
 12	1655	-1	-1346443457	
-12	1656	-1	-56021320	
-12	1657	-1	-1930607708	
-12	1658	-1	-429632092	
+12	1656	-1	-56021320	[clientscript,chatchannel_current_init]
+12	1657	-1	-1930607708	[clientscript,chatchannel_current_build]
+12	1658	-1	-429632092	[proc,chatchannel_current_build]
 12	1659	-1	1769489085	
 12	1660	-1	854671025	
 12	1661	-1	-244147973	[clientscript,keyboard_key]
-12	1662	-1	-145026820	
-12	1663	-1	-394810912	
-12	1664	-1	-125092896	
+12	1662	-1	-145026820	[clientscript,chatchannel_setup_init]
+12	1663	-1	-394810912	[clientscript,chatchannel_setup_build]
+12	1664	-1	-125092896	[proc,chatchannel_setup_build]
 12	1665	-1	-234778631	
 12	1666	-1	247339253	
-12	1667	-1	1407042688	
+12	1667	-1	1407042688	[clientscript,chatchannel_setup_setrank]
 12	1668	-1	-2085322025	
 12	1669	-1	-931492497	
 12	1670	-1	1924998113	
@@ -8353,9 +8353,9 @@
 12	2007	-1	898278283	[clientscript,fossil_storage_build]
 12	2008	-1	-1905241717	[proc,fossil_storage_build]
 12	2009	-1	-444306269	[proc,fossil_storage_get]
-12	2010	-1	-1298005644	
-12	2011	-1	103126593	
-12	2012	-1	-568317887	
+12	2010	-1	-1298005644	[clientscript,fossil_volcanic_shop_init]
+12	2011	-1	103126593	[clientscript,fossil_volcanic_shop_points]
+12	2012	-1	-568317887	[proc,fossil_volcanic_shop_points]
 12	2013	-1	-1009987326	[clientscript,fossil_pool_init]
 12	2014	-1	-2117969111	[clientscript,fossil_pool_update]
 12	2015	-1	858736077	[clientscript,fossil_pool_progress_update]
@@ -8431,9 +8431,9 @@
 12	2085	-1	1735091118	
 12	2086	-1	-345704700	
 12	2087	-1	-2034418478	[clientscript,tob_hud_init]
-12	2088	-1	-499724195	
-12	2089	-1	-504230231	
-12	2090	-1	-234512215	
+12	2088	-1	-499724195	[clientscript,trail_rewardscreen_init]
+12	2089	-1	-504230231	[clientscript,trail_rewardscreen_draw]
+12	2090	-1	-234512215	[proc,trail_rewardscreen_draw]
 12	2091	-1	-1283572006	[clientscript,xpdrops_fake]
 12	2092	-1	483313228	[clientscript,oculus_flashers]
 12	2093	-1	1145742596	
@@ -8475,7 +8475,7 @@
 12	2129	-1	1189483102	
 12	2130	-1	1556628885	
 12	2131	-1	520968085	
-12	2132	-1	1947428922	
+12	2132	-1	1947428922	[clientscript,fossil_driftnet_init]
 12	2133	-1	1761975262	
 12	2134	-1	606268269	
 12	2135	-1	1077006973	
@@ -8483,9 +8483,9 @@
 12	2137	-1	-1431820487	
 12	2138	-1	822433081	
 12	2139	-1	-1364606404	
-12	2140	-1	-505925220	
-12	2141	-1	1249377603	
-12	2142	-1	1909435203	
+12	2140	-1	-505925220	[clientscript,fossil_driftnet_store_init]
+12	2141	-1	1249377603	[clientscript,fossil_driftnet_store_update]
+12	2142	-1	1909435203	[proc,fossil_driftnet_store_update]
 12	2143	-1	-371914395	
 12	2144	-1	1184761548	
 12	2145	-1	2121184460	
@@ -8495,7 +8495,7 @@
 12	2149	-1	-243455372	[clientscript,options_functionmode_op]
 12	2150	-1	1338474790	[proc,options_functionmode]
 12	2151	-1	25246965	[proc,graphic_device]
-12	2152	-1	1083651406	
+12	2152	-1	1083651406	[clientscript,chatbox_keyinput_clicklistener]
 12	2153	-1	-1278918874	
 12	2154	-1	-354754926	[clientscript,logout_layout_init]
 12	2155	-1	-1284226913	
@@ -8630,7 +8630,7 @@
 12	2284	-1	-1196724839	
 12	2285	-1	-323516758	
 12	2286	-1	1177458858	
-12	2287	-1	-1489997216	
+12	2287	-1	-1489997216	[clientscript,bondif_redeem_hover]
 12	2288	-1	-909710499	
 12	2289	-1	-1310700552	[clientscript,raids_overlay_timer]
 12	2290	-1	2067080193	[clientscript,raids_challenge_build_list]
@@ -8883,7 +8883,7 @@
 12	2537	-1	803317849	[clientscript,duel_hud_init]
 12	2538	-1	1949792092	[clientscript,agilityarena_overlay_init]
 12	2539	-1	-1949636196	
-12	2540	-1	-1070712237	
+12	2540	-1	-1070712237	[clientscript,brew_lobby_overlay_init]
 12	2541	-1	1661624563	[clientscript,brew_game_overlay_init]
 12	2542	-1	-725650456	[proc,toplevel_mainmodal_bg_calculate_mobile]
 12	2543	-1	868345433	
@@ -8971,7 +8971,7 @@
 12	2625	-1	-787020636	[proc,wom_get_graphics]
 12	2626	-1	-1949845834	[proc,wom_get_tab]
 12	2627	-1	-315537598	[proc,wom_get_text]
-12	2628	-1	-725536716	
+12	2628	-1	-725536716	[clientscript,bondif_mobile_init]
 12	2629	-1	-79613668	
 12	2630	-1	-503211991	
 12	2631	-1	-902473954	
@@ -9050,23 +9050,23 @@
 12	2704	-1	-1440388446	
 12	2705	-1	-1675350731	
 12	2706	-1	-798418004	
-12	2707	-1	1031011343	
-12	2708	-1	1026505307	
-12	2709	-1	-1777014693	
-12	2710	-1	212996731	
-12	2711	-1	-1894044689	
-12	2712	-1	1665533847	
-12	2713	-1	806214204	
-12	2714	-1	-29238118	
-12	2715	-1	2013111149	
-12	2716	-1	-1418212168	
-12	2717	-1	-400269640	
-12	2718	-1	-1286729444	
-12	2719	-1	380434847	
+12	2707	-1	1031011343	[clientscript,1v1arena_review_init]
+12	2708	-1	1026505307	[clientscript,1v1arena_review_draw]
+12	2709	-1	-1777014693	[proc,1v1arena_review_draw]
+12	2710	-1	212996731	[clientscript,1v1arena_results_init]
+12	2711	-1	-1894044689	[clientscript,1v1arena_clear_opbutton]
+12	2712	-1	1665533847	[clientscript,1v1arena_clear_resetbutton]
+12	2713	-1	806214204	[clientscript,1v1arena_hud_init]
+12	2714	-1	-29238118	[clientscript,1v1arena_hud_button]
+12	2715	-1	2013111149	[clientscript,1v1arena_hud_resetbutton]
+12	2716	-1	-1418212168	[clientscript,1v1arena_hud_toggle]
+12	2717	-1	-400269640	[proc,1v1arena_hud_toggle]
+12	2718	-1	-1286729444	[clientscript,1v1arena_hud_transmit]
+12	2719	-1	380434847	[proc,1v1arena_hud_buildplayer]
 12	2720	-1	377105354	
-12	2721	-1	835410387	
-12	2722	-1	2075708148	
-12	2723	-1	-52758604	
+12	2721	-1	835410387	[proc,1v1arena_hud_buildarena]
+12	2722	-1	2075708148	[clientscript,1v1arena_spectator_init]
+12	2723	-1	-52758604	[clientscript,1v1arena_spectator_endhint]
 12	2724	-1	1518270704	
 12	2725	-1	-1070388240	
 12	2726	-1	-548499495	

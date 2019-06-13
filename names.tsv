@@ -6842,7 +6842,7 @@
 12	496	-1	1177806334	[clientscript,wilderness_lootingbag_draw]
 12	497	-1	463410174	[proc,wilderness_lootingbag_draw]
 12	498	-1	-1900448994	[clientscript,killdeathratio_init]
-12	499	-1	-1258679027	
+12	499	-1	-1258679027	[proc,makeover_drawmodels]
 12	500	-1	-1321543984	
 12	501	-1	-1011612464	
 12	502	-1	1343132187	[clientscript,makeover_hair_setup]

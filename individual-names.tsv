@@ -1630,6 +1630,7 @@
 [proc,magic_spellbook_settooltip]
 [proc,magic_spellbook_sort]
 [proc,magic_tostring]
+[proc,makeover_drawmodels]
 [proc,max]
 [proc,menu_createentry]
 [proc,meslayer_button_draw]

@@ -8425,7 +8425,7 @@
 12	2063	-1	-68307449	[proc,meslayer_skillmulti]
 12	2064	-1	-1545851182	[clientscript,chat_broadcast_op]
 12	2065	-1	481516892	[clientscript,chat_recol]
-12	2066	-1	-1049951305	
+12	2066	-1	-1049951305	[proc,chat_broadcast_parseurl]
 12	2067	-1	1102516429	[proc,v2_stone_button_in]
 12	2068	-1	1102242308	[proc,toplevel_keypress]
 12	2069	-1	32634996	[clientscript,orbs_update_specenergy]
@@ -8636,18 +8636,18 @@
 12	2274	-1	237428997	
 12	2275	-1	407710185	
 12	2276	-1	1021423500	
-12	2277	-1	-1003546842	
-12	2278	-1	-1886777483	
+12	2277	-1	-1003546842	[clientscript,bondif_redeem_subtitle]
+12	2278	-1	-1886777483	[clientscript,bondif_redeem_package_init]
 12	2279	-1	1118234971	
 12	2280	-1	1407773835	
-12	2281	-1	-1891283519	
-12	2282	-1	1689287617	
-12	2283	-1	-987921101	
+12	2281	-1	-1891283519	[clientscript,bondif_redeem_package_draw]
+12	2282	-1	1689287617	[proc,bondif_redeem_package_draw]
+12	2283	-1	-987921101	[proc,bondif_redeem_package_details]
 12	2284	-1	-1196724839	
-12	2285	-1	-323516758	
-12	2286	-1	1177458858	
+12	2285	-1	-323516758	[clientscript,bondif_redeem_rightcolumn]
+12	2286	-1	1177458858	[proc,bondif_redeem_rightcolumn]
 12	2287	-1	-1489997216	[clientscript,bondif_redeem_hover]
-12	2288	-1	-909710499	
+12	2288	-1	-909710499	[clientscript,bondif_redeem_fadeend]
 12	2289	-1	-1310700552	[clientscript,raids_overlay_timer]
 12	2290	-1	2067080193	[clientscript,raids_challenge_build_list]
 12	2291	-1	452192106	[clientscript,raids_challenge_move_highlight]

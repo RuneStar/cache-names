@@ -6998,15 +6998,15 @@
 12	636	-1	-1562591351	
 12	637	-1	-1557529605	[proc,pet_insurance_drawlist]
 12	638	-1	-992834596	[clientscript,pet_insurance_op]
-12	639	-1	754701892	
-12	640	-1	1159138960	
-12	641	-1	-79086448	
-12	642	-1	-279530515	
+12	639	-1	754701892	[clientscript,poh_menagerie_initlist]
+12	640	-1	1159138960	[clientscript,poh_menagerie_drawlist]
+12	641	-1	-79086448	[proc,poh_menagerie_drawlist]
+12	642	-1	-279530515	[proc,poh_menagerie_drawpet]
 12	643	-1	1545929343	
 12	644	-1	932867675	
 12	645	-1	704191579	
 12	646	-1	-1465876989	
-12	647	-1	2050085195	
+12	647	-1	2050085195	[clientscript,poh_menagerie_petlist]
 12	648	-1	1427862872	[clientscript,poh_add_room_init]
 12	649	-1	602332710	[proc,poh_add_room_initbutton]
 12	650	-1	957416466	[clientscript,poh_add_room_costupdate]
@@ -8432,9 +8432,9 @@
 12	2070	-1	-1948623706	[clientscript,deadman_spectator_enable]
 12	2071	-1	-573459936	[clientscript,deadman_spectator_update]
 12	2072	-1	1086210673	[proc,deadman_spectator_chat]
-12	2073	-1	-778839434	
-12	2074	-1	351705806	
-12	2075	-1	1369648334	
+12	2073	-1	-778839434	[clientscript,sailing_menu_init]
+12	2074	-1	351705806	[clientscript,sailing_menu_filter]
+12	2075	-1	1369648334	[proc,sailing_menu_filter]
 12	2076	-1	-1408142840	
 12	2077	-1	835155647	[clientscript,vm_kudos_init]
 12	2078	-1	1537901990	[clientscript,vm_kudos_update]

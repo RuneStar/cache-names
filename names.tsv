@@ -7255,9 +7255,9 @@
 12	893	-1	960924101	
 12	894	-1	1341384431	[clientscript,barrows_nodnod]
 12	895	-1	808499452	[clientscript,barrows_nodnodoff]
-12	896	-1	-1011998743	
+12	896	-1	-1011998743	[clientscript,mole_go_splat]
 12	897	-1	-22400199	
-12	898	-1	366603524	
+12	898	-1	366603524	[proc,mole_splat_zoom]
 12	899	-1	1356691599	[clientscript,agilityarena_overlay]
 12	900	-1	1256286054	[proc,toplevel_getcomponents]
 12	901	-1	165935928	[clientscript,toplevel_init]
@@ -7427,9 +7427,9 @@
 12	1065	-1	-348395573	[clientscript,barrows_reward_init]
 12	1066	-1	-352901609	[clientscript,barrows_reward_draw]
 12	1067	-1	665040919	[proc,barrows_reward_draw]
-12	1068	-1	-602058285	
-12	1069	-1	1490470207	
-12	1070	-1	477419327	
+12	1068	-1	-602058285	[clientscript,saradomin_light_effect]
+12	1069	-1	1490470207	[clientscript,saradomin_light_effect_update]
+12	1070	-1	477419327	[proc,saradomin_light_effect_update]
 12	1071	-1	-547968906	
 12	1072	-1	-1562541544	
 12	1073	-1	2060981272	
@@ -8362,7 +8362,7 @@
 12	2000	-1	-1231222824	[clientscript,fossil_fade_overlay]
 12	2001	-1	-1631309926	[clientscript,fossil_fade_overlay_update]
 12	2002	-1	-95849432	
-12	2003	-1	-667655598	
+12	2003	-1	-667655598	[clientscript,fossil_swamp_splat]
 12	2004	-1	-559940786	[clientscript,options_keybind_init]
 12	2005	-1	1661991133	[clientscript,options_keybind_op]
 12	2006	-1	-1904429583	[clientscript,fossil_storage_init]

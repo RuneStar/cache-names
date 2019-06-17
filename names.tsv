@@ -6805,7 +6805,7 @@
 12	443	-1	1979769876	[clientscript,castlewarstrade_init]
 12	444	-1	-342398352	[clientscript,barbassault_turret_data]
 12	445	-1	-1811696568	
-12	446	-1	1748639803	
+12	446	-1	1748639803	[clientscript,orbs_update_health]
 12	447	-1	-1659275024	[clientscript,orbs_update_runenergy]
 12	448	-1	39534967	[proc,options_mousecam]
 12	449	-1	736000132	[proc,orbs_update]
@@ -8057,7 +8057,7 @@
 12	1695	-1	-1396391712	[clientscript,oculus_close]
 12	1696	-1	-1734540802	[proc,agilityarena_rewards_initbutton]
 12	1697	-1	-774184597	[proc,magic_spacer_tostring]
-12	1698	-1	-402485736	
+12	1698	-1	-402485736	[clientscript,blast_mining_hud_init]
 12	1699	-1	1831956645	[clientscript,orbs_worldmap_setup]
 12	1700	-1	-1445068123	[proc,orbs_worldmap_setup]
 12	1701	-1	1189182914	[proc,keypress_permit]
@@ -8299,8 +8299,8 @@
 12	1937	-1	-2002384231	
 12	1938	-1	1170144255	
 12	1939	-1	-68081153	
-12	1940	-1	1870473919	
-12	1941	-1	2140191935	
+12	1940	-1	1870473919	[clientscript,blast_mining_hud_update]
+12	1941	-1	2140191935	[proc,blast_mining_hud_update]
 12	1942	-1	-1941443654	[proc,wildwars_world]
 12	1943	-1	1681755916	[clientscript,wildwars_hudupdate]
 12	1944	-1	1991687436	[proc,wildwars_hudupdate]

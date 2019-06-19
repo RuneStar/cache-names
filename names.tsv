@@ -6363,10 +6363,10 @@
 12	1	-1	1040653880	
 12	2	-1	-2080802731	[proc,hex_to_rgb]
 12	3	-1	2992446	[proc,target_world]
-12	4	-1	705356908	
-12	5	-1	-2039380490	
+12	4	-1	705356908	[clientscript,tt_reward_selected_onclick]
+12	5	-1	-2039380490	[clientscript,tt_reward_selected]
 12	6	-1	602618558	[clientscript,wom_tab_init]
-12	7	-1	1476751659	
+12	7	-1	1476751659	[proc,tt_reward_highlight_selected]
 12	8	-1	904328355	[proc,tt_reward_set_desc]
 12	9	-1	-1078493227	[clientscript,tt_reward_highlight]
 12	10	-1	-427329723	[clientscript,wom_item_move]
@@ -6429,7 +6429,7 @@
 12	67	-1	-1038278108	[clientscript,model_swapper]
 12	68	-1	-97271926	[clientscript,text_swapper]
 12	69	-1	-1589686994	[clientscript,comp_sethide]
-12	70	-1	-1832378658	
+12	70	-1	-1832378658	[clientscript,tzhaar_fightpit_foesremaining]
 12	71	-1	781934875	[proc,toplevel_sidebutton_op]
 12	72	-1	1140994645	[proc,scrollbar_resize]
 12	73	-1	-2067145042	[clientscript,chatdefault_onkey]

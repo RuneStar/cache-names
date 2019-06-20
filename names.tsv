@@ -6853,7 +6853,6 @@
 12	491	-1	-1212584045	[proc,bankside_switchview]
 12	492	-1	1614358809	[clientscript,bankside_lootingbag_draw]
 12	493	-1	1385682713	[proc,bankside_lootingbag_draw]
-12	494	-1	-417491245	[clientscript,pvp_icons_killdeathratio]
 12	495	-1	-1724713029	[clientscript,wilderness_lootingbag_setup]
 12	496	-1	1177806334	[clientscript,wilderness_lootingbag_draw]
 12	497	-1	463410174	[proc,wilderness_lootingbag_draw]
@@ -9232,6 +9231,8 @@
 12	2870	-1	1533277150	[clientscript,objbox_reset]
 12	2871	-1	-286918592	
 12	2872	-1	1068444704	
+12	2873	-1	-837396557	
+12	2874	-1	194872755	
 13	494	-1	-342013218	p11_full
 13	495	-1	-313384067	p12_full
 13	496	-1	1057075019	b12_full

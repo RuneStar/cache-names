@@ -7439,7 +7439,7 @@
 12	1078	-1	1115693713	[clientscript,poh_options_doors_onop]
 12	1079	-1	1106187610	[clientscript,poh_options_tele_onop]
 12	1080	-1	-1294398048	
-12	1081	-1	-841912342	
+12	1081	-1	-841912342	[clientscript,openurl_raw]
 12	1082	-1	289525663	[clientscript,options_button_off]
 12	1083	-1	-544849555	[clientscript,options_button_on]
 12	1084	-1	48238673	[clientscript,stonebutton_url]
@@ -8757,7 +8757,7 @@
 12	2396	-1	1909624226	[clientscript,orbs_update_store]
 12	2397	-1	-1828940374	
 12	2398	-1	-337493078	
-12	2399	-1	1093665258	
+12	2399	-1	1093665258	[proc,openurl_raw]
 12	2400	-1	-1245654693	[clientscript,options_fps_init]
 12	2401	-1	2023288362	[clientscript,options_fps_op]
 12	2402	-1	-1724968160	[clientscript,nzone_game_init]
@@ -9155,7 +9155,7 @@
 12	2794	-1	-1288651461	[clientscript,orbs_blocked_spec_op]
 12	2795	-1	-1446156868	[clientscript,itemsets_info_init]
 12	2796	-1	707282333	
-12	2797	-1	-1574586929	
+12	2797	-1	-1574586929	[clientscript,journal_list_init]
 12	2798	-1	-1776060886	
 12	2799	-1	1206315195	
 12	2800	-1	1084320785	

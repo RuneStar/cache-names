@@ -6853,7 +6853,7 @@
 12	491	-1	-1212584045	[proc,bankside_switchview]
 12	492	-1	1614358809	[clientscript,bankside_lootingbag_draw]
 12	493	-1	1385682713	[proc,bankside_lootingbag_draw]
-12	494	-1	-4083402	
+12	494	-1	-4083402	[proc,tostring_minutes]
 12	495	-1	-1724713029	[clientscript,wilderness_lootingbag_setup]
 12	496	-1	1177806334	[clientscript,wilderness_lootingbag_draw]
 12	497	-1	463410174	[proc,wilderness_lootingbag_draw]
@@ -9234,10 +9234,10 @@
 12	2874	-1	194872755	[proc,kdr_update]
 12	2875	-1	-685705160	
 12	2876	-1	988456504	
-12	2877	-1	-759859171	
-12	2878	-1	1867228635	
-12	2879	-1	924046065	
-12	2880	-1	-1116667663	
+12	2877	-1	-759859171	[clientscript,clanwars_setup_smallbox_open]
+12	2878	-1	1867228635	[clientscript,clanwars_setup_smallbox_close]
+12	2879	-1	924046065	[clientscript,clanwars_setup_smallbox_updatetext]
+12	2880	-1	-1116667663	[proc,clanwars_setup_smallbox_updatetext]
 12	2881	-1	945118533	
 13	494	-1	-342013218	p11_full
 13	495	-1	-313384067	p12_full

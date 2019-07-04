@@ -1601,6 +1601,7 @@
 [proc,glidermap_hideglider]
 [proc,glidermap_hideshow]
 [proc,glidermap_showglider]
+[proc,gnomeball_score]
 [proc,godwars_hideshow]
 [proc,godwars_killcount]
 [proc,graphic_device]

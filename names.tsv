@@ -6949,7 +6949,7 @@
 12	571	-1	-189338859	
 12	572	-1	-1056890200	
 12	573	-1	-1145470028	
-12	574	-1	-946328474	
+12	574	-1	-946328474	[proc,gnomeball_score]
 12	576	-1	174186727	[clientscript,clanwars_setup_scrollbox_init]
 12	577	-1	-1720555142	[proc,clanwars_setup_scrollbox_drawframe]
 12	578	-1	-765455849	[clientscript,clanwars_setup_smallbox_init]

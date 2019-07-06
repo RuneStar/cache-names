@@ -8,7 +8,8 @@ The only way to find out the names of these files is to reverse the hashes.
 The following hash function is used:
 
 ```java
-static int hash(byte[] bytes) {
+public static int hash(String s) {
+    byte[] bytes = s.toLowerCase().getBytes(Charset.forName("windows-1252"));
     int h = 0;
     for (byte b : bytes) {
         h = h * 31 + b;
@@ -17,4 +18,4 @@ static int hash(byte[] bytes) {
 }
 ```
 
-It is equivalent to Java [String::hashCode](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#hashCode--) for ASCII-only inputs
+It is equivalent to `s.toLowerCase().hashCode()` for ASCII-only inputs

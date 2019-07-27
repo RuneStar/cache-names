@@ -143,6 +143,7 @@ fun main() {
         "favourite_icons,$x".add()
         "mod_icons_interface,$x".add()
         "spectator,$x".add()
+        "gauntlet_map_icons,$x".add()
     }
 
     val knownNamesMap = knownNames.associateBy { it.hashCode() }

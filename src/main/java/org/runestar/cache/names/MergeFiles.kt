@@ -144,6 +144,14 @@ fun main() {
         "mod_icons_interface,$x".add()
         "spectator,$x".add()
         "gauntlet_map_icons,$x".add()
+        "standard_health_30,$x".add()
+        "standard_health_50,$x".add()
+        "standard_health_60,$x".add()
+        "standard_health_80,$x".add()
+        "standard_health_100,$x".add()
+        "standard_health_120,$x".add()
+        "standard_health_140,$x".add()
+        "standard_health_160,$x".add()
     }
 
     val knownNamesMap = knownNames.associateBy { it.hashCode() }

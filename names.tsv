@@ -6521,7 +6521,7 @@
 8	2223	-1	1953813140	
 8	2224	-1	1953813141	
 8	2225	-1	1460970427	
-8	2226	-1	-1647429432	
+8	2226	-1	-1647429432	combat_path_icon
 8	2227	-1	65329445	
 8	2228	-1	-1898815576	
 8	2229	-1	1561680919	
@@ -9381,9 +9381,9 @@
 12	2837	-1	-1244085356	
 12	2838	-1	88169027	
 12	2839	-1	-1251637181	
-12	2840	-1	1940236791	
-12	2841	-1	-767835967	
-12	2842	-1	833614470	
+12	2840	-1	1940236791	[clientscript,adventurepath_voucher_init]
+12	2841	-1	-767835967	[proc,adventurepath_voucher_entry]
+12	2842	-1	833614470	[clientscript,adventurepath_voucher_item_op]
 12	2843	-1	-1762855546	[clientscript,adventurepath_item_init]
 12	2844	-1	843186962	[proc,adventurepath_item_entry]
 12	2845	-1	-558968354	
@@ -9493,21 +9493,21 @@
 12	2949	-1	1501860472	[clientscript,adventurepath_task_init]
 12	2950	-1	536772578	[proc,adventurepath_task_init_op]
 12	2951	-1	1771578488	[proc,adventurepath_task_init]
-12	2952	-1	-1151231649	
-12	2953	-1	1244937884	
+12	2952	-1	-1151231649	[clientscript,adventurepath_mouseover_path_reward]
+12	2953	-1	1244937884	[clientscript,adventurepath_mouseleave_path_reward]
 12	2954	-1	1496056382	[clientscript,adventurepath_set_info_transmit]
 12	2955	-1	790538829	[clientscript,adventurepath_set_info]
 12	2956	-1	5573566	
 12	2957	-1	-79203460	
 12	2958	-1	-717742215	[proc,adventurepath_flashicon]
-12	2959	-1	-1005851685	
+12	2959	-1	-1005851685	[proc,adventurepath_return_task_status]
 12	2960	-1	488840031	
 12	2961	-1	489137941	
 12	2962	-1	145030193	
-12	2963	-1	-591299973	
+12	2963	-1	-591299973	[proc,adventurepath_return_path_status]
 12	2964	-1	-1120757159	
 12	2965	-1	-1120459249	
-12	2966	-1	-1362754983	
+12	2966	-1	-1362754983	[proc,adventurepath_return_voucher]
 12	2967	-1	1368288775	
 12	2968	-1	3779834	
 12	2969	-1	1253385045	
@@ -9543,7 +9543,7 @@
 12	2999	-1	1028518408	
 12	3000	-1	-442559385	
 12	3001	-1	-1505374760	
-12	3002	-1	-1000782662	
+12	3002	-1	-1000782662	[proc,adventurepath_task_focus]
 12	3003	-1	1414235294	[clientscript,adventurepath_open_url]
 12	3004	-1	683354915	
 12	3005	-1	-21038047	
@@ -9552,7 +9552,7 @@
 12	3008	-1	-759525993	[clientscript,adventurepath_back_mouseover]
 12	3009	-1	2122795704	[clientscript,adventurepath_back_mouseleave]
 12	3010	-1	983220182	[proc,adventurepath_back_button_text]
-12	3011	-1	1514340352	
+12	3011	-1	1514340352	[clientscript,adventurepath_back_to_paths]
 12	3012	-1	1527064898	
 12	3013	-1	64216996	
 12	3014	-1	728952505	
@@ -9562,7 +9562,7 @@
 12	3018	-1	-1278765878	[clientscript,adventurepath_side_init]
 12	3019	-1	-80075137	[clientscript,adventurepath_side_info_transmit]
 12	3020	-1	-147228941	
-12	3021	-1	-912691889	
+12	3021	-1	-912691889	[clientscript,adventurepath_side_layer]
 12	3022	-1	-1009050900	[proc,adventurepath_side_info]
 12	3023	-1	-344347753	[proc,adventurepath_side_settings]
 12	3024	-1	1749469800	

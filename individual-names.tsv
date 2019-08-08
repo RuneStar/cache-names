@@ -250,15 +250,21 @@
 [clientscript,addtooltip]
 [clientscript,adventurepath_back_mouseleave]
 [clientscript,adventurepath_back_mouseover]
+[clientscript,adventurepath_back_to_paths]
 [clientscript,adventurepath_init]
 [clientscript,adventurepath_item_init]
+[clientscript,adventurepath_mouseleave_path_reward]
+[clientscript,adventurepath_mouseover_path_reward]
 [clientscript,adventurepath_open_url]
 [clientscript,adventurepath_set_info]
 [clientscript,adventurepath_set_info_transmit]
 [clientscript,adventurepath_side_info_transmit]
 [clientscript,adventurepath_side_init]
+[clientscript,adventurepath_side_layer]
 [clientscript,adventurepath_task_init]
 [clientscript,adventurepath_task_init_transmit]
+[clientscript,adventurepath_voucher_init]
+[clientscript,adventurepath_voucher_item_op]
 [clientscript,agilityarena_overlay]
 [clientscript,agilityarena_overlay_init]
 [clientscript,agilityarena_rewards_draw]
@@ -1414,12 +1420,17 @@
 [proc,adventurepath_hint_list]
 [proc,adventurepath_init]
 [proc,adventurepath_item_entry]
+[proc,adventurepath_return_path_status]
+[proc,adventurepath_return_task_status]
+[proc,adventurepath_return_voucher]
 [proc,adventurepath_set_info]
 [proc,adventurepath_side_create_toggle]
 [proc,adventurepath_side_info]
 [proc,adventurepath_side_settings]
+[proc,adventurepath_task_focus]
 [proc,adventurepath_task_init]
 [proc,adventurepath_task_init_op]
+[proc,adventurepath_voucher_entry]
 [proc,agilityarena_rewards_draw]
 [proc,agilityarena_rewards_gracefulbutton_draw]
 [proc,agilityarena_rewards_gracefulbutton_drawcomponents]
@@ -2255,6 +2266,7 @@ clickcircle_outline
 close quarters
 coil
 coins
+combat_path_icon
 combat_shield
 compass
 competition

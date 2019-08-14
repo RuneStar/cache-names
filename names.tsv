@@ -7160,9 +7160,9 @@
 12	616	-1	950449205	[clientscript,poll_placeholder_pulse]
 12	617	-1	-287776203	[proc,poll_placeholder_pulse]
 12	618	-1	678581677	
-12	619	-1	-184974301	
-12	620	-1	2126455885	
-12	621	-1	2012121193	
+12	619	-1	-184974301	[clientscript,poll_voting_addquestion_full]
+12	620	-1	2126455885	[clientscript,poll_voting_addquestion_refresh]
+12	621	-1	2012121193	[proc,poll_voting_addquestion]
 12	622	-1	-1011123539	
 12	623	-1	455308484	
 12	624	-1	1339125064	[clientscript,poll_results_addquestion_full]
@@ -7389,10 +7389,10 @@
 12	845	-1	-970733477	[clientscript,options_windowmode_mouseleave]
 12	846	-1	1244650451	[clientscript,options_windowmode_resynch]
 12	847	-1	-199988405	[clientscript,options_windowmode_set]
-12	848	-1	582946223	
-12	849	-1	1397490977	
-12	850	-1	1390555006	
-12	851	-1	317630556	
+12	848	-1	582946223	[clientscript,options_stonearrangement_init]
+12	849	-1	1397490977	[clientscript,options_stonearrangement_resynch]
+12	850	-1	1390555006	[clientscript,options_stonearrangement_op]
+12	851	-1	317630556	[proc,options_stonearrangement]
 12	852	-1	1128420994	[clientscript,options_chattrans_init]
 12	853	-1	-519854226	[clientscript,options_chattrans_resynch]
 12	854	-1	859279633	[clientscript,options_chattrans_op]
@@ -7546,7 +7546,7 @@
 12	1002	-1	35934062	[proc,xpdrops_data_get]
 12	1003	-1	-784961343	
 12	1004	-1	-1161743093	[clientscript,xpdrops_stattransmit]
-12	1005	-1	-965689874	
+12	1005	-1	-965689874	[clientscript,xpdrops_dropletmove]
 12	1006	-1	-1349296392	
 12	1007	-1	374007373	[proc,stat_totallevel]
 12	1008	-1	-59036900	[proc,stats_totalxp]
@@ -8843,8 +8843,8 @@
 12	2299	-1	-409067848	
 12	2300	-1	1082379448	
 12	2301	-1	1101469026	[clientscript,tob_hud_statusnames]
-12	2302	-1	871596998	
-12	2303	-1	1889539526	
+12	2302	-1	871596998	[clientscript,tob_hud_nameflasher]
+12	2303	-1	1889539526	[proc,tob_hud_nameflasher]
 12	2304	-1	51133036	[clientscript,tob_hud_updateprogress]
 12	2305	-1	-1187092372	[proc,tob_hud_updateprogress]
 12	2306	-1	-2037581594	[clientscript,tob_hud_fade]
@@ -9097,22 +9097,22 @@
 12	2553	-1	812180203	[clientscript,magictraining_other_init]
 12	2554	-1	-1934854317	[clientscript,fossil_pool_overlay_init]
 12	2555	-1	2004984444	
-12	2556	-1	-1702998056	
-12	2557	-1	-1274776523	
-12	2558	-1	-1280664202	
-12	2559	-1	1680384565	
-12	2560	-1	-1084115179	
-12	2561	-1	1790665569	
-12	2562	-1	-1088621215	
-12	2563	-1	-1691144989	
+12	2556	-1	-1702998056	[clientscript,membership_benefits_init]
+12	2557	-1	-1274776523	[clientscript,membership_benefits_hide_bonds]
+12	2558	-1	-1280664202	[clientscript,membership_benefits_hover]
+12	2559	-1	1680384565	[proc,membership_benefits_hide_bonds]
+12	2560	-1	-1084115179	[proc,membership_benefits_button_init]
+12	2561	-1	1790665569	[clientscript,membership_benefits_button_draw]
+12	2562	-1	-1088621215	[proc,membership_benefits_button_draw]
+12	2563	-1	-1691144989	[clientscript,membership_benefits_view]
 12	2564	-1	-2069191035	
-12	2565	-1	-1738800414	
-12	2566	-1	-369006137	
-12	2567	-1	-201187612	
-12	2568	-1	158216420	
-12	2569	-1	-1026687418	
-12	2570	-1	712183442	
-12	2571	-1	-1031193454	
+12	2565	-1	-1738800414	[clientscript,membership_benefits_close_benefit]
+12	2566	-1	-369006137	[clientscript,membership_benefits_prompt_init]
+12	2567	-1	-201187612	[clientscript,membership_benefits_prompt_hide_bonds]
+12	2568	-1	158216420	[proc,membership_benefits_prompt_hide_bonds]
+12	2569	-1	-1026687418	[proc,membership_benefits_prompt_button_init]
+12	2570	-1	712183442	[clientscript,membership_benefits_prompt_button_draw]
+12	2571	-1	-1031193454	[proc,membership_benefits_prompt_button_draw]
 12	2572	-1	1224289017	[clientscript,tutorial_displayname_border]
 12	2573	-1	-1762129771	[clientscript,tutorial_displayname_init]
 12	2574	-1	400638132	[clientscript,tutorial_displayname_buttons]
@@ -9219,8 +9219,8 @@
 12	2675	-1	898627429	
 12	2676	-1	1636971082	[clientscript,telenexus_options_mouseover]
 12	2677	-1	-895206299	[clientscript,telenexus_options_mouseleave]
-12	2678	-1	-33013096	
-12	2679	-1	-2027585799	
+12	2678	-1	-33013096	[clientscript,telenexus_scry_click]
+12	2679	-1	-2027585799	[clientscript,telenexus_scry_vartrans]
 12	2680	-1	1672438596	[proc,telenexus_options]
 12	2681	-1	-392981807	[proc,telenexus_get_slot]
 12	2682	-1	-1270518585	
@@ -9533,7 +9533,7 @@
 12	2989	-1	240558870	
 12	2990	-1	-378778341	
 12	2991	-1	-1915594808	[proc,stoneborder_free]
-12	2992	-1	-404358241	
+12	2992	-1	-404358241	[clientscript,adventurepath_do_nothing]
 12	2993	-1	1831119404	[proc,adventurepath_hint_list]
 12	2994	-1	1883448464	
 12	2995	-1	-1513487225	

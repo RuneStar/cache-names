@@ -6801,9 +6801,9 @@
 12	257	-1	-1335446626	[clientscript,nzone_game_points_transmit]
 12	258	-1	-1316509034	[clientscript,nzone_game_points_tickup]
 12	259	-1	1384955818	[proc,nzone_game_points_set]
-12	260	-1	1971009546	
-12	261	-1	845958363	
-12	262	-1	1902192574	
+12	260	-1	1971009546	[clientscript,nzone_game_absorption_transmit]
+12	261	-1	845958363	[clientscript,nzone_game_absorption_tickdown]
+12	262	-1	1902192574	[proc,nzone_game_absorption_set]
 12	263	-1	-1483150440	[clientscript,nzone_game_subtitle]
 12	264	-1	-595803978	[clientscript,nzone_lobby_overlay]
 12	265	-1	-2003338926	[clientscript,nzone_lobby_hide]
@@ -6846,8 +6846,8 @@
 12	302	-1	1099672387	[proc,nzone_rewards_lists]
 12	303	-1	981243713	[proc,nzone_rewards_lists_drawitem]
 12	304	-1	245322758	[proc,nzone_rewards_updatepotion]
-12	305	-1	1956607403	
-12	306	-1	718381995	
+12	305	-1	1956607403	[clientscript,nzone_rewards_upgrades]
+12	306	-1	718381995	[proc,nzone_rewards_upgrades]
 12	307	-1	2087979876	[clientscript,nzone_rewards_tabs]
 12	308	-1	-1897055900	[proc,nzone_rewards_tabs]
 12	309	-1	-476837373	[proc,nzone_rewards_tab]
@@ -7263,7 +7263,7 @@
 12	719	-1	1847783279	[clientscript,cc_object_swapper]
 12	720	-1	-551187491	[clientscript,cc_fade]
 12	721	-1	302762583	[clientscript,cc_fade_timer]
-12	722	-1	1389888381	
+12	722	-1	1389888381	[clientscript,bondif_convert_init]
 12	723	-1	109308807	
 12	724	-1	1632513708	
 12	725	-1	1687206966	
@@ -8950,7 +8950,7 @@
 12	2406	-1	-2023161054	
 12	2407	-1	1619475707	[clientscript,tol_homonculus_overlay_init]
 12	2408	-1	1999092108	
-12	2409	-1	1974999509	
+12	2409	-1	1974999509	[clientscript,soulbane_angerbar_init]
 12	2410	-1	-31270968	[clientscript,options_storeorb_init]
 12	2411	-1	-186165144	[clientscript,options_storeorb_resynch]
 12	2412	-1	1555278807	[clientscript,options_storeorb_op]
@@ -9024,7 +9024,7 @@
 12	2480	-1	-90177871	[clientscript,duel_stake_load_highlight]
 12	2481	-1	-258541716	[clientscript,duel_stake_load_mouseout]
 12	2482	-1	-619251907	[clientscript,duel_switch_setup_buttons]
-12	2483	-1	-1949961836	
+12	2483	-1	-1949961836	[clientscript,duel_invalid_option]
 12	2484	-1	-958420822	[clientscript,duel_switch_to_info]
 12	2485	-1	-1416389647	[clientscript,duel_switch_to_inv]
 12	2486	-1	-945450236	[clientscript,duel_switch_to_worn]

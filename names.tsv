@@ -7016,8 +7016,6 @@
 12	472	-1	441908555	[clientscript,quickprayer_close]
 12	473	-1	584695657	[clientscript,quickprayer_close_timeout]
 12	474	-1	-966386581	
-12	475	-1	1254094161	[clientscript,poh_tablets_update]
-12	476	-1	1564025681	[proc,poh_tablets_update]
 12	477	-1	561090516	[clientscript,ntk_textbox]
 12	478	-1	1732855554	[clientscript,tournament_sidepanel_setactive]
 12	479	-1	-1580482062	[clientscript,ntk_timer_resynch]
@@ -7418,7 +7416,6 @@
 12	874	-1	-978900240	[clientscript,wom_telescope_borders]
 12	875	-1	-1988674320	[proc,wom_telescope_borders]
 12	876	-1	-2050704803	[clientscript,cc_outline_on]
-12	877	-1	1553156123	[clientscript,trawler_water]
 12	878	-1	1613781073	[clientscript,boardgames_rank_draughts]
 12	879	-1	1211907007	[clientscript,boardgames_rank_runelink]
 12	880	-1	-802863704	[clientscript,boardgames_rank_runeversi]
@@ -7833,11 +7830,6 @@
 12	1289	-1	-1382314347	[clientscript,glidermap_fly]
 12	1290	-1	-1013079915	[proc,glidermap_fly]
 12	1291	-1	-205770471	
-12	1292	-1	809870718	[clientscript,teletab_init]
-12	1293	-1	-302696143	[proc,teletab_req_met]
-12	1294	-1	-1629876505	[clientscript,teletab_runecost]
-12	1295	-1	-337528580	[clientscript,teletab_blank_runecost]
-12	1296	-1	427771501	
 12	1297	-1	-1889431041	[clientscript,slayer_rewards_unlock_draw]
 12	1298	-1	1690769490	[proc,slayer_rewards_unlock_desc]
 12	1299	-1	1836919124	
@@ -7904,7 +7896,6 @@
 12	1360	-1	1154251004	[proc,quicksort_intenum]
 12	1361	-1	1129139845	[proc,welcome_screen_lastlogin]
 12	1362	-1	1704876246	[clientscript,welcome_screen_messages]
-12	1363	-1	810009881	[clientscript,trawler_activity]
 12	1364	-1	2112676040	[clientscript,barbassault_reward_shop_init]
 12	1365	-1	-927462173	
 12	1366	-1	-850805436	
@@ -9583,6 +9574,31 @@
 12	3039	-1	-290682915	[clientscript,adventurepath_side_settings_back_op]
 12	3040	-1	568435691	
 12	3041	-1	283708906	
+12	3042	-1	-810723136	
+12	3043	-1	-372495009	
+12	3044	-1	-863785554	
+12	3045	-1	-1682866352	
+12	3046	-1	-214651401	
+12	3047	-1	1276795895	
+12	3048	-1	1121546514	
+12	3049	-1	1881618233	
+12	3050	-1	-2143631047	
+12	3051	-1	314412111	
+12	3052	-1	-680429770	
+12	3053	-1	-1394825930	
+12	3054	-1	-1334445281	
+12	3055	-1	928573080	
+12	3056	-1	-309652328	
+12	3057	-1	593433049	
+12	3058	-1	-1505676749	
+12	3059	-1	-1166700121	
+12	3060	-1	961595962	
+12	3061	-1	290151482	
+12	3062	-1	-781110915	
+12	3063	-1	-654540500	
+12	3064	-1	5517100	
+12	3065	-1	-635306769	
+12	3066	-1	1573403067	
 13	494	-1	-342013218	p11_full
 13	495	-1	-313384067	p12_full
 13	496	-1	1057075019	b12_full

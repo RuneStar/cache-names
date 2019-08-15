@@ -7269,8 +7269,8 @@
 12	727	-1	246916541	[clientscript,bondif_convert_minus]
 12	728	-1	1396304947	[clientscript,bondif_convert_plus]
 12	729	-1	-1796132158	
-12	730	-1	-1301706571	
-12	731	-1	458211824	
+12	730	-1	-1301706571	[proc,bondif_convert_disableconfirm]
+12	731	-1	458211824	[proc,bondif_convert_enableconfirm]
 12	732	-1	77387626	[clientscript,cocktail_update_if]
 12	733	-1	-1202378470	
 12	734	-1	-1848298066	[clientscript,bondif_redeem_init]
@@ -9574,31 +9574,31 @@
 12	3039	-1	-290682915	[clientscript,adventurepath_side_settings_back_op]
 12	3040	-1	568435691	
 12	3041	-1	283708906	
-12	3042	-1	-810723136	
-12	3043	-1	-372495009	
-12	3044	-1	-863785554	
-12	3045	-1	-1682866352	
-12	3046	-1	-214651401	
-12	3047	-1	1276795895	
-12	3048	-1	1121546514	
-12	3049	-1	1881618233	
-12	3050	-1	-2143631047	
+12	3042	-1	-810723136	[proc,poh_tablets_buildbutton]
+12	3043	-1	-372495009	[clientscript,poh_tablets_updatebutton]
+12	3044	-1	-863785554	[clientscript,poh_tablets_hidehighlight]
+12	3045	-1	-1682866352	[clientscript,trawler_water_init]
+12	3046	-1	-214651401	[clientscript,trawler_water_update]
+12	3047	-1	1276795895	[proc,trawler_water_update]
+12	3048	-1	1121546514	[clientscript,trawler_activity_init]
+12	3049	-1	1881618233	[clientscript,trawler_activity_update]
+12	3050	-1	-2143631047	[proc,trawler_activity_update]
 12	3051	-1	314412111	
 12	3052	-1	-680429770	
 12	3053	-1	-1394825930	
-12	3054	-1	-1334445281	
-12	3055	-1	928573080	
-12	3056	-1	-309652328	
-12	3057	-1	593433049	
-12	3058	-1	-1505676749	
-12	3059	-1	-1166700121	
-12	3060	-1	961595962	
-12	3061	-1	290151482	
-12	3062	-1	-781110915	
-12	3063	-1	-654540500	
-12	3064	-1	5517100	
-12	3065	-1	-635306769	
-12	3066	-1	1573403067	
+12	3054	-1	-1334445281	[clientscript,arceuus_teletab_init]
+12	3055	-1	928573080	[clientscript,arceuus_teletab_redraw]
+12	3056	-1	-309652328	[proc,arceuus_teletab_redraw]
+12	3057	-1	593433049	[proc,arceuus_teletab_addingredient]
+12	3058	-1	-1505676749	[proc,arceuus_teletab_placeingredient]
+12	3059	-1	-1166700121	[proc,arceuus_teletab_button_redraw]
+12	3060	-1	961595962	[clientscript,arceuus_teletab_button_draw]
+12	3061	-1	290151482	[proc,arceuus_teletab_button_draw]
+12	3062	-1	-781110915	[clientscript,arceuus_teletab_button_op]
+12	3063	-1	-654540500	[clientscript,arceuus_teletab_confirm_draw]
+12	3064	-1	5517100	[proc,arceuus_teletab_confirm_draw]
+12	3065	-1	-635306769	[clientscript,arceuus_teletab_confirm_op]
+12	3066	-1	1573403067	[clientscript,arceuus_teletab_confirm_reset]
 13	494	-1	-342013218	p11_full
 13	495	-1	-313384067	p12_full
 13	496	-1	1057075019	b12_full

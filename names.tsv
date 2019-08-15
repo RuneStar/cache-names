@@ -9427,13 +9427,13 @@
 12	2883	-1	-293955767	[proc,hp_hud_centre_pos]
 12	2884	-1	-1131824140	[clientscript,hp_hud_centre_update]
 12	2885	-1	359623156	[proc,hp_hud_centre_update]
-12	2886	-1	1171382352	
-12	2887	-1	-2118747079	
-12	2888	-1	737585721	
-12	2889	-1	-1256463730	
-12	2890	-1	1390507150	
+12	2886	-1	1171382352	[clientscript,hp_hud_fade_in_check]
+12	2887	-1	-2118747079	[clientscript,hp_hud_fade_in]
+12	2888	-1	737585721	[proc,hp_hud_fade_in]
+12	2889	-1	-1256463730	[clientscript,hp_hud_fade_out]
+12	2890	-1	1390507150	[proc,hp_hud_fade_out]
 12	2891	-1	-3707923	[proc,orbs_worldmap_graphics]
-12	2892	-1	-1950215598	
+12	2892	-1	-1950215598	[proc,orbs_worldmap_op1]
 12	2893	-1	1909690631	[clientscript,overlay_portal]
 12	2894	-1	-583664848	[clientscript,overlay_portal_remove]
 12	2895	-1	1477418373	[clientscript,overlay_portal_adjust]

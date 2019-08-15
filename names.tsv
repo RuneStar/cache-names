@@ -7265,11 +7265,11 @@
 12	721	-1	302762583	[clientscript,cc_fade_timer]
 12	722	-1	1389888381	[clientscript,bondif_convert_init]
 12	723	-1	109308807	
-12	724	-1	1632513708	
-12	725	-1	1687206966	
-12	726	-1	-1579911499	
-12	727	-1	246916541	
-12	728	-1	1396304947	
+12	724	-1	1632513708	[clientscript,bondif_convert_invtransmit]
+12	725	-1	1687206966	[clientscript,bondif_convert_vartransmit]
+12	726	-1	-1579911499	[clientscript,bondif_convert_x]
+12	727	-1	246916541	[clientscript,bondif_convert_minus]
+12	728	-1	1396304947	[clientscript,bondif_convert_plus]
 12	729	-1	-1796132158	
 12	730	-1	-1301706571	
 12	731	-1	458211824	

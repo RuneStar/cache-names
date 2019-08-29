@@ -154,6 +154,8 @@ fun main() {
         "standard_health_160,$x".add()
     }
 
+    knownNames.remove("l16_186")
+
     val knownNamesMap = knownNames.associateBy { it.hashCode() }
 
     val fullNames = File("name-hashes.tsv").readLines().map { line ->

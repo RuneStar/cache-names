@@ -7832,9 +7832,9 @@
 12	1289	-1	-1382314347	[clientscript,glidermap_fly]
 12	1290	-1	-1013079915	[proc,glidermap_fly]
 12	1291	-1	-205770471	
-12	1292	-1	1253911906	
-12	1293	-1	1420552114	
-12	1294	-1	1431745560	
+12	1292	-1	1253911906	[clientscript,br_loadout_init]
+12	1293	-1	1420552114	[clientscript,br_loadout_menuop]
+12	1294	-1	1431745560	[clientscript,br_loadout_menureset]
 12	1295	-1	1778539908	
 12	1296	-1	-696564136	
 12	1297	-1	-1889431041	[clientscript,slayer_rewards_unlock_draw]
@@ -9602,17 +9602,17 @@
 12	3064	-1	5517100	[proc,arceuus_teletab_confirm_draw]
 12	3065	-1	-635306769	[clientscript,arceuus_teletab_confirm_op]
 12	3066	-1	1573403067	[clientscript,arceuus_teletab_confirm_reset]
-12	3067	-1	-1631014332	
-12	3068	-1	-1867656295	
+12	3067	-1	-1631014332	[proc,br_loadout_drawloadout]
+12	3068	-1	-1867656295	[clientscript,br_loadout_insert]
 12	3069	-1	896094831	
-12	3070	-1	773748084	
-12	3071	-1	-352223794	
+12	3070	-1	773748084	[proc,br_loadout_additem]
+12	3071	-1	-352223794	[clientscript,br_loadout_hidewarning]
 12	3072	-1	1542931108	
-12	3073	-1	-384810860	
-12	3074	-1	-318275680	
-12	3075	-1	-1263655627	
-12	3076	-1	-879388140	
-12	3077	-1	-1478272703	
+12	3073	-1	-384810860	[proc,br_loadout_sort]
+12	3074	-1	-318275680	[proc,br_loadout_get_inv]
+12	3075	-1	-1263655627	[proc,br_loadout_get_worn]
+12	3076	-1	-879388140	[proc,br_loadout_set_inv]
+12	3077	-1	-1478272703	[proc,br_loadout_set_worn]
 12	3078	-1	1304881154	
 12	3079	-1	2046245081	
 12	3080	-1	1331848921	

@@ -6749,8 +6749,8 @@
 12	206	-1	-1800955675	[clientscript,duel_confirm_text]
 12	207	-1	-1157978820	[proc,duel_addtostring]
 12	208	-1	1939135295	[proc,v2_stone_button_out_filled]
-12	209	-1	1255557544	
-12	210	-1	267198594	
+12	209	-1	1255557544	[clientscript,trade_partner_set]
+12	210	-1	267198594	[proc,trade_partner_check]
 12	211	-1	-1675591874	[clientscript,poh_options_buildmode]
 12	212	-1	-1050310051	
 12	213	-1	-259063324	
@@ -7015,7 +7015,7 @@
 12	472	-1	441908555	[clientscript,quickprayer_close]
 12	473	-1	584695657	[clientscript,quickprayer_close_timeout]
 12	474	-1	-966386581	
-12	475	-1	511727597	
+12	475	-1	511727597	[proc,pest_rewards_divider]
 12	476	-1	1081054843	
 12	477	-1	561090516	[clientscript,ntk_textbox]
 12	478	-1	1732855554	[clientscript,tournament_sidepanel_setactive]
@@ -8583,7 +8583,7 @@
 12	2044	-1	-1838106053	
 12	2045	-1	-1146526516	
 12	2046	-1	1552471900	[clientscript,skillmulti_setup]
-12	2047	-1	465410792	
+12	2047	-1	465410792	[proc,skillmulti_wipebutton]
 12	2048	-1	1476386159	[proc,skillmulti_itembutton_init]
 12	2049	-1	-832556865	[clientscript,skillmulti_itembutton_hover]
 12	2050	-1	2067087678	[clientscript,skillmulti_itembutton_op]
@@ -9468,7 +9468,7 @@
 12	2930	-1	-2129438336	[clientscript,skillmain_setquantity]
 12	2931	-1	793998012	[clientscript,skillmain_button_draw]
 12	2932	-1	-215776068	[proc,skillmain_button_draw]
-12	2933	-1	-198483431	
+12	2933	-1	-198483431	[proc,skillmain_button_wipe]
 12	2934	-1	-964302867	[clientscript,silver_crafting_mouseeffect]
 12	2935	-1	2069186180	
 12	2936	-1	1800374293	

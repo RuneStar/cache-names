@@ -152,6 +152,9 @@ fun main() {
         "standard_health_120,$x".add()
         "standard_health_140,$x".add()
         "standard_health_160,$x".add()
+        "armour_100,$x".add()
+        "combatboxes_very_large,$x".add()
+        "side_stone_highlights,$x".add()
     }
 
     knownNames.remove("l16_186")

@@ -1591,6 +1591,7 @@
 [proc,blast_mining_hud_update]
 [proc,bondif_convert_disableconfirm]
 [proc,bondif_convert_enableconfirm]
+[proc,bondif_convert_updatevalues]
 [proc,bondif_redeem_package_details]
 [proc,bondif_redeem_package_draw]
 [proc,bondif_redeem_rightcolumn]

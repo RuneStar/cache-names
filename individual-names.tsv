@@ -1675,6 +1675,7 @@
 [proc,combat_interface_sp_updatebar]
 [proc,confirmdestroy_setupbutton]
 [proc,create_graphic]
+[proc,current_date_time]
 [proc,cws_cc_getvar]
 [proc,cws_init_button]
 [proc,cws_set_toggle]

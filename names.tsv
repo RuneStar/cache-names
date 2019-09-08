@@ -6666,10 +6666,10 @@
 12	116	-1	1626844703	[clientscript,options_gfx_windowmode_check]
 12	117	-1	1605680968	[proc,options_gfx_windowmode]
 12	118	-1	79932602	
-12	119	-1	797444990	
+12	119	-1	797444990	[clientscript,component_pulse_start]
 12	120	-1	1354352488	[proc,options_gfx_togglebox]
 12	121	-1	1104392265	[clientscript,options_gfx_mouseeffect]
-12	122	-1	816260347	
+12	122	-1	816260347	[clientscript,component_pulse_timer]
 12	123	-1	2075566599	[clientscript,friend_init]
 12	124	-1	296184800	[clientscript,grouping_viewchannel]
 12	125	-1	-58846994	[proc,friend_update]
@@ -8484,7 +8484,7 @@
 12	1934	-1	47713359	22032
 12	1935	-1	662921668	[proc,instance_check]
 12	1936	-1	241151661	
-12	1937	-1	-2002384231	
+12	1937	-1	-2002384231	[clientscript,bookofscrolls_init]
 12	1938	-1	1170144255	
 12	1939	-1	-68081153	
 12	1940	-1	1870473919	[clientscript,blast_mining_hud_update]

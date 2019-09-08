@@ -1,8 +1,10 @@
 package org.runestar.cache.names
 
-import java.io.File
 import java.io.OutputStream
 import java.nio.charset.Charset
+import java.nio.file.Files
+import java.nio.file.Path
+import java.nio.file.Paths
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.TimeUnit
 
@@ -25,26 +27,24 @@ fun ExecutorService.shutdownAwait() {
 
 fun OutputStream.write(b: Byte) = write(b.toInt())
 
-fun unknownHashes(index: Int): IntSet {
-    val set = HashSet<Int>()
-    File("names.tsv").forEachLine { line ->
+data class NameEntry(val archive: Int, val group: Int, val file: Int, val hash: Int, val name: String?)
+
+private fun readNames(): List<NameEntry> {
+    return Files.readAllLines(Paths.get("names.tsv")).map { line ->
         val split = line.split('\t')
-        val idx = split.first().toInt()
-        if (idx != index) return@forEachLine
-        val name = split.last()
-        if (!name.isEmpty()) return@forEachLine
-        set.add(split[split.lastIndex - 1].toInt())
+        NameEntry(split[0].toInt(), split[1].toInt(), split[2].toInt(), split[3].toInt(), split[4].takeUnless { it.isEmpty() })
     }
-    return IntSet.of(set)
 }
 
-fun unknownHashes(): IntSet {
-    val set = HashSet<Int>()
-    File("names.tsv").forEachLine { line ->
-        val split = line.split('\t')
-        val name = split.last()
-        if (!name.isEmpty()) return@forEachLine
-        set.add(split[split.lastIndex - 1].toInt())
+val NAMES by lazy { readNames() }
+
+fun unknownHashes(archive: Int) = IntSet.of(NAMES.filter { it.archive == archive && it.name == null }.mapTo(HashSet()) { it.hash })
+
+fun writeLines(path: Path, lines: Iterable<String>) {
+    Files.newBufferedWriter(path).use { writer ->
+        for (line in lines) {
+            writer.write(line)
+            writer.write('\n'.toInt())
+        }
     }
-    return IntSet.of(set)
 }

@@ -1,14 +1,13 @@
 package org.runestar.cache.names
 
-import java.io.File
 import java.nio.file.Files
 import java.nio.file.Paths
 
 fun main() {
-    val uniqueNameHashes = File("name-hashes.tsv").readLines().mapTo(HashSet()) { it.split('\t').last().toInt() }
+    val uniqueNameHashes = Files.readAllLines(Paths.get("name-hashes.tsv")).mapTo(HashSet()) { it.split('\t').last().toInt() }
 
-    val individualNames = File("individual-names.tsv").readLines().toSortedSet()
-    Files.write(Paths.get("individual-names.tsv"), individualNames)
+    val individualNames = Files.readAllLines(Paths.get("individual-names.tsv")).toSortedSet()
+    writeLines(Paths.get("individual-names.tsv"), individualNames)
 
     val knownNames = ArrayList<String>(individualNames)
 
@@ -161,10 +160,10 @@ fun main() {
 
     val knownNamesMap = knownNames.associateBy { it.hashCode() }
 
-    val fullNames = File("name-hashes.tsv").readLines().map { line ->
+    val fullNames = Files.readAllLines(Paths.get("name-hashes.tsv")).map { line ->
         val hash = line.split('\t').last().toInt()
         val name = knownNamesMap.getOrDefault(hash, "")
         "$line\t$name"
     }
-    Files.write(Paths.get("names.tsv"), fullNames)
+    writeLines(Paths.get("names.tsv"), fullNames)
 }

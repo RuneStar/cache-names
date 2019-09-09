@@ -6665,7 +6665,7 @@
 12	115	-1	-357438909	[clientscript,options_gfx_windowmode_init]
 12	116	-1	1626844703	[clientscript,options_gfx_windowmode_check]
 12	117	-1	1605680968	[proc,options_gfx_windowmode]
-12	118	-1	79932602	
+12	118	-1	79932602	[clientscript,death_deathkeepinit]
 12	119	-1	797444990	[clientscript,component_pulse_start]
 12	120	-1	1354352488	[proc,options_gfx_togglebox]
 12	121	-1	1104392265	[clientscript,options_gfx_mouseeffect]
@@ -6716,8 +6716,8 @@
 12	166	-1	-987103192	[proc,cws_cc_getvar]
 12	167	-1	-1793472225	[clientscript,cws_mouseover]
 12	168	-1	-359689217	[proc,barrows_overlay_size]
-12	169	-1	-1290070879	
-12	170	-1	1107414237	
+12	169	-1	-1290070879	[clientscript,kr_mouseleave_colour]
+12	170	-1	1107414237	[clientscript,kr_tumbler_height]
 12	171	-1	1693587891	[clientscript,kr_display_riddle]
 12	172	-1	648639089	[proc,bank_depositbox_drawslot]
 12	173	-1	-871084896	[clientscript,chat_button_select]
@@ -6737,8 +6737,8 @@
 12	187	-1	-908086374	[proc,combat_interface_sp_redraw]
 12	188	-1	1539093023	[clientscript,combat_interface_sp_updatebar]
 12	189	-1	526042143	[proc,combat_interface_sp_updatebar]
-12	190	-1	1531151305	
-12	191	-1	1531151336	
+12	190	-1	1531151305	[clientscript,patchy_page_1]
+12	191	-1	1531151336	[clientscript,patchy_page_2]
 12	192	-1	-1177496749	[proc,chatalerts]
 12	193	-1	-2020412952	[proc,panetest]
 12	194	-1	785961019	[clientscript,joinchat_onop]
@@ -6877,9 +6877,9 @@
 12	327	-1	1212859946	[clientscript,combat_interface_sp]
 12	328	-1	57309723	[clientscript,slayer_rewards_tasks_init]
 12	329	-1	1186217401	[clientscript,combat_interface_autocast]
-12	330	-1	354410466	
-12	331	-1	-1772563573	
-12	332	-1	-654187125	
+12	330	-1	354410466	[clientscript,thormac_setup]
+12	331	-1	-1772563573	[clientscript,thormac_highlight]
+12	332	-1	-654187125	[proc,thormac_highlight]
 12	333	-1	-1353560477	[clientscript,bankpin_keypad_init]
 12	334	-1	-1707510176	[clientscript,godwars_hideshow_init]
 12	335	-1	1636902667	[clientscript,godwars_hideshow]
@@ -7116,9 +7116,9 @@
 12	566	-1	-1548828533	[proc,clanwars_view_updatebutton]
 12	567	-1	392034660	[clientscript,clanwars_view_spin]
 12	568	-1	-1766903369	
-12	569	-1	-1306647636	
-12	570	-1	-1307715307	
-12	571	-1	-189338859	
+12	569	-1	-1306647636	[clientscript,clanwars_ffa_init]
+12	570	-1	-1307715307	[clientscript,clanwars_ffa_hint]
+12	571	-1	-189338859	[proc,clanwars_ffa_hint]
 12	572	-1	-1056890200	
 12	573	-1	-1145470028	
 12	574	-1	-946328474	[proc,gnomeball_score]
@@ -7190,10 +7190,10 @@
 12	640	-1	1159138960	[clientscript,poh_menagerie_drawlist]
 12	641	-1	-79086448	[proc,poh_menagerie_drawlist]
 12	642	-1	-279530515	[proc,poh_menagerie_drawpet]
-12	643	-1	1545929343	
-12	644	-1	932867675	
-12	645	-1	704191579	
-12	646	-1	-1465876989	
+12	643	-1	1545929343	[clientscript,poh_menagerie_initroaming]
+12	644	-1	932867675	[clientscript,poh_menagerie_setroaming]
+12	645	-1	704191579	[proc,poh_menagerie_setroaming]
+12	646	-1	-1465876989	[clientscript,poh_menagerie_toggleroaming]
 12	647	-1	2050085195	[clientscript,poh_menagerie_petlist]
 12	648	-1	1427862872	[clientscript,poh_add_room_init]
 12	649	-1	602332710	[proc,poh_add_room_initbutton]
@@ -7242,10 +7242,10 @@
 12	692	-1	829400784	[proc,trail_slidepuzzle_position]
 12	693	-1	885126004	[clientscript,corp_beast_damage]
 12	694	-1	-331701428	
-12	695	-1	-6188662	
-12	696	-1	459872689	
-12	697	-1	-960893415	
-12	698	-1	-254523471	
+12	695	-1	-6188662	[clientscript,makeovermage_colour_init]
+12	696	-1	459872689	[clientscript,makeovermage_colour_update]
+12	697	-1	-960893415	[clientscript,makeovermage_colour_op]
+12	698	-1	-254523471	[proc,makeovermage_colour_update]
 12	699	-1	1155572427	[clientscript,emote_init]
 12	700	-1	220782258	[clientscript,emote_update]
 12	701	-1	94145714	[proc,emote_update]
@@ -7270,7 +7270,7 @@
 12	720	-1	-551187491	[clientscript,cc_fade]
 12	721	-1	302762583	[clientscript,cc_fade_timer]
 12	722	-1	1389888381	[clientscript,bondif_convert_init]
-12	723	-1	109308807	
+12	723	-1	109308807	[clientscript,bondif_convert_initialvalues]
 12	724	-1	1632513708	[clientscript,bondif_convert_invtransmit]
 12	725	-1	1687206966	[clientscript,bondif_convert_vartransmit]
 12	726	-1	-1579911499	[clientscript,bondif_convert_x]
@@ -7328,9 +7328,9 @@
 12	778	-1	1944882568	[clientscript,ge_offers_setup_changeprice]
 12	779	-1	-399051659	[proc,ge_offers_setup_draw]
 12	780	-1	-14853330	[proc,ge_offers_setup_draw_disableconfirm]
-12	781	-1	2117524846	
-12	782	-1	2113018810	
-12	783	-1	-1872016966	
+12	781	-1	2117524846	[clientscript,ge_offer_side_init]
+12	782	-1	2113018810	[clientscript,ge_offer_side_draw]
+12	783	-1	-1872016966	[proc,ge_offer_side_draw]
 12	784	-1	-1708827808	[clientscript,ge_pricechecker_init]
 12	785	-1	525563558	[clientscript,ge_pricechecker_prices]
 12	786	-1	1924217497	[clientscript,ge_pricechecker_redraw]

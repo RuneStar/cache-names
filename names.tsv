@@ -6548,7 +6548,7 @@
 10	1	-1	1258058669	huffman
 10	2	-1	-314778466	titlewide.jpg
 12	0	-1	-1248498418	[clientscript,tt_rewards_init]
-12	1	-1	1040653880	
+12	1	-1	1040653880	[clientscript,options_loginlogouttimeout_init]
 12	2	-1	-2080802731	[proc,hex_to_rgb]
 12	3	-1	2992446	[proc,target_world]
 12	4	-1	705356908	[clientscript,tt_reward_selected_onclick]
@@ -6609,7 +6609,7 @@
 12	59	-1	-1342329868	[proc,chatbox_multi_addoption]
 12	60	-1	682911585	[clientscript,dream_bank_init]
 12	61	-1	2129584024	[clientscript,dream_chest_init]
-12	62	-1	74085308	
+12	62	-1	74085308	[clientscript,welcome_screen2_init]
 12	63	-1	1879461885	[clientscript,scrollbar_vertical_graphics]
 12	64	-1	-1361138043	
 12	65	-1	-382485956	[clientscript,set_spinner]
@@ -7221,9 +7221,9 @@
 12	671	-1	2052064458	[proc,rune_pouch_drawinventory_slot]
 12	672	-1	1548143536	[clientscript,rune_pouch_inventoryreorder]
 12	673	-1	-1850810761	[proc,add]
-12	674	-1	445135864	
-12	675	-1	416730695	
-12	676	-1	353052211	
+12	674	-1	445135864	[clientscript,options_loginlogouttimeout_resynch]
+12	675	-1	416730695	[clientscript,options_loginlogouttimeout_op]
+12	676	-1	353052211	[proc,options_loginlogouttimeout]
 12	677	-1	-500266235	[proc,meslayer_open]
 12	678	-1	172100314	[proc,meslayer_dynamicbutton]
 12	679	-1	-802485748	[proc,bankpin_button_setup]

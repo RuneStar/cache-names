@@ -7063,7 +7063,7 @@
 12	513	-1	-1831947673	
 12	514	-1	-2106558734	[proc,bankmain_searching]
 12	515	-1	-250688799	
-12	516	-1	1849480739	
+12	516	-1	1849480739	[proc,bank_tabforslot]
 12	517	-1	-1943325052	
 12	518	-1	-1162032346	
 12	519	-1	-1625089389	
@@ -7961,10 +7961,10 @@
 12	1411	-1	-166992766	[clientscript,questdisplay]
 12	1412	-1	834909444	[proc,questdisplay_setup]
 12	1413	-1	-1173301812	
-12	1414	-1	1311554834	
-12	1415	-1	1082878738	
-12	1416	-1	261753407	
-12	1417	-1	-976472001	
+12	1414	-1	1311554834	[clientscript,welcome_screen_messages2]
+12	1415	-1	1082878738	[proc,welcome_screen_messages2]
+12	1416	-1	261753407	[clientscript,welcome_screen_credit2]
+12	1417	-1	-976472001	[proc,welcome_screen_credit2]
 12	1418	-1	-449084897	[clientscript,br_tournament_sendnames]
 12	1419	-1	-1079200166	[clientscript,br_tournament_op]
 12	1420	-1	-269435901	[clientscript,br_tournament_submit]
@@ -9644,7 +9644,7 @@
 12	3094	-1	-931014136	[clientscript,canoe_remake]
 12	3095	-1	-143808044	[proc,canoe_setup]
 12	3096	-1	1237543006	[proc,canoe_name]
-12	3097	-1	-1911940533	
+12	3097	-1	-1911940533	[clientscript,close_mouse_interact]
 12	3098	-1	1763828665	[clientscript,canoe_close]
 12	3099	-1	-976634410	[clientscript,canoe_map_init]
 12	3100	-1	-408135818	[proc,canoe_location_setup]

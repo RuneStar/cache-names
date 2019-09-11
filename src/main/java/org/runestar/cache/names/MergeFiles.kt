@@ -154,6 +154,7 @@ fun main() {
         "armour_100,$x".add()
         "combatboxes_very_large,$x".add()
         "side_stone_highlights,$x".add()
+        "dashed_border,$x".add()
     }
 
     knownNames.remove("l16_186")

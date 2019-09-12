@@ -7122,7 +7122,7 @@
 12	565	-1	1756141408	[proc,clanwars_view_setbutton]
 12	566	-1	-1548828533	[proc,clanwars_view_updatebutton]
 12	567	-1	392034660	[clientscript,clanwars_view_spin]
-12	568	-1	-1766903369	
+12	568	-1	-1766903369	[proc,clanwars_ffa_arena]
 12	569	-1	-1306647636	[clientscript,clanwars_ffa_init]
 12	570	-1	-1307715307	[clientscript,clanwars_ffa_hint]
 12	571	-1	-189338859	[proc,clanwars_ffa_hint]
@@ -7248,7 +7248,7 @@
 12	691	-1	1088399384	[clientscript,trail_slidepuzzle_op]
 12	692	-1	829400784	[proc,trail_slidepuzzle_position]
 12	693	-1	885126004	[clientscript,corp_beast_damage]
-12	694	-1	-331701428	
+12	694	-1	-331701428	[clientscript,makeovermage_gender]
 12	695	-1	-6188662	[clientscript,makeovermage_colour_init]
 12	696	-1	459872689	[clientscript,makeovermage_colour_update]
 12	697	-1	-960893415	[clientscript,makeovermage_colour_op]

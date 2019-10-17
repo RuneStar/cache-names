@@ -6572,6 +6572,7 @@
 8	2266	-1	1859383576	
 8	2267	-1	1859383577	
 8	2268	-1	965112423	
+8	2269	-1	2068756832	
 10	0	-1	-2136884405	title.jpg
 10	1	-1	1258058669	huffman
 10	2	-1	-314778466	titlewide.jpg
@@ -6587,7 +6588,6 @@
 12	9	-1	-1078493227	[clientscript,tt_reward_highlight]
 12	10	-1	-427329723	[clientscript,wom_item_move]
 12	11	-1	-811218088	[clientscript,wom_tab_highlight]
-12	12	-1	11507923	[clientscript,target_skull]
 12	13	-1	-472228128	
 12	14	-1	558436122	
 12	15	-1	-113008358	
@@ -6599,7 +6599,6 @@
 12	21	-1	129475785	
 12	22	-1	367639845	[clientscript,tt_reward_highlight_off]
 12	23	-1	908836703	[clientscript,pvp_store_init]
-12	24	-1	-1320727862	[clientscript,pvp_points]
 12	25	-1	-768761842	[clientscript,closebutton]
 12	26	-1	-662002473	[proc,closebutton_action]
 12	27	-1	-1426634759	[clientscript,closebutton_over]
@@ -6656,7 +6655,6 @@
 12	78	-1	591293823	[proc,chatout_set]
 12	79	-1	590936331	[proc,chatout_get]
 12	80	-1	-109442984	[clientscript,chat_onsubchange]
-12	81	-1	-1761008690	
 12	82	-1	631286800	[clientscript,orbs_update_prayer]
 12	83	-1	-1414925076	[clientscript,splitpm_changed]
 12	84	-1	-321431830	[proc,rebuildchatbox]
@@ -7858,6 +7856,8 @@
 12	1280	-1	778129802	
 12	1281	-1	1720604326	
 12	1282	-1	1977654965	
+12	1283	-1	-1854297482	
+12	1284	-1	-1896673425	
 12	1285	-1	-1970367724	[proc,colour_interpolate]
 12	1286	-1	100743778	[clientscript,glidermap_init]
 12	1287	-1	-1747055725	[clientscript,glidermap_hideshow]
@@ -8543,6 +8543,7 @@
 12	1967	-1	-908208439	[clientscript,vm_info_init]
 12	1968	-1	-995353420	[proc,vm_kudos_get_status]
 12	1969	-1	594177943	[proc,vm_kudos_get_quest_status]
+12	1970	-1	2001342270	
 12	1971	-1	-1069575344	[proc,text_device]
 12	1972	-1	-2042328074	[proc,on_mobile]
 12	1973	-1	-1564928847	
@@ -8652,6 +8653,8 @@
 12	2077	-1	835155647	[clientscript,vm_kudos_init]
 12	2078	-1	1537901990	[clientscript,vm_kudos_update]
 12	2079	-1	-110094426	[proc,vm_kudos_update]
+12	2080	-1	-671952628	
+12	2081	-1	-865518661	
 12	2082	-1	1370567916	[proc,kots_world]
 12	2083	-1	410416870	[proc,kots_remaining_time]
 12	2084	-1	-2141118122	[proc,deadman_finallocation]
@@ -8802,6 +8805,7 @@
 12	2229	-1	-1583140348	[clientscript,shop_quantity]
 12	2230	-1	-1213905916	[proc,shop_quantity]
 12	2231	-1	-298060074	[clientscript,shop_quantity_op]
+12	2232	-1	-1901179461	
 12	2233	-1	1822455827	[proc,welcome_screen_continue_text]
 12	2234	-1	-361395563	[clientscript,camera_do_zoom]
 12	2235	-1	-49881644	
@@ -9251,6 +9255,7 @@
 12	2679	-1	-2027585799	[clientscript,telenexus_scry_vartrans]
 12	2680	-1	1672438596	[proc,telenexus_options]
 12	2681	-1	-392981807	[proc,telenexus_get_slot]
+12	2682	-1	165139348	
 12	2683	-1	1017489921	[clientscript,options_bottom_appearance]
 12	2684	-1	1354745331	[clientscript,bond_prompt_init]
 12	2685	-1	-1563543238	
@@ -9292,9 +9297,6 @@
 12	2721	-1	835410387	[proc,1v1arena_hud_buildarena]
 12	2722	-1	2075708148	[clientscript,1v1arena_spectator_init]
 12	2723	-1	-52758604	[clientscript,1v1arena_spectator_endhint]
-12	2724	-1	1518270704	
-12	2725	-1	-1070388240	
-12	2726	-1	-548499495	
 12	2727	-1	1765410102	[clientscript,meslayer_keyboard_show]
 12	2728	-1	-1305374275	[proc,collection_draw_tab]
 12	2729	-1	1007204753	[clientscript,collection_hover_tab]
@@ -9402,6 +9404,7 @@
 12	2831	-1	-1464195874	
 12	2832	-1	-1349151350	
 12	2833	-1	2128969737	
+12	2834	-1	160633312	
 12	2835	-1	1453495065	158481
 12	2836	-1	1453495064	158480
 12	2837	-1	-1244085356	
@@ -9449,6 +9452,10 @@
 12	2879	-1	924046065	[clientscript,clanwars_setup_smallbox_updatetext]
 12	2880	-1	-1116667663	[proc,clanwars_setup_smallbox_updatetext]
 12	2881	-1	945118533	
+12	2882	-1	1576313824	
+12	2883	-1	1978642952	
+12	2884	-1	-815348728	
+12	2885	-1	1978678881	
 12	2886	-1	1171382352	[clientscript,hp_hud_fade_in_check]
 12	2887	-1	-2118747079	[clientscript,hp_hud_fade_in]
 12	2888	-1	737585721	[proc,hp_hud_fade_in]
@@ -9703,6 +9710,17 @@
 12	3137	-1	-761304484	
 12	3138	-1	1826678519	
 12	3139	-1	-1574193888	
+12	3140	-1	-815312799	
+12	3141	-1	-876223184	
+12	3142	-1	-1272582851	
+12	3143	-1	-1101623191	
+12	3144	-1	389824105	
+12	3145	-1	-378600622	
+12	3146	-1	1037079890	
+12	3147	-1	-647736883	
+12	3148	-1	288686029	
+12	3149	-1	-1268469580	
+12	3150	-1	-868313624	
 13	494	-1	-342013218	p11_full
 13	495	-1	-313384067	p12_full
 13	496	-1	1057075019	b12_full

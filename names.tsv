@@ -6573,6 +6573,8 @@
 8	2267	-1	1859383577	
 8	2268	-1	965112423	
 8	2269	-1	2068756832	
+8	2270	-1	2034239618	
+8	2271	-1	-1210980977	
 10	0	-1	-2136884405	title.jpg
 10	1	-1	1258058669	huffman
 10	2	-1	-314778466	titlewide.jpg
@@ -6588,6 +6590,7 @@
 12	9	-1	-1078493227	[clientscript,tt_reward_highlight]
 12	10	-1	-427329723	[clientscript,wom_item_move]
 12	11	-1	-811218088	[clientscript,wom_tab_highlight]
+12	12	-1	-1603147075	
 12	13	-1	-472228128	
 12	14	-1	558436122	
 12	15	-1	-113008358	
@@ -6599,6 +6602,7 @@
 12	21	-1	129475785	
 12	22	-1	367639845	[clientscript,tt_reward_highlight_off]
 12	23	-1	908836703	[clientscript,pvp_store_init]
+12	24	-1	2020375741	
 12	25	-1	-768761842	[clientscript,closebutton]
 12	26	-1	-662002473	[proc,closebutton_action]
 12	27	-1	-1426634759	[clientscript,closebutton_over]
@@ -6655,6 +6659,7 @@
 12	78	-1	591293823	[proc,chatout_set]
 12	79	-1	590936331	[proc,chatout_get]
 12	80	-1	-109442984	[clientscript,chat_onsubchange]
+12	81	-1	-1936260105	
 12	82	-1	631286800	[clientscript,orbs_update_prayer]
 12	83	-1	-1414925076	[clientscript,splitpm_changed]
 12	84	-1	-321431830	[proc,rebuildchatbox]
@@ -9297,6 +9302,9 @@
 12	2721	-1	835410387	[proc,1v1arena_hud_buildarena]
 12	2722	-1	2075708148	[clientscript,1v1arena_spectator_init]
 12	2723	-1	-52758604	[clientscript,1v1arena_spectator_endhint]
+12	2724	-1	1495525770	
+12	2725	-1	-1383761014	
+12	2726	-1	1907584370	
 12	2727	-1	1765410102	[clientscript,meslayer_keyboard_show]
 12	2728	-1	-1305374275	[proc,collection_draw_tab]
 12	2729	-1	1007204753	[clientscript,collection_hover_tab]
@@ -9721,6 +9729,14 @@
 12	3148	-1	288686029	
 12	3149	-1	-1268469580	
 12	3150	-1	-868313624	
+12	3151	-1	-1349723713	
+12	3152	-1	-1349366221	
+12	3153	-1	409737432	
+12	3154	-1	-46553798	
+12	3155	-1	493934995	
+12	3156	-1	367298451	
+12	3157	-1	1072247373	
+12	3158	-1	945610829	
 13	494	-1	-342013218	p11_full
 13	495	-1	-313384067	p12_full
 13	496	-1	1057075019	b12_full

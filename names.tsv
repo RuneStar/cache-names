@@ -7112,7 +7112,7 @@
 12	397	-1	-935166650	[clientscript,fairyrings_op]
 12	398	-1	1527134220	[clientscript,fairyrings_rotate]
 12	399	-1	-443302605	[clientscript,fairyrings_confirm]
-12	400	-1	-1329425335	
+12	400	-1	-1329425335	[clientscript,fairyrings_confirm_expire]
 12	401	-1	561613522	[clientscript,fairyrings_sort_mouseeffect]
 12	402	-1	1271926697	[clientscript,fairyrings_sort_update]
 12	403	-1	-264579798	[clientscript,poh_tablets_init]
@@ -7193,7 +7193,7 @@
 12	478	-1	1732855554	[clientscript,tournament_sidepanel_setactive]
 12	479	-1	-1580482062	[clientscript,ntk_timer_resynch]
 12	480	-1	-462105614	[proc,ntk_timer_resynch]
-12	481	-1	1512641374	
+12	481	-1	1512641374	[clientscript,ntk_timer_autonomous]
 12	482	-1	1562489765	[proc,ntk_timer_update]
 12	483	-1	-1199662539	[clientscript,barbassault_tutorial_button_init]
 12	484	-1	1743476120	[clientscript,barbassault_tutorial_button_setup]
@@ -7550,7 +7550,7 @@
 12	835	-1	599457183	[proc,options_button_off]
 12	836	-1	573526893	[proc,options_button_on]
 12	837	-1	782326068	[proc,tooltip_mouserepeat]
-12	838	-1	-917622905	
+12	838	-1	-917622905	[proc,scrollbar_vertical_repaint]
 12	839	-1	-1205615196	[clientscript,bankmain_size_check]
 12	840	-1	-187672668	[proc,bankmain_size_check]
 12	841	-1	-1777731384	[clientscript,worldswitcher_loading]
@@ -7632,7 +7632,7 @@
 12	917	-1	1303943599	[clientscript,toplevel_mainmodal_background]
 12	918	-1	1996132796	[proc,toplevel_check_sidepanel]
 12	919	-1	-263023546	
-12	920	-1	-246044151	
+12	920	-1	-246044151	[proc,toplevel_resize_customise]
 12	921	-1	231392186	[proc,toplevel_chatbox_maketransparent]
 12	922	-1	-430765529	
 12	923	-1	-363905330	[proc,toplevel_chatbox_background]
@@ -7662,7 +7662,7 @@
 12	947	-1	1087738835	
 12	948	-1	278526517	[clientscript,fade_overlay]
 12	949	-1	-360691043	[clientscript,fade_overlay_update]
-12	950	-1	1139339845	
+12	950	-1	1139339845	[proc,fade_overlay_increment]
 12	951	-1	-70455395	[clientscript,fade_overlay_legacy]
 12	952	-1	377090101	[clientscript,fade_overlay_legacy_update]
 12	953	-1	-1204287481	[clientscript,macro_pinball_score_init]
@@ -8075,7 +8075,7 @@
 12	1360	-1	1154251004	[proc,quicksort_intenum]
 12	1361	-1	1129139845	[proc,welcome_screen_lastlogin]
 12	1362	-1	1704876246	[clientscript,welcome_screen_messages]
-12	1363	-1	-1357365772	
+12	1363	-1	-1357365772	[clientscript,br_loadout_drawloadout_request]
 12	1364	-1	2112676040	[clientscript,barbassault_reward_shop_init]
 12	1365	-1	-927462173	
 12	1366	-1	-850805436	
@@ -8157,11 +8157,11 @@
 12	1442	-1	1803110349	[proc,duel_wait_button]
 12	1443	-1	-296198304	[clientscript,duel_accept_button]
 12	1444	-1	1572775761	[proc,duel_colour_variation]
-12	1445	-1	2058375146	
+12	1445	-1	2058375146	[clientscript,duel_options_exclamations]
 12	1446	-1	-625485113	[proc,playermember]
 12	1447	-1	-872469011	
 12	1448	-1	245907437	
-12	1449	-1	-1549180730	
+12	1449	-1	-1549180730	[clientscript,duel_stake_exclamations]
 12	1450	-1	642152314	[clientscript,duel_stake_changed]
 12	1451	-1	-619850872	[proc,duel_check_button]
 12	1452	-1	664174568	
@@ -8259,7 +8259,7 @@
 12	1544	-1	-1759141473	[clientscript,raids_sidepanel_resetbutton]
 12	1545	-1	-1344849723	[clientscript,raids_sidepanel_refresh]
 12	1546	-1	1667487060	[proc,raids_sidepanel_refresheffect]
-12	1547	-1	1670835569	
+12	1547	-1	1670835569	[clientscript,raids_sidepanel_initlines]
 12	1548	-1	-1858043189	[clientscript,raids_sidepanel_addline]
 12	1549	-1	-1096050051	[proc,raids_sidepanel_entry_init]
 12	1550	-1	1331940432	[clientscript,raids_sidepanel_entry_setup]
@@ -8309,7 +8309,7 @@
 12	1594	-1	-1886690992	[proc,displayname_statusstatic]
 12	1595	-1	-919360644	[proc,agilityarena_rewards_draw]
 12	1596	-1	1364590791	[clientscript,silver_crafting_init]
-12	1597	-1	1130742917	
+12	1597	-1	1130742917	[clientscript,deadman_delay_abortion]
 12	1598	-1	376367727	[proc,skill_guide_subsection_hunter]
 12	1599	-1	-344220300	[proc,skill_guide_data_hunter]
 12	1600	-1	263204157	[clientscript,deathkeep_invtransmit]
@@ -8330,7 +8330,7 @@
 12	1615	-1	812050643	[clientscript,raids_storage_side_setup]
 12	1616	-1	583374547	[proc,raids_storage_side_setup]
 12	1617	-1	1453524626	
-12	1618	-1	1838082470	
+12	1618	-1	1838082470	[clientscript,raids_storage_side_dismiss]
 12	1619	-1	-1772054378	
 12	1620	-1	539157488	[clientscript,raids_storage_side_items]
 12	1621	-1	310481392	[proc,raids_storage_side_items]
@@ -8714,7 +8714,7 @@
 12	1999	-1	-1299763141	[clientscript,fossil_warning_flasher]
 12	2000	-1	-1231222824	[clientscript,fossil_fade_overlay]
 12	2001	-1	-1631309926	[clientscript,fossil_fade_overlay_update]
-12	2002	-1	-95849432	
+12	2002	-1	-95849432	[proc,fossil_fade_overlay_increment]
 12	2003	-1	-667655598	[clientscript,fossil_swamp_splat]
 12	2004	-1	-559940786	[clientscript,options_keybind_init]
 12	2005	-1	1661991133	[clientscript,options_keybind_op]
@@ -8986,7 +8986,7 @@
 12	2271	-1	1106699212	
 12	2272	-1	-1617508034	
 12	2273	-1	1439233854	
-12	2274	-1	237428997	
+12	2274	-1	237428997	[proc,v2_stone_button_fadable]
 12	2275	-1	407710185	
 12	2276	-1	1021423500	
 12	2277	-1	-1003546842	[clientscript,bondif_redeem_subtitle]
@@ -9109,7 +9109,7 @@
 12	2394	-1	-2040209405	
 12	2395	-1	160839127	
 12	2396	-1	1909624226	[clientscript,orbs_update_store]
-12	2397	-1	-1828940374	
+12	2397	-1	-1828940374	[clientscript,recurring_membership]
 12	2398	-1	-337493078	
 12	2399	-1	1093665258	[proc,openurl_raw]
 12	2400	-1	-1245654693	[clientscript,options_fps_init]
@@ -9683,15 +9683,15 @@
 12	2968	-1	3779834	
 12	2969	-1	1253385045	[proc,adventurepath_return_task_focus]
 12	2970	-1	-658356515	[proc,adventurepath_set_task_focus]
-12	2971	-1	1560145458	
+12	2971	-1	1560145458	[proc,adventurepath_return_task_recommended]
 12	2972	-1	194001130	
 12	2973	-1	2053457144	
-12	2974	-1	-160438836	
+12	2974	-1	-160438836	[proc,create_v2_stone_button_filled_free]
 12	2975	-1	1164242687	[clientscript,v2_stone_button_filled_free]
 12	2976	-1	492798207	[proc,v2_stone_button_filled_free]
 12	2977	-1	-812524893	[clientscript,v2_stone_button_in_filled_free]
 12	2978	-1	2142636195	[proc,v2_stone_button_in_filled_free]
-12	2979	-1	-499917322	
+12	2979	-1	-499917322	[proc,create_v2_stone_button_filled_free_icon]
 12	2980	-1	1459854499	[clientscript,v2_stone_button_filled_free_icon]
 12	2981	-1	-1898689885	[proc,v2_stone_button_filled_free_icon]
 12	2982	-1	1661753215	[clientscript,v2_stone_button_in_filled_free_icon]
@@ -9780,7 +9780,7 @@
 12	3066	-1	1573403067	[clientscript,arceuus_teletab_confirm_reset]
 12	3067	-1	-1631014332	[proc,br_loadout_drawloadout]
 12	3068	-1	-1867656295	[clientscript,br_loadout_insert]
-12	3069	-1	896094831	
+12	3069	-1	896094831	[clientscript,br_loadout_rearrange]
 12	3070	-1	773748084	[proc,br_loadout_additem]
 12	3071	-1	-352223794	[clientscript,br_loadout_hidewarning]
 12	3072	-1	1542931108	
@@ -9895,7 +9895,7 @@
 12	3181	-1	-540421067	[clientscript,league_points_progress_bar]
 12	3182	-1	-1254817227	[proc,league_points_progress_bar]
 12	3183	-1	-478780786	
-12	3184	-1	-124566292	
+12	3184	-1	-124566292	[clientscript,league_points_progress_bar_expand]
 12	3185	-1	448636191	[clientscript,league_border_pulse_start]
 12	3186	-1	1954148151	[clientscript,league_border_pulse_stop]
 12	3187	-1	-2067769374	[clientscript,league_border_pulse]
@@ -9946,11 +9946,11 @@
 12	3232	-1	-2111922880	[proc,league_side_panel_hudtoggle]
 12	3233	-1	1454326181	
 12	3234	-1	1454326180	
-12	3235	-1	-435839494	
-12	3236	-1	-816339775	
-12	3237	-1	-568626324	
+12	3235	-1	-435839494	[proc,update_diary_entry_grey]
+12	3236	-1	-816339775	[proc,questlist_f2p_progress_grey]
+12	3237	-1	-568626324	[proc,questlist_members_progress_grey]
 12	3238	-1	-2053193207	
-12	3239	-1	1502940355	
+12	3239	-1	1502940355	[proc,questlist_showprogress_grey]
 13	494	-1	-342013218	p11_full
 13	495	-1	-313384067	p12_full
 13	496	-1	1057075019	b12_full

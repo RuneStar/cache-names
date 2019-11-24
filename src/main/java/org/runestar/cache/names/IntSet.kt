@@ -41,9 +41,7 @@ interface IntSet {
 
         private val elements = IntArray(Integer.highestOneBit(ns.size * 40))
 
-        private val size = elements.size
-
-        private val mask = size - 1
+        private val mask = elements.size - 1
 
         init {
             for (e in ns) {
@@ -62,7 +60,7 @@ interface IntSet {
                 when (elements[idx]) {
                     0 -> return idx
                     value -> throw IllegalStateException()
-                    else -> if (++idx == size) idx = 0
+                    else -> idx = (idx + 1) and mask
                 }
             }
         }
@@ -73,7 +71,7 @@ interface IntSet {
                 when (elements[idx]) {
                     0 -> return false
                     value -> return true
-                    else -> if (++idx == size) idx = 0
+                    else -> idx = (idx + 1) and mask
                 }
             }
         }

@@ -155,6 +155,14 @@ fun main() {
         "combatboxes_very_large,$x".add()
         "side_stone_highlights,$x".add()
         "dashed_border,$x".add()
+        "menu_buttons,$x".add()
+        "league_relics,$x".add()
+        "tabs_tall,$x".add()
+        "tabs_short,$x".add()
+        "square_button,$x".add()
+        "league_progress_bar,$x".add()
+        "league_relics_large,$x".add()
+        "open_buttons_small,$x".add()
     }
 
     knownNames.remove("l16_186")

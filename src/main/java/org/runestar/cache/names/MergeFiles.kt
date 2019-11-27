@@ -163,6 +163,12 @@ fun main() {
         "league_progress_bar,$x".add()
         "league_relics_large,$x".add()
         "open_buttons_small,$x".add()
+        "poh_room_layouts,$x".add()
+        "titlebutton_wide42,$x".add()
+        "rightarrow_small_stone,$x".add()
+        "poh_board_icons,$x".add()
+        "league_task_tiers,$x".add()
+        "league_relics_tli,$x".add()
     }
 
     knownNames.remove("l16_186")

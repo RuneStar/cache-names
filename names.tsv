@@ -7188,7 +7188,7 @@
 12	473	-1	584695657	[clientscript,quickprayer_close_timeout]
 12	474	-1	-966386581	
 12	475	-1	511727597	[proc,pest_rewards_divider]
-12	476	-1	1081054843	
+12	476	-1	1081054843	[clientscript,br_hud_writetimer]
 12	477	-1	561090516	[clientscript,ntk_textbox]
 12	478	-1	1732855554	[clientscript,tournament_sidepanel_setactive]
 12	479	-1	-1580482062	[clientscript,ntk_timer_resynch]
@@ -7589,7 +7589,7 @@
 12	874	-1	-978900240	[clientscript,wom_telescope_borders]
 12	875	-1	-1988674320	[proc,wom_telescope_borders]
 12	876	-1	-2050704803	[clientscript,cc_outline_on]
-12	877	-1	-2095536005	
+12	877	-1	-2095536005	[proc,br_hud_writetimer]
 12	878	-1	1613781073	[clientscript,boardgames_rank_draughts]
 12	879	-1	1211907007	[clientscript,boardgames_rank_runelink]
 12	880	-1	-802863704	[clientscript,boardgames_rank_runeversi]
@@ -8191,7 +8191,7 @@
 12	1476	-1	1136844243	[clientscript,hidey_buildlists]
 12	1477	-1	1588562899	[proc,hidey_buildlists]
 12	1478	-1	593737340	[proc,hidey_build_tab]
-12	1479	-1	-1769236770	
+12	1479	-1	-1769236770	[proc,hh_get_status]
 12	1480	-1	452566542	[clientscript,hidey_tabbuttons]
 12	1481	-1	904285198	[proc,hidey_tabbuttons]
 12	1482	-1	1529690505	[proc,hidey_tabbuttons_draw]
@@ -8239,7 +8239,7 @@
 12	1524	-1	2054719558	
 12	1525	-1	-749725425	[proc,raids_partydetails_setsort]
 12	1526	-1	1814938125	[proc,raids_partydetails_sort]
-12	1527	-1	-1447778148	
+12	1527	-1	-1447778148	[proc,raids_partydetails_sortbutton_draw]
 12	1528	-1	-105133245	
 12	1529	-1	365331753	[clientscript,raids_partydetails_clicksort]
 12	1530	-1	1665197211	
@@ -8268,7 +8268,7 @@
 12	1553	-1	-2115167691	
 12	1554	-1	1069707584	[proc,raids_sidepanel_setsort]
 12	1555	-1	733003644	[proc,raids_sidepanel_sort]
-12	1556	-1	1801994189	
+12	1556	-1	1801994189	[proc,raids_sidepanel_sortbutton_draw]
 12	1557	-1	-52154086	[clientscript,raids_sidepanel_clicksort]
 12	1558	-1	-94848549	
 12	1559	-1	1156653385	
@@ -8284,7 +8284,7 @@
 12	1569	-1	-1526867910	[clientscript,raids_partylist_reset]
 12	1570	-1	-682251863	[proc,raids_partylist_setsort]
 12	1571	-1	-1188984909	[proc,raids_partylist_sort]
-12	1572	-1	-2007695562	
+12	1572	-1	-2007695562	[proc,raids_partylist_sortbutton_draw]
 12	1573	-1	-58002621	[clientscript,raids_partylist_clicksort]
 12	1574	-1	979184961	
 12	1575	-1	694465258	
@@ -8329,9 +8329,9 @@
 12	1614	-1	-1091161190	[clientscript,raids_storage_side_init]
 12	1615	-1	812050643	[clientscript,raids_storage_side_setup]
 12	1616	-1	583374547	[proc,raids_storage_side_setup]
-12	1617	-1	1453524626	
+12	1617	-1	1453524626	[proc,raids_storage_side_dismiss_enable]
 12	1618	-1	1838082470	[clientscript,raids_storage_side_dismiss]
-12	1619	-1	-1772054378	
+12	1619	-1	-1772054378	[clientscript,raids_storage_side_dismiss_reset]
 12	1620	-1	539157488	[clientscript,raids_storage_side_items]
 12	1621	-1	310481392	[proc,raids_storage_side_items]
 12	1622	-1	-61392393	[proc,raids_storage_side_private_drawitem]
@@ -8434,9 +8434,9 @@
 12	1719	-1	839613792	[clientscript,worldmap_toggles_vartransmit]
 12	1720	-1	1416674613	[proc,worldmap_toggles_set]
 12	1721	-1	2142637846	[proc,worldmap_applyzoom]
-12	1722	-1	-1526801329	
-12	1723	-1	1012458745	
-12	1724	-1	783782649	
+12	1722	-1	-1526801329	[proc,worldmap_zoombutton_build]
+12	1723	-1	1012458745	[clientscript,worldmap_zoombutton_draw]
+12	1724	-1	783782649	[proc,worldmap_zoombutton_draw]
 12	1725	-1	-914389730	[clientscript,worldmap_zoom_scroll]
 12	1726	-1	311839900	[clientscript,worldmap_zoom_adjust]
 12	1727	-1	1803287196	[proc,worldmap_zoom_adjust]
@@ -9047,7 +9047,7 @@
 12	2332	-1	-394753759	[clientscript,tob_partydetails_autorefresh]
 12	2333	-1	-339384595	[proc,tob_partydetails_setsort]
 12	2334	-1	922251503	[proc,tob_partydetails_sort]
-12	2335	-1	-1511704454	
+12	2335	-1	-1511704454	[proc,tob_partydetails_sortbutton_draw]
 12	2336	-1	940331911	[clientscript,tob_partydetails_clicksort]
 12	2337	-1	1553949919	[clientscript,tob_partylist_init]
 12	2338	-1	-1868216263	[clientscript,tob_partylist_setpartybutton]
@@ -9110,7 +9110,7 @@
 12	2395	-1	160839127	
 12	2396	-1	1909624226	[clientscript,orbs_update_store]
 12	2397	-1	-1828940374	[clientscript,recurring_membership]
-12	2398	-1	-337493078	
+12	2398	-1	-337493078	[proc,recurring_membership]
 12	2399	-1	1093665258	[proc,openurl_raw]
 12	2400	-1	-1245654693	[clientscript,options_fps_init]
 12	2401	-1	2023288362	[clientscript,options_fps_op]
@@ -9457,9 +9457,9 @@
 12	2742	-1	943140182	
 12	2743	-1	-154860046	[clientscript,longscroll_init]
 12	2744	-1	-1992100680	
-12	2745	-1	-185537327	
+12	2745	-1	-185537327	[clientscript,farming_tools_main_create_quantitybutton]
 12	2746	-1	4384294	
-12	2747	-1	-533488943	
+12	2747	-1	-533488943	[proc,farming_tools_main_create_quantitybutton]
 12	2748	-1	2057628474	[clientscript,farming_tools_main_recreate]
 12	2749	-1	1386183994	[proc,farming_tools_main_recreate]
 12	2750	-1	-680700584	[clientscript,farming_tools_side_recreate]
@@ -9648,8 +9648,8 @@
 12	2933	-1	-198483431	[proc,skillmain_button_wipe]
 12	2934	-1	-964302867	[clientscript,silver_crafting_mouseeffect]
 12	2935	-1	2069186180	
-12	2936	-1	1800374293	
-12	2937	-1	-1332209131	
+12	2936	-1	1800374293	[clientscript,silver_crafting_jewellerytitle_draw]
+12	2937	-1	-1332209131	[proc,silver_crafting_jewellerytitle_draw]
 12	2938	-1	904550210	[proc,silver_crafting_jewellery_setup]
 12	2939	-1	247122839	[clientscript,silver_crafting_jewellery_draw]
 12	2940	-1	-1092683369	[proc,silver_crafting_jewellery_draw]
@@ -9676,11 +9676,11 @@
 12	2961	-1	489137941	[proc,adventurepath_return_reward_p2p]
 12	2962	-1	145030193	[proc,adventurepath_return_kit]
 12	2963	-1	-591299973	[proc,adventurepath_return_path_status]
-12	2964	-1	-1120757159	
-12	2965	-1	-1120459249	
+12	2964	-1	-1120757159	[proc,adventurepath_return_path_reward_f2p]
+12	2965	-1	-1120459249	[proc,adventurepath_return_path_reward_p2p]
 12	2966	-1	-1362754983	[proc,adventurepath_return_voucher]
 12	2967	-1	1368288775	[proc,adventurepath_return_path_length]
-12	2968	-1	3779834	
+12	2968	-1	3779834	[proc,adventurepath_return_path_tasks_done]
 12	2969	-1	1253385045	[proc,adventurepath_return_task_focus]
 12	2970	-1	-658356515	[proc,adventurepath_set_task_focus]
 12	2971	-1	1560145458	[proc,adventurepath_return_task_recommended]
@@ -9790,10 +9790,10 @@
 12	3075	-1	-1263655627	[proc,br_loadout_get_worn]
 12	3076	-1	-879388140	[proc,br_loadout_set_inv]
 12	3077	-1	-1478272703	[proc,br_loadout_set_worn]
-12	3078	-1	1304881154	
-12	3079	-1	2046245081	
-12	3080	-1	1331848921	
-12	3081	-1	-1330478447	
+12	3078	-1	1304881154	[clientscript,br_tournament_button_init]
+12	3079	-1	2046245081	[clientscript,br_tournament_button_reset]
+12	3080	-1	1331848921	[proc,br_tournament_button_reset]
+12	3081	-1	-1330478447	[clientscript,br_tournament_button_op]
 12	3082	-1	-1779135936	
 12	3083	-1	493095152	
 12	3084	-1	1994070768	
@@ -9936,7 +9936,7 @@
 12	3221	-1	-1428155665	[clientscript,league_info_mouseleave]
 12	3222	-1	364783197	[clientscript,league_blog_click]
 12	3223	-1	-409222656	[clientscript,league_menu_click]
-12	3224	-1	1722582226	
+12	3224	-1	1722582226	[clientscript,league_menu_frame_click]
 12	3225	-1	-1488652289	[clientscript,league_side_panel_init]
 12	3226	-1	-1284175470	[clientscript,league_side_panel_update_bar]
 12	3227	-1	-624117870	[proc,league_side_panel_update_bar]

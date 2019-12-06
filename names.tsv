@@ -9928,7 +9928,7 @@
 12	3202	-1	440574119	[clientscript,league_tasks_init]
 12	3203	-1	406033834	[clientscript,league_tasks_draw_list]
 12	3204	-1	-832191574	[proc,league_tasks_draw_list]
-12	3205	-1	62204240	
+12	3205	-1	62204240	[proc,account_setup_tabs]
 12	3206	-1	133807590	[clientscript,league_task_hover]
 12	3207	-1	985729355	[clientscript,league_task_filter_init]
 12	3208	-1	229024130	[clientscript,league_task_updatetext]
@@ -9976,24 +9976,24 @@
 12	3250	-1	1199435634	
 12	3251	-1	2056072692	
 12	3252	-1	-271185961	
-12	3253	-1	145018133	
-12	3254	-1	-1010087695	
-12	3255	-1	2046654193	
-12	3256	-1	-981476151	
-12	3257	-1	-845087969	
-12	3258	-1	1086617150	
-12	3259	-1	-1358127428	
-12	3260	-1	1521489423	
-12	3261	-1	-84272970	
-12	3262	-1	1706105557	
-12	3263	-1	-376044224	
-12	3264	-1	-874047312	
-12	3265	-1	-1385818304	
-12	3266	-1	-1545491792	
-12	3267	-1	-1239463802	
-12	3268	-1	-1951790826	
-12	3269	-1	-933848298	
-12	3270	-1	975012924	
+12	3253	-1	145018133	[clientscript,magic_training_init]
+12	3254	-1	-1010087695	[clientscript,magic_training_rewards]
+12	3255	-1	2046654193	[proc,magic_training_rewards]
+12	3256	-1	-981476151	[clientscript,magic_training_rewards_op]
+12	3257	-1	-845087969	[proc,magic_training_highlight_selected]
+12	3258	-1	1086617150	[proc,magic_training_costs_background]
+12	3259	-1	-1358127428	[clientscript,magic_training_costs_transmit]
+12	3260	-1	1521489423	[proc,magic_training_costs]
+12	3261	-1	-84272970	[clientscript,magic_training_confirm_transmit]
+12	3262	-1	1706105557	[proc,magic_training_confirm]
+12	3263	-1	-376044224	[clientscript,account_tab_highlight]
+12	3264	-1	-874047312	[clientscript,account_tab_highlight_reset]
+12	3265	-1	-1385818304	[proc,account_tab_highlight]
+12	3266	-1	-1545491792	[proc,account_tab_highlight_reset]
+12	3267	-1	-1239463802	[clientscript,account_switch_tab]
+12	3268	-1	-1951790826	[clientscript,account_update_tabs]
+12	3269	-1	-933848298	[proc,account_update_tabs]
+12	3270	-1	975012924	[proc,account_polls_update]
 13	494	-1	-342013218	p11_full
 13	495	-1	-313384067	p12_full
 13	496	-1	1057075019	b12_full

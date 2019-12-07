@@ -9888,14 +9888,14 @@
 12	3162	-1	1840081982	[clientscript,league_icon_flash]
 12	3163	-1	955982588	[clientscript,league_flash_timer]
 12	3164	-1	-1893856663	[proc,league_flashicon]
-12	3165	-1	1138797584	
-12	3166	-1	1221295901	
-12	3167	-1	-217338595	
-12	3168	-1	-1306910510	
-12	3169	-1	336870798	
-12	3170	-1	915177146	
-12	3171	-1	-226832867	
-12	3172	-1	-701794811	
+12	3165	-1	1138797584	[clientscript,buff_bar_init]
+12	3166	-1	1221295901	[clientscript,buff_bar_setup]
+12	3167	-1	-217338595	[proc,buff_bar_setup]
+12	3168	-1	-1306910510	[proc,buff_bar_buff_create]
+12	3169	-1	336870798	[proc,buff_bar_buff_create_tooltip]
+12	3170	-1	915177146	[clientscript,buff_bar_mobile_tooltip]
+12	3171	-1	-226832867	[clientscript,buff_bar_mobile_tooltip_remove]
+12	3172	-1	-701794811	[proc,buff_bar_buff_position]
 12	3173	-1	1483299174	
 12	3174	-1	-88784930	
 12	3175	-1	-1327010338	

@@ -6726,6 +6726,14 @@
 8	2420	-1	1453870892	
 8	2421	-1	1453870893	
 8	2422	-1	-1038102391	
+8	2423	-1	1969878997	emotes,48
+8	2424	-1	1969878998	emotes,49
+8	2425	-1	1969879020	emotes,50
+8	2426	-1	1969879021	emotes,51
+8	2427	-1	-1619800348	emotes_locked,28
+8	2428	-1	-1619800347	emotes_locked,29
+8	2429	-1	-1619800325	emotes_locked,30
+8	2430	-1	-1619800324	emotes_locked,31
 10	0	-1	-2136884405	title.jpg
 10	1	-1	1258058669	huffman
 10	2	-1	-314778466	titlewide.jpg
@@ -6791,7 +6799,6 @@
 12	59	-1	-1342329868	[proc,chatbox_multi_addoption]
 12	60	-1	682911585	[clientscript,dream_bank_init]
 12	61	-1	2129584024	[clientscript,dream_chest_init]
-12	62	-1	74085308	[clientscript,welcome_screen2_init]
 12	63	-1	1879461885	[clientscript,scrollbar_vertical_graphics]
 12	64	-1	1259866529	
 12	65	-1	-382485956	[clientscript,set_spinner]
@@ -8143,10 +8150,6 @@
 12	1411	-1	-166992766	[clientscript,questdisplay]
 12	1412	-1	834909444	[proc,questdisplay_setup]
 12	1413	-1	-1173301812	
-12	1414	-1	1311554834	[clientscript,welcome_screen_messages2]
-12	1415	-1	1082878738	[proc,welcome_screen_messages2]
-12	1416	-1	261753407	[clientscript,welcome_screen_credit2]
-12	1417	-1	-976472001	[proc,welcome_screen_credit2]
 12	1418	-1	-449084897	[clientscript,br_tournament_sendnames]
 12	1419	-1	-1079200166	[clientscript,br_tournament_op]
 12	1420	-1	-269435901	[clientscript,br_tournament_submit]
@@ -8923,7 +8926,6 @@
 12	2191	-1	1208681376	
 12	2192	-1	2096185057	
 12	2193	-1	1825108484	[proc,deadman_arenas_tele]
-12	2194	-1	-1471635064	
 12	2195	-1	1134247393	[proc,scale_colour]
 12	2196	-1	940382528	[proc,current_date_time]
 12	2197	-1	663709700	[proc,setup_diary_entry]
@@ -10036,6 +10038,10 @@
 12	3304	-1	1736656507	
 12	3305	-1	296834658	
 12	3306	-1	748553314	
+12	3307	-1	-503656002	
+12	3308	-1	596581741	
+12	3309	-1	-8808243	
+12	3310	-1	1539362829	
 13	494	-1	-342013218	p11_full
 13	495	-1	-313384067	p12_full
 13	496	-1	1057075019	b12_full

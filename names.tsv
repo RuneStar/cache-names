@@ -7073,7 +7073,7 @@
 12	229	-1	89788014	[clientscript,cc_graphic_swapper]
 12	230	-1	1277695737	[clientscript,makeover_clothes_setup]
 12	231	-1	-1299963017	[proc,scrollbar_vertical_rebuild]
-12	232	-1	152472829	
+12	232	-1	152472829	[clientscript,league_rewards_init]
 12	233	-1	-1437766665	
 12	234	-1	-1920963471	
 12	235	-1	-28890601	[clientscript,autocast_init]
@@ -7344,7 +7344,7 @@
 12	500	-1	-1321543984	[clientscript,makeover_indicator]
 12	501	-1	-1011612464	[proc,makeover_indicator]
 12	502	-1	1343132187	[clientscript,makeover_hair_setup]
-12	503	-1	1165909321	
+12	503	-1	1165909321	[proc,league_rewards_draw]
 12	504	-1	-2052996309	[clientscript,bankmain_switchtab]
 12	505	-1	-339382841	[proc,bankmain_finishbuilding]
 12	506	-1	1174053086	[proc,bankmain_tabicon]
@@ -10133,9 +10133,9 @@
 12	3290	-1	1679019599	
 12	3291	-1	-1602896817	
 12	3292	-1	855128706	
-12	3293	-1	-302321254	
+12	3293	-1	-302321254	[clientscript,options_wiki_init]
 12	3294	-1	-506718890	
-12	3295	-1	17568297	
+12	3295	-1	17568297	[clientscript,options_wiki_op]
 12	3296	-1	842907025	[proc,options_wiki]
 12	3297	-1	2049912654	[proc,wiki_icon_enabled]
 12	3298	-1	-135567857	
@@ -10169,8 +10169,8 @@
 12	3326	-1	-1435100916	
 12	3327	-1	-995068116	
 12	3328	-1	796408252	
-12	3329	-1	-1080734548	
-12	3330	-1	-1923998907	
+12	3329	-1	-1080734548	[clientscript,newspaper_init]
+12	3330	-1	-1923998907	[clientscript,newspaper_content]
 12	3331	-1	-2146056326	
 12	3332	-1	-1076487116	
 12	3333	-1	-1318391223	
@@ -10186,12 +10186,12 @@
 12	3343	-1	1929182615	[clientscript,notification_display_init]
 12	3344	-1	-1053033683	
 12	3345	-1	-1836209956	
-12	3346	-1	2138641428	
-12	3347	-1	1695662867	
-12	3348	-1	515768571	
+12	3346	-1	2138641428	[clientscript,notification_start]
+12	3347	-1	1695662867	[clientscript,notification_delay]
+12	3348	-1	515768571	[clientscript,notification_end]
 12	3349	-1	-68967340	[proc,notification_init]
-12	3350	-1	-1795127683	
-12	3351	-1	-2023803779	
+12	3350	-1	-1795127683	[clientscript,notification_positioning]
+12	3351	-1	-2023803779	[proc,notification_positioning]
 13	494	-1	-342013218	p11_full
 13	495	-1	-313384067	p12_full
 13	496	-1	1057075019	b12_full

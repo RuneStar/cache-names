@@ -169,6 +169,8 @@ fun main() {
         "poh_board_icons,$x".add()
         "league_task_tiers,$x".add()
         "league_relics_tli,$x".add()
+        "wiki_icon,$x".add()
+        "standard_health_40,$x".add()
     }
 
     knownNames.remove("l16_186")

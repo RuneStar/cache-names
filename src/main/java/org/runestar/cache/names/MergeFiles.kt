@@ -21,6 +21,10 @@ fun main() {
         for (y in 0..255) {
             "m${x}_$y".add()
             "l${x}_$y".add()
+            "standard_charge_$y,$x".add()
+            "standard_shield_$y,$x".add()
+            "standard_health_$y,$x".add()
+            "standard_armour_$y,$x".add()
         }
         "emotes,$x".add()
         "emotes_locked,$x".add()
@@ -143,14 +147,6 @@ fun main() {
         "mod_icons_interface,$x".add()
         "spectator,$x".add()
         "gauntlet_map_icons,$x".add()
-        "standard_health_30,$x".add()
-        "standard_health_50,$x".add()
-        "standard_health_60,$x".add()
-        "standard_health_80,$x".add()
-        "standard_health_100,$x".add()
-        "standard_health_120,$x".add()
-        "standard_health_140,$x".add()
-        "standard_health_160,$x".add()
         "armour_100,$x".add()
         "combatboxes_very_large,$x".add()
         "side_stone_highlights,$x".add()
@@ -170,7 +166,7 @@ fun main() {
         "league_task_tiers,$x".add()
         "league_relics_tli,$x".add()
         "wiki_icon,$x".add()
-        "standard_health_40,$x".add()
+        "ap_border,$x".add()
     }
 
     knownNames.remove("l16_186")

@@ -8891,7 +8891,7 @@
 12	2049	-1	-832556865	[clientscript,skillmulti_itembutton_hover]
 12	2050	-1	2067087678	[clientscript,skillmulti_itembutton_op]
 12	2051	-1	-344920196	[clientscript,skillmulti_itembutton_key]
-12	2052	-1	-483795964	
+12	2052	-1	-483795964	[proc,skillmulti_itembutton_triggered]
 12	2053	-1	-555589876	[clientscript,skillmulti_itembutton_reset]
 12	2054	-1	1471880123	[proc,skillmulti_itembutton_draw]
 12	2055	-1	-1900495584	
@@ -9545,7 +9545,7 @@
 12	2703	-1	-780330846	
 12	2704	-1	-1440388446	
 12	2705	-1	-1675350731	
-12	2706	-1	-798418004	
+12	2706	-1	-798418004	[clientscript,show_ios_review]
 12	2707	-1	1031011343	[clientscript,1v1arena_review_init]
 12	2708	-1	1026505307	[clientscript,1v1arena_review_draw]
 12	2709	-1	-1777014693	[proc,1v1arena_review_draw]

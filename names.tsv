@@ -9944,10 +9944,10 @@
 12	3102	-1	-1647890964	
 12	3103	-1	-646792887	[proc,canoe_get_state]
 12	3104	-1	1672003162	[proc,canoe_return_locations]
-12	3105	-1	-152835718	
-12	3106	-1	1198791236	
-12	3107	-1	885005154	
-12	3108	-1	-98325606	
+12	3105	-1	-152835718	[proc,canoe_paddle_log]
+12	3106	-1	1198791236	[proc,canoe_paddle_dugout]
+12	3107	-1	885005154	[proc,canoe_paddle_stable_dugout]
+12	3108	-1	-98325606	[proc,canoe_paddle_stable_waka]
 12	3109	-1	-1681938877	[clientscript,poh_board_init]
 12	3110	-1	1249607218	[clientscript,poh_board_addline]
 12	3111	-1	279951376	[clientscript,poh_board_set_last_name]

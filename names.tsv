@@ -8134,7 +8134,7 @@
 12	1292	-1	1253911906	[clientscript,br_loadout_init]
 12	1293	-1	1420552114	[clientscript,br_loadout_menuop]
 12	1294	-1	1431745560	[clientscript,br_loadout_menureset]
-12	1295	-1	1778539908	
+12	1295	-1	1778539908	[clientscript,br_loadout_menudragging]
 12	1296	-1	-696564136	
 12	1297	-1	-1889431041	[clientscript,slayer_rewards_unlock_draw]
 12	1298	-1	1690769490	[proc,slayer_rewards_unlock_desc]
@@ -8198,7 +8198,7 @@
 12	1356	-1	767273380	[proc,questlist_qp]
 12	1357	-1	978672315	[proc,questlist_f2p_progress]
 12	1358	-1	1810877744	[proc,questlist_members_progress]
-12	1359	-1	1901269107	
+12	1359	-1	1901269107	[proc,questlist_miniquests_progress]
 12	1360	-1	1154251004	[proc,quicksort_intenum]
 12	1361	-1	1129139845	[proc,welcome_screen_lastlogin]
 12	1362	-1	1704876246	[clientscript,welcome_screen_messages]
@@ -8895,13 +8895,13 @@
 12	2053	-1	-555589876	[clientscript,skillmulti_itembutton_reset]
 12	2054	-1	1471880123	[proc,skillmulti_itembutton_draw]
 12	2055	-1	-1900495584	
-12	2056	-1	1204076838	
-12	2057	-1	-1128688333	
-12	2058	-1	1826472755	
-12	2059	-1	-2007865674	
-12	2060	-1	1871386120	
-12	2061	-1	2142603879	
-12	2062	-1	-74453009	
+12	2056	-1	1204076838	[proc,skillmulti_quantitybutton_setup]
+12	2057	-1	-1128688333	[clientscript,skillmulti_quantitybutton_draw]
+12	2058	-1	1826472755	[proc,skillmulti_quantitybutton_draw]
+12	2059	-1	-2007865674	[clientscript,skillmulti_quantitybutton_op]
+12	2060	-1	1871386120	[clientscript,skillmulti_quantitybutton_x_start]
+12	2061	-1	2142603879	[proc,skillmulti_quantitybutton_x_receive]
+12	2062	-1	-74453009	[clientscript,skillmulti_quantitybutton_x_end]
 12	2063	-1	-68307449	[proc,meslayer_skillmulti]
 12	2064	-1	-1545851182	[clientscript,chat_broadcast_op]
 12	2065	-1	481516892	[clientscript,chat_recol]
@@ -9002,7 +9002,7 @@
 12	2160	-1	1283993100	
 12	2161	-1	-946936104	
 12	2162	-1	738657807	
-12	2163	-1	-348622740	
+12	2163	-1	-348622740	[proc,makeover_unlockedcolour]
 12	2164	-1	2038486720	[clientscript,xpdrops_setposition]
 12	2165	-1	-1238538048	[proc,xpdrops_setposition]
 12	2166	-1	1324602023	
@@ -9421,7 +9421,7 @@
 12	2579	-1	1401571932	
 12	2580	-1	2962812	[proc,int_device]
 12	2581	-1	-672211557	[proc,mobile_chatbox_resize]
-12	2582	-1	1191576474	
+12	2582	-1	1191576474	[proc,chatbox_mobile_rearrange]
 12	2583	-1	849664808	[proc,telenexus_left_click]
 12	2584	-1	-67780927	[clientscript,tutorial_overlay_hint]
 12	2585	-1	-1009332036	[proc,tutorial_hint_chatbox]
@@ -9774,7 +9774,7 @@
 12	2932	-1	-215776068	[proc,skillmain_button_draw]
 12	2933	-1	-198483431	[proc,skillmain_button_wipe]
 12	2934	-1	-964302867	[clientscript,silver_crafting_mouseeffect]
-12	2935	-1	2069186180	
+12	2935	-1	2069186180	[proc,silver_crafting_jewellerytitle_setup]
 12	2936	-1	1800374293	[clientscript,silver_crafting_jewellerytitle_draw]
 12	2937	-1	-1332209131	[proc,silver_crafting_jewellerytitle_draw]
 12	2938	-1	904550210	[proc,silver_crafting_jewellery_setup]
@@ -9810,7 +9810,7 @@
 12	2968	-1	3779834	[proc,adventurepath_return_path_tasks_done]
 12	2969	-1	1253385045	[proc,adventurepath_return_task_focus]
 12	2970	-1	-658356515	[proc,adventurepath_set_task_focus]
-12	2971	-1	-516022188	
+12	2971	-1	-516022188	[clientscript,options_hitsplattint_init]
 12	2972	-1	194001130	
 12	2973	-1	2053457144	
 12	2974	-1	-160438836	[proc,create_v2_stone_button_filled_free]
@@ -9880,7 +9880,7 @@
 12	3038	-1	-173217014	[clientscript,adventurepath_side_settings_back_over]
 12	3039	-1	-290682915	[clientscript,adventurepath_side_settings_back_op]
 12	3040	-1	568435691	
-12	3041	-1	524283006	
+12	3041	-1	524283006	[proc,league_create_dropdown]
 12	3042	-1	-810723136	[proc,poh_tablets_buildbutton]
 12	3043	-1	-372495009	[clientscript,poh_tablets_updatebutton]
 12	3044	-1	-863785554	[clientscript,poh_tablets_hidehighlight]
@@ -9911,7 +9911,7 @@
 12	3069	-1	896094831	[clientscript,br_loadout_rearrange]
 12	3070	-1	773748084	[proc,br_loadout_additem]
 12	3071	-1	-352223794	[clientscript,br_loadout_hidewarning]
-12	3072	-1	1542931108	
+12	3072	-1	1542931108	[clientscript,br_loadout_restorewarning]
 12	3073	-1	-384810860	[proc,br_loadout_sort]
 12	3074	-1	-318275680	[proc,br_loadout_get_inv]
 12	3075	-1	-1263655627	[proc,br_loadout_get_worn]
@@ -9964,8 +9964,8 @@
 12	3122	-1	-2062702826	[proc,poh_board_location_filter_build]
 12	3123	-1	-2040236185	[proc,poh_board_loc]
 12	3124	-1	-2031012362	[clientscript,poh_board_explain_location]
-12	3125	-1	-1316289403	
-12	3126	-1	1001846419	
+12	3125	-1	-1316289403	[clientscript,poh_board_send_name]
+12	3126	-1	1001846419	[clientscript,poh_board_validate_name]
 12	3127	-1	-954934680	
 12	3128	-1	-496744139	
 12	3129	-1	-1819932068	
@@ -10114,8 +10114,8 @@
 12	3272	-1	1825268575	
 12	3273	-1	1574132272	
 12	3274	-1	1155502064	
-12	3275	-1	-883285648	
-12	3276	-1	608161648	
+12	3275	-1	-883285648	[clientscript,bankmain_viewbuttons]
+12	3276	-1	608161648	[proc,bankmain_viewbuttons]
 12	3277	-1	616366292	
 12	3278	-1	997069342	
 12	3279	-1	844487929	
@@ -10133,7 +10133,7 @@
 12	3291	-1	-1602896817	
 12	3292	-1	855128706	
 12	3293	-1	-302321254	[clientscript,options_wiki_init]
-12	3294	-1	-506718890	
+12	3294	-1	-506718890	[clientscript,options_wiki_resynch]
 12	3295	-1	17568297	[clientscript,options_wiki_op]
 12	3296	-1	842907025	[proc,options_wiki]
 12	3297	-1	2049912654	[proc,wiki_icon_enabled]
@@ -10176,24 +10176,24 @@
 12	3334	-1	-1784373945	
 12	3335	-1	571095324	
 12	3336	-1	422383571	
-12	3337	-1	-420475783	
-12	3338	-1	-251549674	
+12	3337	-1	-420475783	[clientscript,adventurepath_side_hint_mouseover]
+12	3338	-1	-251549674	[clientscript,adventurepath_side_hint_mouseleave]
 12	3339	-1	-1881739555	[clientscript,adventurepath_side_settings_mouseover]
 12	3340	-1	1693913650	[clientscript,adventurepath_side_settings_mouseleave]
 12	3341	-1	94330422	
 12	3342	-1	1289160036	
 12	3343	-1	1929182615	[clientscript,notification_display_init]
-12	3344	-1	-1053033683	
-12	3345	-1	-1836209956	
+12	3344	-1	-1053033683	[clientscript,notification_tli_update]
+12	3345	-1	-1836209956	[clientscript,notification_store_data]
 12	3346	-1	2138641428	[clientscript,notification_start]
 12	3347	-1	1695662867	[clientscript,notification_delay]
 12	3348	-1	515768571	[clientscript,notification_end]
 12	3349	-1	-68967340	[proc,notification_init]
 12	3350	-1	-1795127683	[clientscript,notification_positioning]
 12	3351	-1	-2023803779	[proc,notification_positioning]
-12	3352	-1	-1729711012	
-12	3353	-1	450864995	
-12	3354	-1	-1627077993	
+12	3352	-1	-1729711012	[clientscript,options_hitsplattint_resynch]
+12	3353	-1	450864995	[clientscript,options_hitsplattint_op]
+12	3354	-1	-1627077993	[proc,options_hitsplattint]
 12	3355	-1	-543568563	
 12	3356	-1	711383259	
 12	3357	-1	751887686	

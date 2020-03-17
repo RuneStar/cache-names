@@ -6860,7 +6860,7 @@
 12	18	-1	-432143372	[clientscript,wom_item_hide]
 12	19	-1	1268880597	[proc,magic_runecount]
 12	20	-1	-1807207932	[proc,magic_tostring]
-12	21	-1	129475785	
+12	21	-1	129475785	[proc,wom_build_item_list]
 12	22	-1	367639845	[clientscript,tt_reward_highlight_off]
 12	23	-1	908836703	[clientscript,pvp_store_init]
 12	24	-1	2020375741	
@@ -6913,7 +6913,7 @@
 12	71	-1	781934875	[proc,toplevel_sidebutton_op]
 12	72	-1	1140994645	[proc,scrollbar_resize]
 12	73	-1	-2067145042	[clientscript,chatdefault_onkey]
-12	74	-1	-913699059	
+12	74	-1	-913699059	[proc,add_to_inputstring]
 12	75	-1	-138257295	[proc,chatout_scrollup]
 12	76	-1	263024522	[proc,chatout_scrolldown]
 12	77	-1	590756128	[proc,chatout_add]

@@ -6901,7 +6901,7 @@
 12	59	-1	-1342329868	[proc,chatbox_multi_addoption]
 12	60	-1	682911585	[clientscript,dream_bank_init]
 12	61	-1	2129584024	[clientscript,dream_chest_init]
-12	62	-1	-1938739908	
+12	62	-1	-1938739908	[clientscript,hp_hud_update_bar]
 12	63	-1	1879461885	[clientscript,scrollbar_vertical_graphics]
 12	64	-1	1259866529	
 12	65	-1	-382485956	[clientscript,set_spinner]
@@ -7388,9 +7388,9 @@
 12	546	-1	1553538129	[proc,wear_updateslot]
 12	547	-1	-984361086	[clientscript,runweight_visible]
 12	548	-1	-1524383477	[proc,meslayer_mode12]
-12	549	-1	190536100	
+12	549	-1	190536100	[proc,meslayer_mode12_setprompt]
 12	550	-1	-1524383446	[proc,meslayer_mode13]
-12	551	-1	319618819	
+12	551	-1	319618819	[proc,meslayer_mode13_setprompt]
 12	552	-1	-1349680864	[clientscript,chat_autotyper]
 12	553	-1	-1887971170	
 12	554	-1	-938646142	[clientscript,clanwars_confirm_setup]
@@ -8253,7 +8253,7 @@
 12	1411	-1	-166992766	[clientscript,questdisplay]
 12	1412	-1	834909444	[proc,questdisplay_setup]
 12	1413	-1	-1173301812	
-12	1414	-1	-820363460	
+12	1414	-1	-820363460	[proc,hp_hud_update_bar]
 12	1415	-1	192595457	
 12	1416	-1	1478315565	
 12	1417	-1	1565331365	
@@ -10077,7 +10077,7 @@
 12	3235	-1	-435839494	[proc,update_diary_entry_grey]
 12	3236	-1	-816339775	[proc,questlist_f2p_progress_grey]
 12	3237	-1	-568626324	[proc,questlist_members_progress_grey]
-12	3238	-1	-2053193207	
+12	3238	-1	-2053193207	[proc,questlist_miniquests_progress_grey]
 12	3239	-1	1502940355	[proc,questlist_showprogress_grey]
 12	3240	-1	2117153779	
 12	3241	-1	1402757619	

@@ -9,7 +9,7 @@ The following hash function is used:
 
 ```java
 public static int hash(String s) {
-    byte[] bytes = s.toLowerCase().getBytes(Charset.forName("windows-1252"));
+    byte[] bytes = s.toLowerCase(Locale.ROOT).getBytes(Charset.forName("windows-1252"));
     int h = 0;
     for (byte b : bytes) {
         h = h * 31 + b;
@@ -18,4 +18,4 @@ public static int hash(String s) {
 }
 ```
 
-It is equivalent to `s.toLowerCase().hashCode()` for ASCII-only inputs
+It is equivalent to `s.toLowerCase(Locale.ROOT).hashCode()` for ASCII-only inputs

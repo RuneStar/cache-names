@@ -167,6 +167,7 @@ fun main() {
         "league_relics_tli,$x".add()
         "wiki_icon,$x".add()
         "ap_border,$x".add()
+        "tiny_combat_staticons,$x".add()
     }
 
     knownNames.remove("l16_186")

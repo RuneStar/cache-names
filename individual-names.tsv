@@ -111,6 +111,8 @@
 161553
 16400
 16401
+166416
+166417
 16656
 16657
 16912
@@ -1863,6 +1865,7 @@
 [proc,deadman_chest_tele]
 [proc,deadman_finallocation]
 [proc,deadman_freecam_enable]
+[proc,deadman_lobby_tele]
 [proc,deadman_map_enable]
 [proc,deadman_map_keypress]
 [proc,deadman_mode]

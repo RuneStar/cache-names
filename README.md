@@ -1,6 +1,6 @@
 # cache-names [![Discord](https://img.shields.io/discord/384870460640329728.svg?logo=discord)](https://discord.gg/G2kxrnU)
 
-[**View all**](https://github.com/RuneStar/cache-names/blob/master/names.tsv)
+[**View all**](https://raw.githubusercontent.com/RuneStar/cache-names/master/names.tsv)
 
 Some files in the Old School RuneScape cache contain a hash of their name. 
 The only way to find out the names of these files is to reverse the hashes.

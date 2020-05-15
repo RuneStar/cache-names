@@ -168,6 +168,8 @@ fun main() {
         "wiki_icon,$x".add()
         "ap_border,$x".add()
         "tiny_combat_staticons,$x".add()
+        "highlight_border,$x".add()
+        "question_button,$x".add()
     }
 
     knownNames.remove("l16_186")

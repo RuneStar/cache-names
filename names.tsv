@@ -8081,9 +8081,9 @@
 12	1176	-1	-540296142	
 12	1177	-1	-1424321847	
 12	1178	-1	1171004900	
-12	1179	-1	1615995095	
-12	1180	-1	-1371567945	
-12	1181	-1	-1600244041	
+12	1179	-1	1615995095	[clientscript,dream_monster_populate]
+12	1180	-1	-1371567945	[clientscript,dream_monster_switch_tab]
+12	1181	-1	-1600244041	[proc,dream_monster_switch_tab]
 12	1182	-1	1476046160	[proc,deadman_skullduration]
 12	1183	-1	-2062982157	
 12	1184	-1	-433719846	
@@ -8983,7 +8983,7 @@
 12	2078	-1	1537901990	[clientscript,vm_kudos_update]
 12	2079	-1	-110094426	[proc,vm_kudos_update]
 12	2080	-1	708039968	
-12	2081	-1	2017069585	
+12	2081	-1	2017069585	[clientscript,magic_flash_spell]
 12	2082	-1	1370567916	[proc,kots_world]
 12	2083	-1	410416870	[proc,kots_remaining_time]
 12	2084	-1	-2141118122	[proc,deadman_finallocation]
@@ -9134,7 +9134,7 @@
 12	2229	-1	-1583140348	[clientscript,shop_quantity]
 12	2230	-1	-1213905916	[proc,shop_quantity]
 12	2231	-1	-298060074	[clientscript,shop_quantity_op]
-12	2232	-1	-1010074918	
+12	2232	-1	-1010074918	[clientscript,magic_flash]
 12	2233	-1	1822455827	[proc,welcome_screen_continue_text]
 12	2234	-1	-361395563	[clientscript,camera_do_zoom]
 12	2235	-1	-49881644	
@@ -9736,7 +9736,7 @@
 12	2831	-1	-1464195874	
 12	2832	-1	-1349151350	
 12	2833	-1	2128969737	
-12	2834	-1	-1654076522	
+12	2834	-1	-1654076522	[clientscript,if_flash_component]
 12	2835	-1	1453495065	158481
 12	2836	-1	1453495064	158480
 12	2837	-1	-1244085356	
@@ -9784,10 +9784,10 @@
 12	2879	-1	924046065	[clientscript,clanwars_setup_smallbox_updatetext]
 12	2880	-1	-1116667663	[proc,clanwars_setup_smallbox_updatetext]
 12	2881	-1	945118533	
-12	2882	-1	-1257989296	
+12	2882	-1	-1257989296	[clientscript,if_flash_component_timer]
 12	2883	-1	-582670843	
-12	2884	-1	2109004467	
-12	2885	-1	-1478614867	
+12	2884	-1	2109004467	[clientscript,cc_flash_component]
+12	2885	-1	-1478614867	[clientscript,cc_flash_component_timer]
 12	2886	-1	1171382352	[clientscript,hp_hud_fade_in_check]
 12	2887	-1	-2118747079	[clientscript,hp_hud_fade_in]
 12	2888	-1	737585721	[proc,hp_hud_fade_in]
@@ -10298,15 +10298,15 @@
 12	3393	-1	315497718	
 12	3394	-1	227460275	
 12	3395	-1	-1215821	
-12	3396	-1	1453723859	
+12	3396	-1	1453723859	[clientscript,meslayer_key_close]
 12	3397	-1	-1369319800	
 12	3398	-1	499933119	
 12	3399	-1	-1783644784	
 12	3400	-1	907781586	
 12	3401	-1	165067363	
-12	3402	-1	-1549214020	
-12	3403	-1	1420963914	
-12	3404	-1	568023108	
+12	3402	-1	-1549214020	[clientscript,worldmap_key_toggle_transmit]
+12	3403	-1	1420963914	[clientscript,prayer_flash_prayer]
+12	3404	-1	568023108	[clientscript,prayer_flash_timer]
 12	3405	-1	-1033943475	
 12	3406	-1	-249652900	
 12	3407	-1	-677204338	

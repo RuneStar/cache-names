@@ -7949,7 +7949,7 @@
 12	1044	-1	1130171393	
 12	1045	-1	-1850455532	[proc,max]
 12	1046	-1	-1850448154	[proc,min]
-12	1047	-1	-1998645466	
+12	1047	-1	-1998645466	[clientscript,camera_zoom_slider_click]
 12	1048	-1	2117839305	
 12	1049	-1	-1921740745	[proc,zoom_position_slider]
 12	1050	-1	-387275878	[clientscript,toplevel_compass_op]
@@ -8124,7 +8124,7 @@
 12	1219	-1	-225219021	[proc,zeah_favour_overlay_hideshow]
 12	1220	-1	-751748530	[clientscript,zeah_border_flash]
 12	1221	-1	881107136	[clientscript,zeah_fade_border]
-12	1222	-1	1832357481	
+12	1222	-1	1832357481	[clientscript,zeah_overlay_grow]
 12	1223	-1	-1272451513	
 12	1224	-1	1735139187	
 12	1225	-1	1600276733	
@@ -8292,7 +8292,7 @@
 12	1387	-1	843682712	
 12	1388	-1	1035011103	[clientscript,poh_viewer_setlevel]
 12	1389	-1	2052953631	[proc,poh_viewer_setlevel]
-12	1390	-1	740963613	
+12	1390	-1	740963613	[proc,poh_viewer_handlelevel]
 12	1391	-1	-317819755	
 12	1392	-1	1661238394	
 12	1393	-1	1134176983	[clientscript,poh_viewer_preview_pulse]
@@ -9823,10 +9823,10 @@
 12	2918	-1	1367422051	
 12	2919	-1	-10455823	[proc,gauntlet_select_item]
 12	2920	-1	-65144871	
-12	2921	-1	-1119873667	
-12	2922	-1	477061211	
-12	2923	-1	1738499174	
-12	2924	-1	1822893294	
+12	2921	-1	-1119873667	[clientscript,prif_overlay_portal]
+12	2922	-1	477061211	[clientscript,prif_remove_portal]
+12	2923	-1	1738499174	[clientscript,prif_adjust_portal]
+12	2924	-1	1822893294	[clientscript,prif_recipes_init]
 12	2925	-1	985760872	
 12	2926	-1	-959250211	[clientscript,skillmain_init]
 12	2927	-1	606323696	[clientscript,skillmain_setup]
@@ -10142,10 +10142,10 @@
 12	3237	-1	-568626324	[proc,questlist_members_progress_grey]
 12	3238	-1	-2053193207	[proc,questlist_miniquests_progress_grey]
 12	3239	-1	1502940355	[proc,questlist_showprogress_grey]
-12	3240	-1	2117153779	
-12	3241	-1	1402757619	
-12	3242	-1	2007951924	
-12	3243	-1	-786039756	
+12	3240	-1	2117153779	[clientscript,v2_stone_button_change_out]
+12	3241	-1	1402757619	[proc,v2_stone_button_change_out]
+12	3242	-1	2007951924	[clientscript,v2_stone_button_change_in]
+12	3243	-1	-786039756	[proc,v2_stone_button_change_in]
 12	3244	-1	1825904690	
 12	3245	-1	1816130625	
 12	3246	-1	1654365561	
@@ -10314,7 +10314,7 @@
 12	3409	-1	-888147925	[clientscript,highlight_screen]
 12	3410	-1	-436429269	[proc,highlight_screen]
 12	3411	-1	-1717330717	[clientscript,highlight_resize]
-12	3412	-1	-541521796	
+12	3412	-1	-541521796	[clientscript,highlight_screen_hide_layer]
 12	3413	-1	1940576037	[clientscript,highlight_textbox]
 12	3414	-1	712579362	[clientscript,highlight_textbox_resize]
 12	3415	-1	-1236014811	[proc,highlight_textbox]
@@ -10329,7 +10329,7 @@
 12	3424	-1	-176072838	
 12	3425	-1	1301744005	
 12	3426	-1	2043831221	
-12	3427	-1	-574212823	
+12	3427	-1	-574212823	[proc,hp_hud_init]
 12	3428	-1	740865240	
 12	3429	-1	1353516022	
 13	494	-1	-342013218	p11_full

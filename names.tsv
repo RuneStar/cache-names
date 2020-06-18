@@ -3712,8 +3712,6 @@
 5	3711	-1	-1154217592	l36_91
 5	3712	-1	-1125499069	m39_90
 5	3713	-1	-1154128220	l39_90
-5	3714	-1	-1125558647	m37_94
-5	3715	-1	-1154187798	l37_94
 5	3716	-1	-1125558650	m37_91
 5	3717	-1	-1154187801	l37_91
 5	3718	-1	-1125528859	m38_91
@@ -7184,7 +7182,7 @@
 12	173	-1	-871084896	[clientscript,chat_button_select]
 12	174	-1	-621483713	[clientscript,chat_button_deselect]
 12	175	-1	-2055723556	[clientscript,chat_button_onop]
-12	176	-1	1770489248	[clientscript,tournament_sidepanel_init]
+12	176	-1	-1040719181	
 12	177	-1	1907021768	[clientscript,raids_storage_items_op]
 12	178	-1	1530084950	[proc,redraw_chat_buttons]
 12	179	-1	-1435214186	[proc,chat_alert_get]
@@ -7486,7 +7484,7 @@
 12	475	-1	511727597	[proc,pest_rewards_divider]
 12	476	-1	1081054843	[clientscript,br_hud_writetimer]
 12	477	-1	561090516	[clientscript,ntk_textbox]
-12	478	-1	1732855554	[clientscript,tournament_sidepanel_setactive]
+12	478	-1	-2036078472	
 12	479	-1	-1580482062	[clientscript,ntk_timer_resynch]
 12	480	-1	-462105614	[proc,ntk_timer_resynch]
 12	481	-1	1512641374	[clientscript,ntk_timer_autonomous]
@@ -7980,15 +7978,6 @@
 12	969	-1	1182847674	[clientscript,stake_tooltip]
 12	970	-1	1943908034	[clientscript,logout_op]
 12	971	-1	-1178672072	[clientscript,ntk_init]
-12	972	-1	-2044654150	[clientscript,tournament_sidepanel_changeactive]
-12	973	-1	393049346	[proc,tournament_sidepanel_setactive]
-12	974	-1	-450764548	[clientscript,tournament_sidepanel_setcolour]
-12	975	-1	-1790570756	[proc,tournament_sidepanel_setcolour]
-12	976	-1	105943096	[clientscript,tournament_data]
-12	977	-1	569840221	[clientscript,tournament_sidepanel_stop_init]
-12	978	-1	-401635412	[clientscript,tournament_sidepanel_stop_op]
-12	979	-1	1290872406	[clientscript,tournament_sidepanel_stop_redraw]
-12	980	-1	-2067671978	[proc,tournament_sidepanel_stop_redraw]
 12	981	-1	990151229	[clientscript,keybind_build_dropdown]
 12	982	-1	-248074179	[proc,keybind_build_dropdown]
 12	983	-1	556469393	[clientscript,keybind_dropdown_select]
@@ -8703,7 +8692,6 @@
 12	1692	-1	-1255046499	[clientscript,poh_jewellery_box_timeout]
 12	1693	-1	660151169	
 12	1694	-1	-2133840511	
-12	1695	-1	-1396391712	[clientscript,oculus_close]
 12	1696	-1	-1734540802	[proc,agilityarena_rewards_initbutton]
 12	1697	-1	-774184597	[proc,magic_spacer_tostring]
 12	1698	-1	-402485736	[clientscript,blast_mining_hud_init]
@@ -10454,6 +10442,12 @@
 12	3443	-1	444077509	
 12	3444	-1	-2133538020	
 12	3445	-1	-1042126222	
+12	3446	-1	-1815241850	
+12	3447	-1	1019775463	
+12	3448	-1	1903618499	
+12	3449	-1	1458751418	
+12	3450	-1	218660093	
+12	3451	-1	-1286072595	
 13	494	-1	-342013218	p11_full
 13	495	-1	-313384067	p12_full
 13	496	-1	1057075019	b12_full

@@ -7196,7 +7196,7 @@
 12	173	-1	-871084896	[clientscript,chat_button_select]
 12	174	-1	-621483713	[clientscript,chat_button_deselect]
 12	175	-1	-2055723556	[clientscript,chat_button_onop]
-12	176	-1	-1040719181	
+12	176	-1	-1040719181	[proc,skill_guide_subsection_thieving]
 12	177	-1	1907021768	[clientscript,raids_storage_items_op]
 12	178	-1	1530084950	[proc,redraw_chat_buttons]
 12	179	-1	-1435214186	[proc,chat_alert_get]
@@ -7498,7 +7498,7 @@
 12	475	-1	511727597	[proc,pest_rewards_divider]
 12	476	-1	1081054843	[clientscript,br_hud_writetimer]
 12	477	-1	561090516	[clientscript,ntk_textbox]
-12	478	-1	-2036078472	
+12	478	-1	-2036078472	[proc,skill_guide_data_thieving]
 12	479	-1	-1580482062	[clientscript,ntk_timer_resynch]
 12	480	-1	-462105614	[proc,ntk_timer_resynch]
 12	481	-1	1512641374	[clientscript,ntk_timer_autonomous]
@@ -9175,7 +9175,7 @@
 12	2152	-1	1083651406	[clientscript,chatbox_keyinput_clicklistener]
 12	2153	-1	-1278918874	[proc,chatbox_keyinput_matched]
 12	2154	-1	-354754926	[clientscript,logout_layout_init]
-12	2155	-1	-1284226913	
+12	2155	-1	-1284226913	[clientscript,toplevel_chatbox_resetbackground_soon]
 12	2156	-1	614737083	[proc,poh_options_doors_render]
 12	2157	-1	336542790	[proc,chatdefault_stopinput]
 12	2158	-1	-405031344	
@@ -10380,8 +10380,8 @@
 12	3357	-1	751887686	
 12	3358	-1	523211590	
 12	3359	-1	-805028196	
-12	3360	-1	-1585225487	
-12	3361	-1	1271107313	
+12	3360	-1	-1585225487	[clientscript,gazette_button]
+12	3361	-1	1271107313	[proc,gazette_button]
 12	3362	-1	1722086476	
 12	3363	-1	116491465	
 12	3364	-1	-893282615	
@@ -10461,11 +10461,11 @@
 12	3438	-1	1045041515	
 12	3439	-1	-1418482953	
 12	3440	-1	-1747584754	
-12	3441	-1	-557783366	
-12	3442	-1	1437267926	
-12	3443	-1	444077509	
-12	3444	-1	-2133538020	
-12	3445	-1	-1042126222	
+12	3441	-1	-557783366	[clientscript,hallowed_overlay_init]
+12	3442	-1	1437267926	[clientscript,hallowed_timer_update]
+12	3443	-1	444077509	[clientscript,hallowed_timer_pause]
+12	3444	-1	-2133538020	[clientscript,hallowed_timer]
+12	3445	-1	-1042126222	[proc,hallowed_timer_text]
 12	3446	-1	-1815241850	
 12	3447	-1	1019775463	
 12	3448	-1	1903618499	
@@ -10510,16 +10510,16 @@
 12	3487	-1	579557852	[clientscript,death_coffer_resetbutton]
 12	3488	-1	-396358905	[clientscript,death_coffer_drawbutton]
 12	3489	-1	-126640889	[proc,death_coffer_drawbutton]
-12	3490	-1	-1539482800	
-12	3491	-1	1456012937	
-12	3492	-1	-1821011831	
-12	3493	-1	-168703134	
-12	3494	-1	141228386	
-12	3495	-1	277122592	
-12	3496	-1	-437273568	
-12	3497	-1	1221269361	
-12	3498	-1	-1572722319	
-12	3499	-1	659913780	
+12	3490	-1	-1539482800	[clientscript,death_office_init]
+12	3491	-1	1456012937	[clientscript,death_office_redraw]
+12	3492	-1	-1821011831	[proc,death_office_redraw]
+12	3493	-1	-168703134	[clientscript,death_office_title]
+12	3494	-1	141228386	[proc,death_office_title]
+12	3495	-1	277122592	[clientscript,death_office_resetquantity]
+12	3496	-1	-437273568	[proc,death_office_resetquantity]
+12	3497	-1	1221269361	[clientscript,death_office_drawquantity]
+12	3498	-1	-1572722319	[proc,death_office_drawquantity]
+12	3499	-1	659913780	[clientscript,death_office_opquantity]
 12	3500	-1	-1982784203	
 12	3501	-1	-481808587	
 12	3502	-1	1926997444	

@@ -8085,7 +8085,7 @@
 12	1060	-1	1361430432	[proc,farming_tools_main_update]
 12	1061	-1	-785969346	[clientscript,farming_tools_side_update]
 12	1062	-1	715006270	[proc,farming_tools_side_update]
-12	1063	-1	-504353546	
+12	1063	-1	-504353546	[proc,farming_tools_getstored]
 12	1064	-1	-166945193	
 12	1065	-1	-348395573	[clientscript,barrows_reward_init]
 12	1066	-1	-352901609	[clientscript,barrows_reward_draw]
@@ -8113,8 +8113,8 @@
 12	1088	-1	-1640897205	[clientscript,stonebutton_url_clickrelease]
 12	1089	-1	-1048872183	[clientscript,slayer_rewards_extend_init]
 12	1090	-1	1691140095	[proc,slayer_rewards_unlock_draw]
-12	1091	-1	1448240620	
-12	1092	-1	2108298220	
+12	1091	-1	1448240620	[clientscript,slayer_rewards_etcetera_draw]
+12	1092	-1	2108298220	[proc,slayer_rewards_etcetera_draw]
 12	1093	-1	-1112006789	[clientscript,bugreport_init]
 12	1094	-1	-486676867	[proc,bugreport_init_textinput]
 12	1095	-1	-1112009827	[clientscript,bugreport_info]
@@ -8454,8 +8454,8 @@
 12	1429	-1	-1089868665	
 12	1430	-1	573919152	
 12	1431	-1	1989599664	
-12	1432	-1	1734813161	
-12	1433	-1	1865537562	
+12	1432	-1	1734813161	[clientscript,wint_outside_event]
+12	1433	-1	1865537562	[clientscript,wint_inside_event]
 12	1434	-1	-880129749	
 12	1435	-1	967016402	[clientscript,cws_init]
 12	1436	-1	-1595860201	[proc,cws_init_button]

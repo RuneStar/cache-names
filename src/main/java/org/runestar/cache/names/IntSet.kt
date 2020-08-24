@@ -39,7 +39,7 @@ interface IntSet {
 
     private class Hash(ns: IntArray) : IntSet {
 
-        private val elements = IntArray(Integer.highestOneBit(ns.size * 40))
+        private val elements = IntArray((ns.size * 40).takeHighestOneBit())
 
         private val mask = elements.size - 1
 

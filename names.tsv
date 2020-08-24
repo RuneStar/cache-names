@@ -10331,20 +10331,20 @@
 12	3308	-1	596581741	
 12	3309	-1	-8808243	
 12	3310	-1	1539362829	
-12	3311	-1	1647437019	
-12	3312	-1	-1526421866	
-12	3313	-1	2097100950	
-12	3314	-1	673020426	
-12	3315	-1	1916130707	
-12	3316	-1	1201734547	
-12	3317	-1	296028607	
-12	3318	-1	-1043777601	
-12	3319	-1	-1850651528	
-12	3320	-1	-434971016	
-12	3321	-1	355937551	
-12	3322	-1	-983868657	
-12	3323	-1	-74251311	
-12	3324	-1	585806289	
+12	3311	-1	1647437019	[clientscript,nightmare_totems_init]
+12	3312	-1	-1526421866	[clientscript,nightmare_totem_hud_fade_in]
+12	3313	-1	2097100950	[proc,nightmare_totem_hud_fade_in]
+12	3314	-1	673020426	[proc,nightmare_totem_hud_pos]
+12	3315	-1	1916130707	[clientscript,nightmare_totem_hud_update]
+12	3316	-1	1201734547	[proc,nightmare_totem_hud_update]
+12	3317	-1	296028607	[clientscript,nightmare_totem_hud_update_bar]
+12	3318	-1	-1043777601	[proc,nightmare_totem_hud_update_bar]
+12	3319	-1	-1850651528	[clientscript,nightmare_totem_hud_bar_fadeout]
+12	3320	-1	-434971016	[proc,nightmare_totem_hud_bar_fadeout]
+12	3321	-1	355937551	[clientscript,nightmare_totem_hud_bar_fadein]
+12	3322	-1	-983868657	[proc,nightmare_totem_hud_bar_fadein]
+12	3323	-1	-74251311	[clientscript,nightmare_totem_hud_fade_out]
+12	3324	-1	585806289	[proc,nightmare_totem_hud_fade_out]
 12	3325	-1	2122066289	[proc,bonds_hide]
 12	3326	-1	-1435100916	
 12	3327	-1	-995068116	

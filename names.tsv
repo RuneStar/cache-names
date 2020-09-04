@@ -7788,8 +7788,8 @@
 12	757	-1	1847157575	[clientscript,if_flasher]
 12	758	-1	760422594	[clientscript,duel_options_click]
 12	759	-1	-195051859	[proc,duel_options_radio_buttons]
-12	760	-1	2016902673	
-12	761	-1	-1319740140	
+12	760	-1	2016902673	[proc,worldswitcher_sortbutton_draw]
+12	761	-1	-1319740140	[clientscript,worldswitcher_sortbutton_op]
 12	762	-1	1024599313	[clientscript,trade_main_drawitems]
 12	763	-1	-1778920687	[proc,trade_main_drawitems]
 12	764	-1	-2083158450	[clientscript,duel_confirm_initworn]
@@ -7921,7 +7921,7 @@
 12	890	-1	179221651	
 12	891	-1	405689042	[clientscript,worldswitcher_draw]
 12	892	-1	715620562	[proc,worldswitcher_draw]
-12	893	-1	960924101	
+12	893	-1	960924101	[proc,worldswitcher_wipe_favourite]
 12	894	-1	1341384431	[clientscript,barrows_nodnod]
 12	895	-1	808499452	[clientscript,barrows_nodnodoff]
 12	896	-1	-1011998743	[clientscript,mole_go_splat]
@@ -9713,8 +9713,8 @@
 12	2682	-1	-257664259	[proc,magic_stop_flash]
 12	2683	-1	1017489921	[clientscript,options_bottom_appearance]
 12	2684	-1	1354745331	[clientscript,bond_prompt_init]
-12	2685	-1	-1563543238	
-12	2686	-1	-1121338232	
+12	2685	-1	-1563543238	[clientscript,telenexus_keyinput_listener]
+12	2686	-1	-1121338232	[proc,telenexus_keyinput_matched]
 12	2687	-1	898131837	
 12	2688	-1	212640338	
 12	2689	-1	-238814872	

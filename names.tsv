@@ -3786,6 +3786,8 @@
 5	3785	-1	-1154366570	l31_89
 5	3786	-1	-1126452403	m28_89
 5	3787	-1	-1155081554	l28_89
+5	3788	-1	-502111104	m49_151
+5	3789	-1	-1389614785	l49_151
 6	0	-1	1120933843	scape main
 6	1	-1	3225350	iban
 6	2	-1	828650857	autumn voyage
@@ -4467,6 +4469,7 @@
 6	678	-1	-1354286452	vanstrom
 6	679	-1	-677982497	rest_in_peace
 6	680	-1	-791905777	the enclave
+6	681	-1	1574724701	
 8	0	-1	-1879805778	2x_standard_spells_on,0
 8	1	-1	-1879805777	2x_standard_spells_on,1
 8	2	-1	-1879805776	2x_standard_spells_on,2
@@ -7448,6 +7451,7 @@
 12	415	-1	-1340583704	[clientscript,smithing_init]
 12	416	-1	1669887301	[clientscript,smithing_setup]
 12	417	-1	-1352935339	
+12	418	-1	-227384965	
 12	420	-1	-1258567498	[clientscript,combat_interface_setup]
 12	421	-1	-1911250671	[clientscript,slayer_rewards_tasks_currenttask]
 12	422	-1	-974827759	[proc,slayer_rewards_tasks_currenttask]
@@ -9771,7 +9775,6 @@
 12	2740	-1	1347053289	
 12	2741	-1	1504252642	
 12	2742	-1	943140182	
-12	2743	-1	-154860046	[clientscript,longscroll_init]
 12	2744	-1	-1992100680	
 12	2745	-1	-185537327	[clientscript,farming_tools_main_create_quantitybutton]
 12	2746	-1	4384294	
@@ -10559,7 +10562,6 @@
 12	3528	-1	-981695374	
 12	3529	-1	-1063526419	
 12	3530	-1	-1956079659	
-12	3531	-1	-1262111359	
 12	3532	-1	-443497806	[clientscript,poh_costumes_init]
 12	3533	-1	-1057476886	[clientscript,poh_costumes_build]
 12	3534	-1	-747545366	[proc,poh_costumes_build]

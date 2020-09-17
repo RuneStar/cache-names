@@ -7452,6 +7452,7 @@
 12	416	-1	1669887301	[clientscript,smithing_setup]
 12	417	-1	-1352935339	
 12	418	-1	-227384965	
+12	419	-1	1279454449	
 12	420	-1	-1258567498	[clientscript,combat_interface_setup]
 12	421	-1	-1911250671	[clientscript,slayer_rewards_tasks_currenttask]
 12	422	-1	-974827759	[proc,slayer_rewards_tasks_currenttask]
@@ -9775,6 +9776,7 @@
 12	2740	-1	1347053289	
 12	2741	-1	1504252642	
 12	2742	-1	943140182	
+12	2743	-1	558866422	
 12	2744	-1	-1992100680	
 12	2745	-1	-185537327	[clientscript,farming_tools_main_create_quantitybutton]
 12	2746	-1	4384294	

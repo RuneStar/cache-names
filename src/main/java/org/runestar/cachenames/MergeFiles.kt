@@ -170,6 +170,10 @@ fun main() {
         "tiny_combat_staticons,$x".add()
         "highlight_border,$x".add()
         "question_button,$x".add()
+        "hud_brackets,$x".add()
+        "square_button_large,$x".add()
+        "rect_button,$x".add()
+        "ap_path_banner,$x".add()
     }
 
     knownNames.remove("l16_186")

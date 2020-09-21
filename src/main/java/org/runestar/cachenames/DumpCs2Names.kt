@@ -9,5 +9,6 @@ fun main() {
 
     dump(Path.of("graphic-names.tsv"), 8)
     dump(Path.of("script-names.tsv"), 12)
+    dump(Path.of("fontmetrics-names.tsv"), 13)
 }
 

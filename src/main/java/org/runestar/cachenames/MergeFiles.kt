@@ -1,4 +1,4 @@
-package org.runestar.cache.names
+package org.runestar.cachenames
 
 import java.nio.file.Files
 import java.nio.file.Paths

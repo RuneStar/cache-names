@@ -7451,8 +7451,8 @@
 12	415	-1	-1340583704	[clientscript,smithing_init]
 12	416	-1	1669887301	[clientscript,smithing_setup]
 12	417	-1	-1352935339	
-12	418	-1	-227384965	
-12	419	-1	1279454449	
+12	418	-1	-227384965	[clientscript,longscroll_setup]
+12	419	-1	1279454449	[proc,skill_guide_subsection_slayer]
 12	420	-1	-1258567498	[clientscript,combat_interface_setup]
 12	421	-1	-1911250671	[clientscript,slayer_rewards_tasks_currenttask]
 12	422	-1	-974827759	[proc,slayer_rewards_tasks_currenttask]
@@ -8686,7 +8686,7 @@
 12	1650	-1	-1759262299	[proc,options_followerops]
 12	1651	-1	776314909	[clientscript,confirmdestroy_triggerbutton]
 12	1652	-1	49333030	[clientscript,confirmdestroy_resetbutton]
-12	1653	-1	-2052940484	
+12	1653	-1	-2052940484	[proc,ignore_sortbutton_draw]
 12	1654	-1	-193656780	
 12	1655	-1	-1346443457	
 12	1656	-1	-56021320	[clientscript,chatchannel_current_init]
@@ -8702,7 +8702,7 @@
 12	1666	-1	247339253	
 12	1667	-1	1407042688	[clientscript,chatchannel_setup_setrank]
 12	1668	-1	-2085322025	
-12	1669	-1	-931492497	
+12	1669	-1	-931492497	[proc,friends_sortbutton_draw]
 12	1670	-1	1924998113	
 12	1671	-1	1755399994	
 12	1672	-1	-2064978483	[proc,displayname_button_init]
@@ -9375,7 +9375,7 @@
 12	2339	-1	-1208158663	[proc,tob_partylist_setpartybutton]
 12	2340	-1	1071770134	[clientscript,tob_partylist_addline]
 12	2341	-1	-1574938485	[proc,tob_partylist_setsort]
-12	2342	-1	1358670872	
+12	2342	-1	1358670872	[proc,tob_partylist_sortbutton_draw]
 12	2343	-1	-2000096859	[clientscript,tob_partylist_clicksort]
 12	2344	-1	1657020000	
 12	2345	-1	-2072277923	[proc,options_appearance]
@@ -9776,7 +9776,7 @@
 12	2740	-1	1347053289	
 12	2741	-1	1504252642	
 12	2742	-1	943140182	
-12	2743	-1	558866422	
+12	2743	-1	558866422	[proc,skill_guide_data_slayer]
 12	2744	-1	-1992100680	
 12	2745	-1	-185537327	[clientscript,farming_tools_main_create_quantitybutton]
 12	2746	-1	4384294	
@@ -9989,8 +9989,8 @@
 12	2953	-1	1244937884	[clientscript,adventurepath_mouseleave_path_reward]
 12	2954	-1	1496056382	[clientscript,adventurepath_set_info_transmit]
 12	2955	-1	790538829	[clientscript,adventurepath_set_info]
-12	2956	-1	5573566	
-12	2957	-1	-79203460	
+12	2956	-1	5573566	[clientscript,ap_icon_flash]
+12	2957	-1	-79203460	[clientscript,ap_flash_timer]
 12	2958	-1	-717742215	[proc,adventurepath_flashicon]
 12	2959	-1	-1005851685	[proc,adventurepath_return_task_status]
 12	2960	-1	488840031	[proc,adventurepath_return_reward_f2p]
@@ -10061,8 +10061,8 @@
 12	3025	-1	-1816896099	[proc,adventurepath_side_settings_content]
 12	3026	-1	-1631572972	
 12	3027	-1	-45350202	
-12	3028	-1	-1665371788	
-12	3029	-1	-1923530394	
+12	3028	-1	-1665371788	[proc,spoiler_dropdown]
+12	3029	-1	-1923530394	[proc,spoiler_dropdown_op]
 12	3030	-1	1370086683	
 12	3031	-1	1178329183	
 12	3032	-1	-957048197	
@@ -10115,15 +10115,15 @@
 12	3079	-1	2046245081	[clientscript,br_tournament_button_reset]
 12	3080	-1	1331848921	[proc,br_tournament_button_reset]
 12	3081	-1	-1330478447	[clientscript,br_tournament_button_op]
-12	3082	-1	-1779135936	
-12	3083	-1	493095152	
-12	3084	-1	1994070768	
-12	3085	-1	81142473	
-12	3086	-1	-1783641972	
-12	3087	-1	-765699444	
-12	3088	-1	-1198710311	
-12	3089	-1	-322877676	
-12	3090	-1	-1215430916	
+12	3082	-1	-1779135936	[clientscript,br_reward_shop_init]
+12	3083	-1	493095152	[clientscript,br_reward_shop_showpoints]
+12	3084	-1	1994070768	[proc,br_reward_shop_showpoints]
+12	3085	-1	81142473	[clientscript,br_reward_shop_confirmop]
+12	3086	-1	-1783641972	[clientscript,br_reward_shop_draw]
+12	3087	-1	-765699444	[proc,br_reward_shop_draw]
+12	3088	-1	-1198710311	[proc,br_reward_shop_itemdraw]
+12	3089	-1	-322877676	[clientscript,br_reward_shop_select]
+12	3090	-1	-1215430916	[clientscript,br_reward_shop_refuse]
 12	3091	-1	542570038	[proc,welcome_screen_banner]
 12	3092	-1	1109956974	
 12	3093	-1	201039993	[clientscript,canoe_init]
@@ -10336,7 +10336,7 @@
 12	3300	-1	-1463938513	[clientscript,wiki_lookup]
 12	3301	-1	471639087	[proc,wiki_lookup]
 12	3302	-1	2107273746	
-12	3303	-1	1473950994	
+12	3303	-1	1473950994	[proc,encode_for_url]
 12	3304	-1	1736656507	[clientscript,wiki_icon_init]
 12	3305	-1	296834658	[clientscript,wiki_icon_update]
 12	3306	-1	748553314	[proc,wiki_icon_update]
@@ -10388,11 +10388,11 @@
 12	3352	-1	-1729711012	[clientscript,options_hitsplattint_resynch]
 12	3353	-1	450864995	[clientscript,options_hitsplattint_op]
 12	3354	-1	-1627077993	[proc,options_hitsplattint]
-12	3355	-1	-543568563	
-12	3356	-1	711383259	
-12	3357	-1	751887686	
-12	3358	-1	523211590	
-12	3359	-1	-805028196	
+12	3355	-1	-543568563	[clientscript,options_gfxmobile_init]
+12	3356	-1	711383259	[clientscript,options_gfxmobile_roof_redraw]
+12	3357	-1	751887686	[clientscript,options_gfxmobile_redraw]
+12	3358	-1	523211590	[proc,options_gfxmobile_redraw]
+12	3359	-1	-805028196	[clientscript,options_gfxmobile_op]
 12	3360	-1	-1585225487	[clientscript,gazette_button]
 12	3361	-1	1271107313	[proc,gazette_button]
 12	3362	-1	1722086476	
@@ -10409,26 +10409,26 @@
 12	3373	-1	-880044529	
 12	3374	-1	-164242925	
 12	3375	-1	620420101	
-12	3376	-1	-1510003806	
-12	3377	-1	-323404387	
-12	3378	-1	-1724206811	
-12	3379	-1	-477557272	
-12	3380	-1	1038190836	
-12	3381	-1	-1323975367	
-12	3382	-1	-1158625796	
-12	3383	-1	1431862880	
-12	3384	-1	1739104500	
-12	3385	-1	-1142047049	
-12	3386	-1	46924357	
-12	3387	-1	-738284881	
-12	3388	-1	-1824641383	
-12	3389	-1	-333194087	
-12	3390	-1	-1443544009	
-12	3391	-1	704101095	
-12	3392	-1	664513306	
-12	3393	-1	315497718	
-12	3394	-1	227460275	
-12	3395	-1	-1215821	
+12	3376	-1	-1510003806	[clientscript,tut2_overlay_hint]
+12	3377	-1	-323404387	[proc,tut2_hint_chatbox]
+12	3378	-1	-1724206811	[proc,tut2_hint_camera]
+12	3379	-1	-477557272	[proc,tut2_hint_camera_desktop]
+12	3380	-1	1038190836	[proc,tut2_hint_camera_mobile]
+12	3381	-1	-1323975367	[proc,tut2_hint_move]
+12	3382	-1	-1158625796	[proc,tut2_hint_move_desktop]
+12	3383	-1	1431862880	[proc,tut2_hint_move_mobile]
+12	3384	-1	1739104500	[proc,tut2_hint_interact]
+12	3385	-1	-1142047049	[proc,tut2_hint_interact_desktop]
+12	3386	-1	46924357	[proc,tut2_hint_interact_mobile]
+12	3387	-1	-738284881	[clientscript,tut2_progressbar_init]
+12	3388	-1	-1824641383	[clientscript,tut2_progressbar_set]
+12	3389	-1	-333194087	[proc,tut2_progressbar_set]
+12	3390	-1	-1443544009	[clientscript,tut2_default_settings]
+12	3391	-1	704101095	[clientscript,tut2_end]
+12	3392	-1	664513306	[clientscript,tut2_displayname_border]
+12	3393	-1	315497718	[clientscript,tut2_displayname_init]
+12	3394	-1	227460275	[clientscript,tut2_displayname_buttons]
+12	3395	-1	-1215821	[proc,tut2_displayname_buttons]
 12	3396	-1	1453723859	[clientscript,meslayer_key_close]
 12	3397	-1	-1369319800	
 12	3398	-1	499933119	
@@ -10461,7 +10461,7 @@
 12	3425	-1	1301744005	
 12	3426	-1	2043831221	
 12	3427	-1	-574212823	[proc,hp_hud_init]
-12	3428	-1	740865240	
+12	3428	-1	740865240	[proc,bool_to_int]
 12	3429	-1	1353516022	
 12	3430	-1	-1311468921	
 12	3431	-1	634898747	
@@ -10469,7 +10469,7 @@
 12	3433	-1	-1023081912	
 12	3434	-1	-1604317018	
 12	3435	-1	1510292739	
-12	3436	-1	1887979583	
+12	3436	-1	1887979583	[proc,string_to_int]
 12	3437	-1	-1369045316	
 12	3438	-1	1045041515	
 12	3439	-1	-1418482953	
@@ -10546,9 +10546,9 @@
 12	3510	-1	-1318391223	
 12	3511	-1	-25112141	
 12	3512	-1	919024988	
-12	3513	-1	934098475	
-12	3514	-1	-714078609	
-12	3515	-1	-279045896	
+12	3513	-1	934098475	[clientscript,teleblock_timer_tooltip]
+12	3514	-1	-714078609	[clientscript,teleblock_timer]
+12	3515	-1	-279045896	[clientscript,teleblock_toggle_onmouseleave]
 12	3516	-1	1692770785	
 12	3517	-1	851409506	
 12	3518	-1	-1942495307	

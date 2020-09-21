@@ -1,7 +1,7 @@
 package org.runestar.cachenames
 
 import java.nio.file.Files
-import java.nio.file.Paths
+import java.nio.file.Path
 import java.nio.file.StandardOpenOption
 import java.time.Duration
 import java.time.Instant
@@ -11,7 +11,7 @@ import java.util.concurrent.Executors
 fun main() {
     val start = Instant.now()
     val results = Files.newOutputStream(
-            Paths.get("results.tsv"),
+            Path.of("results.tsv"),
             StandardOpenOption.CREATE,
             StandardOpenOption.TRUNCATE_EXISTING,
             StandardOpenOption.WRITE
@@ -38,12 +38,12 @@ fun main() {
     }
 
     // anims
-    Files.readAllLines(Paths.get("dict", "anims.txt")).forEach { name ->
+    Files.readAllLines(Path.of("dict", "anims.txt")).forEach { name ->
 
     }
 
     // common words
-    dict.addAll(Files.readAllLines(Paths.get("dict", "google-10000-english-no-swears.txt")).take(500))
+    dict.addAll(Files.readAllLines(Path.of("dict", "google-10000-english-no-swears.txt")).take(500))
 
     println(dict)
     println(dict.size)
@@ -53,5 +53,5 @@ fun main() {
     pool.shutdownAwait()
     results.close()
     println(Duration.between(start, Instant.now()))
-    writeLines(Paths.get("results.tsv"), Files.readAllLines(Paths.get("results.tsv")).sortedBy { it.length }.map { "$it\t\t${it.hashCode()}" })
+    writeLines(Path.of("results.tsv"), Files.readAllLines(Path.of("results.tsv")).sortedBy { it.length }.map { "$it\t\t${it.hashCode()}" })
 }

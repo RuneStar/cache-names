@@ -4,7 +4,6 @@ import java.io.OutputStream
 import java.nio.charset.Charset
 import java.nio.file.Files
 import java.nio.file.Path
-import java.nio.file.Paths
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.TimeUnit
 
@@ -30,7 +29,7 @@ fun OutputStream.write(b: Byte) = write(b.toInt())
 data class NameEntry(val archive: Int, val group: Int, val file: Int, val hash: Int, val name: String?)
 
 private fun readNames(): List<NameEntry> {
-    return Files.readAllLines(Paths.get("names.tsv")).map { line ->
+    return Files.readAllLines(Path.of("names.tsv")).map { line ->
         val split = line.split('\t')
         NameEntry(split[0].toInt(), split[1].toInt(), split[2].toInt(), split[3].toInt(), split[4].takeUnless { it.isEmpty() })
     }

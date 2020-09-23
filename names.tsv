@@ -7257,8 +7257,8 @@
 12	221	-1	634762882	[clientscript,cc_colour_temporarily_end]
 12	222	-1	2139653363	
 12	223	-1	-612564560	
-12	224	-1	1504029329	
-12	225	-1	-2135244633	
+12	224	-1	1504029329	[proc,inputstring_handlecheat]
+12	225	-1	-2135244633	[proc,inputstring_teledirection]
 12	226	-1	-1506039069	[clientscript,lost_property_init]
 12	227	-1	446208801	[clientscript,steelborder]
 12	228	-1	-1913180895	[proc,steelborder]
@@ -7353,7 +7353,7 @@
 12	317	-1	-1453604565	[clientscript,music_optionbuttons_resynch]
 12	318	-1	-580521370	[proc,music_optionbuttons]
 12	319	-1	1584422678	[clientscript,slayer_rewards_confirm_back]
-12	320	-1	-2002551752	
+12	320	-1	-2002551752	[clientscript,slayer_rewards_confirm_backlater]
 12	321	-1	188909267	[clientscript,slayer_rewards_buy_init]
 12	322	-1	58302882	[clientscript,slayer_rewards_buy_op]
 12	323	-1	-1374585996	[clientscript,combat_interface_opbutton]
@@ -7450,7 +7450,7 @@
 12	414	-1	2047834487	[clientscript,slayer_rewards_unlock_confirm]
 12	415	-1	-1340583704	[clientscript,smithing_init]
 12	416	-1	1669887301	[clientscript,smithing_setup]
-12	417	-1	-1352935339	
+12	417	-1	-1352935339	[clientscript,chat_set_filter_conditional]
 12	418	-1	-227384965	[clientscript,longscroll_setup]
 12	419	-1	1279454449	[proc,skill_guide_subsection_slayer]
 12	420	-1	-1258567498	[clientscript,combat_interface_setup]
@@ -7716,7 +7716,7 @@
 12	680	-1	-1387541047	[proc,meslayer_initlastnames]
 12	681	-1	1383916307	[proc,meslayer_enter]
 12	682	-1	1449426661	[clientscript,meslayer_lastname_click]
-12	683	-1	-934877677	
+12	683	-1	-934877677	[clientscript,bankpin_button_addtextlater]
 12	684	-1	1532518672	[clientscript,bankpin_button_mouseover]
 12	685	-1	-1488202864	[clientscript,bankpin_button_op]
 12	686	-1	-1845622372	[clientscript,bankpin_otherbutton]
@@ -7989,7 +7989,7 @@
 12	953	-1	-1204287481	[clientscript,macro_pinball_score_init]
 12	954	-1	1543263036	
 12	955	-1	1994981692	
-12	956	-1	-294814326	
+12	956	-1	-294814326	[clientscript,macro_maze_timer]
 12	957	-1	-992288982	
 12	958	-1	-639767610	
 12	959	-1	1551181640	
@@ -8443,7 +8443,7 @@
 12	1407	-1	-1069328419	
 12	1408	-1	938084969	[clientscript,champions_log]
 12	1409	-1	629073882	[proc,champions_log_build]
-12	1410	-1	-346583394	
+12	1410	-1	-346583394	[proc,inputstring_televertical]
 12	1411	-1	-166992766	[clientscript,questdisplay]
 12	1412	-1	834909444	[proc,questdisplay_setup]
 12	1413	-1	-1173301812	
@@ -8687,7 +8687,7 @@
 12	1651	-1	776314909	[clientscript,confirmdestroy_triggerbutton]
 12	1652	-1	49333030	[clientscript,confirmdestroy_resetbutton]
 12	1653	-1	-2052940484	[proc,ignore_sortbutton_draw]
-12	1654	-1	-193656780	
+12	1654	-1	-193656780	[clientscript,ignore_sortbutton_clicksort]
 12	1655	-1	-1346443457	
 12	1656	-1	-56021320	[clientscript,chatchannel_current_init]
 12	1657	-1	-1930607708	[clientscript,chatchannel_current_build]
@@ -8703,7 +8703,7 @@
 12	1667	-1	1407042688	[clientscript,chatchannel_setup_setrank]
 12	1668	-1	-2085322025	
 12	1669	-1	-931492497	[proc,friends_sortbutton_draw]
-12	1670	-1	1924998113	
+12	1670	-1	1924998113	[clientscript,friends_sortbutton_clicksort]
 12	1671	-1	1755399994	
 12	1672	-1	-2064978483	[proc,displayname_button_init]
 12	1673	-1	1012100380	[clientscript,displayname_button_op]
@@ -8773,8 +8773,8 @@
 12	1737	-1	742198576	[clientscript,worldmap_search_input]
 12	1738	-1	-1894183177	[proc,worldmap_search_update]
 12	1739	-1	-1499401025	
-12	1740	-1	-1907206729	
-12	1741	-1	1377986487	
+12	1740	-1	-1907206729	[clientscript,worldmap_size_handler]
+12	1741	-1	1377986487	[proc,worldmap_size_handler]
 12	1742	-1	-1134082019	[clientscript,worldmap_overview_toggle]
 12	1743	-1	-1362758115	[proc,worldmap_overview_toggle]
 12	1744	-1	1230542119	[clientscript,worldmap_hovertoggle]
@@ -9191,7 +9191,7 @@
 12	2155	-1	-1284226913	[clientscript,toplevel_chatbox_resetbackground_soon]
 12	2156	-1	614737083	[proc,poh_options_doors_render]
 12	2157	-1	336542790	[proc,chatdefault_stopinput]
-12	2158	-1	-405031344	
+12	2158	-1	-405031344	[clientscript,chatdefault_restoreinput]
 12	2159	-1	-558452543	
 12	2160	-1	1283993100	
 12	2161	-1	-946936104	
@@ -9312,8 +9312,8 @@
 12	2276	-1	1021423500	
 12	2277	-1	-1003546842	[clientscript,bondif_redeem_subtitle]
 12	2278	-1	-1886777483	[clientscript,bondif_redeem_package_init]
-12	2279	-1	1118234971	
-12	2280	-1	1407773835	
+12	2279	-1	1118234971	[clientscript,bondif_redeem_package_op_disabled]
+12	2280	-1	1407773835	[clientscript,bondif_redeem_package_op_permitted]
 12	2281	-1	-1891283519	[clientscript,bondif_redeem_package_draw]
 12	2282	-1	1689287617	[proc,bondif_redeem_package_draw]
 12	2283	-1	-987921101	[proc,bondif_redeem_package_details]
@@ -10216,7 +10216,7 @@
 12	3180	-1	2015003240	
 12	3181	-1	-540421067	[clientscript,league_points_progress_bar]
 12	3182	-1	-1254817227	[proc,league_points_progress_bar]
-12	3183	-1	-478780786	
+12	3183	-1	-478780786	[clientscript,league_progress_bar_mobile_tooltip]
 12	3184	-1	-124566292	[clientscript,league_points_progress_bar_expand]
 12	3185	-1	448636191	[clientscript,league_border_pulse_start]
 12	3186	-1	1954148151	[clientscript,league_border_pulse_stop]

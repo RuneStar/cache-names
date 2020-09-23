@@ -2585,8 +2585,6 @@
 [proc,snowflakes_zoom]
 [proc,soulbearer_repair_update]
 [proc,spectator_keypress]
-[proc,spoiler_dropdown]
-[proc,spoiler_dropdown_op]
 [proc,stat_f2plevel]
 [proc,stat_totallevel]
 [proc,stats_setlevels]

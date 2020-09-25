@@ -7577,7 +7577,7 @@
 12	541	-1	938547597	[proc,ge_offers_bigbutton]
 12	542	-1	1272760493	[clientscript,ge_offers_bigbutton_op]
 12	543	-1	913042749	[clientscript,ge_offers_bigbutton_reset]
-12	544	-1	907808010	
+12	544	-1	907808010	[proc,league_reward_draw_item]
 12	545	-1	-1093432751	[clientscript,wear_updateslot]
 12	546	-1	1553538129	[proc,wear_updateslot]
 12	547	-1	-984361086	[clientscript,runweight_visible]
@@ -8634,7 +8634,7 @@
 12	1598	-1	376367727	[proc,skill_guide_subsection_hunter]
 12	1599	-1	-344220300	[proc,skill_guide_data_hunter]
 12	1600	-1	-197443634	[proc,adventurepath_replace]
-12	1601	-1	-1903468001	
+12	1601	-1	-1903468001	[clientscript,button_select_sound]
 12	1602	-1	166461126	[proc,raids_storage_shared_warning]
 12	1603	-1	-1024500603	[clientscript,adventurepath_voucher_op_init]
 12	1604	-1	26923688	[clientscript,raids_storage_private_prompt]
@@ -8693,13 +8693,13 @@
 12	1657	-1	-1930607708	[clientscript,chatchannel_current_build]
 12	1658	-1	-429632092	[proc,chatchannel_current_build]
 12	1659	-1	1769489085	
-12	1660	-1	854671025	
+12	1660	-1	854671025	[clientscript,chatchannel_current_sortbutton_clicksort]
 12	1661	-1	-244147973	[clientscript,keyboard_key]
 12	1662	-1	-145026820	[clientscript,chatchannel_setup_init]
 12	1663	-1	-394810912	[clientscript,chatchannel_setup_build]
 12	1664	-1	-125092896	[proc,chatchannel_setup_build]
 12	1665	-1	-234778631	
-12	1666	-1	247339253	
+12	1666	-1	247339253	[clientscript,chatchannel_setup_sortbutton_clicksort]
 12	1667	-1	1407042688	[clientscript,chatchannel_setup_setrank]
 12	1668	-1	-2085322025	
 12	1669	-1	-931492497	[proc,friends_sortbutton_draw]
@@ -9088,7 +9088,7 @@
 12	2052	-1	-483795964	[proc,skillmulti_itembutton_triggered]
 12	2053	-1	-555589876	[clientscript,skillmulti_itembutton_reset]
 12	2054	-1	1471880123	[proc,skillmulti_itembutton_draw]
-12	2055	-1	-1900495584	
+12	2055	-1	-1900495584	[proc,skillmulti_quantitybuttons_set]
 12	2056	-1	1204076838	[proc,skillmulti_quantitybutton_setup]
 12	2057	-1	-1128688333	[clientscript,skillmulti_quantitybutton_draw]
 12	2058	-1	1826472755	[proc,skillmulti_quantitybutton_draw]
@@ -10161,10 +10161,10 @@
 12	3125	-1	-1316289403	[clientscript,poh_board_send_name]
 12	3126	-1	1001846419	[clientscript,poh_board_validate_name]
 12	3127	-1	-954934680	
-12	3128	-1	-496744139	
-12	3129	-1	-1819932068	
-12	3130	-1	-1708392926	
-12	3131	-1	-1420386875	
+12	3128	-1	-496744139	[clientscript,screen_glow_start]
+12	3129	-1	-1819932068	[clientscript,screen_glow_end]
+12	3130	-1	-1708392926	[clientscript,screen_glow_fadein]
+12	3131	-1	-1420386875	[clientscript,screen_glow_fadeout]
 12	3132	-1	-712997076	
 12	3133	-1	-178180397	
 12	3134	-1	758242515	
@@ -10317,14 +10317,14 @@
 12	3281	-1	596089629	[clientscript,wear_initslots]
 12	3282	-1	1773936426	[proc,wear_initslot]
 12	3283	-1	-1145409666	
-12	3284	-1	-1371962893	
-12	3285	-1	2030451163	
+12	3284	-1	-1371962893	[clientscript,league_reward_shop_select]
+12	3285	-1	2030451163	[clientscript,league_reward_shop_refuse]
 12	3286	-1	300762778	
-12	3287	-1	1260455818	
-12	3288	-1	-290462523	
-12	3289	-1	981553692	
-12	3290	-1	1679019599	
-12	3291	-1	-1602896817	
+12	3287	-1	1260455818	[clientscript,league_reward_shop_confirmop]
+12	3288	-1	-290462523	[clientscript,league_reward_shop_buy]
+12	3289	-1	981553692	[clientscript,league_reward_confirm_back]
+12	3290	-1	1679019599	[proc,league_reward_shop_showpoints]
+12	3291	-1	-1602896817	[clientscript,league_reward_shop_showpoints]
 12	3292	-1	855128706	
 12	3293	-1	-302321254	[clientscript,options_wiki_init]
 12	3294	-1	-506718890	[clientscript,options_wiki_resynch]
@@ -10340,9 +10340,9 @@
 12	3304	-1	1736656507	[clientscript,wiki_icon_init]
 12	3305	-1	296834658	[clientscript,wiki_icon_update]
 12	3306	-1	748553314	[proc,wiki_icon_update]
-12	3307	-1	-503656002	
-12	3308	-1	596581741	
-12	3309	-1	-8808243	
+12	3307	-1	-503656002	[clientscript,welcome_type_setup_transmit]
+12	3308	-1	596581741	[clientscript,welcome_type_setup_op]
+12	3309	-1	-8808243	[proc,welcome_type_setup]
 12	3310	-1	1539362829	
 12	3311	-1	1647437019	[clientscript,nightmare_totems_init]
 12	3312	-1	-1526421866	[clientscript,nightmare_totem_hud_fade_in]
@@ -10501,8 +10501,8 @@
 12	3465	-1	763428318	
 12	3466	-1	-1322882956	[clientscript,gravestone_generic_drag_preview]
 12	3467	-1	-1943753407	[clientscript,gravestone_generic_drag_end]
-12	3468	-1	1399032069	
-12	3469	-1	-1480254715	
+12	3468	-1	1399032069	[clientscript,gravestone_generic_size_handler]
+12	3469	-1	-1480254715	[proc,gravestone_generic_size_handler]
 12	3470	-1	614629000	[proc,gravestone_generic_resetbutton]
 12	3471	-1	1766584478	[clientscript,gravestone_generic_opbutton]
 12	3472	-1	1954435208	[clientscript,gravestone_generic_resetbutton]
@@ -10564,7 +10564,7 @@
 12	3528	-1	-981695374	
 12	3529	-1	-1063526419	
 12	3530	-1	-1956079659	
-12	3531	-1	-266692465	
+12	3531	-1	-266692465	[clientscript,hallowed_tools_main_init]
 12	3532	-1	-443497806	[clientscript,poh_costumes_init]
 12	3533	-1	-1057476886	[clientscript,poh_costumes_build]
 12	3534	-1	-747545366	[proc,poh_costumes_build]
@@ -10600,21 +10600,21 @@
 12	3564	-1	-2047611252	[clientscript,poh_costumes_buttons_search_reset]
 12	3565	-1	1211695244	[proc,poh_costumes_buttons_search_reset]
 12	3566	-1	474986786	
-12	3567	-1	1752744365	
-12	3568	-1	-227590237	
-12	3569	-1	138054544	
-12	3570	-1	798112144	
-12	3571	-1	-874014399	
-12	3572	-1	1694692782	
-12	3573	-1	-1940216914	
+12	3567	-1	1752744365	[clientscript,hallowed_tools_side_init]
+12	3568	-1	-227590237	[proc,hallowed_tools_main_create]
+12	3569	-1	138054544	[clientscript,hallowed_tools_main_recreate]
+12	3570	-1	798112144	[proc,hallowed_tools_main_recreate]
+12	3571	-1	-874014399	[proc,hallowed_tools_side_create]
+12	3572	-1	1694692782	[clientscript,hallowed_tools_side_recreate]
+12	3573	-1	-1940216914	[proc,hallowed_tools_side_recreate]
 12	3574	-1	-1150020441	
 12	3575	-1	-1733991718	
 12	3576	-1	-1374587686	
-12	3577	-1	-776178826	
-12	3578	-1	-1490574986	
-12	3579	-1	-1422602988	
-12	3580	-1	-2136999148	
-12	3581	-1	489325644	
+12	3577	-1	-776178826	[clientscript,hallowed_tools_main_update]
+12	3578	-1	-1490574986	[proc,hallowed_tools_main_update]
+12	3579	-1	-1422602988	[clientscript,hallowed_tools_side_update]
+12	3580	-1	-2136999148	[proc,hallowed_tools_side_update]
+12	3581	-1	489325644	[proc,hallowed_tools_getstored]
 12	3582	-1	572338625	
 13	494	-1	-342013218	p11_full
 13	495	-1	-313384067	p12_full

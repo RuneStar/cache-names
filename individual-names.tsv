@@ -2172,6 +2172,8 @@
 [proc,gravestone_retrieval_unlockstatus]
 [proc,grouping_rebuild]
 [proc,hallowed_timer_text]
+[proc,hallowed_tools_create_quantitybuttons]
+[proc,hallowed_tools_getcarried]
 [proc,hallowed_tools_getstored]
 [proc,hallowed_tools_main_create]
 [proc,hallowed_tools_main_recreate]

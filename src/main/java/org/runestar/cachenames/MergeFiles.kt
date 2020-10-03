@@ -174,6 +174,7 @@ fun main() {
         "square_button_large,$x".add()
         "rect_button,$x".add()
         "ap_path_banner,$x".add()
+        "ap_path_icon,$x".add()
     }
 
     knownNames.remove("l16_186")

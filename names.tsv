@@ -7015,12 +7015,12 @@
 8	2545	-1	-762657750	
 8	2547	-1	1798608727	worldmap_marker,4
 8	2548	-1	1798608728	worldmap_marker,5
-8	2549	-1	971716871	
-8	2550	-1	971716872	
-8	2551	-1	971716873	
-8	2552	-1	971716874	
-8	2553	-1	971716875	
-8	2554	-1	971716876	
+8	2549	-1	971716871	ap_path_icon,0
+8	2550	-1	971716872	ap_path_icon,1
+8	2551	-1	971716873	ap_path_icon,2
+8	2552	-1	971716874	ap_path_icon,3
+8	2553	-1	971716875	ap_path_icon,4
+8	2554	-1	971716876	ap_path_icon,5
 8	2555	-1	695365754	ap_path_banner,0
 8	2556	-1	695365755	ap_path_banner,1
 8	2557	-1	695365756	ap_path_banner,2
@@ -7778,7 +7778,7 @@
 12	745	-1	-874567636	[proc,quicksort_questlist]
 12	746	-1	-725161978	
 12	747	-1	410195078	[clientscript,worldswitcher_init]
-12	748	-1	1630319436	
+12	748	-1	1630319436	[clientscript,output_wifiavailable]
 12	749	-1	1479054926	[clientscript,tutorial_progressbar_init]
 12	750	-1	123613001	[clientscript,meslayer_mode14]
 12	751	-1	1260254985	[clientscript,meslayer_mode14_update]
@@ -8094,7 +8094,7 @@
 12	1061	-1	-785969346	[clientscript,farming_tools_side_update]
 12	1062	-1	715006270	[proc,farming_tools_side_update]
 12	1063	-1	-504353546	[proc,farming_tools_getstored]
-12	1064	-1	-166945193	
+12	1064	-1	-166945193	[proc,farming_tools_getcarried]
 12	1065	-1	-348395573	[clientscript,barrows_reward_init]
 12	1066	-1	-352901609	[clientscript,barrows_reward_draw]
 12	1067	-1	665040919	[proc,barrows_reward_draw]
@@ -8445,7 +8445,7 @@
 12	1412	-1	834909444	[proc,questdisplay_setup]
 12	1413	-1	-1173301812	
 12	1414	-1	-820363460	[proc,hp_hud_update_bar]
-12	1415	-1	192595457	
+12	1415	-1	192595457	[clientscript,nightmare_portal_remove]
 12	1416	-1	1478315565	
 12	1417	-1	1565331365	
 12	1418	-1	-449084897	[clientscript,br_tournament_sendnames]
@@ -9074,8 +9074,8 @@
 12	2041	-1	835479970	[proc,aide_map_tutors]
 12	2042	-1	-8643835	[clientscript,aide_map_marker]
 12	2043	-1	-1656640251	[proc,aide_map_marker]
-12	2044	-1	-1838106053	
-12	2045	-1	-1146526516	
+12	2044	-1	-1838106053	[proc,beige_stone_button_in]
+12	2045	-1	-1146526516	[proc,beige_stone_button_out]
 12	2046	-1	1552471900	[clientscript,skillmulti_setup]
 12	2047	-1	465410792	[proc,skillmulti_wipebutton]
 12	2048	-1	1476386159	[proc,skillmulti_itembutton_init]
@@ -9766,15 +9766,15 @@
 12	2733	-1	523260475	[clientscript,collection_item_click]
 12	2734	-1	-2095699884	
 12	2735	-1	-148067255	[proc,collection_category_count]
-12	2736	-1	1147933232	
-12	2737	-1	1485786004	
-12	2738	-1	1046474189	
-12	2739	-1	375029709	
-12	2740	-1	1347053289	
-12	2741	-1	1504252642	
-12	2742	-1	943140182	
+12	2736	-1	1147933232	[clientscript,lovaquest_locks_init]
+12	2737	-1	1485786004	[clientscript,lovaquest_power_grid_init]
+12	2738	-1	1046474189	[clientscript,lovaquest_power_grid_redraw]
+12	2739	-1	375029709	[proc,lovaquest_power_grid_redraw]
+12	2740	-1	1347053289	[clientscript,lovaquest_power_grid_rotate]
+12	2741	-1	1504252642	[proc,lovaquest_power_grid_getslot]
+12	2742	-1	943140182	[proc,lovaquest_power_grid_setslot]
 12	2743	-1	558866422	[proc,skill_guide_data_slayer]
-12	2744	-1	-1992100680	
+12	2744	-1	-1992100680	[proc,farming_tools_create_quantitybuttons]
 12	2745	-1	-185537327	[clientscript,farming_tools_main_create_quantitybutton]
 12	2746	-1	4384294	
 12	2747	-1	-533488943	[proc,farming_tools_main_create_quantitybutton]
@@ -10093,10 +10093,10 @@
 12	3060	-1	1759331643	
 12	3061	-1	-573812695	
 12	3062	-1	-532355715	
-12	3063	-1	-66413542	
-12	3064	-1	-1640377071	
-12	3065	-1	2107709911	
-12	3066	-1	812795512	
+12	3063	-1	-66413542	[clientscript,bees_init]
+12	3064	-1	-1640377071	[clientscript,bees]
+12	3065	-1	2107709911	[clientscript,bees_mouseover]
+12	3066	-1	812795512	[clientscript,bees_mouseleave]
 12	3067	-1	-1631014332	[proc,br_loadout_drawloadout]
 12	3068	-1	-1867656295	[clientscript,br_loadout_insert]
 12	3069	-1	896094831	[clientscript,br_loadout_rearrange]
@@ -10401,10 +10401,10 @@
 12	3368	-1	802373206	
 12	3369	-1	-842767926	
 12	3370	-1	-1394869182	
-12	3371	-1	404549341	
-12	3372	-1	126101864	
-12	3373	-1	-880044529	
-12	3374	-1	-164242925	
+12	3371	-1	404549341	[clientscript,graphicbox_setbuttons]
+12	3372	-1	126101864	[clientscript,graphicbox_listener]
+12	3373	-1	-880044529	[clientscript,graphicbox_reset]
+12	3374	-1	-164242925	[clientscript,graphicbox_set_graphic]
 12	3375	-1	620420101	
 12	3376	-1	-1510003806	[clientscript,tut2_overlay_hint]
 12	3377	-1	-323404387	[proc,tut2_hint_chatbox]
@@ -10614,26 +10614,26 @@
 12	3581	-1	489325644	[proc,hallowed_tools_getstored]
 12	3582	-1	572338625	[proc,hallowed_tools_getcarried]
 12	3583	-1	809870718	[clientscript,teletab_init]
-12	3584	-1	-1909267403	
+12	3584	-1	-1909267403	[clientscript,teletab_steelborder]
 12	3585	-1	-1775161527	
-12	3586	-1	31946039	
-12	3587	-1	-1406688457	
+12	3586	-1	31946039	[clientscript,teletab_redraw]
+12	3587	-1	-1406688457	[proc,teletab_redraw]
 12	3588	-1	-1610431383	
-12	3589	-1	1761714778	
-12	3590	-1	226600564	
-12	3591	-1	1581608	
-12	3592	-1	922584827	
-12	3593	-1	1940527355	
-12	3594	-1	-1795675522	
-12	3595	-1	-1863885685	
-12	3596	-1	-372438389	
-12	3597	-1	-2022038514	
-12	3598	-1	-1556559300	
-12	3599	-1	1897082589	
-12	3600	-1	470255216	
+12	3589	-1	1761714778	[proc,teletab_addingredient]
+12	3590	-1	226600564	[proc,teletab_placeingredient]
+12	3591	-1	1581608	[proc,teletab_button_redraw]
+12	3592	-1	922584827	[clientscript,teletab_button_draw]
+12	3593	-1	1940527355	[proc,teletab_button_draw]
+12	3594	-1	-1795675522	[clientscript,teletab_button_op]
+12	3595	-1	-1863885685	[clientscript,teletab_confirm_draw]
+12	3596	-1	-372438389	[proc,teletab_confirm_draw]
+12	3597	-1	-2022038514	[clientscript,teletab_confirm_op]
+12	3598	-1	-1556559300	[clientscript,teletab_confirm_reset]
+12	3599	-1	1897082589	[proc,skillmain_init]
+12	3600	-1	470255216	[clientscript,bees_mouserepeat]
 12	3601	-1	-1831088578	
-12	3602	-1	1289624434	
-12	3603	-1	446833403	
+12	3602	-1	1289624434	[clientscript,makeover_feet_select]
+12	3603	-1	446833403	[proc,makeover_feet_add_option]
 13	494	-1	-342013218	p11_full
 13	495	-1	-313384067	p12_full
 13	496	-1	1057075019	b12_full

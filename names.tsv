@@ -9151,8 +9151,8 @@
 12	2117	-1	1566478549	
 12	2118	-1	-1312808235	
 12	2119	-1	-157546069	
-12	2120	-1	962853069	
-12	2121	-1	1622910669	
+12	2120	-1	962853069	[clientscript,ironman_miscellaneous_redraw]
+12	2121	-1	1622910669	[proc,ironman_miscellaneous_redraw]
 12	2122	-1	-1933287429	
 12	2123	-1	990747438	
 12	2124	-1	-546145264	
@@ -9650,7 +9650,7 @@
 12	2616	-1	1670149600	[proc,magic_spellbook_initialisespells]
 12	2617	-1	532782318	[clientscript,magic_spellbook_targetmode]
 12	2618	-1	-1903073099	[proc,magic_spellbook_hidespells]
-12	2619	-1	914467193	
+12	2619	-1	914467193	[proc,magic_spellbook_passfilter]
 12	2620	-1	774459939	[proc,magic_spellbook_hasrunes]
 12	2621	-1	2112513284	[proc,magic_spellbook_sort]
 12	2622	-1	-748344351	[clientscript,magic_spellbook_settooltip]
@@ -9973,8 +9973,8 @@
 12	2939	-1	247122839	[clientscript,silver_crafting_jewellery_draw]
 12	2940	-1	-1092683369	[proc,silver_crafting_jewellery_draw]
 12	2941	-1	299070007	
-12	2942	-1	-734069246	
-12	2943	-1	1520184322	
+12	2942	-1	-734069246	[clientscript,silver_crafting_miscellaneous_draw]
+12	2943	-1	1520184322	[proc,silver_crafting_miscellaneous_draw]
 12	2944	-1	1509917524	
 12	2945	-1	-1778463800	[proc,adventurepath_init]
 12	2946	-1	719254658	[proc,adventurepath_draw_path]
@@ -10085,8 +10085,8 @@
 12	3051	-1	314412111	
 12	3052	-1	-680429770	
 12	3053	-1	-1394825930	
-12	3054	-1	1645423198	
-12	3055	-1	-632349652	
+12	3054	-1	1645423198	[clientscript,skill_guide_magic_op]
+12	3055	-1	-632349652	[proc,modulo]
 12	3056	-1	-1384552044	
 12	3057	-1	1731343476	
 12	3058	-1	754349124	
@@ -10616,7 +10616,7 @@
 12	3582	-1	572338625	[proc,hallowed_tools_getcarried]
 12	3583	-1	809870718	[clientscript,teletab_init]
 12	3584	-1	-1909267403	[clientscript,teletab_steelborder]
-12	3585	-1	-1775161527	
+12	3585	-1	-1775161527	[clientscript,teletab_skillmain_init]
 12	3586	-1	31946039	[clientscript,teletab_redraw]
 12	3587	-1	-1406688457	[proc,teletab_redraw]
 12	3588	-1	-1610431383	
@@ -10632,33 +10632,33 @@
 12	3598	-1	-1556559300	[clientscript,teletab_confirm_reset]
 12	3599	-1	1897082589	[proc,skillmain_init]
 12	3600	-1	470255216	[clientscript,bees_mouserepeat]
-12	3601	-1	-1831088578	
+12	3601	-1	-1831088578	[clientscript,build_makeover_feet]
 12	3602	-1	1289624434	[clientscript,makeover_feet_select]
 12	3603	-1	446833403	[proc,makeover_feet_add_option]
-12	3604	-1	-2000587621	
-12	3605	-1	-924949421	
-12	3606	-1	-1153625517	
-12	3607	-1	-1264871028	
-12	3608	-1	-1508645923	
-12	3609	-1	-7670307	
-12	3610	-1	-1425905171	
-12	3611	-1	878765816	
-12	3612	-1	-1915225864	
-12	3613	-1	1307218431	
-12	3614	-1	294167551	
-12	3615	-1	220222876	
-12	3616	-1	-1973844498	
-12	3617	-1	754565802	
-12	3618	-1	1722756594	
-12	3619	-1	-1080763406	
-12	3620	-1	-390953533	
-12	3621	-1	-1310957499	
-12	3622	-1	1317566231	
-12	3623	-1	-1972133021	
-12	3624	-1	1313060195	
-12	3625	-1	969439242	
-12	3626	-1	1946301508	
-12	3627	-1	-1330723260	
+12	3604	-1	-2000587621	[clientscript,100guide_flour_init]
+12	3605	-1	-924949421	[clientscript,100guide_flour_drawitems]
+12	3606	-1	-1153625517	[proc,100guide_flour_drawitems]
+12	3607	-1	-1264871028	[clientscript,partydrop_main_init]
+12	3608	-1	-1508645923	[clientscript,partydrop_main_chestitems]
+12	3609	-1	-7670307	[proc,partydrop_main_chestitems]
+12	3610	-1	-1425905171	[clientscript,partydrop_quantity_op]
+12	3611	-1	878765816	[clientscript,partydrop_main_offeritems]
+12	3612	-1	-1915225864	[proc,partydrop_main_offeritems]
+12	3613	-1	1307218431	[clientscript,partydrop_main_quantitybutton]
+12	3614	-1	294167551	[proc,partydrop_main_quantitybutton]
+12	3615	-1	220222876	[clientscript,partydrop_main_confirm_op]
+12	3616	-1	-1973844498	[clientscript,partydrop_main_confirm_reset]
+12	3617	-1	754565802	[clientscript,partydrop_side_init]
+12	3618	-1	1722756594	[clientscript,partydrop_side_build]
+12	3619	-1	-1080763406	[proc,partydrop_side_build]
+12	3620	-1	-390953533	[proc,partydrop_side_drawitem]
+12	3621	-1	-1310957499	[clientscript,partydrop_side_reorder]
+12	3622	-1	1317566231	[proc,clan_stonebutton_init]
+12	3623	-1	-1972133021	[clientscript,clan_stonebutton_draw]
+12	3624	-1	1313060195	[proc,clan_stonebutton_draw]
+12	3625	-1	969439242	[clientscript,imp_box_deposit_init]
+12	3626	-1	1946301508	[clientscript,imp_box_text_update]
+12	3627	-1	-1330723260	[proc,imp_box_text_update]
 12	3628	-1	1973896271	
 12	3629	-1	-1889480613	
 12	3630	-1	1677516334	

@@ -8215,8 +8215,8 @@
 12	1181	-1	-1600244041	[proc,dream_monster_switch_tab]
 12	1182	-1	1476046160	[proc,deadman_skullduration]
 12	1183	-1	-2062982157	
-12	1184	-1	-433719846	
-12	1185	-1	-123788326	
+12	1184	-1	-433719846	[clientscript,clancup_hud_update]
+12	1185	-1	-123788326	[proc,clancup_hud_update]
 12	1186	-1	-1138174693	[clientscript,kourend_sidepanel_init]
 12	1187	-1	2045378468	[clientscript,kourend_sidepanel_hudtoggle]
 12	1188	-1	-945994697	[clientscript,kourend_sidepanel_hudop]
@@ -8345,9 +8345,9 @@
 12	1311	-1	1017866840	[proc,tog_sidepanel_timer]
 12	1312	-1	-272444328	
 12	1313	-1	-440188810	[clientscript,cata_altar_update]
-12	1314	-1	1475929735	
-12	1315	-1	417349131	
-12	1316	-1	-820876277	
+12	1314	-1	1475929735	[clientscript,jar_of_darkness]
+12	1315	-1	417349131	[clientscript,jar_of_darkness_update]
+12	1316	-1	-820876277	[proc,jar_of_darkness_update]
 12	1317	-1	-2032307803	
 12	1318	-1	1319550481	[clientscript,bankmain_incinerator_enableop]
 12	1319	-1	-1182144371	[clientscript,bankmain_incinerator_close]
@@ -8453,9 +8453,9 @@
 12	1419	-1	-1079200166	[clientscript,br_tournament_op]
 12	1420	-1	-269435901	[clientscript,br_tournament_submit]
 12	1421	-1	-1044871896	[clientscript,wint_update]
-12	1422	-1	1212228316	
-12	1423	-1	-1167483261	
-12	1424	-1	-1396159357	
+12	1422	-1	1212228316	[clientscript,blast_furnace_hud_init]
+12	1423	-1	-1167483261	[clientscript,blast_furnace_hud_update]
+12	1424	-1	-1396159357	[proc,blast_furnace_hud_update]
 12	1425	-1	-795137968	[proc,minmax]
 12	1426	-1	680057059	[clientscript,tol_pressure_leverop]
 12	1427	-1	-591858468	[clientscript,tol_pressure_init]
@@ -9669,7 +9669,7 @@
 12	2635	-1	-1382182411	[clientscript,options_fps_resynch]
 12	2636	-1	1966353712	[proc,options_fps]
 12	2637	-1	3376484	
-12	2638	-1	915157496	
+12	2638	-1	915157496	[proc,xp_drops_tooltip_mobile]
 12	2639	-1	-1773888399	[clientscript,xpdrops_tooltip_mobile]
 12	2640	-1	-1211161466	[clientscript,xpdrops_tooltip_mobile_remove]
 12	2641	-1	720831475	[clientscript,equipment_icon_init]

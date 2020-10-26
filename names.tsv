@@ -8092,7 +8092,7 @@
 12	1045	-1	-1850455532	[proc,max]
 12	1046	-1	-1850448154	[proc,min]
 12	1047	-1	-1998645466	[clientscript,camera_zoom_slider_click]
-12	1048	-1	2117839305	
+12	1048	-1	2117839305	[proc,zoom_slider_specific_pos]
 12	1049	-1	-1921740745	[proc,zoom_position_slider]
 12	1050	-1	-387275878	[clientscript,toplevel_compass_op]
 12	1051	-1	1125464433	[clientscript,spinmodel]
@@ -8227,7 +8227,7 @@
 12	1180	-1	-1371567945	[clientscript,dream_monster_switch_tab]
 12	1181	-1	-1600244041	[proc,dream_monster_switch_tab]
 12	1182	-1	1476046160	[proc,deadman_skullduration]
-12	1183	-1	-2062982157	
+12	1183	-1	-2062982157	[clientscript,clancup_hud_init]
 12	1184	-1	-433719846	[clientscript,clancup_hud_update]
 12	1185	-1	-123788326	[proc,clancup_hud_update]
 12	1186	-1	-1138174693	[clientscript,kourend_sidepanel_init]
@@ -8256,8 +8256,8 @@
 12	1209	-1	1031919813	[proc,zeah_favour_add_list]
 12	1210	-1	727792715	[clientscript,zeah_favour_settitle]
 12	1211	-1	-2075727285	[proc,zeah_favour_settitle]
-12	1212	-1	-1232254181	
-12	1213	-1	268721435	
+12	1212	-1	-1232254181	[clientscript,zeah_favour_recolour_list]
+12	1213	-1	268721435	[proc,zeah_favour_recolour_list]
 12	1214	-1	1741350627	[proc,zeah_favour_sort]
 12	1215	-1	-1196278014	[clientscript,zeah_favour_overlay_init]
 12	1216	-1	2073670534	
@@ -8618,9 +8618,9 @@
 12	1571	-1	-1188984909	[proc,raids_partylist_sort]
 12	1572	-1	-2007695562	[proc,raids_partylist_sortbutton_draw]
 12	1573	-1	-58002621	[clientscript,raids_partylist_clicksort]
-12	1574	-1	979184961	
-12	1575	-1	694465258	
-12	1576	-1	-1069451864	
+12	1574	-1	979184961	[proc,raids_partylist_age_init]
+12	1575	-1	694465258	[proc,raids_partylist_age_write]
+12	1576	-1	-1069451864	[clientscript,raids_partylist_age_update]
 12	1577	-1	-1830615087	[clientscript,barrows_overlay_reward]
 12	1578	-1	1226126801	[proc,barrows_overlay_reward]
 12	1579	-1	-1231327519	[clientscript,raids_rewards_init]
@@ -9548,7 +9548,7 @@
 12	2501	-1	-597100028	[proc,account_update_display]
 12	2502	-1	1731004202	[proc,account_update_layout]
 12	2503	-1	222768739	[proc,account_billing_update]
-12	2504	-1	-1469959197	
+12	2504	-1	-1469959197	[proc,xp_drops_tooltip_setup]
 12	2505	-1	-1642449874	[proc,account_inbox_update]
 12	2506	-1	-1513651091	[proc,account_name_update]
 12	2507	-1	-851502873	[proc,ignore_appearance]
@@ -9681,7 +9681,7 @@
 12	2634	-1	-547750227	[clientscript,mobile_rating_init]
 12	2635	-1	-1382182411	[clientscript,options_fps_resynch]
 12	2636	-1	1966353712	[proc,options_fps]
-12	2637	-1	3376484	
+12	2637	-1	3376484	[proc,xp_drops_tooltip_desktop]
 12	2638	-1	915157496	[proc,xp_drops_tooltip_mobile]
 12	2639	-1	-1773888399	[clientscript,xpdrops_tooltip_mobile]
 12	2640	-1	-1211161466	[clientscript,xpdrops_tooltip_mobile_remove]
@@ -9844,9 +9844,9 @@
 12	2797	-1	-1574586929	[clientscript,journal_list_init]
 12	2798	-1	-1776060886	
 12	2799	-1	1206315195	
-12	2800	-1	1084320785	
-12	2801	-1	-1130896702	
-12	2802	-1	395129661	
+12	2800	-1	1084320785	[proc,side_journal_switchtab]
+12	2801	-1	-1130896702	[proc,side_journal_active]
+12	2802	-1	395129661	[proc,side_journal_inactive]
 12	2803	-1	-484373533	
 12	2804	-1	147504640	
 12	2805	-1	-1966881352	[clientscript,deadman_broadcast_message]
@@ -9985,7 +9985,7 @@
 12	2938	-1	904550210	[proc,silver_crafting_jewellery_setup]
 12	2939	-1	247122839	[clientscript,silver_crafting_jewellery_draw]
 12	2940	-1	-1092683369	[proc,silver_crafting_jewellery_draw]
-12	2941	-1	299070007	
+12	2941	-1	299070007	[proc,silver_crafting_miscellaneous_setup]
 12	2942	-1	-734069246	[clientscript,silver_crafting_miscellaneous_draw]
 12	2943	-1	1520184322	[proc,silver_crafting_miscellaneous_draw]
 12	2944	-1	1509917524	
@@ -10222,7 +10222,7 @@
 12	3175	-1	-1327010338	
 12	3176	-1	-2005796344	
 12	3177	-1	1591367544	
-12	3178	-1	1656700993	
+12	3178	-1	1656700993	[proc,side_journal_additional]
 12	3179	-1	557050700	[proc,chatbox_open]
 12	3180	-1	2015003240	
 12	3181	-1	-540421067	[clientscript,league_points_progress_bar]
@@ -10371,8 +10371,8 @@
 12	3324	-1	585806289	[proc,nightmare_totem_hud_fade_out]
 12	3325	-1	2122066289	[proc,bonds_hide]
 12	3326	-1	-1435100916	
-12	3327	-1	-995068116	
-12	3328	-1	796408252	
+12	3327	-1	-995068116	[proc,bankside_worn_drawitem]
+12	3328	-1	796408252	[clientscript,bankside_worn_reorder]
 12	3329	-1	-1080734548	[clientscript,newspaper_init]
 12	3330	-1	-1923998907	[clientscript,newspaper_content]
 12	3331	-1	-2146056326	
@@ -10678,9 +10678,9 @@
 12	3631	-1	-1037193931	
 12	3632	-1	1972385899	
 12	3633	-1	-402453651	
-12	3634	-1	265327847	
-12	3635	-1	-392103353	
-12	3636	-1	1108872263	
+12	3634	-1	265327847	[clientscript,castlewars_catapult_init]
+12	3635	-1	-392103353	[clientscript,castlewars_catapult_hover]
+12	3636	-1	1108872263	[proc,castlewars_catapult_hover]
 12	3637	-1	-1687498331	
 12	3638	-1	-797280012	
 12	3639	-1	1054124179	

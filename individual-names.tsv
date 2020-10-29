@@ -3176,6 +3176,8 @@ duel arena
 dunjun
 dwarf theme
 dwarven_mines
+dynamic_membership_banner
+dynamic_membership_button
 dynasty
 eagle peak
 easter jig
@@ -3404,9 +3406,11 @@ lava_animated_white
 leafytree
 leafytree_diseased
 leafytree_tiled
+league_map
 league_progress_bar_indicator
 league_relics_outline
 league_tiny_relic
+leagues_membership_banner
 leftarrow
 leftarrow_small
 legend
@@ -3685,6 +3689,7 @@ sideicons
 sideicons_logout
 sigmunds showdown
 silence
+single_arrow
 sire
 sl_arrows
 sl_back
@@ -3814,6 +3819,17 @@ tradebacking_beige
 tradebacking_dark
 tradebacking_grey
 tradebacking_light
+trailblazer_map_asgarnia
+trailblazer_map_desert
+trailblazer_map_empty
+trailblazer_map_fremennik
+trailblazer_map_kandarin
+trailblazer_map_karamja
+trailblazer_map_misthalin
+trailblazer_map_morytania
+trailblazer_map_tirannwn
+trailblazer_map_wilderness
+trailblazer_progress_bar_indicator
 trawler
 trawler minor
 tree spirits
@@ -3841,6 +3857,8 @@ unknown land
 untouchable
 upass
 upcoming
+upgrade_membership_button
+upgrade_membership_button_highlight
 upir likhyi
 upper_depths
 vanescula

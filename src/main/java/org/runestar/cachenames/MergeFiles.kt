@@ -175,6 +175,16 @@ fun main() {
         "rect_button,$x".add()
         "ap_path_banner,$x".add()
         "ap_path_icon,$x".add()
+        "steelborder_divider,$x".add()
+        "league_relics_outline,$x".add()
+        "league_tiny_relic,$x".add()
+        "league_tutorial,$x".add()
+        "trailblazer_relics_large,$x".add()
+        "trailblazer_relics,$x".add()
+        "trailblazer_relics_tli,$x".add()
+        "trailblazer_progress_bar,$x".add()
+        "trailblazer_map_shields,$x".add()
+        "trailblazer_map_names,$x".add()
     }
 
     knownNames.remove("l16_186")

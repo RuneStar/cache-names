@@ -10097,8 +10097,8 @@
 12	2795	-1	-1446156868	[clientscript,itemsets_info_init]
 12	2796	-1	707282333	
 12	2797	-1	-1574586929	[clientscript,journal_list_init]
-12	2798	-1	-1776060886	
-12	2799	-1	1206315195	
+12	2798	-1	-1776060886	[clientscript,side_journal_switchtab_onop]
+12	2799	-1	1206315195	[clientscript,side_journal_switchtab_ontransmit]
 12	2800	-1	1084320785	[proc,side_journal_switchtab]
 12	2801	-1	-1130896702	[proc,side_journal_active]
 12	2802	-1	395129661	[proc,side_journal_inactive]
@@ -10948,56 +10948,56 @@
 12	3647	-1	1851221070	
 12	3648	-1	-1207566691	
 12	3649	-1	-1152240731	
-12	3650	-1	835932425	
+12	3650	-1	835932425	[clientscript,bondif_init]
 12	3651	-1	209798076	
 12	3652	-1	1687377622	
 12	3653	-1	1762168160	
 12	3654	-1	-434397344	
 12	3655	-1	-1954486758	
 12	3656	-1	143915034	
-12	3657	-1	1652275600	
-12	3658	-1	1370690289	
+12	3657	-1	1652275600	[clientscript,trailblazer_areas_init]
+12	3658	-1	1370690289	[proc,league_areas_draw_interface]
 12	3659	-1	-1557577616	
-12	3660	-1	-1033845260	
-12	3661	-1	717024738	
-12	3662	-1	-2086495262	
-12	3663	-1	-723110798	
-12	3664	-1	-1961336206	
-12	3665	-1	-1043300547	
-12	3666	-1	-773582531	
-12	3667	-1	-1989693552	
-12	3668	-1	-1095595047	
-12	3669	-1	-1809991207	
-12	3670	-1	-1948427347	
-12	3671	-1	76668467	
-12	3672	-1	2084281969	
-12	3673	-1	1855605873	
-12	3674	-1	-80617062	
-12	3675	-1	-911606219	
-12	3676	-1	407422429	
+12	3660	-1	-1033845260	[proc,league_areas_setup_events]
+12	3661	-1	717024738	[clientscript,league_areas_onclick]
+12	3662	-1	-2086495262	[proc,league_areas_onclick]
+12	3663	-1	-723110798	[clientscript,league_areas_mouseover]
+12	3664	-1	-1961336206	[proc,league_areas_mouseover]
+12	3665	-1	-1043300547	[clientscript,league_areas_mouseleave]
+12	3666	-1	-773582531	[proc,league_areas_mouseleave]
+12	3667	-1	-1989693552	[clientscript,league_areas_stop_loading]
+12	3668	-1	-1095595047	[clientscript,league_areas_show_detailed]
+12	3669	-1	-1809991207	[proc,league_areas_show_detailed]
+12	3670	-1	-1948427347	[clientscript,league_areas_tab_click]
+12	3671	-1	76668467	[proc,league_areas_tab_details]
+12	3672	-1	2084281969	[clientscript,league_area_button_hover]
+12	3673	-1	1855605873	[proc,league_area_button_hover]
+12	3674	-1	-80617062	[clientscript,league_area_confirm]
+12	3675	-1	-911606219	[clientscript,league_area_teleport]
+12	3676	-1	407422429	[clientscript,league_area_not_available]
 12	3677	-1	-13979137	
-12	3678	-1	-921223	
-12	3679	-1	-876654867	
-12	3680	-1	1570330682	
+12	3678	-1	-921223	[clientscript,league_area_back]
+12	3679	-1	-876654867	[clientscript,league_area_confirm_selection]
+12	3680	-1	1570330682	[clientscript,league_area_confirm_back]
 12	3681	-1	177043538	
 12	3682	-1	1723477479	
-12	3683	-1	869838542	
-12	3684	-1	-1924153138	
-12	3685	-1	-1800359705	
-12	3686	-1	496126575	
-12	3687	-1	96065962	
+12	3683	-1	869838542	[clientscript,league_areas_progress_bar]
+12	3684	-1	-1924153138	[proc,league_areas_progress_bar]
+12	3685	-1	-1800359705	[clientscript,league_area_flash_start]
+12	3686	-1	496126575	[clientscript,league_area_flash_stop]
+12	3687	-1	96065962	[clientscript,league_area_flash]
 12	3688	-1	-1563529460	
 12	3689	-1	-1954005452	
 12	3690	-1	123069853	
-12	3691	-1	-979015154	
-12	3692	-1	202943712	
-12	3693	-1	-1126782623	
-12	3694	-1	779833602	
-12	3695	-1	-266869043	
-12	3696	-1	1457354080	
-12	3697	-1	437173206	
+12	3691	-1	-979015154	[proc,leagues_close_button]
+12	3692	-1	202943712	[clientscript,leagues_closebutton_click]
+12	3693	-1	-1126782623	[proc,leagues_menu_button]
+12	3694	-1	779833602	[proc,league_relic_hover]
+12	3695	-1	-266869043	[proc,league_relic_button_hover]
+12	3696	-1	1457354080	[proc,league_relic_display_core]
+12	3697	-1	437173206	[proc,league_relic_active]
 12	3698	-1	-1748636740	
-12	3699	-1	1270756320	
+12	3699	-1	1270756320	[proc,league_task_display]
 12	3700	-1	8367061	
 12	3701	-1	-857402282	
 12	3702	-1	798116349	
@@ -11005,19 +11005,19 @@
 12	3704	-1	574753943	
 12	3705	-1	-826227294	
 12	3706	-1	-1836001374	
-12	3707	-1	779233043	
-12	3708	-1	-1823334814	
-12	3709	-1	-886911902	
-12	3710	-1	-1608645374	
-12	3711	-1	339905499	
-12	3712	-1	-1331678385	
-12	3713	-1	-449865960	
+12	3707	-1	779233043	[clientscript,league_tutorial_main_init]
+12	3708	-1	-1823334814	[clientscript,league_tutorial_interface_update]
+12	3709	-1	-886911902	[proc,league_tutorial_interface_update]
+12	3710	-1	-1608645374	[clientscript,league_tutorial_button_hover]
+12	3711	-1	339905499	[clientscript,league_tutorial_button_op]
+12	3712	-1	-1331678385	[clientscript,league_tutorial_button_reset]
+12	3713	-1	-449865960	[proc,league_tutorial_button_draw]
 12	3714	-1	-37967220	
-12	3715	-1	-1477201172	
+12	3715	-1	-1477201172	[proc,league_tutorial_interface_update_text]
 12	3716	-1	-1169731230	
 12	3717	-1	-1169731199	
-12	3718	-1	38982361	
-12	3719	-1	-2094639474	
+12	3718	-1	38982361	[proc,league_tutorial_interface_update_graphic]
+12	3719	-1	-2094639474	[proc,in_league_tutorial]
 12	3720	-1	-973405621	
 12	3721	-1	-83994387	
 12	3722	-1	-1954162145	
@@ -11027,23 +11027,23 @@
 12	3726	-1	2004920605	
 12	3727	-1	-1389415330	
 12	3728	-1	-371472802	
-12	3729	-1	-1040830969	
-12	3730	-1	1606139911	
-12	3731	-1	-263375151	
-12	3732	-1	-1702009647	
-12	3733	-1	567850756	
-12	3734	-1	-2047244836	
-12	3735	-1	-1448598121	
-12	3736	-1	1818565618	
+12	3729	-1	-1040830969	[clientscript,start_slideshow]
+12	3730	-1	1606139911	[proc,start_slideshow]
+12	3731	-1	-263375151	[clientscript,stop_slideshow]
+12	3732	-1	-1702009647	[proc,stop_slideshow]
+12	3733	-1	567850756	[clientscript,slideshow_timer]
+12	3734	-1	-2047244836	[proc,slideshow_transition]
+12	3735	-1	-1448598121	[clientscript,slideshow_fadeout]
+12	3736	-1	1818565618	[clientscript,slideshow_skip]
 12	3737	-1	-120348023	
-12	3738	-1	-321859627	
+12	3738	-1	-321859627	[clientscript,closebutton_click_sound]
 12	3739	-1	1032928391	
 12	3740	-1	-694237332	
-12	3741	-1	420566464	
+12	3741	-1	420566464	[proc,in_tutorial]
 12	3742	-1	-210117455	
-12	3743	-1	505871953	
-12	3744	-1	1624248401	
-12	3745	-1	-870703109	
+12	3743	-1	505871953	[clientscript,bankside_bag_draw]
+12	3744	-1	1624248401	[proc,bankside_bag_draw]
+12	3745	-1	-870703109	[proc,meslayer_mode1_enabled]
 12	3746	-1	-723079894	
 12	3747	-1	2053497193	
 12	3748	-1	1066377449	

@@ -6868,9 +6868,11 @@
 8	2382	-1	516792835	league_relics,29
 8	2383	-1	516792857	league_relics,30
 8	2384	-1	516792858	league_relics,31
+8	2385	-1	-1921862377	
 8	2386	-1	-1902088107	league_progress_bar,0
 8	2387	-1	-1902088106	league_progress_bar,1
 8	2388	-1	-851066271	league_progress_bar_indicator
+8	2389	-1	1962706530	
 8	2390	-1	-159747930	league_relics_tli,0
 8	2391	-1	-159747929	league_relics_tli,1
 8	2392	-1	-159747928	league_relics_tli,2
@@ -7802,6 +7804,8 @@
 12	489	-1	-1878153878	[clientscript,opsound]
 12	490	-1	2064440723	[clientscript,bankside_switchview]
 12	491	-1	-1212584045	[proc,bankside_switchview]
+12	492	-1	616811556	
+12	493	-1	612305520	
 12	494	-1	-4083402	[proc,tostring_minutes]
 12	495	-1	-1724713029	[clientscript,wilderness_lootingbag_setup]
 12	496	-1	1177806334	[clientscript,wilderness_lootingbag_draw]
@@ -9584,6 +9588,7 @@
 12	2273	-1	1439233854	
 12	2274	-1	237428997	[proc,v2_stone_button_fadable]
 12	2275	-1	407710185	
+12	2276	-1	2103752816	
 12	2277	-1	-1003546842	[clientscript,bondif_redeem_subtitle]
 12	2278	-1	-1886777483	[clientscript,bondif_redeem_package_init]
 12	2279	-1	1118234971	[clientscript,bondif_redeem_package_op_disabled]
@@ -9935,6 +9940,12 @@
 12	2625	-1	-787020636	[proc,wom_get_graphics]
 12	2626	-1	-1949845834	[proc,wom_get_tab]
 12	2627	-1	-315537598	[proc,wom_get_text]
+12	2628	-1	1464591330	
+12	2629	-1	226365922	
+12	2630	-1	-194251004	
+12	2631	-1	-272123881	
+12	2632	-1	777050322	
+12	2633	-1	-1396595297	
 12	2634	-1	-547750227	[clientscript,mobile_rating_init]
 12	2635	-1	-1382182411	[clientscript,options_fps_resynch]
 12	2636	-1	1966353712	[proc,options_fps]

@@ -4482,6 +4482,7 @@
 6	681	-1	1574724701	safety in numbers
 6	682	-1	-2091564975	eves epinette
 6	683	-1	658928897	sea_minor_shanty
+6	684	-1	-1532936470	
 8	0	-1	-1879805778	2x_standard_spells_on,0
 8	1	-1	-1879805777	2x_standard_spells_on,1
 8	2	-1	-1879805776	2x_standard_spells_on,2
@@ -7308,6 +7309,7 @@
 10	0	-1	-2136884405	title.jpg
 10	1	-1	1258058669	huffman
 10	2	-1	-314778466	titlewide.jpg
+10	3	-1	-314772762	
 12	0	-1	-1248498418	[clientscript,tt_rewards_init]
 12	1	-1	1040653880	[clientscript,options_loginlogouttimeout_init]
 12	2	-1	-2080802731	[proc,hex_to_rgb]

@@ -9825,8 +9825,8 @@
 12	2629	-1	226365922	
 12	2630	-1	-194251004	
 12	2631	-1	-272123881	
-12	2632	-1	777050322	
-12	2633	-1	-1396595297	
+12	2632	-1	777050322	[clientscript,book_init]
+12	2633	-1	-1396595297	[proc,questlist_draw]
 12	2634	-1	-547750227	[clientscript,mobile_rating_init]
 12	2637	-1	3376484	[proc,xp_drops_tooltip_desktop]
 12	2638	-1	915157496	[proc,xp_drops_tooltip_mobile]
@@ -10389,7 +10389,7 @@
 12	3197	-1	251863486	[clientscript,league_relic_confirm]
 12	3198	-1	2013171350	[clientscript,league_relic_confirm_back]
 12	3199	-1	-1686446596	[proc,league_relic_display]
-12	3200	-1	2118071521	
+12	3200	-1	2118071521	[clientscript,clock_init]
 12	3201	-1	489101908	
 12	3202	-1	440574119	[clientscript,league_tasks_init]
 12	3203	-1	406033834	[clientscript,league_tasks_draw_list]
@@ -10598,7 +10598,7 @@
 12	3422	-1	-962606763	
 12	3427	-1	-574212823	[proc,hp_hud_init]
 12	3428	-1	740865240	[proc,bool_to_int]
-12	3429	-1	1353516022	
+12	3429	-1	1353516022	[clientscript,hp_bar_reset]
 12	3430	-1	-1311468921	
 12	3431	-1	634898747	
 12	3432	-1	1055812304	
@@ -10932,10 +10932,10 @@
 12	3760	-1	1722931478	
 12	3761	-1	-995504435	
 12	3762	-1	-864388598	
-12	3763	-1	-2059838897	
+12	3763	-1	-2059838897	[clientscript,friendschat_op]
 12	3764	-1	-1582810174	
-12	3765	-1	-677559421	
-12	3766	-1	-2000783205	
+12	3765	-1	-677559421	[clientscript,chatchannel_login]
+12	3766	-1	-2000783205	[clientscript,friendschat_leavechat]
 12	3767	-1	-2060960633	
 12	3768	-1	1389244699	
 12	3769	-1	941876658	
@@ -10973,20 +10973,20 @@
 12	3801	-1	-281962592	
 12	3802	-1	378095008	
 12	3803	-1	918900951	
-12	3804	-1	533386768	
-12	3805	-1	-699181897	
-12	3806	-1	1947788983	
-12	3807	-1	1513348836	
-12	3808	-1	-2102526470	
+12	3804	-1	533386768	[clientscript,xpreward_init]
+12	3805	-1	-699181897	[clientscript,xpreward_update]
+12	3806	-1	1947788983	[proc,xpreward_update]
+12	3807	-1	1513348836	[clientscript,xpreward_select]
+12	3808	-1	-2102526470	[clientscript,xpreward_confirm]
 12	3809	-1	-1021975087	
 12	3810	-1	678227012	
-12	3811	-1	180824647	
-12	3812	-1	-154746348	
-12	3813	-1	1443458818	
-12	3814	-1	-419917290	
-12	3815	-1	-1613283070	
-12	3816	-1	-1319362518	
-12	3817	-1	-301419990	
+12	3811	-1	180824647	[clientscript,brew_tools_init]
+12	3812	-1	-154746348	[proc,brew_tools_setupbutton]
+12	3813	-1	1443458818	[proc,brew_tools_resetbutton]
+12	3814	-1	-419917290	[clientscript,brew_tools_op]
+12	3815	-1	-1613283070	[clientscript,brew_tools_resetbutton]
+12	3816	-1	-1319362518	[clientscript,brew_tools_supplies]
+12	3817	-1	-301419990	[proc,brew_tools_supplies]
 12	3818	-1	-1084163286	
 12	3819	-1	-386622639	
 12	3820	-1	-1058067119	
@@ -11020,11 +11020,11 @@
 12	3848	-1	-1722123046	[clientscript,settings_toggle_synch]
 12	3849	-1	167477091	[clientscript,settings_toggle_transmit]
 12	3850	-1	-26156787	[proc,settings_create_drop_down]
-12	3851	-1	-1546710700	
-12	3852	-1	-579245237	
-12	3853	-1	537145942	
-12	3854	-1	-1426980780	
-12	3855	-1	952668585	
+12	3851	-1	-1546710700	[clientscript,setting_show_dropdown]
+12	3852	-1	-579245237	[clientscript,setting_dropdown_entry_op]
+12	3853	-1	537145942	[clientscript,setting_dropdown_entry_close]
+12	3854	-1	-1426980780	[clientscript,setting_dropdown_synch]
+12	3855	-1	952668585	[clientscript,setting_dropdown_transmit]
 12	3856	-1	1626916420	[proc,settings_create_input_setting]
 12	3857	-1	1223060710	[clientscript,settings_input_op]
 12	3858	-1	-150151864	[clientscript,settings_input_setting_transmit]
@@ -11038,20 +11038,20 @@
 12	3866	-1	-1767475280	[clientscript,settings_button_op]
 12	3867	-1	-1749537095	[clientscript,settings_button_on_transmit]
 12	3868	-1	-1584322550	
-12	3869	-1	-1600821910	
-12	3870	-1	800321874	
+12	3869	-1	-1600821910	[proc,text_create]
+12	3870	-1	800321874	[proc,searchbar_create]
 12	3871	-1	1270361099	
 12	3872	-1	1303685557	[clientscript,settings_show_keyboard]
-12	3873	-1	1177047949	
-12	3874	-1	-339191181	
-12	3875	-1	-2026694308	
-12	3876	-1	-1758368822	
+12	3873	-1	1177047949	[clientscript,searchbar_op]
+12	3874	-1	-339191181	[clientscript,searchbar_mouseover]
+12	3875	-1	-2026694308	[clientscript,searchbar_mouseleave]
+12	3876	-1	-1758368822	[clientscript,searchbar_keypress]
 12	3877	-1	644401380	
 12	3878	-1	190006667	[clientscript,settings_op_sound]
 12	3879	-1	1308383115	[proc,settings_op_sound]
 12	3880	-1	1613596750	
-12	3881	-1	-139615985	
-12	3882	-1	2002322994	
+12	3881	-1	-139615985	[proc,settings_toggle_choose_transmit]
+12	3882	-1	2002322994	[proc,settings_dropdown_choose_transmit]
 12	3883	-1	1516064299	
 12	3884	-1	-671674590	[proc,settings_slider_choose_transmit]
 12	3885	-1	1251438162	[proc,settings_slider_choose_onop]
@@ -11077,13 +11077,13 @@
 12	3905	-1	1347172082	[clientscript,settings_button_leave]
 12	3906	-1	-497160195	[clientscript,settings_side_switch_panel]
 12	3907	-1	-1211556355	[proc,settings_side_switch_panel]
-12	3908	-1	1681677664	
+12	3908	-1	1681677664	[clientscript,settings_side_bottom_init]
 12	3909	-1	-648869325	[clientscript,settings_side_tabs_init]
 12	3910	-1	1010985304	[proc,settings_side_tabs]
 12	3911	-1	1667760762	[clientscript,settings_side_tab_highlight]
-12	3912	-1	1773191786	
+12	3912	-1	1773191786	[clientscript,settings_side_tab_highlight_reset]
 12	3913	-1	996316282	[proc,settings_side_tab_highlight]
-12	3914	-1	737530986	
+12	3914	-1	737530986	[proc,settings_side_tab_highlight_reset]
 12	3915	-1	21947788	[clientscript,settings_side_switch_tab]
 12	3916	-1	-1502737200	[clientscript,settings_side_update_tabs]
 12	3917	-1	-1761584	[proc,settings_side_update_tabs]
@@ -11112,7 +11112,7 @@
 12	3940	-1	871115406	
 12	3941	-1	1203469400	
 12	3942	-1	-98337086	
-12	3943	-1	1937625769	
+12	3943	-1	1937625769	[clientscript,zoom_timer]
 12	3944	-1	-186051707	[clientscript,settings_side_op_sound]
 12	3945	-1	-1424277115	[proc,settings_side_op_sound]
 12	3946	-1	-169334363	[clientscript,settings_controls_init]
@@ -11163,11 +11163,11 @@
 12	3991	-1	951932733	
 12	3992	-1	38968492	
 12	3993	-1	959623309	
-12	3994	-1	467177189	
+12	3994	-1	467177189	[proc,settings_function_button]
 12	3995	-1	135545005	
 12	3996	-1	287623979	
 12	3997	-1	-1266678749	[proc,settings_scrollbar_pos]
-12	3998	-1	-120847097	
+12	3998	-1	-120847097	[clientscript,settings_client_mode]
 12	3999	-1	1467568217	
 12	4000	-1	-1235354697	
 12	4001	-1	-1884441576	
@@ -11186,7 +11186,7 @@
 12	4016	-1	-766696746	
 12	4017	-1	569154067	
 12	4018	-1	153502199	[proc,settings_accept_aid]
-12	4019	-1	-1796391559	
+12	4019	-1	-1796391559	[proc,settings_set_stone_keybind]
 12	4020	-1	1346316870	
 13	494	-1	-342013218	p11_full
 13	495	-1	-313384067	p12_full

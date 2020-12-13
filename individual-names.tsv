@@ -2550,6 +2550,7 @@
 [proc,offer_banner_close]
 [proc,offer_button]
 [proc,on_mobile]
+[proc,on_steam]
 [proc,openurl_raw]
 [proc,options_acceptaid]
 [proc,options_allsounds]

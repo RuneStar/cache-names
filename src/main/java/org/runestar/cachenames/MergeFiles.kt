@@ -185,6 +185,13 @@ fun main() {
         "trailblazer_progress_bar,$x".add()
         "trailblazer_map_shields,$x".add()
         "trailblazer_map_names,$x".add()
+        "settings_tabs,$x".add()
+        "ame_confirm_button,$x".add()
+        "stony_basalt,$x".add()
+        "icy_basalt,$x".add()
+        "toggle_box,$x".add()
+        "settings_slider,$x".add()
+        "soul_wars_staticons,$x".add()
     }
 
     knownNames.remove("l16_186")

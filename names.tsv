@@ -7574,6 +7574,7 @@
 12	78	-1	591293823	[proc,chatout_set]
 12	79	-1	590936331	[proc,chatout_get]
 12	80	-1	-109442984	[clientscript,chat_onsubchange]
+12	81	-1	1947823657	
 12	82	-1	631286800	[clientscript,orbs_update_prayer]
 12	83	-1	-1414925076	[clientscript,splitpm_changed]
 12	84	-1	-321431830	[proc,rebuildchatbox]
@@ -8991,6 +8992,10 @@
 12	1496	-1	459961185	[clientscript,agilityarena_rewards_setgracefulbutton]
 12	1497	-1	-1283415711	[proc,agilityarena_rewards_setgracefulbutton]
 12	1498	-1	-1242033889	
+12	1499	-1	705565875	
+12	1500	-1	-566118416	
+12	1501	-1	370304496	
+12	1502	-1	-68069698	
 12	1503	-1	-2098330278	[proc,string_prependzero]
 12	1504	-1	264420255	
 12	1505	-1	-1160672499	[clientscript,raids_overlay_init]
@@ -9115,6 +9120,10 @@
 12	1624	-1	1339538644	[proc,raids_storage_side_warning]
 12	1625	-1	459989576	[proc,glidermap_showglider]
 12	1626	-1	-48580509	[proc,glidermap_hideglider]
+12	1627	-1	395261739	
+12	1628	-1	-2074938891	
+12	1629	-1	1097815203	
+12	1630	-1	-2039321526	
 12	1631	-1	1599210019	
 12	1632	-1	-160761206	
 12	1633	-1	-1643143448	[clientscript,motherlode_hud_init]
@@ -9131,6 +9140,10 @@
 12	1644	-1	-943495076	[clientscript,ge_history_init]
 12	1645	-1	1406392697	[clientscript,ge_history_addline]
 12	1646	-1	1032956281	[clientscript,ge_history_finish]
+12	1647	-1	1134895471	
+12	1648	-1	-54759893	
+12	1649	-1	415323706	
+12	1650	-1	1172894823	
 12	1651	-1	776314909	[clientscript,confirmdestroy_triggerbutton]
 12	1652	-1	49333030	[clientscript,confirmdestroy_resetbutton]
 12	1653	-1	-2052940484	[proc,ignore_sortbutton_draw]
@@ -9438,6 +9451,14 @@
 12	1955	-1	-32744321	
 12	1956	-1	-2142915390	[clientscript,wildwars_fogcolour]
 12	1957	-1	-1832983870	[proc,wildwars_fogcolour]
+12	1958	-1	163120743	
+12	1959	-1	-231100456	
+12	1960	-1	-1565434235	
+12	1961	-1	1719758981	
+12	1962	-1	-127109136	
+12	1963	-1	-564528157	
+12	1964	-1	-1904334365	
+12	1965	-1	406844612	
 12	1966	-1	-596364504	[clientscript,tol_pressure_draw]
 12	1967	-1	-908208439	[clientscript,vm_info_init]
 12	1968	-1	-995353420	[proc,vm_kudos_get_status]
@@ -9476,6 +9497,8 @@
 12	2001	-1	-1631309926	[clientscript,fossil_fade_overlay_update]
 12	2002	-1	-95849432	[proc,fossil_fade_overlay_increment]
 12	2003	-1	-667655598	[clientscript,fossil_swamp_splat]
+12	2004	-1	-1633869116	
+12	2005	-1	1410776217	
 12	2006	-1	-1904429583	[clientscript,fossil_storage_init]
 12	2007	-1	898278283	[clientscript,fossil_storage_build]
 12	2008	-1	-1905241717	[proc,fossil_storage_build]
@@ -9582,6 +9605,7 @@
 12	2109	-1	149005792	[clientscript,ds2_fossil_map_stuck]
 12	2110	-1	342077032	[proc,ds2_fossil_map_getslot]
 12	2111	-1	-219035428	[proc,ds2_fossil_map_setslot]
+12	2112	-1	-1865603571	
 12	2113	-1	-2065492013	
 12	2114	-1	-16680433	
 12	2115	-1	-855850470	[clientscript,ironman_modebutton_op]
@@ -9615,6 +9639,11 @@
 12	2143	-1	-371914395	
 12	2144	-1	1184761548	
 12	2145	-1	2121184460	
+12	2146	-1	-847661043	
+12	2147	-1	1782939563	
+12	2148	-1	-1494085205	
+12	2149	-1	-769173309	
+12	2150	-1	1544047190	
 12	2151	-1	25246965	[proc,graphic_device]
 12	2152	-1	1083651406	[clientscript,chatbox_keyinput_clicklistener]
 12	2153	-1	-1278918874	[proc,chatbox_keyinput_matched]
@@ -9722,6 +9751,9 @@
 12	2255	-1	1023330538	[proc,music_sort]
 12	2256	-1	-52757444	[proc,zoom_init]
 12	2257	-1	-951244389	[clientscript,music_init_counter]
+12	2258	-1	-731483276	
+12	2259	-1	1857296915	
+12	2260	-1	29775066	
 12	2262	-1	611792338	[clientscript,magic_spellbook_init]
 12	2263	-1	650608922	[proc,tutorial_progressbar_set]
 12	2264	-1	1173432752	[proc,worldmap_mobile_layout]
@@ -10183,10 +10215,6 @@
 12	2741	-1	1504252642	[proc,lovaquest_power_grid_getslot]
 12	2742	-1	943140182	[proc,lovaquest_power_grid_setslot]
 12	2743	-1	558866422	[proc,skill_guide_data_slayer]
-12	2744	-1	-1992100680	[proc,farming_tools_create_quantitybuttons]
-12	2745	-1	-185537327	[clientscript,farming_tools_main_create_quantitybutton]
-12	2746	-1	4384294	
-12	2747	-1	-533488943	[proc,farming_tools_main_create_quantitybutton]
 12	2748	-1	2057628474	[clientscript,farming_tools_main_recreate]
 12	2749	-1	1386183994	[proc,farming_tools_main_recreate]
 12	2750	-1	-680700584	[clientscript,farming_tools_side_recreate]
@@ -10982,7 +11010,6 @@
 12	3563	-1	1639078143	[clientscript,poh_costumes_searchtimeout]
 12	3564	-1	-2047611252	[clientscript,poh_costumes_buttons_search_reset]
 12	3565	-1	1211695244	[proc,poh_costumes_buttons_search_reset]
-12	3566	-1	474986786	[proc,hallowed_tools_create_quantitybuttons]
 12	3567	-1	1752744365	[clientscript,hallowed_tools_side_init]
 12	3568	-1	-227590237	[proc,hallowed_tools_main_create]
 12	3569	-1	138054544	[clientscript,hallowed_tools_main_recreate]

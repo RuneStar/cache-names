@@ -9169,8 +9169,8 @@
 12	1626	-1	-48580509	[proc,glidermap_hideglider]
 12	1627	-1	395261739	
 12	1628	-1	-2074938891	
-12	1629	-1	1097815203	
-12	1630	-1	-2039321526	
+12	1629	-1	1097815203	[proc,storage_getstored]
+12	1630	-1	-2039321526	[proc,storage_getcarried]
 12	1631	-1	1599210019	
 12	1632	-1	-160761206	
 12	1633	-1	-1643143448	[clientscript,motherlode_hud_init]
@@ -9950,10 +9950,10 @@
 12	2407	-1	1619475707	[clientscript,tol_homonculus_overlay_init]
 12	2408	-1	1999092108	
 12	2409	-1	1974999509	[clientscript,soulbane_angerbar_init]
-12	2410	-1	1283901953	
+12	2410	-1	1283901953	[proc,time_convert]
 12	2411	-1	2039478932	
 12	2412	-1	672640393	
-12	2413	-1	-35590677	
+12	2413	-1	-35590677	[clientscript,steelbox_background]
 12	2414	-1	-691512655	[proc,show_storebutton]
 12	2415	-1	52272435	70161
 12	2416	-1	1452541724	147473
@@ -10175,7 +10175,7 @@
 12	2632	-1	777050322	[clientscript,book_init]
 12	2633	-1	-1396595297	[proc,questlist_draw]
 12	2634	-1	-547750227	[clientscript,mobile_rating_init]
-12	2635	-1	2146430889	
+12	2635	-1	2146430889	[clientscript,boardgames_button_init]
 12	2636	-1	-1916415990	
 12	2637	-1	3376484	[proc,xp_drops_tooltip_desktop]
 12	2638	-1	915157496	[proc,xp_drops_tooltip_mobile]
@@ -10964,9 +10964,9 @@
 12	3421	-1	-291162283	
 12	3422	-1	-962606763	
 12	3423	-1	-1262811318	
-12	3424	-1	-1070144472	
-12	3425	-1	200555727	
-12	3426	-1	-470888753	
+12	3424	-1	-1070144472	[clientscript,boardgames_challenge_init]
+12	3425	-1	200555727	[clientscript,boardgames_challenge_update]
+12	3426	-1	-470888753	[proc,boardgames_challenge_update]
 12	3427	-1	-574212823	[proc,hp_hud_init]
 12	3428	-1	740865240	[proc,bool_to_int]
 12	3429	-1	1353516022	[clientscript,hp_bar_reset]

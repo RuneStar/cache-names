@@ -11319,18 +11319,18 @@
 12	3776	-1	1594048446	[proc,pillory_button_reset]
 12	3777	-1	1487690700	[clientscript,pillory_button_op]
 12	3778	-1	102601150	[clientscript,pillory_button_reset]
-12	3779	-1	1102030488	
-12	3780	-1	1408279239	
-12	3781	-1	1131772698	
-12	3782	-1	-1078224221	
-12	3783	-1	934973796	
-12	3784	-1	-1878908929	
-12	3785	-1	1165715617	
-12	3786	-1	305695459	
-12	3787	-1	-932529949	
-12	3788	-1	1300346787	
-12	3789	-1	592831658	
-12	3790	-1	1690299545	
+12	3779	-1	1102030488	[clientscript,gnome_cuisine_init]
+12	3780	-1	1408279239	[proc,gnome_cuisine_enum]
+12	3781	-1	1131772698	[proc,gnome_cuisine_title]
+12	3782	-1	-1078224221	[clientscript,gnome_cuisine_confirmation_in]
+12	3783	-1	934973796	[clientscript,gnome_cuisine_confirmation_out]
+12	3784	-1	-1878908929	[clientscript,gnome_cuisine_update_if]
+12	3785	-1	1165715617	[proc,gnome_show_cuisine]
+12	3786	-1	305695459	[clientscript,gnome_show_ingredients]
+12	3787	-1	-932529949	[proc,gnome_show_ingredients]
+12	3788	-1	1300346787	[proc,gnome_create_ingredient]
+12	3789	-1	592831658	[proc,gnome_return_dummy]
+12	3790	-1	1690299545	[proc,cuisine_check_inv]
 12	3791	-1	144785038	
 12	3792	-1	2007199186	
 12	3793	-1	2007199217	

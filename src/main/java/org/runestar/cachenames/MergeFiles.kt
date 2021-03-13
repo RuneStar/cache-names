@@ -184,6 +184,7 @@ fun main() {
         "trailblazer_relics_tli,$x".add()
         "trailblazer_progress_bar,$x".add()
         "trailblazer_map_shields,$x".add()
+        "trailblazer_map_shields_large,$x".add()
         "trailblazer_map_names,$x".add()
         "settings_tabs,$x".add()
         "ame_confirm_button,$x".add()

@@ -1007,6 +1007,7 @@
 [clientscript,league_side_panel_hudtoggle]
 [clientscript,league_side_panel_init]
 [clientscript,league_side_panel_update_bar]
+[clientscript,league_statistics_init]
 [clientscript,league_task_filter_close]
 [clientscript,league_task_filter_init]
 [clientscript,league_task_filter_open]
@@ -1593,6 +1594,7 @@
 [clientscript,settings_button_repeat]
 [clientscript,settings_camera_zoom_slider_click]
 [clientscript,settings_client_mode]
+[clientscript,settings_client_type]
 [clientscript,settings_controls_init]
 [clientscript,settings_icon_op]
 [clientscript,settings_init]
@@ -1721,6 +1723,10 @@
 [clientscript,stonepanel_light]
 [clientscript,stonepanel_red]
 [clientscript,stop_slideshow]
+[clientscript,storage_main_recreate]
+[clientscript,storage_main_update]
+[clientscript,storage_side_recreate]
+[clientscript,storage_side_update]
 [clientscript,target_skull]
 [clientscript,target_system_hideop]
 [clientscript,target_system_init]
@@ -2483,6 +2489,7 @@
 [proc,league_flashicon]
 [proc,league_get_league_name]
 [proc,league_info_draw_interface]
+[proc,league_points_earned]
 [proc,league_points_progress_bar]
 [proc,league_relic_active]
 [proc,league_relic_button_hover]
@@ -2499,6 +2506,7 @@
 [proc,league_side_panel_hudtoggle]
 [proc,league_side_panel_update_bar]
 [proc,league_side_panel_update_text]
+[proc,league_statistics_draw]
 [proc,league_task_display]
 [proc,league_task_filter_updatetext]
 [proc,league_task_is_completed]
@@ -2621,6 +2629,7 @@
 [proc,offer_banner]
 [proc,offer_banner_close]
 [proc,offer_button]
+[proc,on_enhanced]
 [proc,on_mobile]
 [proc,on_steam]
 [proc,openurl_raw]
@@ -2865,8 +2874,10 @@
 [proc,seed_vault_side_draw]
 [proc,seed_vault_size_check]
 [proc,settings_accept_aid]
+[proc,settings_bond_options]
 [proc,settings_button_choose_transmit]
 [proc,settings_camera_do_zoom]
+[proc,settings_check_block]
 [proc,settings_clicked_button]
 [proc,settings_clicked_toggle]
 [proc,settings_create_button]
@@ -2878,6 +2889,7 @@
 [proc,settings_create_slider]
 [proc,settings_create_tabs]
 [proc,settings_create_toggle]
+[proc,settings_custom_check]
 [proc,settings_data_orbs]
 [proc,settings_dropdown_choose_transmit]
 [proc,settings_function_button]
@@ -2887,11 +2899,13 @@
 [proc,settings_get_slider]
 [proc,settings_get_toggle]
 [proc,settings_health_overlay]
+[proc,settings_hitsplat_tinting]
 [proc,settings_init]
 [proc,settings_mouse_camera]
 [proc,settings_op_checker]
 [proc,settings_op_sound]
 [proc,settings_populate_settings]
+[proc,settings_profanity_filter]
 [proc,settings_remove_roof]
 [proc,settings_scrollbar_pos]
 [proc,settings_seemore]
@@ -3015,6 +3029,12 @@
 [proc,stop_slideshow]
 [proc,storage_getcarried]
 [proc,storage_getstored]
+[proc,storage_main_create]
+[proc,storage_main_recreate]
+[proc,storage_main_update]
+[proc,storage_side_create]
+[proc,storage_side_recreate]
+[proc,storage_side_update]
 [proc,string_prependzero]
 [proc,string_to_int]
 [proc,sw_world]
@@ -3515,6 +3535,10 @@ fight or flight
 find my way
 fire and brimstone
 fishing
+fixed_compass_mask
+fixed_map_clickmask
+fixed_map_mask
+fixed_minimap_cover
 floating free
 flute salad
 food for thought
@@ -3904,6 +3928,7 @@ reggae
 reggae2
 rellekka
 resize_compass_mask
+resize_map_clickmask
 resize_map_mask
 rest_in_peace
 revenants

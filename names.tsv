@@ -5758,9 +5758,9 @@
 8	1179	-1	-1447235676	resize_compass_mask
 8	1180	-1	-824987820	
 8	1181	-1	-824987819	
-8	1182	-1	1994806034	
-8	1183	-1	-1470463910	
-8	1184	-1	-1468326684	
+8	1182	-1	1994806034	fixed_minimap_cover
+8	1183	-1	-1470463910	fixed_map_mask
+8	1184	-1	-1468326684	fixed_compass_mask
 8	1185	-1	1157901182	scrollbar_trans_arrows,0
 8	1186	-1	1157901183	scrollbar_trans_arrows,1
 8	1187	-1	-2039017932	scrollbar_trans_dragger,0
@@ -5776,7 +5776,7 @@
 8	1197	-1	1171698653	orb_xp,1
 8	1198	-1	1171698654	orb_xp,2
 8	1199	-1	1171698655	orb_xp,3
-8	1200	-1	423363526	
+8	1200	-1	423363526	fixed_map_clickmask
 8	1201	-1	-226091868	slider_bobble
 8	1202	-1	1969878989	emotes,40
 8	1203	-1	1969878990	emotes,41
@@ -6730,7 +6730,7 @@
 8	2151	-1	358181249	
 8	2152	-1	-1755267887	close_buttons,10
 8	2153	-1	-1755267886	close_buttons,11
-8	2154	-1	1077184774	
+8	2154	-1	1077184774	resize_map_clickmask
 8	2155	-1	2128431078	
 8	2156	-1	-543590693	mod_icons_interface,0
 8	2157	-1	-543590692	mod_icons_interface,1
@@ -7325,24 +7325,24 @@
 8	2746	-1	2118970258	trailblazer_map_shields,15
 8	2747	-1	2118970259	trailblazer_map_shields,16
 8	2748	-1	2118970260	trailblazer_map_shields,17
-8	2749	-1	-1045881410	
-8	2750	-1	-1045881409	
-8	2751	-1	-1045881408	
-8	2752	-1	-1045881407	
-8	2753	-1	-1045881406	
-8	2754	-1	-1045881405	
-8	2755	-1	-1045881404	
-8	2756	-1	-1045881403	
-8	2757	-1	-1045881402	
-8	2758	-1	-1045881401	
-8	2759	-1	1937414737	
-8	2760	-1	1937414738	
-8	2761	-1	1937414739	
-8	2762	-1	1937414740	
-8	2763	-1	1937414741	
-8	2764	-1	1937414742	
-8	2765	-1	1937414743	
-8	2766	-1	1937414744	
+8	2749	-1	-1045881410	trailblazer_map_shields_large,0
+8	2750	-1	-1045881409	trailblazer_map_shields_large,1
+8	2751	-1	-1045881408	trailblazer_map_shields_large,2
+8	2752	-1	-1045881407	trailblazer_map_shields_large,3
+8	2753	-1	-1045881406	trailblazer_map_shields_large,4
+8	2754	-1	-1045881405	trailblazer_map_shields_large,5
+8	2755	-1	-1045881404	trailblazer_map_shields_large,6
+8	2756	-1	-1045881403	trailblazer_map_shields_large,7
+8	2757	-1	-1045881402	trailblazer_map_shields_large,8
+8	2758	-1	-1045881401	trailblazer_map_shields_large,9
+8	2759	-1	1937414737	trailblazer_map_shields_large,10
+8	2760	-1	1937414738	trailblazer_map_shields_large,11
+8	2761	-1	1937414739	trailblazer_map_shields_large,12
+8	2762	-1	1937414740	trailblazer_map_shields_large,13
+8	2763	-1	1937414741	trailblazer_map_shields_large,14
+8	2764	-1	1937414742	trailblazer_map_shields_large,15
+8	2765	-1	1937414743	trailblazer_map_shields_large,16
+8	2766	-1	1937414744	trailblazer_map_shields_large,17
 8	2767	-1	-1749888096	trailblazer_map_names,0
 8	2768	-1	-1749888095	trailblazer_map_names,1
 8	2769	-1	-1749888094	trailblazer_map_names,2
@@ -7915,7 +7915,7 @@
 12	372	-1	1497335546	
 12	373	-1	-499717093	
 12	374	-1	-477920364	
-12	375	-1	-657934790	
+12	375	-1	-657934790	[proc,settings_bond_options]
 12	376	-1	594616818	
 12	377	-1	1907745126	
 12	378	-1	-1315153359	
@@ -7980,7 +7980,7 @@
 12	437	-1	-848447131	[clientscript,grouping_joinchannel]
 12	438	-1	-2178202	[proc,tournament_world]
 12	439	-1	1937484934	
-12	440	-1	-114073008	
+12	440	-1	-114073008	[clientscript,settings_client_type]
 12	441	-1	-1680350143	
 12	442	-1	-1052628800	
 12	443	-1	1979769876	[clientscript,castlewarstrade_init]
@@ -8650,8 +8650,8 @@
 12	1107	-1	-1719672148	
 12	1108	-1	1915237548	
 12	1109	-1	348778688	
-12	1110	-1	-1039426874	
-12	1111	-1	2012808978	
+12	1110	-1	-1039426874	[clientscript,league_statistics_init]
+12	1111	-1	2012808978	[proc,league_statistics_draw]
 12	1112	-1	-927977791	[clientscript,farming_view_init]
 12	1113	-1	-611779728	[proc,farming_view_createtab]
 12	1114	-1	1471391189	[clientscript,farming_view_optab]
@@ -8665,7 +8665,7 @@
 12	1122	-1	-1580357047	[clientscript,snapshot_rules_hover]
 12	1123	-1	-1565146835	[clientscript,snapshot_rules_send]
 12	1124	-1	-331619787	
-12	1125	-1	-824155073	
+12	1125	-1	-824155073	[proc,league_points_earned]
 12	1126	-1	-1013955316	
 12	1127	-1	1557019463	
 12	1128	-1	464107517	
@@ -9189,8 +9189,8 @@
 12	1646	-1	1032956281	[clientscript,ge_history_finish]
 12	1647	-1	1134895471	
 12	1648	-1	-54759893	
-12	1649	-1	415323706	
-12	1650	-1	1172894823	
+12	1649	-1	415323706	[proc,storage_main_create]
+12	1650	-1	1172894823	[clientscript,storage_main_recreate]
 12	1651	-1	776314909	[clientscript,confirmdestroy_triggerbutton]
 12	1652	-1	49333030	[clientscript,confirmdestroy_resetbutton]
 12	1653	-1	-2052940484	[proc,ignore_sortbutton_draw]
@@ -9498,10 +9498,10 @@
 12	1955	-1	-32744321	
 12	1956	-1	-2142915390	[clientscript,wildwars_fogcolour]
 12	1957	-1	-1832983870	[proc,wildwars_fogcolour]
-12	1958	-1	163120743	
-12	1959	-1	-231100456	
-12	1960	-1	-1565434235	
-12	1961	-1	1719758981	
+12	1958	-1	163120743	[proc,storage_main_recreate]
+12	1959	-1	-231100456	[proc,storage_side_create]
+12	1960	-1	-1565434235	[clientscript,storage_side_recreate]
+12	1961	-1	1719758981	[proc,storage_side_recreate]
 12	1962	-1	-127109136	
 12	1963	-1	-564528157	
 12	1964	-1	-1904334365	
@@ -9652,7 +9652,7 @@
 12	2109	-1	149005792	[clientscript,ds2_fossil_map_stuck]
 12	2110	-1	342077032	[proc,ds2_fossil_map_getslot]
 12	2111	-1	-219035428	[proc,ds2_fossil_map_setslot]
-12	2112	-1	-1865603571	
+12	2112	-1	-1865603571	[clientscript,storage_main_update]
 12	2113	-1	-2065492013	
 12	2114	-1	-16680433	
 12	2115	-1	-855850470	[clientscript,ironman_modebutton_op]
@@ -9686,9 +9686,9 @@
 12	2143	-1	-371914395	
 12	2144	-1	1184761548	
 12	2145	-1	2121184460	
-12	2146	-1	-847661043	
-12	2147	-1	1782939563	
-12	2148	-1	-1494085205	
+12	2146	-1	-847661043	[proc,storage_main_update]
+12	2147	-1	1782939563	[clientscript,storage_side_update]
+12	2148	-1	-1494085205	[proc,storage_side_update]
 12	2149	-1	-769173309	
 12	2150	-1	1544047190	
 12	2151	-1	25246965	[proc,graphic_device]
@@ -9897,7 +9897,7 @@
 12	2354	-1	660870716	[clientscript,castlewars_waitingroom_update]
 12	2355	-1	1494216364	
 12	2356	-1	-281123313	
-12	2357	-1	757518562	
+12	2357	-1	757518562	[proc,on_enhanced]
 12	2358	-1	-248564579	
 12	2359	-1	1490919915	[proc,shiftclick_toggle]
 12	2360	-1	275552870	
@@ -11495,11 +11495,11 @@
 12	3952	-1	591710720	
 12	3953	-1	1994613857	
 12	3954	-1	654807649	
-12	3955	-1	2063225320	
+12	3955	-1	2063225320	[proc,settings_check_block]
 12	3956	-1	-1275002267	[proc,settings_op_checker]
 12	3957	-1	913425723	
 12	3958	-1	-1511383814	
-12	3959	-1	-156654686	
+12	3959	-1	-156654686	[proc,settings_custom_check]
 12	3960	-1	-1545741793	[proc,settings_get_toggle]
 12	3961	-1	1777585714	[proc,settings_get_slider]
 12	3962	-1	-850519166	[proc,settings_get_dropdown]
@@ -11513,7 +11513,7 @@
 12	3970	-1	-1790529867	
 12	3971	-1	1954424815	[proc,settings_remove_roof]
 12	3972	-1	314995062	
-12	3973	-1	1640105285	
+12	3973	-1	1640105285	[proc,settings_hitsplat_tinting]
 12	3974	-1	-997338635	[proc,settings_wiki_lookup]
 12	3975	-1	-200509899	[proc,settings_data_orbs]
 12	3976	-1	-1957081345	
@@ -11526,7 +11526,7 @@
 12	3983	-1	1070337921	
 12	3984	-1	261432675	
 12	3985	-1	311926445	
-12	3986	-1	978632589	
+12	3986	-1	978632589	[proc,settings_profanity_filter]
 12	3987	-1	1366141618	
 12	3988	-1	-1067162009	
 12	3989	-1	-534776628	[proc,settings_store_button]

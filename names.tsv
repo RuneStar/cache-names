@@ -10783,8 +10783,8 @@
 12	3230	-1	-1440478400	[clientscript,league_side_panel_hudtoggle]
 12	3231	-1	1074101715	[clientscript,league_side_panel_hudop]
 12	3232	-1	-2111922880	[proc,league_side_panel_hudtoggle]
-12	3233	-1	1454326181	
-12	3234	-1	1454326180	
+12	3233	-1	1454326181	165137
+12	3234	-1	1454326180	165136
 12	3235	-1	-435839494	[proc,update_diary_entry_grey]
 12	3236	-1	-816339775	[proc,questlist_f2p_progress_grey]
 12	3237	-1	-568626324	[proc,questlist_members_progress_grey]
@@ -11057,8 +11057,8 @@
 12	3504	-1	-723510111	
 12	3505	-1	1859243884	[proc,inv_freespace]
 12	3506	-1	1081185596	
-12	3507	-1	1454363631	
-12	3508	-1	1454363630	
+12	3507	-1	1454363631	166929
+12	3508	-1	1454363630	166928
 12	3509	-1	1225840631	[proc,adventurepath_voucher_init]
 12	3510	-1	-1318391223	
 12	3511	-1	-25112141	
@@ -11581,24 +11581,24 @@
 12	4028	-1	-582426769	[proc,quest_index_status_get]
 12	4029	-1	-312364708	[proc,quest_status_get]
 12	4030	-1	-970101061	[proc,quest_status_get_exceptions]
-12	4031	-1	1455219136	
-12	4032	-1	1455219135	
+12	4031	-1	1455219136	174097
+12	4032	-1	1455219135	174096
 12	4033	-1	1743294729	
 12	4034	-1	-2092848439	
-12	4035	-1	1339995161	
+12	4035	-1	1339995161	[clientscript,publishing_platform]
 12	4036	-1	94044739	
-12	4037	-1	-1952014178	
-12	4038	-1	-1956520214	
-12	4039	-1	1624050922	
-12	4040	-1	-1745548614	
-12	4041	-1	-304275424	
-12	4042	-1	-1542500832	
-12	4043	-1	-841172	
-12	4044	-1	-301604774	
-12	4045	-1	-36687557	
-12	4046	-1	1861874505	
-12	4047	-1	2074291779	
-12	4048	-1	-172152890	
+12	4037	-1	-1952014178	[clientscript,bolt_pouch_extra_ammo_init]
+12	4038	-1	-1956520214	[clientscript,bolt_pouch_extra_ammo_draw]
+12	4039	-1	1624050922	[proc,bolt_pouch_extra_ammo_draw]
+12	4040	-1	-1745548614	[clientscript,bolt_pouch_init]
+12	4041	-1	-304275424	[clientscript,bolt_pouch_setup_entry]
+12	4042	-1	-1542500832	[proc,bolt_pouch_setup_entry]
+12	4043	-1	-841172	[clientscript,bolt_pouch_drag_complete]
+12	4044	-1	-301604774	[clientscript,bolt_pouch_setup_entry_timer]
+12	4045	-1	-36687557	[proc,bolt_pouch_create_entry]
+12	4046	-1	1861874505	[clientscript,bolt_pouch_op]
+12	4047	-1	2074291779	[proc,bolt_pouch_return_slot]
+12	4048	-1	-172152890	[proc,bolt_pouch_return_id]
 13	494	-1	-342013218	p11_full
 13	495	-1	-313384067	p12_full
 13	496	-1	1057075019	b12_full

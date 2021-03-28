@@ -4584,7 +4584,7 @@
 6	685	-1	-1931522920	soul wars
 6	686	-1	192519476	the waiting game
 6	687	-1	213399440	scrubfoots descent
-6	688	-1	1985000184	
+6	688	-1	1985000184	tempoross
 8	0	-1	-1879805778	2x_standard_spells_on,0
 8	1	-1	-1879805777	2x_standard_spells_on,1
 8	2	-1	-1879805776	2x_standard_spells_on,2
@@ -11608,21 +11608,21 @@
 12	4046	-1	1861874505	[clientscript,bolt_pouch_op]
 12	4047	-1	2074291779	[proc,bolt_pouch_return_slot]
 12	4048	-1	-172152890	[proc,bolt_pouch_return_id]
-12	4049	-1	474462915	
-12	4050	-1	469956879	
-12	4051	-1	-1178039537	
-12	4052	-1	1453444434	
-12	4053	-1	2110298715	
-12	4054	-1	1899194593	
-12	4055	-1	1779652191	
-12	4056	-1	-1392006035	
-12	4057	-1	1638102006	
-12	4058	-1	-431772308	
-12	4059	-1	1397561366	
-12	4060	-1	632920153	
-12	4061	-1	-1203282769	
-12	4062	-1	-1207788805	
-12	4063	-1	283658491	
+12	4049	-1	474462915	[clientscript,tackle_box_init]
+12	4050	-1	469956879	[clientscript,tackle_box_draw]
+12	4051	-1	-1178039537	[proc,tackle_box_draw]
+12	4052	-1	1453444434	[proc,tackle_box_setitem]
+12	4053	-1	2110298715	[proc,tackle_box_setsideitem]
+12	4054	-1	1899194593	[proc,tackle_box_setblank]
+12	4055	-1	1779652191	[clientscript,tackle_box_opitem]
+12	4056	-1	-1392006035	[clientscript,tackle_box_swapitem]
+12	4057	-1	1638102006	[clientscript,tackle_box_swapsideitem]
+12	4058	-1	-431772308	[clientscript,tackle_box_dragitem]
+12	4059	-1	1397561366	[proc,tackle_box_button_draw]
+12	4060	-1	632920153	[clientscript,tackle_box_button_op]
+12	4061	-1	-1203282769	[clientscript,tackle_box_side_init]
+12	4062	-1	-1207788805	[clientscript,tackle_box_side_draw]
+12	4063	-1	283658491	[proc,tackle_box_side_draw]
 12	4064	-1	-686450252	
 12	4065	-1	-723981961	
 12	4066	-1	1255645235	
@@ -11630,13 +11630,13 @@
 12	4068	-1	1206730189	
 12	4069	-1	1196590120	
 12	4070	-1	841903929	
-12	4071	-1	-74424957	
-12	4072	-1	1594259937	
-12	4073	-1	1863977953	
-12	4074	-1	-690697366	
-12	4075	-1	1911941654	
-12	4076	-1	-756852072	
-12	4077	-1	-1471248232	
+12	4071	-1	-74424957	[clientscript,tempoross_hud_init]
+12	4072	-1	1594259937	[clientscript,tempoross_layout_update]
+12	4073	-1	1863977953	[proc,tempoross_layout_update]
+12	4074	-1	-690697366	[clientscript,tempoross_hud_update]
+12	4075	-1	1911941654	[proc,tempoross_hud_update_bar]
+12	4076	-1	-756852072	[clientscript,tempoross_hud_bar_movement]
+12	4077	-1	-1471248232	[proc,tempoross_hud_bar_movement]
 13	494	-1	-342013218	p11_full
 13	495	-1	-313384067	p12_full
 13	496	-1	1057075019	b12_full

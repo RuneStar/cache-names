@@ -1741,6 +1741,15 @@
 [clientscript,storage_main_update]
 [clientscript,storage_side_recreate]
 [clientscript,storage_side_update]
+[clientscript,tackle_box_button_op]
+[clientscript,tackle_box_dragitem]
+[clientscript,tackle_box_draw]
+[clientscript,tackle_box_init]
+[clientscript,tackle_box_opitem]
+[clientscript,tackle_box_side_draw]
+[clientscript,tackle_box_side_init]
+[clientscript,tackle_box_swapitem]
+[clientscript,tackle_box_swapsideitem]
 [clientscript,target_skull]
 [clientscript,target_system_hideop]
 [clientscript,target_system_init]
@@ -1778,6 +1787,10 @@
 [clientscript,teletab_runecost]
 [clientscript,teletab_skillmain_init]
 [clientscript,teletab_steelborder]
+[clientscript,tempoross_hud_bar_movement]
+[clientscript,tempoross_hud_init]
+[clientscript,tempoross_hud_update]
+[clientscript,tempoross_layout_update]
 [clientscript,text_colour_swapper]
 [clientscript,text_device]
 [clientscript,text_swapper]
@@ -3057,6 +3070,12 @@
 [proc,string_prependzero]
 [proc,string_to_int]
 [proc,sw_world]
+[proc,tackle_box_button_draw]
+[proc,tackle_box_draw]
+[proc,tackle_box_setblank]
+[proc,tackle_box_setitem]
+[proc,tackle_box_setsideitem]
+[proc,tackle_box_side_draw]
 [proc,target_system_redraw]
 [proc,target_world]
 [proc,telenexus_get_slot]
@@ -3076,6 +3095,9 @@
 [proc,teletab_placeingredient]
 [proc,teletab_redraw]
 [proc,teletab_req_met]
+[proc,tempoross_hud_bar_movement]
+[proc,tempoross_hud_update_bar]
+[proc,tempoross_layout_update]
 [proc,text_create]
 [proc,text_device]
 [proc,thinbox]
@@ -4094,6 +4116,7 @@ tears of guthix
 technology
 temple
 temple of light
+tempoross
 tex_brown
 tex_red
 that_sullen_hall

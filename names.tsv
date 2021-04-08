@@ -11638,29 +11638,29 @@
 12	4076	-1	-756852072	[clientscript,tempoross_hud_bar_movement]
 12	4077	-1	-1471248232	[proc,tempoross_hud_bar_movement]
 12	4078	-1	-1581590871	
-12	4079	-1	-633707440	
-12	4080	-1	-1826538919	
+12	4079	-1	-633707440	[proc,chatdefault_restoreinput]
+12	4080	-1	-1826538919	[clientscript,collection_init_frame]
 12	4081	-1	-562313287	
-12	4082	-1	-1231004292	
-12	4083	-1	708874202	
-12	4084	-1	1944804304	
-12	4085	-1	1716128208	
-12	4086	-1	-123982265	
-12	4087	-1	-1599803050	
-12	4088	-1	2072313792	
-12	4089	-1	1388558058	
-12	4090	-1	-1634242814	
-12	4091	-1	-1364524798	
-12	4092	-1	1109287262	
-12	4093	-1	-73535535	
-12	4094	-1	366566271	
-12	4095	-1	1446354073	
-12	4096	-1	1026536207	
-12	4097	-1	-574856152	
-12	4098	-1	-1441019108	
-12	4099	-1	-1304567379	
+12	4082	-1	-1231004292	[proc,collection_search_init]
+12	4083	-1	708874202	[proc,collection_search_button]
+12	4084	-1	1944804304	[clientscript,collection_toggle_search]
+12	4085	-1	1716128208	[proc,collection_toggle_search]
+12	4086	-1	-123982265	[proc,collection_searchbar_create]
+12	4087	-1	-1599803050	[clientscript,collection_search_button_press]
+12	4088	-1	2072313792	[proc,collection_searchbar_setup_op]
+12	4089	-1	1388558058	[clientscript,collection_settings_show_keyboard]
+12	4090	-1	-1634242814	[clientscript,collection_searchbar_op]
+12	4091	-1	-1364524798	[proc,collection_searchbar_op]
+12	4092	-1	1109287262	[clientscript,collection_searchbar_mouseover]
+12	4093	-1	-73535535	[clientscript,collection_searchbar_mouseleave]
+12	4094	-1	366566271	[clientscript,collection_searchbar_keypress]
+12	4095	-1	1446354073	[proc,collection_searchbar_set_text]
+12	4096	-1	1026536207	[proc,collection_populate_search_results]
+12	4097	-1	-574856152	[proc,collection_search_scrollbar]
+12	4098	-1	-1441019108	[proc,collection_search_display_item]
+12	4099	-1	-1304567379	[proc,collection_display_header]
 12	4100	-1	1529796938	
-12	4101	-1	-1204572158	
+12	4101	-1	-1204572158	[proc,collection_search_keyboard_listener]
 12	4102	-1	-384275403	
 12	4103	-1	-2074101093	
 13	494	-1	-342013218	p11_full

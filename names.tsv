@@ -7713,14 +7713,14 @@
 12	151	-1	933940484	[clientscript,interface_inv_update_big]
 12	152	-1	-143207748	[clientscript,chat_set_filter]
 12	153	-1	705264388	[proc,interface_inv_update_big]
-12	154	-1	-1856958414	
-12	155	-1	-875427162	
-12	156	-1	1112898470	
+12	154	-1	-1856958414	[proc,interface_inv_draw_slot_big]
+12	155	-1	-875427162	[clientscript,interface_inv_dragcomplete_swap_big]
+12	156	-1	1112898470	[clientscript,interface_inv_dragcomplete_shuffle_big]
 12	157	-1	-141684755	[proc,scrollbar_ondrag_doscroll]
 12	158	-1	1752721326	[clientscript,interface_invother_init]
 12	159	-1	2138822324	[clientscript,interface_invother_update_big]
 12	160	-1	1125771444	[proc,interface_invother_update_big]
-12	161	-1	1344111746	
+12	161	-1	1344111746	[proc,interface_invother_draw_slot_big]
 12	162	-1	-1150985917	[clientscript,interface_inv_drag_slot]
 12	163	-1	-1506122546	[clientscript,cws_toggle]
 12	164	-1	1531598488	[clientscript,cws_graphic_swap]
@@ -7772,7 +7772,7 @@
 12	210	-1	267198594	[proc,trade_partner_check]
 12	211	-1	-1675591874	[clientscript,poh_options_buildmode]
 12	212	-1	-1050310051	
-12	213	-1	-259063324	
+12	213	-1	-259063324	[proc,clanwars_hud_timeremaining_resynch]
 12	214	-1	-1267783679	
 12	215	-1	1880112223	
 12	216	-1	1117202666	[clientscript,rebuildchatbox]
@@ -7793,7 +7793,7 @@
 12	231	-1	-1299963017	[proc,scrollbar_vertical_rebuild]
 12	232	-1	152472829	[clientscript,league_rewards_init]
 12	233	-1	-1437766665	
-12	234	-1	-1920963471	
+12	234	-1	-1920963471	[proc,fake_runes_enabled]
 12	235	-1	-28890601	[clientscript,autocast_init]
 12	236	-1	349024667	[clientscript,autocast_spellhighlight]
 12	237	-1	618742683	[proc,autocast_spellhighlight]
@@ -8302,8 +8302,8 @@
 12	740	-1	73317674	[proc,scrollbar_vertical_setdragger]
 12	741	-1	271982187	[clientscript,pest_activity_init]
 12	742	-1	1309776211	[clientscript,seed_vault_size_check]
-12	743	-1	205722335	
-12	744	-1	2068623451	
+12	743	-1	205722335	[clientscript,clanwars_hud_timeremaining_tick]
+12	744	-1	2068623451	[proc,clanwars_hud_timeremaining_gettext]
 12	745	-1	-874567636	[proc,quicksort_questlist]
 12	746	-1	-725161978	
 12	747	-1	410195078	[clientscript,worldswitcher_init]
@@ -8478,7 +8478,7 @@
 12	916	-1	-1578530136	[proc,toplevel_sidebutton_switch]
 12	917	-1	1303943599	[clientscript,toplevel_mainmodal_background]
 12	918	-1	1996132796	[proc,toplevel_check_sidepanel]
-12	919	-1	-263023546	
+12	919	-1	-263023546	[proc,toplevel_side_customise]
 12	920	-1	-246044151	[proc,toplevel_resize_customise]
 12	921	-1	231392186	[proc,toplevel_chatbox_maketransparent]
 12	922	-1	-430765529	[proc,toplevel_chatbox_permittransparent]
@@ -8490,7 +8490,7 @@
 12	928	-1	1096986858	[clientscript,smokeoverlay_init]
 12	929	-1	1865428602	[clientscript,bankmain_toggleplaceholders]
 12	930	-1	1193984122	[proc,bankmain_toggleplaceholders]
-12	931	-1	-312858003	
+12	931	-1	-312858003	[clientscript,snow_flakes_init]
 12	932	-1	2082144423	[clientscript,snowflakes_zoom]
 12	933	-1	434148007	[proc,snowflakes_zoom]
 12	934	-1	-1442717229	[clientscript,myq3_blackout_init]
@@ -8562,7 +8562,7 @@
 12	1000	-1	1348797712	[proc,xpdrops_setbar_progress]
 12	1001	-1	213955770	[proc,xpdrops_percentage_tostring]
 12	1002	-1	35934062	[proc,xpdrops_data_get]
-12	1003	-1	-784961343	
+12	1003	-1	-784961343	[proc,xpdrops_setstatlistener]
 12	1004	-1	-1161743093	[clientscript,xpdrops_stattransmit]
 12	1005	-1	-965689874	[clientscript,xpdrops_dropletmove]
 12	1006	-1	-1349296392	
@@ -8630,9 +8630,9 @@
 12	1068	-1	-602058285	[clientscript,saradomin_light_effect]
 12	1069	-1	1490470207	[clientscript,saradomin_light_effect_update]
 12	1070	-1	477419327	[proc,saradomin_light_effect_update]
-12	1071	-1	-547968906	
-12	1072	-1	-1562541544	
-12	1073	-1	2060981272	
+12	1071	-1	-547968906	[proc,barrows_overlay_createbrother]
+12	1072	-1	-1562541544	[clientscript,barrows_overlay_killbrother]
+12	1073	-1	2060981272	[proc,barrows_overlay_killbrother]
 12	1074	-1	1198869685	[clientscript,shop_main_init]
 12	1075	-1	-1120225764	[clientscript,shop_main_update]
 12	1076	-1	-668507108	[proc,shop_main_update]

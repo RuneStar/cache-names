@@ -477,6 +477,11 @@
 [clientscript,build_makeover_feet]
 [clientscript,button_select_sound]
 [clientscript,cam_forceangle]
+[clientscript,camdozaal_ramarno_shop_setup]
+[clientscript,camdozaal_timer]
+[clientscript,camdozaal_timer_pause]
+[clientscript,camdozaal_timer_update]
+[clientscript,camdozaal_vault_init]
 [clientscript,camera_do_zoom]
 [clientscript,camera_zoom]
 [clientscript,camera_zoom_slider_click]
@@ -2206,6 +2211,8 @@
 [proc,bugreport_init_textinput]
 [proc,bugreport_parse]
 [proc,bugreport_switch_textinput]
+[proc,camdozaal_ramarno_shop_setup_button]
+[proc,camdozaal_timer_text]
 [proc,camera_do_zoom]
 [proc,canoe_get_state]
 [proc,canoe_location_setup]
@@ -2380,6 +2387,9 @@
 [proc,duel_switch_buttons]
 [proc,duel_wait_button]
 [proc,emote_checkunlocked]
+[proc,emote_op1_configure]
+[proc,emote_op2_configure]
+[proc,emote_set_graphic]
 [proc,emote_update]
 [proc,encode_for_url]
 [proc,fade_overlay_increment]
@@ -3453,6 +3463,8 @@ button_brown_big
 button_brown_small
 button_red
 cabin fever
+camdozaal
+camdozaal_vault
 camelot
 canvas
 cargonet

@@ -8003,8 +8003,8 @@
 12	375	-1	-657934790	[proc,settings_bond_options]
 12	376	-1	594616818	
 12	377	-1	1907745126	
-12	378	-1	-1315153359	
-12	379	-1	-1684932134	
+12	378	-1	-1315153359	[clientscript,menu_indexed]
+12	379	-1	-1684932134	[proc,menu_createentry_indexed]
 12	380	-1	1937903127	
 12	381	-1	394153862	
 12	382	-1	-2051824351	
@@ -8066,7 +8066,7 @@
 12	438	-1	-2178202	[proc,tournament_world]
 12	439	-1	1937484934	
 12	440	-1	-114073008	[clientscript,settings_client_type]
-12	441	-1	-1680350143	
+12	441	-1	-1680350143	[clientscript,settings_client_type_open]
 12	442	-1	-1052628800	
 12	443	-1	1979769876	[clientscript,castlewarstrade_init]
 12	444	-1	-342398352	[clientscript,barbassault_turret_data]
@@ -8159,7 +8159,7 @@
 12	531	-1	1321326204	
 12	532	-1	1636266467	
 12	533	-1	-2033868934	
-12	534	-1	-736160877	
+12	534	-1	-736160877	[clientscript,steam_set_unlocked]
 12	535	-1	690006799	[clientscript,soul_wars_rewards_init]
 12	536	-1	1407590371	
 12	537	-1	-1476942622	
@@ -8982,7 +8982,7 @@
 12	1354	-1	1215527289	[proc,questlist_showprogress]
 12	1355	-1	893909924	[clientscript,questlist_qp]
 12	1356	-1	767273380	[proc,questlist_qp]
-12	1357	-1	-267178896	
+12	1357	-1	-267178896	[clientscript,mesoverlay_exit]
 12	1358	-1	39211118	
 12	1359	-1	1525953207	
 12	1360	-1	1154251004	[proc,quicksort_intenum]
@@ -9886,7 +9886,7 @@
 12	2258	-1	-731483276	
 12	2259	-1	1857296915	
 12	2260	-1	29775066	
-12	2261	-1	-426229357	
+12	2261	-1	-426229357	[proc,steam_set_unlocked]
 12	2262	-1	611792338	[clientscript,magic_spellbook_init]
 12	2263	-1	650608922	[proc,tutorial_progressbar_set]
 12	2264	-1	1173432752	[proc,worldmap_mobile_layout]
@@ -9970,18 +9970,18 @@
 12	2342	-1	1358670872	[proc,tob_partylist_sortbutton_draw]
 12	2343	-1	-2000096859	[clientscript,tob_partylist_clicksort]
 12	2344	-1	1657020000	
-12	2345	-1	1835267468	
+12	2345	-1	1835267468	[clientscript,steam_set_stat_progress]
 12	2346	-1	-163845979	
 12	2347	-1	1213991743	
 12	2348	-1	499595583	
 12	2349	-1	-506355255	
 12	2350	-1	-1485420815	[proc,deadman_chest_tele]
-12	2351	-1	2104985484	
+12	2351	-1	2104985484	[proc,steam_set_stat_progress]
 12	2352	-1	-1790754331	
 12	2353	-1	1991783637	[clientscript,castlewars_waitingroom_init]
 12	2354	-1	660870716	[clientscript,castlewars_waitingroom_update]
 12	2355	-1	1494216364	
-12	2356	-1	-281123313	
+12	2356	-1	-281123313	[clientscript,steam_lock_achievements]
 12	2357	-1	757518562	[proc,on_enhanced]
 12	2358	-1	-248564579	
 12	2359	-1	1490919915	[proc,shiftclick_toggle]
@@ -10026,7 +10026,7 @@
 12	2398	-1	-337493078	[proc,recurring_membership]
 12	2399	-1	1093665258	[proc,openurl_raw]
 12	2400	-1	-402601362	
-12	2401	-1	1263272741	
+12	2401	-1	1263272741	[proc,time_convert_option]
 12	2402	-1	-1724968160	[clientscript,nzone_game_init]
 12	2403	-1	-2040209374	
 12	2404	-1	-2040209343	
@@ -10036,7 +10036,7 @@
 12	2408	-1	1999092108	
 12	2409	-1	1974999509	[clientscript,soulbane_angerbar_init]
 12	2410	-1	1283901953	[proc,time_convert]
-12	2411	-1	2039478932	
+12	2411	-1	2039478932	[proc,time_convert_ms]
 12	2412	-1	672640393	
 12	2413	-1	-35590677	[clientscript,steelbox_background]
 12	2414	-1	-691512655	[proc,show_storebutton]
@@ -11339,7 +11339,7 @@
 12	3711	-1	339905499	[clientscript,league_tutorial_button_op]
 12	3712	-1	-1331678385	[clientscript,league_tutorial_button_reset]
 12	3713	-1	-449865960	[proc,league_tutorial_button_draw]
-12	3714	-1	-37967220	
+12	3714	-1	-37967220	[proc,league_tutorial_interface_update_header]
 12	3715	-1	-1477201172	[proc,league_tutorial_interface_update_text]
 12	3716	-1	-1169731230	
 12	3717	-1	-1169731199	
@@ -11502,7 +11502,7 @@
 12	3874	-1	-339191181	[clientscript,searchbar_mouseover]
 12	3875	-1	-2026694308	[clientscript,searchbar_mouseleave]
 12	3876	-1	-1758368822	[clientscript,searchbar_keypress]
-12	3877	-1	644401380	
+12	3877	-1	644401380	[proc,searchbar_set_text]
 12	3878	-1	190006667	[clientscript,settings_op_sound]
 12	3879	-1	1308383115	[proc,settings_op_sound]
 12	3880	-1	1613596750	
@@ -11658,7 +11658,7 @@
 12	4030	-1	-970101061	[proc,quest_status_get_exceptions]
 12	4031	-1	1455219136	174097
 12	4032	-1	1455219135	174096
-12	4033	-1	1743294729	
+12	4033	-1	1743294729	[clientscript,warguild_defence_mini_highlight]
 12	4034	-1	-2092848439	
 12	4035	-1	1339995161	[clientscript,publishing_platform]
 12	4036	-1	94044739	
@@ -11703,7 +11703,7 @@
 12	4075	-1	1911941654	[proc,tempoross_hud_update_bar]
 12	4076	-1	-756852072	[clientscript,tempoross_hud_bar_movement]
 12	4077	-1	-1471248232	[proc,tempoross_hud_bar_movement]
-12	4078	-1	-1581590871	
+12	4078	-1	-1581590871	[proc,debug_mes]
 12	4079	-1	-633707440	[proc,chatdefault_restoreinput]
 12	4080	-1	-1826538919	[clientscript,collection_init_frame]
 12	4081	-1	-562313287	
@@ -11748,7 +11748,7 @@
 12	4120	-1	56538651	
 12	4121	-1	1650995892	
 12	4122	-1	-741296324	
-12	4123	-1	977637087	
+12	4123	-1	977637087	[clientscript,soul_wars_rewards_drawconfirm]
 12	4124	-1	854862529	
 12	4125	-1	-1156216894	
 12	4126	-1	414659353	
@@ -11758,7 +11758,7 @@
 12	4130	-1	908600937	
 12	4131	-1	-2086072865	
 12	4132	-1	-1247402635	
-12	4133	-1	604853882	
+12	4133	-1	604853882	[proc,arceuus_autocast_spellpos]
 12	4134	-1	198980000	
 12	4135	-1	-292888618	
 12	4136	-1	-1937934073	

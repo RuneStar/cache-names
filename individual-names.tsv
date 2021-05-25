@@ -314,6 +314,10 @@
 [clientscript,arceuus_teletab_confirm_reset]
 [clientscript,arceuus_teletab_init]
 [clientscript,arceuus_teletab_redraw]
+[clientscript,audio_category_select]
+[clientscript,audio_loop_click]
+[clientscript,audio_synth_play]
+[clientscript,audio_tool]
 [clientscript,autocast_init]
 [clientscript,autocast_setup]
 [clientscript,autocast_spellhighlight]
@@ -546,9 +550,16 @@
 [clientscript,chatdefault_onkey]
 [clientscript,chatdefault_restoreinput]
 [clientscript,chatdefault_stopinput]
+[clientscript,clan_hall_settings_toggle_op]
 [clientscript,clan_leavechat]
 [clientscript,clan_op]
 [clientscript,clan_stonebutton_draw]
+[clientscript,clan_storage_button_op]
+[clientscript,clan_storage_button_reset]
+[clientscript,clan_storage_main_hint]
+[clientscript,clan_storage_main_init]
+[clientscript,clan_storage_opitem]
+[clientscript,clan_storage_side_init]
 [clientscript,clanchat_login]
 [clientscript,clancup_hud_init]
 [clientscript,clancup_hud_update]
@@ -2132,6 +2143,9 @@
 [proc,arceuus_teletab_placeingredient]
 [proc,arceuus_teletab_redraw]
 [proc,area_task_complete]
+[proc,audio_category_select]
+[proc,audio_draw_menu]
+[proc,audio_menu]
 [proc,autocast_setup]
 [proc,autocast_spellhighlight]
 [proc,autocast_spellpos]
@@ -2259,9 +2273,16 @@
 [proc,chatout_scrolldown]
 [proc,chatout_scrollup]
 [proc,chatout_set]
+[proc,clan_hall_settings_create_toggle]
+[proc,clan_hall_settings_get_value]
+[proc,clan_hall_settings_set_toggle]
+[proc,clan_hall_settings_set_value]
 [proc,clan_sendkick]
 [proc,clan_stonebutton_draw]
 [proc,clan_stonebutton_init]
+[proc,clan_storage_button_draw]
+[proc,clan_storage_button_reset]
+[proc,clan_storage_main_hint]
 [proc,clancup_hud_update]
 [proc,clanwars_confirm_challenge_redraw]
 [proc,clanwars_confirm_notpressed]
@@ -2280,6 +2301,7 @@
 [proc,clanwars_view_setbutton]
 [proc,clanwars_view_setup]
 [proc,clanwars_view_updatebutton]
+[proc,clearbit_range]
 [proc,clock_set]
 [proc,closebutton_action]
 [proc,cocktail_check_inv]
@@ -2305,6 +2327,7 @@
 [proc,collection_searchbar_setup_op]
 [proc,collection_toggle_search]
 [proc,colour_interpolate]
+[proc,colour_to_string]
 [proc,combat_interface_setbuttons]
 [proc,combat_interface_sp_redraw]
 [proc,combat_interface_sp_updatebar]
@@ -2458,6 +2481,7 @@
 [proc,ge_pricelist_draw]
 [proc,ge_textbox]
 [proc,get_quest_name]
+[proc,getbit_range]
 [proc,glidermap_fly]
 [proc,glidermap_hideglider]
 [proc,glidermap_hideshow]
@@ -2961,6 +2985,7 @@
 [proc,seed_vault_searching]
 [proc,seed_vault_side_draw]
 [proc,seed_vault_size_check]
+[proc,setbit_range]
 [proc,settings_accept_aid]
 [proc,settings_bond_options]
 [proc,settings_button_choose_transmit]
@@ -3451,6 +3476,7 @@ beneath_the_stronghold
 beyond
 big chords
 blackmark
+blank
 blistering barnacles
 bloodbath
 bobs on holiday
@@ -3747,6 +3773,29 @@ huffman
 hypnotized
 iban
 ice melody
+icon_arrows
+icon_balance
+icon_bandit
+icon_bones
+icon_cabbage
+icon_cat
+icon_compass
+icon_crown
+icon_fish
+icon_heart
+icon_helmet
+icon_holy
+icon_hunter
+icon_ring
+icon_robin
+icon_rose
+icon_shield
+icon_skull
+icon_swords
+icon_tools
+icon_tragedy
+icon_unholy
+icon_wizard
 illusive
 impetuous
 impetuous_clue

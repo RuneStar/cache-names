@@ -17,7 +17,7 @@ fun main() {
         }
     }
 
-    for (x in 0..255) {
+    for (x in 0..275) {
         for (y in 0..255) {
             "m${x}_$y".add()
             "l${x}_$y".add()
@@ -193,6 +193,8 @@ fun main() {
         "toggle_box,$x".add()
         "settings_slider,$x".add()
         "soul_wars_staticons,$x".add()
+        "report_button,$x".add()
+        "clan_rank_icons,$x".add()
     }
 
     knownNames.remove("l16_186")

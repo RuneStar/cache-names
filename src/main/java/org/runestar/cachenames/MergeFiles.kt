@@ -195,6 +195,7 @@ fun main() {
         "soul_wars_staticons,$x".add()
         "report_button,$x".add()
         "clan_rank_icons,$x".add()
+        "scrollbar_v2_dark,$x".add()
     }
 
     knownNames.remove("l16_186")

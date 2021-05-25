@@ -7541,10 +7541,10 @@
 8	2953	-1	-1755267880	close_buttons,17
 8	2954	-1	1957815236	scrollbar_v2_dark,0
 8	2955	-1	1957815237	scrollbar_v2_dark,1
-8	2956	-1	-1902435099	
-8	2957	-1	-1902435098	
-8	2958	-1	-1902435097	
-8	2959	-1	-1902435096	
+8	2956	-1	-1902435099	scrollbar_dragger_v2_dark,0
+8	2957	-1	-1902435098	scrollbar_dragger_v2_dark,1
+8	2958	-1	-1902435097	scrollbar_dragger_v2_dark,2
+8	2959	-1	-1902435096	scrollbar_dragger_v2_dark,3
 8	2960	-1	606011837	mapfunction,126
 8	2961	-1	606011838	mapfunction,127
 8	2962	-1	606011839	mapfunction,128
@@ -8388,7 +8388,7 @@
 12	445	-1	-1811696568	
 12	446	-1	1748639803	[clientscript,orbs_update_health]
 12	447	-1	-1659275024	[clientscript,orbs_update_runenergy]
-12	448	-1	-1654946623	
+12	448	-1	-1654946623	[clientscript,settings_client_type_dropdown_close]
 12	449	-1	736000132	[proc,orbs_update]
 12	450	-1	-1673104345	
 12	451	-1	-1605632647	[proc,high_risk_world]
@@ -8467,7 +8467,7 @@
 12	524	-1	17051604	
 12	525	-1	-1930702481	
 12	526	-1	-235616460	[clientscript,tooltip_mouserepeat]
-12	527	-1	-492562751	
+12	527	-1	-492562751	[proc,settings_client_type_dropdown_close]
 12	528	-1	1420233168	
 12	529	-1	1442923669	
 12	530	-1	-1201509988	
@@ -12098,25 +12098,25 @@
 12	4158	-1	-1368822323	[proc,getbit_range]
 12	4159	-1	-594691111	[proc,setbit_range]
 12	4160	-1	-1005670716	[proc,clearbit_range]
-12	4161	-1	-1186338076	
-12	4162	-1	688612219	
-12	4163	-1	1798908545	
-12	4164	-1	-1520427890	
-12	4165	-1	-810724339	
-12	4166	-1	-123889418	
-12	4167	-1	1394484373	
-12	4168	-1	1071470722	
+12	4161	-1	-1186338076	[proc,setbit_range_toint]
+12	4162	-1	688612219	[clientscript,roguetrader_init]
+12	4163	-1	1798908545	[proc,roguetrader_game_size]
+12	4164	-1	-1520427890	[proc,roguetrader_draw_frames]
+12	4165	-1	-810724339	[proc,roguetrader_draw_runes]
+12	4166	-1	-123889418	[clientscript,roguetrader_selectrune_transmit]
+12	4167	-1	1394484373	[clientscript,roguetrader_selectrune]
+12	4168	-1	1071470722	[proc,roguetrader_draw_game]
 12	4169	-1	-1546304340	
-12	4170	-1	203510185	
-12	4171	-1	1590200910	
+12	4170	-1	203510185	[clientscript,roguetrader_draw_game_transmit]
+12	4171	-1	1590200910	[clientscript,roguetrader_placerune]
 12	4172	-1	1930059585	
 12	4173	-1	1348898443	
-12	4174	-1	1530809318	
-12	4175	-1	1531166810	
+12	4174	-1	1530809318	[proc,roguetrader_tile_get]
+12	4175	-1	1531166810	[proc,roguetrader_tile_set]
 12	4176	-1	406061335	
 12	4177	-1	-1928020123	
 12	4178	-1	2138271077	
-12	4179	-1	398758775	
+12	4179	-1	398758775	[clientscript,chat_sendabusereport]
 12	4180	-1	-1126965865	
 12	4181	-1	551429799	
 12	4182	-1	-549273084	
@@ -12136,7 +12136,7 @@
 12	4196	-1	-812283103	[clientscript,audio_tool]
 12	4197	-1	-962433465	[proc,audio_draw_menu]
 12	4198	-1	213222970	[proc,audio_menu]
-12	4199	-1	2072946417	
+12	4199	-1	2072946417	[proc,audio_menu_createentry_indexed]
 12	4200	-1	1051327940	[clientscript,audio_category_select]
 12	4201	-1	41553860	[proc,audio_category_select]
 12	4202	-1	-1701118202	
@@ -12200,27 +12200,27 @@
 12	4260	-1	1148647091	
 12	4261	-1	-528087900	
 12	4262	-1	183363845	
-12	4263	-1	-2017000190	
-12	4264	-1	-2085961634	
-12	4265	-1	1367830494	
-12	4266	-1	1952587476	
-12	4267	-1	-850932524	
-12	4268	-1	-1860019432	
-12	4269	-1	-885196934	
-12	4270	-1	-889702970	
-12	4271	-1	-437984314	
-12	4272	-1	-1914577395	
-12	4273	-1	-272844185	
-12	4274	-1	39973973	
-12	4275	-1	-1070102408	
-12	4276	-1	-1462366199	
-12	4277	-1	1232859091	
-12	4278	-1	-1327977542	
-12	4279	-1	-735848362	
-12	4280	-1	282094166	
-12	4281	-1	146445421	
-12	4282	-1	842209158	
-12	4283	-1	-1513161627	
+12	4263	-1	-2017000190	[clientscript,clan_interests]
+12	4264	-1	-2085961634	[proc,clan_interests_setsize]
+12	4265	-1	1367830494	[clientscript,clan_interests_checksetsize]
+12	4266	-1	1952587476	[clientscript,clan_interests_synch]
+12	4267	-1	-850932524	[proc,clan_interests_synch]
+12	4268	-1	-1860019432	[clientscript,clan_interests_op]
+12	4269	-1	-885196934	[clientscript,clan_banned_init]
+12	4270	-1	-889702970	[clientscript,clan_banned_draw]
+12	4271	-1	-437984314	[proc,clan_banned_draw]
+12	4272	-1	-1914577395	[proc,clan_banned_setsize]
+12	4273	-1	-272844185	[clientscript,clan_banned_checksize]
+12	4274	-1	39973973	[proc,clan_banned_wipedisplay]
+12	4275	-1	-1070102408	[proc,clan_banned_populatedisplay]
+12	4276	-1	-1462366199	[clientscript,clan_banned_op]
+12	4277	-1	1232859091	[clientscript,clan_banned_buttonreset]
+12	4278	-1	-1327977542	[clientscript,clan_banned_unban]
+12	4279	-1	-735848362	[clientscript,clan_banned_blocker]
+12	4280	-1	282094166	[proc,clan_banned_blocker]
+12	4281	-1	146445421	[proc,clan_banned_search_setbutton]
+12	4282	-1	842209158	[clientscript,clan_banned_search_refresh]
+12	4283	-1	-1513161627	[clientscript,clan_banned_search_toggle]
 12	4284	-1	-901858166	[clientscript,clan_info_init]
 12	4285	-1	-906364202	[clientscript,clan_info_draw]
 12	4286	-1	1949968598	[proc,clan_info_draw]
@@ -12237,25 +12237,25 @@
 12	4297	-1	291468681	
 12	4298	-1	648356212	
 12	4299	-1	-283754448	[proc,clan_interfacetitle]
-12	4300	-1	-271991307	
-12	4301	-1	388066293	
+12	4300	-1	-271991307	[clientscript,clan_interfacetitle_settitle]
+12	4301	-1	388066293	[proc,clan_interfacetitle_settitle]
 12	4302	-1	-990530911	
 12	4303	-1	-1805048021	
 12	4304	-1	-2918984	
 12	4305	-1	-2561492	
 12	4306	-1	1435296611	
-12	4307	-1	604234467	
-12	4308	-1	1975897604	
-12	4309	-1	-658667362	
-12	4310	-1	599728431	
-12	4311	-1	2091175727	
+12	4307	-1	604234467	[clientscript,clan_ranktitles_init]
+12	4308	-1	1975897604	[proc,clan_ranktitles_setsize]
+12	4309	-1	-658667362	[clientscript,clan_ranktitles_checksize]
+12	4310	-1	599728431	[clientscript,clan_ranktitles_draw]
+12	4311	-1	2091175727	[proc,clan_ranktitles_draw]
 12	4312	-1	-2054945963	
 12	4313	-1	1505771247	
 12	4314	-1	-1839294406	
 12	4315	-1	1758057745	
-12	4316	-1	1646432875	
-12	4317	-1	1413141703	
-12	4318	-1	1428442785	
+12	4316	-1	1646432875	[clientscript,clan_rankpopup]
+12	4317	-1	1413141703	[proc,clan_rankpopup_setsize]
+12	4318	-1	1428442785	[clientscript,clan_rankpopup_checksize]
 12	4319	-1	-2041823749	
 12	4320	-1	1538747387	
 12	4321	-1	-828885332	
@@ -12389,7 +12389,7 @@
 12	4449	-1	846135513	
 12	4450	-1	212306473	
 12	4451	-1	2091449400	
-12	4452	-1	2099441685	
+12	4452	-1	2099441685	[proc,clan_stonebutton_target_init]
 12	4453	-1	508304391	
 12	4454	-1	865191922	
 12	4455	-1	-190855820	[clientscript,clan_create_targetmode]
@@ -12408,14 +12408,14 @@
 12	4468	-1	1961306999	
 12	4469	-1	-173517307	[clientscript,clan_permission_settitle]
 12	4470	-1	-402193403	[proc,clan_permission_settitle]
-12	4471	-1	-322722293	
+12	4471	-1	-322722293	[clientscript,side_channels_init]
 12	4472	-1	-861427844	
 12	4473	-1	630019452	
-12	4474	-1	35650394	
-12	4475	-1	630574600	
-12	4476	-1	1117394222	
-12	4477	-1	107620142	
-12	4478	-1	-1240524853	
+12	4474	-1	35650394	[proc,side_channels_tabinit]
+12	4475	-1	630574600	[proc,side_channels_settab]
+12	4476	-1	1117394222	[clientscript,side_channels_drawtab]
+12	4477	-1	107620142	[proc,side_channels_drawtab]
+12	4478	-1	-1240524853	[clientscript,side_channels_optab]
 12	4479	-1	-1524383291	
 12	4480	-1	123613156	
 12	4481	-1	-208399815	

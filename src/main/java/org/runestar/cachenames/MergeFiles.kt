@@ -196,6 +196,7 @@ fun main() {
         "report_button,$x".add()
         "clan_rank_icons,$x".add()
         "scrollbar_v2_dark,$x".add()
+        "scrollbar_dragger_v2_dark,$x".add()
     }
 
     knownNames.remove("l16_186")

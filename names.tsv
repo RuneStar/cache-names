@@ -4600,6 +4600,8 @@
 6	689	-1	2014554802	
 6	690	-1	1650813279	camdozaal_vault
 6	691	-1	1992241892	
+6	692	-1	1806982742	
+6	693	-1	-624190678	
 8	0	-1	-1879805778	2x_standard_spells_on,0
 8	1	-1	-1879805777	2x_standard_spells_on,1
 8	2	-1	-1879805776	2x_standard_spells_on,2
@@ -5619,6 +5621,8 @@
 8	1016	-1	-1884333505	tabs_large,1
 8	1017	-1	1334775925	chat_background
 8	1018	-1	-719625514	main_stones_bottom
+8	1019	-1	367121885	
+8	1020	-1	367121944	
 8	1026	-1	-124805755	side_stone_highlights,0
 8	1027	-1	-124805754	side_stone_highlights,1
 8	1028	-1	-124805753	side_stone_highlights,2
@@ -10460,6 +10464,8 @@
 12	2517	-1	-1551610195	[proc,nzone_lobby_hint]
 12	2518	-1	-1154152000	
 12	2519	-1	1946862797	
+12	2520	-1	-1669843131	
+12	2521	-1	-1156598085	
 12	2522	-1	742523929	[clientscript,decant_itembutton_key]
 12	2523	-1	1233405976	
 12	2524	-1	1395424275	[clientscript,toplevel_mainmodal_open]
@@ -10520,6 +10526,7 @@
 12	2579	-1	1401571932	
 12	2580	-1	2962812	[proc,int_device]
 12	2581	-1	-672211557	[proc,mobile_chatbox_resize]
+12	2582	-1	-2019990442	
 12	2583	-1	849664808	[proc,telenexus_left_click]
 12	2584	-1	-67780927	[clientscript,tutorial_overlay_hint]
 12	2585	-1	-1009332036	[proc,tutorial_hint_chatbox]

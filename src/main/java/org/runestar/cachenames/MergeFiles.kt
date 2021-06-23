@@ -21,6 +21,7 @@ fun main() {
         for (y in 0..255) {
             "m${x}_$y".add()
             "l${x}_$y".add()
+            "e${x}_$y".add()
             "standard_charge_$y,$x".add()
             "standard_shield_$y,$x".add()
             "standard_health_$y,$x".add()

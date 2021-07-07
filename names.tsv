@@ -12236,8 +12236,11 @@
 12	2243	-1	1986589369	[proc,logout_layout_update]
 12	2244	-1	-1281751011	[clientscript,logout_button_text]
 12	2245	-1	-1796986708	[proc,quest_members_count]
+12	2246	-1	1226879478	
 12	2247	-1	58096388	[proc,macro_pinball_score]
 12	2248	-1	1401964502	[proc,deadman_mode]
+12	2249	-1	1329401355	
+12	2250	-1	-1107025066	
 12	2251	-1	1282682017	[clientscript,chatbox_open_input]
 12	2252	-1	-1112897140	[clientscript,bugreport_home]
 12	2253	-1	-1107642888	[clientscript,bugreport_next]
@@ -12359,9 +12362,12 @@
 12	2369	-1	546419041	
 12	2370	-1	-240769514	
 12	2371	-1	-1478994922	
+12	2372	-1	1491007138	
 12	2373	-1	1718499393	[proc,toplevel_chatbox_controls_maketransparent]
 12	2374	-1	799423013	[clientscript,fade_init]
 12	2375	-1	-352180164	[proc,castlewars_waitingroom_update]
+12	2376	-1	1790773551	
+12	2377	-1	-568616145	
 12	2378	-1	-26693588	
 12	2379	-1	145839041	[clientscript,toplevel_chatbox_resetbackground]
 12	2380	-1	-1912425452	
@@ -13404,7 +13410,6 @@
 12	3424	-1	-1070144472	[clientscript,boardgames_challenge_init]
 12	3425	-1	200555727	[clientscript,boardgames_challenge_update]
 12	3426	-1	-470888753	[proc,boardgames_challenge_update]
-12	3427	-1	-574212823	[proc,hp_hud_init]
 12	3428	-1	740865240	[proc,bool_to_int]
 12	3429	-1	1353516022	[clientscript,hp_bar_reset]
 12	3430	-1	-1311468921	

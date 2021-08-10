@@ -198,6 +198,10 @@ fun main() {
         "clan_rank_icons,$x".add()
         "scrollbar_v2_dark,$x".add()
         "scrollbar_dragger_v2_dark,$x".add()
+        "chatchannel_rank_icons,$x".add()
+        "chat_tab_button,$x".add()
+        "chat_type_icon,$x".add()
+        "account_icons,$x".add()
     }
 
     knownNames.remove("l16_186")
